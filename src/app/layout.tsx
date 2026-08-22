@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter, Manrope, Noto_Sans_Devanagari, Bebas_Neue } from 'next/font/google';
+import { Plus_Jakarta_Sans, DM_Sans, Noto_Sans_Devanagari, Bebas_Neue } from 'next/font/google';
 import './globals.css';
 import { siteConfig } from '@/config/site';
 import { Header } from '@/components/layout/Header';
@@ -7,17 +7,18 @@ import { Footer } from '@/components/layout/Footer';
 import { MobileStickyBar } from '@/components/layout/MobileStickyBar';
 import { organizationSchema, localBusinessSchema, websiteSchema } from '@/lib/schema';
 
-const inter = Inter({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-heading',
+  weight: ['500', '600', '700', '800'],
 });
 
-const manrope = Manrope({
+const dmSans = DM_Sans({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-manrope',
-  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-sans',
+  weight: ['400', '500', '600', '700'],
 });
 
 const bebasNeue = Bebas_Neue({
@@ -112,7 +113,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${manrope.variable} ${notoDevanagari.variable} ${bebasNeue.variable} scroll-smooth`}
+      className={`${dmSans.variable} ${plusJakartaSans.variable} ${notoDevanagari.variable} ${bebasNeue.variable} scroll-smooth`}
     >
       <head>
         {/* Structured Data / JSON-LD */}
