@@ -1,16 +1,12 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { validatePostalCombination } from '@/data/locations/postalData';
 
 // Input Validation Schema
 const contactSchema = z.object({
   name: z.string().min(2).max(100),
   phone: z.string().regex(/^[6-9]\d{9}$/, 'Invalid Indian mobile number'),
   email: z.string().email().optional().or(z.literal('')),
-  state: z.string().optional(),
   district: z.string().min(2).max(50),
-  pincode: z.string().optional().or(z.literal('')),
-  postOffice: z.string().optional().or(z.literal('')),
   service: z.string().min(2).max(100),
   monthlyBill: z.number().optional(),
   message: z.string().max(1000).optional(),
@@ -62,16 +58,8 @@ export async function POST(request: Request) {
 
     const lead = parsed.data;
 
-    // Validate postal combination if provided
-    if (lead.pincode && !validatePostalCombination(lead.district, lead.pincode, lead.postOffice || undefined)) {
-      return NextResponse.json(
-        { error: 'Invalid PIN Code / Post Office for the selected district.' },
-        { status: 400 }
-      );
-    }
-
     // Sanitized Lead Logging
-    console.log(`[UTTsolar Lead Received] Name: ${lead.name}, Phone: ${lead.phone}, District: ${lead.district}, PIN: ${lead.pincode || 'N/A'}, PostOffice: ${lead.postOffice || 'N/A'}, Service: ${lead.service}`);
+    console.log(`[UTTsolar Lead Received] Name: ${lead.name}, Phone: ${lead.phone}, District: ${lead.district}, Service: ${lead.service}`);
 
     return NextResponse.json(
       {
