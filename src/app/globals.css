@@ -11,19 +11,89 @@
   body {
     color: #172B1D;
     background-color: #FFFFFF;
-    font-family: var(--font-inter), var(--font-noto-devanagari), system-ui, sans-serif;
+    font-family: var(--font-manrope), var(--font-noto-devanagari), system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.02em;
     color: #122417;
-    font-family: var(--font-manrope), var(--font-noto-devanagari), system-ui, sans-serif;
-    letter-spacing: -0.025em;
+  }
+  @media (min-width: 640px) {
+    h1 {
+      font-size: 48px;
+    }
+  }
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 56px;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
     line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    color: #122417;
+  }
+  @media (min-width: 640px) {
+    h2 {
+      font-size: 36px;
+    }
+  }
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 42px;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #122417;
+  }
+  @media (min-width: 640px) {
+    h3 {
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 28px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #122417;
+  }
+  @media (min-width: 1024px) {
+    h4 {
+      font-size: 22px;
+    }
   }
 
   p {
-    line-height: 1.65;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  @media (min-width: 640px) {
+    p {
+      font-size: 17px;
+    }
   }
 
   :focus-visible {

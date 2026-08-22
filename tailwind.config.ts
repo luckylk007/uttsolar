@@ -82,7 +82,7 @@ const config: Config = {
         'border-ui': '#E1E8DE',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'var(--font-noto-devanagari)', 'sans-serif'],
+        sans: ['var(--font-manrope)', 'var(--font-inter)', 'var(--font-noto-devanagari)', 'sans-serif'],
         heading: ['var(--font-manrope)', 'var(--font-noto-devanagari)', 'sans-serif'],
         bebas: ['var(--font-bebas)', 'Impact', 'sans-serif'],
         display: ['var(--font-bebas)', 'Impact', 'sans-serif'],

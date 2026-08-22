@@ -9,7 +9,7 @@ import {
   PhoneIcon,
   LeafIcon,
   UsersIcon,
-  CheckIcon,
+  MapPinIcon,
 } from '@/components/ui/Icons';
 
 export const metadata: Metadata = {
@@ -26,17 +26,17 @@ export default function AboutPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
       <Breadcrumbs items={[{ name: 'About Us', url: '/about/' }]} />
 
-      {/* Hero Header - Solor Dark Style */}
+      {/* Hero Header */}
       <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden">
-        <div className="max-w-3xl space-y-4 relative z-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
+        <div className="max-w-[700px] space-y-4 relative z-10">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-[13px] font-semibold text-[#AEDB96]">
             <LeafIcon className="w-4 h-4 text-[#70BA3F]" />
             <span>About UTTsolar</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
+          <h1 className="text-[36px] sm:text-[46px] lg:text-[56px] font-bold tracking-[-0.02em] text-white leading-[1.1]">
             Powering Uttarakhand with Reliable, <span className="text-[#70BA3F]">High-Yield Solar Energy</span>
           </h1>
-          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+          <p className="text-[16px] sm:text-[17px] text-slate-300 leading-[1.6]">
             UTTsolar was founded with a singular mission: to deliver engineered, high-performance solar power solutions customized for Uttarakhand&apos;s unique terrain—from the hot, industrial Terai plains of Udham Singh Nagar and Haridwar to the scenic Himalayan valleys of Garhwal and Kumaon.
           </p>
         </div>
@@ -51,8 +51,8 @@ export default function AboutPage() {
           <div className="w-12 h-12 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center font-black">
             <ZapIcon className="w-6 h-6" />
           </div>
-          <h2 className="text-xl font-heading font-bold text-[#122417]">Our Mission</h2>
-          <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed">
+          <h2 className="text-[24px] sm:text-[28px] font-bold text-[#122417] leading-[1.2]">Our Mission</h2>
+          <p className="text-[15px] text-[#687B6C] leading-[1.6]">
             To make clean solar electricity accessible, affordable, and zero-hassle for every household, commercial establishment, and industrial facility in Uttarakhand through uncompromising technical quality and transparent PM Surya Ghar subsidy processing.
           </p>
         </div>
@@ -61,8 +61,8 @@ export default function AboutPage() {
           <div className="w-12 h-12 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center font-black">
             <ShieldCheckIcon className="w-6 h-6" />
           </div>
-          <h2 className="text-xl font-heading font-bold text-[#122417]">Our Quality Promise</h2>
-          <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed">
+          <h2 className="text-[24px] sm:text-[28px] font-bold text-[#122417] leading-[1.2]">Our Quality Promise</h2>
+          <p className="text-[15px] text-[#687B6C] leading-[1.6]">
             We exclusively install MNRE ALMM-listed Tier-1 solar modules and BIS-certified inverters engineered with mountain-grade wind resistance and robust surge protection to guarantee 25+ years of trouble-free power generation.
           </p>
         </div>
@@ -70,12 +70,12 @@ export default function AboutPage() {
 
       {/* Core Principles */}
       <section className="space-y-6">
-        <div className="text-center max-w-2xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+        <div className="text-center max-w-[650px] mx-auto">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-[13px] font-semibold text-[#467725] mb-2">
             <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
             <span>Core Principles</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#122417] mt-1">
+          <h2 className="text-[30px] sm:text-[36px] font-bold text-[#122417] leading-[1.15] tracking-[-0.015em] mt-1">
             Why We Are Uttarakhand&apos;s Preferred Solar Installer
           </h2>
         </div>
@@ -85,8 +85,8 @@ export default function AboutPage() {
             <div className="w-10 h-10 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center mb-3">
               <UsersIcon className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-heading font-bold text-[#122417]">100% In-House Engineers</h3>
-            <p className="text-xs text-[#687B6C] mt-1">
+            <h3 className="text-[17px] font-semibold text-[#122417] leading-[1.3]">100% In-House Engineers</h3>
+            <p className="text-[14px] text-[#687B6C] leading-[1.5] mt-1.5">
               We never subcontract to untrained third-party laborers. All projects are executed by certified electrical solar engineers.
             </p>
           </div>
@@ -95,8 +95,8 @@ export default function AboutPage() {
             <div className="w-10 h-10 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center mb-3">
               <ZapIcon className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-heading font-bold text-[#122417]">DISCOM UPCL Liaison</h3>
-            <p className="text-xs text-[#687B6C] mt-1">
+            <h3 className="text-[17px] font-semibold text-[#122417] leading-[1.3]">DISCOM UPCL Liaison</h3>
+            <p className="text-[14px] text-[#687B6C] leading-[1.5] mt-1.5">
               Deep familiarity with Uttarakhand Power Corporation Limited (UPCL) net metering policies across all local electricity divisions.
             </p>
           </div>
@@ -105,19 +105,19 @@ export default function AboutPage() {
             <div className="w-10 h-10 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center mb-3">
               <ShieldCheckIcon className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-heading font-bold text-[#122417]">Terrain-Specific Racking</h3>
-            <p className="text-xs text-[#687B6C] mt-1">
-              Custom-engineered hot-dip galvanized mounting structures rated for 150 km/h hill wind gusts and sloped roof conditions.
+            <h3 className="text-[17px] font-semibold text-[#122417] leading-[1.3]">Mountain Grade Structures</h3>
+            <p className="text-[14px] text-[#687B6C] leading-[1.5] mt-1.5">
+              Hot-dip galvanized mounting structures rated for 150+ km/h Himalayan storm winds and heavy monsoon downpours.
             </p>
           </div>
 
           <div className="bg-white p-6 rounded-2xl border border-[#E1E8DE] shadow-xs">
             <div className="w-10 h-10 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center mb-3">
-              <CheckIcon className="w-5 h-5" />
+              <MapPinIcon className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-heading font-bold text-[#122417]">Direct Subsidy Credits</h3>
-            <p className="text-xs text-[#687B6C] mt-1">
-              End-to-end guidance to ensure fast, hassle-free direct benefit transfer of PM Surya Ghar Central subsidy (up to ₹85,800).
+            <h3 className="text-[17px] font-semibold text-[#122417] leading-[1.3]">13-District Network</h3>
+            <p className="text-[14px] text-[#687B6C] leading-[1.5] mt-1.5">
+              Dedicated field installation and maintenance units in Dehradun, Haridwar, Haldwani, Rudrapur, Roorkee, and Rishikesh.
             </p>
           </div>
         </div>

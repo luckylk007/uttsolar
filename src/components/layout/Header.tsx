@@ -94,9 +94,9 @@ export function Header() {
             {/* 1. Home */}
             <Link
               href="/"
-              className={`px-3.5 py-2 rounded-full text-xs xl:text-[14px] font-medium whitespace-nowrap transition ${
+              className={`px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                 pathname === '/'
-                  ? 'text-[#122417] font-bold bg-[#F0F8EC]'
+                  ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
                   : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
               }`}
             >
@@ -113,9 +113,9 @@ export function Header() {
               onMouseLeave={() => setServicesDropdownOpen(false)}
             >
               <button
-                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs xl:text-[14px] font-medium whitespace-nowrap transition ${
+                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/services') || pathname.startsWith('/solar-solutions')
-                    ? 'text-[#122417] font-bold bg-[#F0F8EC]'
+                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
                     : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
                 }`}
               >
@@ -212,9 +212,7 @@ export function Header() {
                   </div>
                 </div>
               )}
-            </div>
-
-            {/* 3. Subsidy & Calculator Dropdown */}
+            </div>            {/* 3. Subsidy & Calculator Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => {
@@ -224,9 +222,9 @@ export function Header() {
               onMouseLeave={() => setSubsidyDropdownOpen(false)}
             >
               <button
-                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs xl:text-[14px] font-medium whitespace-nowrap transition ${
+                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/calculator') || pathname.startsWith('/pm-surya-ghar') || pathname.startsWith('/solar-subsidy') || pathname.startsWith('/net-metering')
-                    ? 'text-[#122417] font-bold bg-[#F0F8EC]'
+                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
                     : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
                 }`}
               >
@@ -245,10 +243,10 @@ export function Header() {
                         <CalculatorIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           Solar Savings Calculator
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Instant system size &amp; ROI estimator</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Instant system size &amp; ROI estimator</div>
                       </div>
                     </Link>
 
@@ -260,10 +258,10 @@ export function Header() {
                         <ZapIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           PM Surya Ghar Yojana
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Up to ₹85,800 Central Subsidy (CFA)</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Up to ₹85,800 Central Subsidy (CFA)</div>
                       </div>
                     </Link>
 
@@ -275,10 +273,10 @@ export function Header() {
                         <ShieldCheckIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           Uttarakhand Subsidy Rates
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Special Category Himalayan allocation</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Special Category Himalayan allocation</div>
                       </div>
                     </Link>
 
@@ -290,10 +288,10 @@ export function Header() {
                         <ArrowUpRightIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           UPCL Net Metering Guide
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Bidirectional billing &amp; DISCOM rules</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Bidirectional billing &amp; DISCOM rules</div>
                       </div>
                     </Link>
                   </div>
@@ -301,7 +299,7 @@ export function Header() {
               )}
             </div>
 
-            {/* 4. Districts Dropdown */}
+            {/* 4. 13 Districts Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => {
@@ -311,9 +309,9 @@ export function Header() {
               onMouseLeave={() => setLocationsDropdownOpen(false)}
             >
               <button
-                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs xl:text-[14px] font-medium whitespace-nowrap transition ${
+                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/locations')
-                    ? 'text-[#122417] font-bold bg-[#F0F8EC]'
+                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
                     : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
                 }`}
               >
@@ -328,14 +326,14 @@ export function Header() {
                       <Link
                         key={d.slug}
                         href={`/locations/${d.slug}/`}
-                        className="px-3 py-2 text-xs font-semibold text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F0F8EC] rounded-xl transition flex items-center justify-between"
+                        className="px-3 py-2 text-[14px] font-medium text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F0F8EC] rounded-xl transition flex items-center justify-between"
                       >
                         <span>Solar in {d.name}</span>
                         <MapPinIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
                       </Link>
                     ))}
                     <div className="pt-2 border-t border-[#E1E8DE] px-3 mt-1">
-                      <Link href="/locations/" className="text-xs font-bold text-[#70BA3F] hover:underline block">
+                      <Link href="/locations/" className="text-[14px] font-semibold text-[#70BA3F] hover:underline block">
                         All Uttarakhand Locations →
                       </Link>
                     </div>
@@ -354,9 +352,9 @@ export function Header() {
               onMouseLeave={() => setCompanyDropdownOpen(false)}
             >
               <button
-                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs xl:text-[14px] font-medium whitespace-nowrap transition ${
+                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/about') || pathname.startsWith('/projects') || pathname.startsWith('/blog') || pathname.startsWith('/faq')
-                    ? 'text-[#122417] font-bold bg-[#F0F8EC]'
+                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
                     : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
                 }`}
               >
@@ -375,10 +373,10 @@ export function Header() {
                         <UsersIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           About UTTsolar
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Our EPC engineering team</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Our EPC engineering team</div>
                       </div>
                     </Link>
 
@@ -390,10 +388,10 @@ export function Header() {
                         <BuildingIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           Completed Projects
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Case studies &amp; portfolio</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Case studies &amp; portfolio</div>
                       </div>
                     </Link>
 
@@ -405,10 +403,10 @@ export function Header() {
                         <LeafIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           Solar Blog &amp; Insights
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Latest rooftop guides</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Latest rooftop guides</div>
                       </div>
                     </Link>
 
@@ -420,10 +418,10 @@ export function Header() {
                         <ZapIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
                           Solar FAQs
                         </div>
-                        <div className="text-[11px] text-[#687B6C]">Frequently asked questions</div>
+                        <div className="text-[13px] text-[#687B6C] leading-normal">Frequently asked questions</div>
                       </div>
                     </Link>
                   </div>
@@ -434,9 +432,9 @@ export function Header() {
             {/* 6. Contact */}
             <Link
               href="/contact/"
-              className={`px-3.5 py-2 rounded-full text-xs xl:text-[14px] font-medium whitespace-nowrap transition ${
+              className={`px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                 pathname.startsWith('/contact')
-                  ? 'text-[#122417] font-bold bg-[#F0F8EC]'
+                  ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
                   : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
               }`}
             >
@@ -448,7 +446,7 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-2.5 flex-shrink-0 flex-nowrap">
             <a
               href={`tel:${siteConfig.phone}`}
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] hover:bg-[#E6F4DE] border border-[#E1E8DE] transition whitespace-nowrap"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#F4F7F2] hover:bg-[#E6F4DE] border border-[#E1E8DE] transition whitespace-nowrap"
             >
               <PhoneIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
               <span>{siteConfig.phoneDisplay}</span>
@@ -456,7 +454,7 @@ export function Header() {
 
             <Link
               href="/contact/?intent=quote"
-              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs xl:text-sm font-extrabold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-sm hover:shadow-md transition whitespace-nowrap"
+              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-sm hover:shadow-md transition whitespace-nowrap"
             >
               <span>Get Free Quote</span>
               <span className="w-5 h-5 rounded-full bg-[#122417] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">

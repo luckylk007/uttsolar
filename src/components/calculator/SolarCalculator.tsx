@@ -121,20 +121,20 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
       <div className="bg-deep-navy text-white px-6 py-5 sm:px-8 sm:py-6 border-b border-border-ui">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-xs font-semibold bg-white/10 text-solar-amber border border-white/15 mb-2">
+            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[12px] font-semibold bg-white/10 text-solar-amber border border-white/15 mb-2">
               <SunIcon className="w-3.5 h-3.5 text-solar-amber" />
               <span>Uttarakhand UPCL Tariff &amp; PM Surya Ghar Model</span>
             </div>
-            <h3 className="text-xl sm:text-2xl font-heading font-bold text-white tracking-tight">
+            <h3 className="text-[22px] sm:text-[26px] font-bold text-white tracking-tight leading-[1.2]">
               Solar Savings &amp; Subsidy Calculator
             </h3>
-            <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
+            <p className="text-[14px] sm:text-[15px] text-slate-300 mt-1 max-w-2xl leading-[1.5]">
               Calculate recommended system size, central subsidy up to ₹85,800, and 25-year return on investment.
             </p>
           </div>
           <div className="hidden sm:flex flex-col items-end text-right">
-            <span className="text-[11px] text-slate-300">UPCL Blended Tariff</span>
-            <span className="text-base font-bold text-solar-amber">₹6.50 / Unit</span>
+            <span className="text-[12px] text-slate-300">UPCL Blended Tariff</span>
+            <span className="text-[16px] font-bold text-solar-amber">₹6.50 / Unit</span>
           </div>
         </div>
       </div>
