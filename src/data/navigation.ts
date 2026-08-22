@@ -28,12 +28,12 @@ export const utilityBarItems: UtilityBarItem[] = [
   },
   {
     label: 'Call Now',
-    href: 'tel:+919876543210',
+    href: 'tel:+917830060725',
     icon: 'phone',
   },
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/919876543210',
+    href: 'https://wa.me/917830060725',
     external: true,
     icon: 'whatsapp',
   },
@@ -111,7 +111,7 @@ export const headerCtas: CtaButton[] = [
   },
   {
     label: 'Call Now',
-    href: 'tel:+919876543210',
+    href: 'tel:+917830060725',
     variant: 'secondary',
     icon: 'phone',
   },
@@ -121,13 +121,13 @@ export const headerCtas: CtaButton[] = [
 export const mobileStickyActions: CtaButton[] = [
   {
     label: 'Call',
-    href: 'tel:+919876543210',
+    href: 'tel:+917830060725',
     variant: 'outline',
     icon: 'phone',
   },
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/919876543210',
+    href: 'https://wa.me/917830060725',
     variant: 'outline',
     icon: 'whatsapp',
   },

@@ -35,14 +35,24 @@ export function TopBar() {
             <span>Dehradun • Haldwani • Haridwar</span>
           </div>
 
-          <a
-            href={`tel:${siteConfig.phone}`}
-            className="inline-flex items-center gap-1.5 hover:text-white transition text-xs"
-            title="Call UTTsolar Helpline"
-          >
+          <div className="inline-flex items-center gap-1.5 text-xs">
             <PhoneIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
-            <span>{siteConfig.phoneDisplay}</span>
-          </a>
+            <a
+              href={`tel:${siteConfig.phone}`}
+              className="hover:text-white transition"
+              title="Call Primary Helpline"
+            >
+              {siteConfig.phoneDisplay}
+            </a>
+            <span className="text-slate-500 hidden md:inline">|</span>
+            <a
+              href={`tel:${siteConfig.phoneSecondary}`}
+              className="hover:text-white transition hidden md:inline"
+              title="Call Alternate Helpline"
+            >
+              {siteConfig.phoneSecondaryDisplay}
+            </a>
+          </div>
 
           <a
             href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}

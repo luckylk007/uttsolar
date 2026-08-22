@@ -96,12 +96,20 @@ export function Footer() {
               <span className="text-[12px] text-[#AEDB96] font-medium block">
                 Call Us Anytime
               </span>
-              <a
-                href={`tel:${siteConfig.phone}`}
-                className="text-[15px] sm:text-[16px] font-bold text-white hover:text-[#70BA3F] transition block"
-              >
-                {siteConfig.phoneDisplay}
-              </a>
+              <div className="flex flex-col gap-0.5">
+                <a
+                  href={`tel:${siteConfig.phone}`}
+                  className="text-[14px] sm:text-[15px] font-bold text-white hover:text-[#70BA3F] transition block"
+                >
+                  {siteConfig.phoneDisplay}
+                </a>
+                <a
+                  href={`tel:${siteConfig.phoneSecondary}`}
+                  className="text-[13px] sm:text-[14px] font-medium text-slate-300 hover:text-[#70BA3F] transition block"
+                >
+                  {siteConfig.phoneSecondaryDisplay}
+                </a>
+              </div>
             </div>
           </div>
 
@@ -113,14 +121,24 @@ export function Footer() {
               <span className="text-[12px] text-[#AEDB96] font-medium block">
                 WhatsApp Consultation
               </span>
-              <a
-                href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[15px] sm:text-[16px] font-bold text-white hover:text-[#70BA3F] transition block"
-              >
-                {siteConfig.phoneDisplay}
-              </a>
+              <div className="flex flex-col gap-0.5">
+                <a
+                  href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[14px] sm:text-[15px] font-bold text-white hover:text-[#70BA3F] transition block"
+                >
+                  {siteConfig.phoneDisplay}
+                </a>
+                <a
+                  href={`https://wa.me/${siteConfig.whatsappSecondary}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[13px] sm:text-[14px] font-medium text-slate-300 hover:text-[#70BA3F] transition block"
+                >
+                  {siteConfig.phoneSecondaryDisplay}
+                </a>
+              </div>
             </div>
           </div>
 

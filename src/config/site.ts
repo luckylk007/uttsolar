@@ -5,9 +5,12 @@ export const siteConfig = {
   description:
     'Residential, commercial and industrial solar installation across Uttarakhand. PM Surya Ghar subsidy assistance, net metering support and free site surveys.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://uttsolar.in',
-  phone: '+919876543210',
-  phoneDisplay: '+91 98765 43210',
-  whatsapp: '919876543210',
+  phone: '+917830060725',
+  phoneDisplay: '+91 78300 60725',
+  phoneSecondary: '+918475014008',
+  phoneSecondaryDisplay: '+91 84750 14008',
+  whatsapp: '917830060725',
+  whatsappSecondary: '918475014008',
   email: 'info@uttsolar.in',
   address: {
     street: 'Solar Service Center',

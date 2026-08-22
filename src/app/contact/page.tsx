@@ -49,18 +49,28 @@ export default function ContactPage() {
               <PhoneIcon className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base font-heading font-bold text-[#122417]">Direct Phone Helpline</h2>
+              <h2 className="text-base font-heading font-bold text-[#122417]">Direct Phone Helplines</h2>
               <p className="text-xs text-[#687B6C] mt-0.5">
-                Speak directly with our technical consultation desk.
+                Speak directly with our technical solar consultants in Uttarakhand.
               </p>
             </div>
-            <a
-              href={`tel:${siteConfig.phone}`}
-              className="inline-flex items-center gap-2 text-lg font-heading font-extrabold text-[#70BA3F] hover:text-[#61A334] transition"
-            >
-              <span>{siteConfig.phoneDisplay}</span>
-            </a>
-            <div className="text-[11px] text-[#687B6C] flex items-center gap-1.5">
+            <div className="flex flex-col gap-1.5">
+              <a
+                href={`tel:${siteConfig.phone}`}
+                className="inline-flex items-center gap-2 text-base sm:text-lg font-heading font-extrabold text-[#70BA3F] hover:text-[#61A334] transition"
+              >
+                <span>{siteConfig.phoneDisplay}</span>
+                <span className="text-[11px] font-semibold text-[#687B6C] bg-[#F4F7F2] px-2 py-0.5 rounded-full border border-[#E1E8DE]">Primary</span>
+              </a>
+              <a
+                href={`tel:${siteConfig.phoneSecondary}`}
+                className="inline-flex items-center gap-2 text-base sm:text-lg font-heading font-extrabold text-[#122417] hover:text-[#70BA3F] transition"
+              >
+                <span>{siteConfig.phoneSecondaryDisplay}</span>
+                <span className="text-[11px] font-semibold text-[#687B6C] bg-[#F4F7F2] px-2 py-0.5 rounded-full border border-[#E1E8DE]">Helpline</span>
+              </a>
+            </div>
+            <div className="text-[11px] text-[#687B6C] flex items-center gap-1.5 pt-1">
               <ClockIcon className="w-3.5 h-3.5 text-[#687B6C]" />
               <span>{siteConfig.businessHours}</span>
             </div>
@@ -74,18 +84,29 @@ export default function ContactPage() {
             <div>
               <h2 className="text-base font-heading font-bold text-[#122417]">WhatsApp Instant Chat</h2>
               <p className="text-xs text-[#687B6C] mt-0.5">
-                Send us your electricity bill photo on WhatsApp for a fast preliminary sizing report.
+                Send your electricity bill photo on WhatsApp for instant solar sizing &amp; subsidy calculation.
               </p>
             </div>
-            <a
-              href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-extrabold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition shadow-xs"
-            >
-              <WhatsAppIcon className="w-4 h-4 text-white" />
-              <span>Chat on WhatsApp (+91 98765 43210)</span>
-            </a>
+            <div className="flex flex-col sm:flex-row gap-2.5 pt-1">
+              <a
+                href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full text-xs font-bold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition shadow-xs"
+              >
+                <WhatsAppIcon className="w-4 h-4 text-white" />
+                <span>{siteConfig.phoneDisplay}</span>
+              </a>
+              <a
+                href={`https://wa.me/${siteConfig.whatsappSecondary}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] hover:bg-[#EAF4E4] border border-[#E1E8DE] transition"
+              >
+                <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
+                <span>{siteConfig.phoneSecondaryDisplay}</span>
+              </a>
+            </div>
           </div>
 
           {/* Regional Hubs Card */}
