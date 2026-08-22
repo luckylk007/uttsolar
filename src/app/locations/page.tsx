@@ -3,14 +3,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
 import { districts } from '@/data/locations/districts';
-import { getAllLocations } from '@/data/locations/locations';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import {
   MapPinIcon,
   ArrowUpRightIcon,
   LeafIcon,
 } from '@/components/ui/Icons';
-
 import { multiLocationBusinessSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
@@ -23,8 +21,6 @@ export const metadata: Metadata = {
 };
 
 export default function LocationsHubPage() {
-  const allLocations = getAllLocations();
-
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
       {/* Multi-Location Geo Schema */}
@@ -106,7 +102,7 @@ export default function LocationsHubPage() {
               <div>
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-[#70BA3F] uppercase tracking-wider">
-                    {d.region} Region
+                    Uttarakhand
                   </span>
                   <MapPinIcon className="w-4 h-4 text-[#70BA3F]" />
                 </div>
@@ -116,7 +112,7 @@ export default function LocationsHubPage() {
                   </Link>
                 </h3>
                 <p className="text-xs text-[#687B6C] leading-relaxed mt-2 line-clamp-2">
-                  {d.description}
+                  {d.intro}
                 </p>
 
                 <div className="mt-3 pt-3 border-t border-[#E1E8DE]">

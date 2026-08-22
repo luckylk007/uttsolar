@@ -2,9 +2,6 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
-import { districts } from '@/data/locations/districts';
-import { getAllBlogs } from '@/data/blogs';
-import { projects } from '@/data/projects';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
 import {
@@ -18,7 +15,6 @@ import {
   FactoryIcon,
   CalculatorIcon,
   ArrowUpRightIcon,
-  PlayIcon,
   CheckIcon,
   LeafIcon,
 } from '@/components/ui/Icons';
@@ -33,8 +29,6 @@ export const metadata: Metadata = {
 };
 
 export default function HindiHomePage() {
-  const recentBlogs = getAllBlogs().slice(0, 3);
-
   const hindiDistricts = [
     { name: 'देहरादून', slug: 'dehradun', area: 'ऋषिकेश, विकासनगर, डोईवाला' },
     { name: 'हरिद्वार', slug: 'haridwar', area: 'रुड़की, भगवानपुर, सिडकुल' },

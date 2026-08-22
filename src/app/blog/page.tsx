@@ -64,7 +64,7 @@ export default function BlogHubPage() {
             </div>
 
             <div className="pt-4 border-t border-[#E1E8DE] flex items-center justify-between">
-              <span className="text-xs text-[#687B6C] font-medium">{blog.publishedDate}</span>
+              <span className="text-xs text-[#687B6C] font-medium">{blog.datePublished}</span>
               <Link
                 href={`/blog/${blog.slug}/`}
                 className="inline-flex items-center gap-1.5 text-xs font-bold text-[#70BA3F] group-hover:translate-x-1 transition-transform"

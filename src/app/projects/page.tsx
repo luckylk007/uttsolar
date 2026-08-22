@@ -6,7 +6,6 @@ import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { ContactForm } from '@/components/forms/ContactForm';
 import {
   MapPinIcon,
-  ShieldCheckIcon,
   LeafIcon,
   CheckIcon,
 } from '@/components/ui/Icons';

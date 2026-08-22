@@ -6,11 +6,9 @@ import { ContactForm } from '@/components/forms/ContactForm';
 import {
   ShieldCheckIcon,
   ZapIcon,
-  CheckCircleIcon,
   PhoneIcon,
   LeafIcon,
   UsersIcon,
-  ArrowUpRightIcon,
   CheckIcon,
 } from '@/components/ui/Icons';
 

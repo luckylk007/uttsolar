@@ -9,13 +9,10 @@ import { faqsData } from '@/data/faqs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
 import {
-  SunIcon,
   ZapIcon,
   ShieldCheckIcon,
   PhoneIcon,
   WhatsAppIcon,
-  CheckCircleIcon,
-  ArrowRightIcon,
   MapPinIcon,
   BuildingIcon,
   HomeIcon,
@@ -25,7 +22,6 @@ import {
   PlayIcon,
   CheckIcon,
   LeafIcon,
-  UsersIcon,
 } from '@/components/ui/Icons';
 import { faqSchema } from '@/lib/schema';
 

@@ -4,7 +4,7 @@ import { siteConfig } from '@/config/site';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
-import { ZapIcon, LeafIcon } from '@/components/ui/Icons';
+import { LeafIcon } from '@/components/ui/Icons';
 
 import { howToSchema } from '@/lib/schema';
 

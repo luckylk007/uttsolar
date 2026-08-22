@@ -8,9 +8,6 @@ import {
   PhoneIcon,
   WhatsAppIcon,
   MapPinIcon,
-  ShieldCheckIcon,
-  ZapIcon,
-  SunIcon,
   ArrowUpRightIcon,
 } from '@/components/ui/Icons';
 

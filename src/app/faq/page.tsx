@@ -4,12 +4,7 @@ import Link from 'next/link';
 import { siteConfig } from '@/config/site';
 import { faqsData } from '@/data/faqs';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
-import {
-  ZapIcon,
-  PhoneIcon,
-  LeafIcon,
-  ArrowUpRightIcon,
-} from '@/components/ui/Icons';
+import { LeafIcon } from '@/components/ui/Icons';
 import { faqSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {

@@ -13,12 +13,9 @@ import { formatCurrency, formatNumber } from '@/lib/utils';
 import {
   ZapIcon,
   SunIcon,
-  PhoneIcon,
-  WhatsAppIcon,
   CheckCircleIcon,
   CalculatorIcon,
 } from '@/components/ui/Icons';
-import { siteConfig } from '@/config/site';
 
 interface SolarCalculatorProps {
   initialDistrict?: string;

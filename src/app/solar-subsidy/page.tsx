@@ -4,7 +4,7 @@ import { siteConfig } from '@/config/site';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
-import { ZapIcon, LeafIcon } from '@/components/ui/Icons';
+import { LeafIcon } from '@/components/ui/Icons';
 
 export const metadata: Metadata = {
   title: 'Solar Subsidy in Uttarakhand 2026: PM Surya Ghar Rates & Eligibility | UTTsolar',

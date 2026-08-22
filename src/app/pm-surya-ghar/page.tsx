@@ -5,7 +5,7 @@ import { siteConfig } from '@/config/site';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
-import { ZapIcon, ArrowUpRightIcon, CheckIcon, ShieldCheckIcon } from '@/components/ui/Icons';
+import { ZapIcon, ArrowUpRightIcon } from '@/components/ui/Icons';
 
 import { howToSchema } from '@/lib/schema';
 
