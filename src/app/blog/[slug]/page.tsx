@@ -109,7 +109,7 @@ export default async function BlogDetailPage({ params }: BlogPageProps) {
         </h1>
 
         <div className="flex items-center gap-3 pt-2 text-xs text-slate-500">
-          <div className="w-10 h-10 rounded-full bg-slate-900 text-white font-black flex items-center justify-center text-sm">
+          <div className="w-10 h-10 rounded-full bg-[#122417] text-white font-bold flex items-center justify-center text-sm shadow-xs">
             {blog.author.charAt(0)}
           </div>
           <div>

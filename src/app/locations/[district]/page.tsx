@@ -91,31 +91,31 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       <Breadcrumbs items={breadcrumbs} />
 
       {/* Hero Header */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden">
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden border border-[#70BA3F]/20">
         <div className="max-w-3xl space-y-4">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-solar-500/20 text-xs font-bold text-solar-300 border border-solar-500/30">
-            <MapPinIcon className="w-4 h-4 text-solar-400" />
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
+            <MapPinIcon className="w-4 h-4 text-[#70BA3F]" />
             {district.name} District Solar Engineering Center
           </span>
-          <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight">
+          <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
             Solar Panel Installation &amp; Subsidy in {district.name} District
           </h1>
-          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
             {district.intro}
           </p>
 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-5 py-3 rounded-xl text-xs font-bold text-white bg-solar-600 hover:bg-solar-700 shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-md transition"
             >
               Book Free Site Survey in {district.name}
             </Link>
             <a
               href={`tel:${siteConfig.phone}`}
-              className="px-5 py-3 rounded-xl text-xs font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 border border-slate-700 transition flex items-center gap-1.5"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/15 border border-white/20 transition flex items-center gap-1.5"
             >
-              <PhoneIcon className="w-4 h-4 text-solar-400" />
+              <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
               <span>Call District Helpline</span>
             </a>
           </div>
@@ -126,10 +126,10 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       <section className="space-y-6">
         <div className="flex items-center justify-between">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
               Coverage
             </span>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-1">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-1">
               Major Service Areas in {district.name}
             </h2>
           </div>
@@ -141,17 +141,17 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
             {districtLocations.map((loc) => (
               <div
                 key={loc.slug}
-                className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between"
+                className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs hover:border-[#70BA3F] transition flex flex-col justify-between"
               >
                 <div>
-                  <h3 className="text-base font-bold text-slate-900 mb-1">
+                  <h3 className="text-base font-bold text-[#122417] mb-1">
                     {loc.name} Solar Service
                   </h3>
-                  <p className="text-xs text-slate-600 line-clamp-2 mb-3">{loc.intro}</p>
+                  <p className="text-xs text-[#687B6C] line-clamp-2 mb-3">{loc.intro}</p>
                 </div>
                 <Link
                   href={`/locations/${district.slug}/${loc.slug}/`}
-                  className="text-xs font-bold text-solar-700 hover:text-solar-900 flex items-center justify-between border-t border-slate-100 pt-2"
+                  className="text-xs font-semibold text-[#70BA3F] hover:text-[#5A9930] flex items-center justify-between border-t border-[#E1E8DE] pt-2"
                 >
                   <span>View {loc.name} details</span>
                   <span>→</span>
@@ -162,15 +162,15 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
         )}
 
         {/* Other Town Tags */}
-        <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200">
-          <span className="text-xs font-bold text-slate-700 block mb-2">
+        <div className="bg-[#F4F7F2] p-5 rounded-2xl border border-[#E1E8DE]">
+          <span className="text-xs font-semibold text-[#122417] block mb-2">
             Towns, Municipalities &amp; Villages Served Across {district.name}:
           </span>
           <div className="flex flex-wrap gap-2">
             {district.majorServiceAreas.map((area) => (
               <span
                 key={area}
-                className="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-medium text-slate-800"
+                className="px-3 py-1 bg-white border border-[#E1E8DE] rounded-full text-xs font-medium text-[#122417]"
               >
                 📍 {area}
               </span>
@@ -180,15 +180,15 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       </section>
 
       {/* Services Available in District */}
-      <section className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm space-y-6">
-        <h2 className="text-xl font-bold text-slate-900">
+      <section className="bg-white p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs space-y-6">
+        <h2 className="text-xl sm:text-2xl font-bold text-[#122417]">
           Available Solar Solutions in {district.name}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {district.servicesAvailable.map((srv, idx) => (
-            <div key={idx} className="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-              <CheckCircleIcon className="w-5 h-5 text-solar-600 flex-shrink-0" />
-              <span className="text-xs font-bold text-slate-800">{srv}</span>
+            <div key={idx} className="flex items-center gap-3 p-3.5 bg-[#F4F7F2] rounded-xl border border-[#E1E8DE]">
+              <CheckCircleIcon className="w-5 h-5 text-[#70BA3F] flex-shrink-0" />
+              <span className="text-xs sm:text-sm font-semibold text-[#122417]">{srv}</span>
             </div>
           ))}
         </div>
@@ -197,10 +197,10 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       {/* District Solar Calculator */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
             {district.name} Estimator
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
             Calculate Solar Savings for {district.name} District
           </h2>
         </div>
@@ -210,27 +210,27 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       {/* District Specific FAQs */}
       <section className="max-w-4xl mx-auto space-y-6">
         <div className="text-center">
-          <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
             Local Questions
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
             {district.name} District Solar FAQs
           </h2>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {district.faqs.map((faq, idx) => (
             <details
               key={idx}
-              className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm group [&_summary::-webkit-details-marker]:hidden"
+              className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs group [&_summary::-webkit-details-marker]:hidden"
             >
-              <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-slate-900 group-open:text-solar-700 transition">
+              <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-[#122417] group-open:text-[#70BA3F] transition">
                 <span>{faq.question}</span>
-                <span className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-500 group-open:rotate-180 transition">
+                <span className="w-6 h-6 rounded-full bg-[#F4F7F2] flex items-center justify-center text-xs font-bold text-[#687B6C] group-open:rotate-180 transition">
                   ▼
                 </span>
               </summary>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mt-3 pt-3 border-t border-slate-100">
+              <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed mt-3 pt-3 border-t border-[#E1E8DE]">
                 {faq.answer}
               </p>
             </details>
@@ -240,7 +240,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
 
       {/* Related Solar Guides */}
       <section className="space-y-4">
-        <h3 className="text-lg font-bold text-slate-900">
+        <h3 className="text-lg font-bold text-[#122417]">
           Recommended Solar Guides for {district.name}
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -248,17 +248,17 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
             <Link
               key={b.slug}
               href={`/blog/${b.slug}/`}
-              className="p-5 rounded-2xl bg-white border border-slate-200 hover:border-solar-500 hover:shadow-md transition group flex flex-col justify-between"
+              className="p-5 rounded-2xl bg-white border border-[#E1E8DE] hover:border-[#70BA3F] hover:shadow-xs transition group flex flex-col justify-between"
             >
               <div>
-                <span className="text-[10px] font-bold text-solar-600 uppercase tracking-wider block mb-1">
+                <span className="text-[10px] font-semibold text-[#70BA3F] uppercase tracking-wider block mb-1">
                   {b.category}
                 </span>
-                <h4 className="text-xs font-bold text-slate-900 group-hover:text-solar-700 transition line-clamp-2">
+                <h4 className="text-xs sm:text-sm font-bold text-[#122417] group-hover:text-[#70BA3F] transition line-clamp-2">
                   {b.title}
                 </h4>
               </div>
-              <span className="text-[11px] font-bold text-solar-600 mt-3 block">
+              <span className="text-[11px] font-semibold text-[#70BA3F] mt-3 block">
                 Read guide →
               </span>
             </Link>
@@ -267,16 +267,16 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       </section>
 
       {/* Contact Section */}
-      <section className="bg-slate-50 rounded-3xl p-6 sm:p-10 border border-slate-200">
+      <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
               Free Site Survey
             </span>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">
               Book Your Solar Consultation in {district.name}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed">
               Our engineering team serving {district.name} will visit your site, assess shadow factors, and provide a comprehensive proposal with PM Surya Ghar subsidy calculations.
             </p>
           </div>

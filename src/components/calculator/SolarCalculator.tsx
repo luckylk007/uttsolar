@@ -118,7 +118,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
   return (
     <div className={`bg-white rounded-calc border border-border-ui shadow-sm overflow-hidden ${className}`}>
       {/* Header Band */}
-      <div className="bg-deep-navy text-white px-6 py-5 sm:px-8 sm:py-6 border-b border-border-ui">
+      <div className="bg-[#122417] text-white px-6 py-5 sm:px-8 sm:py-6 border-b border-border-ui">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[12px] font-semibold bg-white/10 text-solar-amber border border-white/15 mb-2">
@@ -155,7 +155,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                   onClick={() => handlePropertyTypeChange(type)}
                   className={`py-2.5 px-3 rounded-btn text-xs font-semibold capitalize transition border ${
                     propertyType === type
-                      ? 'bg-deep-navy text-white border-deep-navy'
+                      ? 'bg-[#122417] text-white border-[#122417]'
                       : 'bg-white text-primary-text border-border-ui hover:bg-warm-white'
                   }`}
                 >
@@ -226,7 +226,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                   onClick={() => handleSystemTypeChange(item.type as SystemType)}
                   className={`p-3 rounded-card text-left transition border ${
                     systemType === item.type
-                      ? 'bg-deep-navy text-white border-deep-navy'
+                      ? 'bg-[#122417] text-white border-[#122417]'
                       : 'bg-white text-primary-text border-border-ui hover:bg-warm-white'
                   }`}
                 >

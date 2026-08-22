@@ -87,31 +87,31 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       <Breadcrumbs items={breadcrumbs} />
 
       {/* Hero Header */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden">
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden border border-[#70BA3F]/20">
         <div className="max-w-3xl space-y-4">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-solar-500/20 text-xs font-bold text-solar-300 border border-solar-500/30">
-            <SunIcon className="w-4 h-4 text-solar-400" />
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
+            <SunIcon className="w-4 h-4 text-[#70BA3F]" />
             Uttarakhand Solar Service
           </span>
-          <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight">
+          <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
             {service.h1}
           </h1>
-          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
             {service.intro}
           </p>
 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-5 py-3 rounded-xl text-xs font-bold text-white bg-solar-600 hover:bg-solar-700 shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-md transition"
             >
               Get Free Quote for {service.title}
             </Link>
             <a
               href={`tel:${siteConfig.phone}`}
-              className="px-5 py-3 rounded-xl text-xs font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 border border-slate-700 transition flex items-center gap-1.5"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/15 border border-white/20 transition flex items-center gap-1.5"
             >
-              <PhoneIcon className="w-4 h-4 text-solar-400" />
+              <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
               <span>Call Solar Expert</span>
             </a>
           </div>
@@ -121,10 +121,10 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       {/* Key Benefits */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
             Advantages &amp; Value
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
             Key Benefits of {service.title} in Uttarakhand
           </h2>
         </div>
@@ -133,14 +133,14 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           {service.sections.benefits.map((benefit, idx) => (
             <div
               key={idx}
-              className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm flex items-start gap-4"
+              className="bg-white p-6 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex items-start gap-4"
             >
-              <div className="w-10 h-10 rounded-xl bg-solar-100 text-solar-700 flex items-center justify-center font-bold flex-shrink-0 mt-0.5">
+              <div className="w-10 h-10 rounded-xl bg-[#EAF4E4] text-[#70BA3F] flex items-center justify-center font-bold flex-shrink-0 mt-0.5">
                 <CheckCircleIcon className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="text-base font-bold text-slate-900 mb-1">{benefit.title}</h3>
-                <p className="text-xs text-slate-600 leading-relaxed">{benefit.description}</p>
+                <h3 className="text-base font-bold text-[#122417] mb-1">{benefit.title}</h3>
+                <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed">{benefit.description}</p>
               </div>
             </div>
           ))}
@@ -148,12 +148,12 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       </section>
 
       {/* Installation & Delivery Process */}
-      <section className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl space-y-8">
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-12 shadow-xl space-y-8 border border-[#70BA3F]/20">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/20 px-3 py-1 rounded-full border border-amber-500/30">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#AEDB96] bg-[#70BA3F]/20 px-3 py-1 rounded-full border border-[#70BA3F]/30">
             Step-by-Step
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-white mt-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mt-2">
             How We Execute Your {service.title}
           </h2>
         </div>
@@ -162,14 +162,14 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           {service.sections.process.map((step) => (
             <div
               key={step.step}
-              className="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 flex flex-col justify-between"
+              className="p-6 rounded-2xl bg-[#1A3321] border border-[#70BA3F]/20 flex flex-col justify-between"
             >
               <div>
-                <div className="w-8 h-8 rounded-full bg-solar-500 text-white font-black text-xs flex items-center justify-center mb-3">
+                <div className="w-8 h-8 rounded-full bg-[#70BA3F] text-[#122417] font-extrabold text-xs flex items-center justify-center mb-3 shadow-xs">
                   {step.step}
                 </div>
-                <h3 className="text-sm font-bold text-white mb-1.5">{step.title}</h3>
-                <p className="text-xs text-slate-400 leading-relaxed">{step.description}</p>
+                <h3 className="text-sm sm:text-base font-bold text-white mb-1.5">{step.title}</h3>
+                <p className="text-xs text-slate-300 leading-relaxed">{step.description}</p>
               </div>
             </div>
           ))}
@@ -179,10 +179,10 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       {/* Embedded Solar Calculator */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
             Estimate Investment &amp; Savings
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
             Calculate Solar Requirements for {service.title}
           </h2>
         </div>
@@ -192,27 +192,27 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       {/* Service Specific FAQs */}
       <section className="max-w-4xl mx-auto space-y-6">
         <div className="text-center">
-          <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
             FAQs
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
             Frequently Asked Questions about {service.title}
           </h2>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {service.sections.faqs.map((faq, idx) => (
             <details
               key={idx}
-              className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm group [&_summary::-webkit-details-marker]:hidden"
+              className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs group [&_summary::-webkit-details-marker]:hidden"
             >
-              <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-slate-900 group-open:text-solar-700 transition">
+              <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-[#122417] group-open:text-[#70BA3F] transition">
                 <span>{faq.question}</span>
-                <span className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-500 group-open:rotate-180 transition">
+                <span className="w-6 h-6 rounded-full bg-[#F4F7F2] flex items-center justify-center text-xs font-bold text-[#687B6C] group-open:rotate-180 transition">
                   ▼
                 </span>
               </summary>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mt-3 pt-3 border-t border-slate-100">
+              <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed mt-3 pt-3 border-t border-[#E1E8DE]">
                 {faq.answer}
               </p>
             </details>
@@ -222,20 +222,20 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
 
       {/* Related Services */}
       {relatedServicesList.length > 0 && (
-        <section className="space-y-6 border-t border-slate-200 pt-10">
-          <h3 className="text-xl font-bold text-slate-900">Explore Related Solar Solutions</h3>
+        <section className="space-y-6 border-t border-[#E1E8DE] pt-10">
+          <h3 className="text-xl font-bold text-[#122417]">Explore Related Solar Solutions</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {relatedServicesList.map((rel) => (
               <Link
                 key={rel.slug}
                 href={`/services/${rel.slug}/`}
-                className="p-4 rounded-2xl bg-white border border-slate-200 hover:border-solar-500 hover:shadow-md transition group"
+                className="p-4 rounded-2xl bg-white border border-[#E1E8DE] hover:border-[#70BA3F] hover:shadow-xs transition group"
               >
-                <div className="font-bold text-sm text-slate-900 group-hover:text-solar-600 transition mb-1">
+                <div className="font-bold text-sm text-[#122417] group-hover:text-[#70BA3F] transition mb-1">
                   {rel.title}
                 </div>
-                <p className="text-[11px] text-slate-500 line-clamp-2">{rel.intro}</p>
-                <span className="text-[11px] font-bold text-solar-600 mt-2 block">
+                <p className="text-[11px] text-[#687B6C] line-clamp-2">{rel.intro}</p>
+                <span className="text-[11px] font-semibold text-[#70BA3F] mt-2 block">
                   Learn more →
                 </span>
               </Link>
@@ -245,16 +245,16 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       )}
 
       {/* Contact Form Section */}
-      <section className="bg-slate-50 rounded-3xl p-6 sm:p-10 border border-slate-200">
+      <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-bold uppercase tracking-wider text-solar-700 bg-solar-50 px-3 py-1 rounded-full border border-solar-200">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
               Get Started
             </span>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">
               Request a Free Proposal for {service.title}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed">
               Our engineering team will assess your electrical load, calculate your PM Surya Ghar subsidy eligibility, and prepare a customized design.
             </p>
           </div>
