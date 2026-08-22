@@ -62,8 +62,16 @@ export async function POST(request: Request) {
 
     const lead = parsed.data;
 
+    // Validate postal combination if provided
+    if (lead.pincode && !validatePostalCombination(lead.district, lead.pincode, lead.postOffice || undefined)) {
+      return NextResponse.json(
+        { error: 'Invalid PIN Code / Post Office for the selected district.' },
+        { status: 400 }
+      );
+    }
+
     // Sanitized Lead Logging
-    console.log(`[UTTsolar Lead Received] Name: ${lead.name}, Phone: ${lead.phone}, District: ${lead.district}, Service: ${lead.service}`);
+    console.log(`[UTTsolar Lead Received] Name: ${lead.name}, Phone: ${lead.phone}, District: ${lead.district}, PIN: ${lead.pincode || 'N/A'}, PostOffice: ${lead.postOffice || 'N/A'}, Service: ${lead.service}`);
 
     return NextResponse.json(
       {
