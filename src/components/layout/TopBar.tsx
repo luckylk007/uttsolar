@@ -1,10 +1,15 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
 import { PhoneIcon, WhatsAppIcon, ZapIcon, MapPinIcon } from '@/components/ui/Icons';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { useWhatsAppModal } from '@/context/WhatsAppModalContext';
 
 export function TopBar() {
+  const { openWhatsAppModal } = useWhatsAppModal();
+
   return (
     <div className="bg-[#122417] text-slate-300 text-xs sm:text-[13px] border-b border-white/10 py-2.5 transition-all">
       <div className="w-full px-4 sm:px-6 lg:px-[30px] flex items-center justify-between gap-3">
@@ -54,16 +59,15 @@ export function TopBar() {
             </a>
           </div>
 
-          <a
-            href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20am%20interested%20in%20solar%20installation%20in%20Uttarakhand`}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            onClick={() => openWhatsAppModal()}
             className="inline-flex items-center gap-1.5 text-green-400 hover:text-white transition text-xs"
             title="Chat on WhatsApp"
           >
             <WhatsAppIcon className="w-3.5 h-3.5 text-green-400" />
             <span className="hidden md:inline">WhatsApp</span>
-          </a>
+          </button>
 
           <div className="pl-2 border-l border-white/15">
             <LanguageSwitcher />
