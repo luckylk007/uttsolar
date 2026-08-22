@@ -91,6 +91,14 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: siteConfig.url,
+    languages: {
+      'en-IN': siteConfig.url,
+      'hi-IN': `${siteConfig.url}/hi/`,
+      'x-default': siteConfig.url,
+    },
+  },
   icons: {
     icon: '/favicon.ico',
   },

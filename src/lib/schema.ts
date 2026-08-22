@@ -45,6 +45,9 @@ export function organizationSchema() {
 export function localBusinessSchema(overrides?: {
   name?: string;
   areaServed?: string;
+  locality?: string;
+  latitude?: number;
+  longitude?: number;
 }) {
   return {
     '@context': 'https://schema.org',
@@ -58,17 +61,32 @@ export function localBusinessSchema(overrides?: {
     priceRange: '₹₹',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: siteConfig.address.city,
+      streetAddress: siteConfig.address.street,
+      addressLocality: overrides?.locality ?? siteConfig.address.city,
       addressRegion: siteConfig.address.state,
       postalCode: siteConfig.address.pincode,
       addressCountry: siteConfig.address.country,
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 30.3165,
-      longitude: 78.0322,
+      latitude: overrides?.latitude ?? 30.3165,
+      longitude: overrides?.longitude ?? 78.0322,
     },
-    areaServed: overrides?.areaServed ?? 'Uttarakhand',
+    areaServed: [
+      'Dehradun',
+      'Haridwar',
+      'Nainital',
+      'Udham Singh Nagar',
+      'Almora',
+      'Pauri Garhwal',
+      'Tehri Garhwal',
+      'Pithoragarh',
+      'Chamoli',
+      'Rudraprayag',
+      'Uttarkashi',
+      'Bageshwar',
+      'Champawat',
+    ],
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
@@ -76,6 +94,91 @@ export function localBusinessSchema(overrides?: {
       closes: '19:00',
     },
   };
+}
+
+export function multiLocationBusinessSchema() {
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: 'UTTsolar — Dehradun Headquarters',
+      url: siteConfig.url,
+      telephone: siteConfig.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Rajpur Road',
+        addressLocality: 'Dehradun',
+        addressRegion: 'Uttarakhand',
+        postalCode: '248001',
+        addressCountry: 'IN',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 30.3165,
+        longitude: 78.0322,
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: 'UTTsolar — Haldwani / Nainital Regional Hub',
+      url: `${siteConfig.url}/locations/nainital/`,
+      telephone: siteConfig.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Bareilly Road',
+        addressLocality: 'Haldwani',
+        addressRegion: 'Uttarakhand',
+        postalCode: '263139',
+        addressCountry: 'IN',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 29.2183,
+        longitude: 79.513,
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: 'UTTsolar — Haridwar & Roorkee Engineering Hub',
+      url: `${siteConfig.url}/locations/haridwar/`,
+      telephone: siteConfig.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'SIDCUL Industrial Area',
+        addressLocality: 'Haridwar',
+        addressRegion: 'Uttarakhand',
+        postalCode: '249403',
+        addressCountry: 'IN',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 29.9457,
+        longitude: 78.1642,
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: 'UTTsolar — Rudrapur & US Nagar Industrial Hub',
+      url: `${siteConfig.url}/locations/udham-singh-nagar/`,
+      telephone: siteConfig.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Pantnagar Industrial Corridor',
+        addressLocality: 'Rudrapur',
+        addressRegion: 'Uttarakhand',
+        postalCode: '263153',
+        addressCountry: 'IN',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 28.98,
+        longitude: 79.4,
+      },
+    },
+  ];
 }
 
 export function serviceSchema(name: string, description: string, url: string) {
@@ -94,6 +197,32 @@ export function serviceSchema(name: string, description: string, url: string) {
       name: 'Uttarakhand',
     },
     url: `${siteConfig.url}${url}`,
+  };
+}
+
+export function howToSchema(data: {
+  name: string;
+  description: string;
+  totalTime?: string;
+  steps: {
+    name: string;
+    text: string;
+    url?: string;
+  }[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: data.name,
+    description: data.description,
+    totalTime: data.totalTime ?? 'P30D',
+    step: data.steps.map((s, idx) => ({
+      '@type': 'HowToStep',
+      position: idx + 1,
+      name: s.name,
+      text: s.text,
+      url: s.url ? `${siteConfig.url}${s.url}` : undefined,
+    })),
   };
 }
 

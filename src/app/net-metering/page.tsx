@@ -6,6 +6,8 @@ import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { ZapIcon, LeafIcon } from '@/components/ui/Icons';
 
+import { howToSchema } from '@/lib/schema';
+
 export const metadata: Metadata = {
   title: 'UPCL Net Metering in Uttarakhand: Complete Process & Rules | UTTsolar',
   description:
@@ -16,8 +18,40 @@ export const metadata: Metadata = {
 };
 
 export default function NetMeteringPage() {
+  const netMeteringHowTo = howToSchema({
+    name: 'How UPCL Net Metering Synchronization Works in Uttarakhand',
+    description: 'The process of applying for and commissioning bidirectional UPCL net metering for rooftop solar power in Uttarakhand.',
+    totalTime: 'P21D',
+    steps: [
+      {
+        name: 'Sanctioned Load Verification',
+        text: 'Verify your sanctioned load with UPCL to ensure your proposed solar plant capacity is within allowable limits.',
+      },
+      {
+        name: 'Technical Feasibility NOC',
+        text: 'Apply for grid connectivity NOC on the UPCL unified portal.',
+      },
+      {
+        name: 'Smart Bidirectional Meter Installation',
+        text: 'UPCL test lab tests and installs the bidirectional meter at your premises.',
+      },
+      {
+        name: 'Commissioning & Solar Energy Banking',
+        text: 'System is energized, and exported solar energy units begin offsetting your monthly electricity bills with annual banking.',
+      },
+    ],
+  });
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
+      {/* HowTo Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(netMeteringHowTo),
+        }}
+      />
+
       <Breadcrumbs items={[{ name: 'Net Metering', url: '/net-metering/' }]} />
 
       {/* Hero Header - Solor Style */}

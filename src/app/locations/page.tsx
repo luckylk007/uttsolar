@@ -11,6 +11,8 @@ import {
   LeafIcon,
 } from '@/components/ui/Icons';
 
+import { multiLocationBusinessSchema } from '@/lib/schema';
+
 export const metadata: Metadata = {
   title: 'Solar Installation Locations & Service Areas in Uttarakhand | UTTsolar',
   description:
@@ -25,6 +27,14 @@ export default function LocationsHubPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
+      {/* Multi-Location Geo Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(multiLocationBusinessSchema()),
+        }}
+      />
+
       <Breadcrumbs items={[{ name: 'Service Locations', url: '/locations/' }]} />
 
       {/* Hero Header - Solor Style */}

@@ -7,6 +7,8 @@ import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { ZapIcon, ArrowUpRightIcon, CheckIcon, ShieldCheckIcon } from '@/components/ui/Icons';
 
+import { howToSchema } from '@/lib/schema';
+
 export const metadata: Metadata = {
   title: 'PM Surya Ghar Muft Bijli Yojana in Uttarakhand | Subsidy up to ₹85,800 | UTTsolar',
   description:
@@ -17,8 +19,40 @@ export const metadata: Metadata = {
 };
 
 export default function PmSuryaGharPage() {
+  const subsidyHowTo = howToSchema({
+    name: 'How to Apply for PM Surya Ghar Solar Subsidy in Uttarakhand',
+    description: 'Step-by-step procedure to apply for PM Surya Ghar Muft Bijli Yojana and receive up to ₹85,800 subsidy in Uttarakhand.',
+    totalTime: 'P30D',
+    steps: [
+      {
+        name: 'Portal Registration',
+        text: 'Register on the national PM Surya Ghar portal using your UPCL electricity consumer number, mobile number, and email.',
+      },
+      {
+        name: 'Technical Feasibility Approval',
+        text: 'Submit rooftop solar capacity request for UPCL DISCOM technical feasibility and net metering approval.',
+      },
+      {
+        name: 'Installation by Certified Vendor',
+        text: 'Get Tier-1 ALMM solar panels and BIS inverters installed by UTTsolar engineers.',
+      },
+      {
+        name: 'Net Metering & Direct Benefit Transfer',
+        text: 'UPCL installs the bidirectional meter, conducts joint inspection, and the subsidy (up to ₹85,800) is credited directly to your bank account within 30 days.',
+      },
+    ],
+  });
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
+      {/* HowTo Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(subsidyHowTo),
+        }}
+      />
+
       <Breadcrumbs items={[{ name: 'PM Surya Ghar Yojana', url: '/pm-surya-ghar/' }]} />
 
       {/* Hero Header - Solor Style */}

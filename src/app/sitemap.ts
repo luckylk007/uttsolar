@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Core static pages
   const staticPages = [
     '',
+    '/hi',
     '/about',
     '/services',
     '/solar-solutions',
@@ -31,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}/`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : 0.8,
+    priority: route === '' ? 1.0 : route === '/hi' ? 0.9 : 0.8,
   }));
 
   // Service pages (17 services)
