@@ -105,6 +105,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { QuoteModalProvider } from '@/context/QuoteModalContext';
+
 export default function RootLayout({
   children,
 }: {
@@ -137,10 +139,12 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-screen flex-col font-sans text-primary-text bg-white antialiased selection:bg-solar-green/10 selection:text-solar-green">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <MobileStickyBar />
+        <QuoteModalProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <MobileStickyBar />
+        </QuoteModalProvider>
       </body>
     </html>
   );

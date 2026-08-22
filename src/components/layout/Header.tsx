@@ -22,8 +22,10 @@ import {
   ShieldCheckIcon,
   UsersIcon,
 } from '@/components/ui/Icons';
+import { useQuoteModal } from '@/context/QuoteModalContext';
 
 export function Header() {
+  const { openQuoteModal } = useQuoteModal();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
@@ -452,15 +454,16 @@ export function Header() {
               <span>{siteConfig.phoneDisplay}</span>
             </a>
 
-            <Link
-              href="/contact/?intent=quote"
-              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-sm hover:shadow-md transition whitespace-nowrap"
+            <button
+              type="button"
+              onClick={() => openQuoteModal({ title: 'Get Instant Solar Quotation' })}
+              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-sm hover:shadow-md transition whitespace-nowrap active:scale-[0.98]"
             >
               <span>Get Free Quote</span>
               <span className="w-5 h-5 rounded-full bg-[#122417] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
                 <ArrowUpRightIcon className="w-3 h-3" />
               </span>
-            </Link>
+            </button>
           </div>
 
           {/* Mobile Hamburger Menu Toggle */}
@@ -585,15 +588,19 @@ export function Header() {
             </Link>
 
             <div className="pt-4 mt-2 border-t border-[#E1E8DE] flex flex-col gap-2">
-              <Link
-                href="/contact/?intent=quote"
-                className="w-full text-center py-3 px-5 rounded-full font-extrabold text-sm text-[#122417] bg-[#70BA3F] hover:bg-[#61A334]"
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openQuoteModal({ title: 'Get Instant Solar Quotation' });
+                }}
+                className="w-full text-center py-3.5 px-5 rounded-full font-bold text-sm text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-md transition"
               >
                 Get Free Quote ↗
-              </Link>
+              </button>
               <a
                 href={`tel:${siteConfig.phone}`}
-                className="w-full text-center py-2.5 px-4 rounded-full font-semibold text-xs text-[#122417] bg-[#F4F7F2] border border-[#E1E8DE]"
+                className="w-full text-center py-3 px-4 rounded-full font-semibold text-xs text-[#122417] bg-[#F4F7F2] border border-[#E1E8DE]"
               >
                 Call Helpline: {siteConfig.phoneDisplay}
               </a>

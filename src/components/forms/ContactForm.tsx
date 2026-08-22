@@ -25,7 +25,6 @@ export function ContactForm({
 
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
-  const [email, setEmail] = useState('');
   const [district, setDistrict] = useState(defaultDistrict);
   const [service, setService] = useState(defaultService || 'residential-solar');
   const [monthlyBill, setMonthlyBill] = useState('');
@@ -60,7 +59,6 @@ export function ContactForm({
         body: JSON.stringify({
           name: name.trim(),
           phone: cleanPhone,
-          email: email.trim(),
           district,
           service,
           monthlyBill: monthlyBill ? Number(monthlyBill) : undefined,
@@ -86,29 +84,31 @@ export function ContactForm({
     const districtDisplay = selectedDistrictObj ? selectedDistrictObj.name : district;
 
     return (
-      <div className={`p-6 sm:p-8 bg-[#F0F8EC] border border-[#70BA3F]/30 rounded-2xl text-center ${className}`}>
-        <div className="w-12 h-12 bg-[#70BA3F] text-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-xs">
-          <CheckCircleIcon className="w-7 h-7" />
+      <div className={`p-6 sm:p-8 bg-[#F0F8EC] border border-[#70BA3F]/30 rounded-3xl text-center space-y-4 shadow-sm ${className}`}>
+        <div className="w-14 h-14 bg-[#70BA3F] text-white rounded-full flex items-center justify-center mx-auto shadow-xs">
+          <CheckCircleIcon className="w-8 h-8" />
         </div>
-        <h3 className="text-lg font-bold text-[#122417] mb-1.5">Thank You, {name}!</h3>
-        <p className="text-xs text-[#687B6C] max-w-md mx-auto mb-5 leading-relaxed">
-          Your solar enquiry has been received. Our certified solar engineer for <strong>{districtDisplay}</strong> district will contact you to discuss your system sizing and free site survey.
-        </p>
-        <div className="flex flex-wrap justify-center gap-2.5">
+        <div>
+          <h3 className="text-xl font-bold text-[#122417]">Thank You, {name}!</h3>
+          <p className="text-xs sm:text-sm text-[#687B6C] max-w-md mx-auto mt-1 leading-relaxed">
+            Your solar enquiry for <strong>{districtDisplay}</strong> district has been received. Our certified solar engineer will contact you shortly with system pricing and subsidy details.
+          </p>
+        </div>
+        <div className="flex flex-wrap justify-center gap-3 pt-2">
           <a
             href={`tel:${siteConfig.phone}`}
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold text-[#122417] bg-white border border-[#E1E8DE] shadow-xs hover:bg-[#F4F7F2] transition"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-[#122417] bg-white border border-[#E1E8DE] shadow-xs hover:bg-[#F4F7F2] transition"
           >
-            <PhoneIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
-            <span>Call Directly</span>
+            <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
+            <span>Call {siteConfig.phoneDisplay}</span>
           </a>
           <a
             href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20just%20submitted%20an%20enquiry%20for%20solar%20in%20${districtDisplay}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold text-white bg-[#70BA3F] hover:bg-[#61A334] shadow-xs transition"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-white bg-[#25D366] hover:bg-[#1EBE5D] shadow-xs transition"
           >
-            <WhatsAppIcon className="w-3.5 h-3.5 text-white" />
+            <WhatsAppIcon className="w-4 h-4 text-white" />
             <span>WhatsApp Connect</span>
           </a>
         </div>
@@ -121,17 +121,21 @@ export function ContactForm({
       onSubmit={handleSubmit}
       className={
         compact
-          ? `space-y-3 ${className}`
-          : `bg-white p-6 sm:p-8 rounded-2xl border border-[#E1E8DE] shadow-xs space-y-4 ${className}`
+          ? `space-y-3.5 ${className}`
+          : `bg-white p-6 sm:p-8 rounded-3xl border border-[#E1E8DE] shadow-sm space-y-4 ${className}`
       }
     >
       {!compact && (
-        <div className="border-b border-[#E1E8DE] pb-3.5 mb-1">
-          <h3 className="text-lg sm:text-xl font-bold text-[#122417]">
-            {intent === 'quote' ? 'Request Free Solar Quotation' : 'Book a Free Solar Site Survey'}
+        <div className="border-b border-[#E1E8DE] pb-4 mb-2">
+          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#EAF4E4] text-[11px] font-bold text-[#2D5A27] uppercase tracking-wider mb-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#70BA3F]" />
+            <span>PM Surya Ghar Partner</span>
+          </div>
+          <h3 className="text-xl sm:text-2xl font-bold text-[#122417]">
+            {intent === 'quote' ? 'Request Free Solar Quotation' : 'Book Free Solar Site Survey'}
           </h3>
-          <p className="text-xs text-[#687B6C] mt-0.5">
-            Zero-obligation site inspection, shading analysis, and PM Surya Ghar subsidy estimate across Uttarakhand.
+          <p className="text-xs sm:text-sm text-[#687B6C] mt-1 leading-relaxed">
+            Zero-obligation site visit, roof shade analysis, and PM Surya Ghar subsidy claim support across Uttarakhand.
           </p>
         </div>
       )}
@@ -147,205 +151,139 @@ export function ContactForm({
         autoComplete="off"
       />
 
-      {compact ? (
-        <>
-          {/* Compact Layout */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Your Name <span className="text-red-500">*</span>
-              </label>
-              <input
-                type="text"
-                required
-                placeholder="Full Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full px-3 py-2 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Mobile Number <span className="text-red-500">*</span>
-              </label>
-              <input
-                type="tel"
-                required
-                placeholder="10-digit Number"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className="w-full px-3 py-2 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
+      {/* 1. Name & Mobile Number */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+        <div>
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+            Full Name <span className="text-red-500">*</span>
+          </label>
+          <input
+            type="text"
+            required
+            autoComplete="name"
+            placeholder="Enter your name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+          />
+        </div>
+
+        <div>
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+            Mobile Number <span className="text-red-500">*</span>
+          </label>
+          <div className="relative flex items-center">
+            <span className="absolute left-3.5 text-xs font-bold text-[#687B6C] pointer-events-none">
+              +91
+            </span>
+            <input
+              type="tel"
+              required
+              maxLength={10}
+              inputMode="numeric"
+              autoComplete="tel"
+              placeholder="10-digit mobile"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value.replace(/\D/g, ''))}
+              className="w-full pl-12 pr-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
+            />
           </div>
+        </div>
+      </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                District <span className="text-red-500">*</span>
-              </label>
-              <select
-                value={district}
-                onChange={(e) => setDistrict(e.target.value)}
-                className="w-full px-3 py-2 text-xs font-semibold bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              >
-                {districts.map((d) => (
-                  <option key={d.slug} value={d.slug}>
-                    {d.name} District
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Monthly Bill (₹)
-              </label>
-              <input
-                type="number"
-                placeholder="e.g. 3000"
-                value={monthlyBill}
-                onChange={(e) => setMonthlyBill(e.target.value)}
-                className="w-full px-3 py-2 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
-          </div>
-        </>
-      ) : (
-        <>
-          {/* Full Form 2-Column Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Full Name <span className="text-red-500">*</span>
-              </label>
-              <input
-                type="text"
-                required
-                placeholder="e.g. Rajesh Sharma"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full px-3 py-2.5 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
+      {/* 2. District & Service Type */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+        <div>
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+            District <span className="text-red-500">*</span>
+          </label>
+          <select
+            value={district}
+            onChange={(e) => setDistrict(e.target.value)}
+            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+          >
+            {districts.map((d) => (
+              <option key={d.slug} value={d.slug}>
+                📍 {d.name} District
+              </option>
+            ))}
+          </select>
+        </div>
 
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Mobile Number <span className="text-red-500">*</span>
-              </label>
-              <input
-                type="tel"
-                required
-                placeholder="10-digit mobile number"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className="w-full px-3 py-2.5 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
-          </div>
+        <div>
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+            Property / System Type
+          </label>
+          <select
+            value={service}
+            onChange={(e) => setService(e.target.value)}
+            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+          >
+            {services.map((s) => (
+              <option key={s.slug} value={s.slug}>
+                {s.title}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                District in Uttarakhand <span className="text-red-500">*</span>
-              </label>
-              <select
-                value={district}
-                onChange={(e) => setDistrict(e.target.value)}
-                className="w-full px-3 py-2.5 text-xs font-semibold bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              >
-                {districts.map((d) => (
-                  <option key={d.slug} value={d.slug}>
-                    {d.name} District
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Interested Service
-              </label>
-              <select
-                value={service}
-                onChange={(e) => setService(e.target.value)}
-                className="w-full px-3 py-2.5 text-xs font-semibold bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              >
-                {services.map((s) => (
-                  <option key={s.slug} value={s.slug}>
-                    {s.title}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Monthly Electricity Bill (₹)
-              </label>
-              <input
-                type="number"
-                placeholder="e.g. 3500"
-                value={monthlyBill}
-                onChange={(e) => setMonthlyBill(e.target.value)}
-                className="w-full px-3 py-2.5 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
-
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-                Email Address (Optional)
-              </label>
-              <input
-                type="email"
-                placeholder="name@example.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-3 py-2.5 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
-              />
-            </div>
+      {/* 3. Monthly Bill & Rooftop/Town Note (Optional) */}
+      {!compact && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div>
+            <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+              Monthly Electricity Bill (₹)
+            </label>
+            <input
+              type="number"
+              inputMode="numeric"
+              placeholder="e.g. 3500"
+              value={monthlyBill}
+              onChange={(e) => setMonthlyBill(e.target.value)}
+              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+            />
           </div>
 
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1">
-              Town / Village / Rooftop Details
+            <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+              Town / Location Notes
             </label>
             <input
               type="text"
-              placeholder="e.g. RCC roof in Haldwani, 3 kW solar with UPCL net metering"
+              placeholder="e.g. Haldwani, RCC roof"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full px-3 py-2.5 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D] transition"
+              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
             />
           </div>
-        </>
+        </div>
       )}
 
       {errorMessage && (
-        <p className="text-xs text-red-600 font-semibold">{errorMessage}</p>
+        <div className="p-3 rounded-2xl bg-red-50 border border-red-200 text-red-700 text-xs font-semibold">
+          ⚠️ {errorMessage}
+        </div>
       )}
 
+      {/* Submit CTA Button */}
       <button
         type="submit"
         disabled={isSubmitting}
-        className={
-          compact
-            ? 'w-full py-3 px-5 rounded-full text-[14px] font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md disabled:opacity-50 flex items-center justify-center gap-1.5'
-            : 'w-full py-3.5 px-6 rounded-full text-[15px] font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md disabled:opacity-50 flex items-center justify-center gap-2'
-        }
+        className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 active:scale-[0.99]"
       >
         <span>
           {isSubmitting
-            ? 'Submitting...'
+            ? 'Submitting Request...'
             : compact
             ? 'Book Free Survey & Claim Subsidy ↗'
-            : 'Book Free Site Survey & Get Quote ↗'}
+            : 'Book Free Site Survey & Get Quotation ↗'}
         </span>
       </button>
 
-      <div className="flex items-center justify-center gap-1.5 text-[12px] text-[#687B6C] pt-0.5">
-        <ShieldCheckIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+      {/* Trust & Guarantee Indicator */}
+      <div className="flex items-center justify-center gap-2 text-[12px] text-[#687B6C] pt-1">
+        <ShieldCheckIcon className="w-4 h-4 text-[#70BA3F]" />
         <span>100% Free Site Inspection • UPCL Net Metering Support</span>
       </div>
     </form>

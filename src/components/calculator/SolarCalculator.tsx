@@ -403,27 +403,36 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                   autoComplete="off"
                 />
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <input
                     type="text"
                     required
+                    autoComplete="name"
                     placeholder="Your Name"
                     value={leadName}
                     onChange={(e) => setLeadName(e.target.value)}
-                    className="w-full px-3 py-2 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D]"
+                    className="w-full px-3.5 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
                   />
-                  <input
-                    type="tel"
-                    required
-                    placeholder="10-digit Mobile"
-                    value={leadMobile}
-                    onChange={(e) => setLeadMobile(e.target.value)}
-                    className="w-full px-3 py-2 text-xs bg-white border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] text-[#172B1D]"
-                  />
+                  <div className="relative flex items-center">
+                    <span className="absolute left-3 text-xs font-bold text-[#687B6C] pointer-events-none">
+                      +91
+                    </span>
+                    <input
+                      type="tel"
+                      required
+                      maxLength={10}
+                      inputMode="numeric"
+                      autoComplete="tel"
+                      placeholder="10-digit Mobile"
+                      value={leadMobile}
+                      onChange={(e) => setLeadMobile(e.target.value.replace(/\D/g, ''))}
+                      className="w-full pl-11 pr-3 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
+                    />
+                  </div>
                 </div>
 
                 {submitError && (
-                  <p className="text-[11px] text-red-600">{submitError}</p>
+                  <p className="text-[11px] text-red-600 font-semibold">{submitError}</p>
                 )}
 
                 <div className="flex items-center justify-between text-[11px] text-[#687B6C] px-0.5">
@@ -457,7 +466,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3 px-5 rounded-full text-xs font-extrabold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md flex items-center justify-center gap-1.5 disabled:opacity-50"
+                  className="w-full py-3 px-5 rounded-full text-xs font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md flex items-center justify-center gap-1.5 disabled:opacity-50 active:scale-[0.99]"
                 >
                   <CalculatorIcon className="w-3.5 h-3.5" />
                   <span>{isSubmitting ? 'Submitting...' : `Get Free Survey & Quote for ${result.recommendedKw} kW ↗`}</span>
