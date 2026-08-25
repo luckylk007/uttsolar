@@ -17,7 +17,7 @@ const config: Config = {
         },
         'solar-green': {
           DEFAULT: '#46A304', // Solar Green (Primary)
-          hover: '#2F7D05',   // Deep Green (Dark)
+          hover: '#FFB000',   // Solar Yellow (Button Hover)
           light: '#70C92F',   // Eco Green (Light)
           50: '#F7F9F5',
           100: '#EBF5E1',
@@ -32,7 +32,7 @@ const config: Config = {
         },
         'solor-lime': {
           DEFAULT: '#46A304',
-          hover: '#2F7D05',
+          hover: '#FFB000',
           light: '#70C92F',
           50: '#F7F9F5',
           100: '#EBF5E1',

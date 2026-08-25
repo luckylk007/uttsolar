@@ -70,7 +70,7 @@ export default function SolarAmcPage() {
         </div>
 
         <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border-2 border-[#46A304] shadow-sm flex flex-col justify-between relative overflow-hidden">
-          <div className="bg-[#46A304] text-white hover:bg-[#2F7D05] text-[10px] font-bold py-1 uppercase tracking-wider text-center -mx-8 -mt-8 mb-4 shadow-xs">
+          <div className="bg-[#46A304] text-white hover:bg-[#FFB000] hover:text-[#17220F] text-[10px] font-bold py-1 uppercase tracking-wider text-center -mx-8 -mt-8 mb-4 shadow-xs">
             Most Popular
           </div>
           <div>
@@ -96,7 +96,7 @@ export default function SolarAmcPage() {
           </div>
           <Link
             href="/contact/?intent=amc"
-            className="w-full py-3 rounded-full text-xs font-semibold text-center text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-sm transition"
+            className="w-full py-3 rounded-full text-xs font-semibold text-center text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-sm transition"
           >
             Inquire for Commercial AMC
           </Link>

@@ -117,7 +117,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md transition"
             >
               Book Free Site Survey in {location.name}
             </Link>

@@ -108,7 +108,7 @@ export default function HindiHomePage() {
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
                 <Link
                   href="/contact/?intent=quote"
-                  className="group inline-flex items-center gap-3 px-6 py-3.5 rounded-full text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-md hover:shadow-xl transition"
+                  className="group inline-flex items-center gap-3 px-6 py-3.5 rounded-full text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md hover:shadow-xl transition"
                 >
                   <span>मुफ्त कोटेशन प्राप्त करें</span>
                   <span className="w-6 h-6 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -271,7 +271,7 @@ export default function HindiHomePage() {
               <div className="pt-4">
                 <Link
                   href="/about/"
-                  className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#2F7D05] transition shadow-sm"
+                  className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] transition shadow-sm"
                 >
                   <span>कंपनी के बारे में और जानें</span>
                   <span className="w-5 h-5 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -309,7 +309,7 @@ export default function HindiHomePage() {
                     alt="आवासीय सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#46A304] text-white hover:bg-[#2F7D05] flex items-center justify-center shadow-lg">
+                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#46A304] text-white flex items-center justify-center shadow-lg">
                     <HomeIcon className="w-5 h-5 text-white" />
                   </div>
                 </div>
@@ -343,7 +343,7 @@ export default function HindiHomePage() {
                     alt="व्यावसायिक सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#46A304] text-white hover:bg-[#2F7D05] flex items-center justify-center shadow-lg">
+                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#46A304] text-white flex items-center justify-center shadow-lg">
                     <BuildingIcon className="w-5 h-5 text-white" />
                   </div>
                 </div>
@@ -377,7 +377,7 @@ export default function HindiHomePage() {
                     alt="औद्योगिक सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#46A304] text-white hover:bg-[#2F7D05] flex items-center justify-center shadow-lg">
+                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#46A304] text-white flex items-center justify-center shadow-lg">
                     <FactoryIcon className="w-5 h-5 text-white" />
                   </div>
                 </div>
@@ -547,7 +547,7 @@ export default function HindiHomePage() {
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-xl transition"
+              className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-xl transition"
             >
               <span>मुफ्त सर्वे बुक करें</span>
               <ArrowUpRightIcon className="w-3.5 h-3.5" />

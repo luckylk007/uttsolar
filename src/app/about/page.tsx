@@ -134,7 +134,7 @@ export default function AboutPage() {
         <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
           <a
             href={`tel:${siteConfig.phone}`}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#2F7D05] transition shadow-md"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] transition shadow-md"
           >
             <PhoneIcon className="w-4 h-4" />
             <span>Call Helpline: {siteConfig.phoneDisplay}</span>

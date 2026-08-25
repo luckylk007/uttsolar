@@ -143,7 +143,7 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-4 p-5 rounded-2xl bg-[#1F2E14] border border-white/10">
-            <div className="w-12 h-12 rounded-full bg-[#46A304] text-white hover:bg-[#2F7D05] flex items-center justify-center flex-shrink-0">
+            <div className="w-12 h-12 rounded-full bg-[#46A304] text-white flex items-center justify-center flex-shrink-0">
               <MapPinIcon className="w-6 h-6" />
             </div>
             <div>
@@ -179,7 +179,7 @@ export function Footer() {
             <div className="flex items-center gap-3 pt-2">
               <Link
                 href="/contact/?intent=quote"
-                className="group inline-flex items-center gap-2 px-4 py-2 rounded-full text-[14px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#2F7D05] transition shadow-sm"
+                className="group inline-flex items-center gap-2 px-4 py-2 rounded-full text-[14px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] transition shadow-sm"
               >
                 <span>Book Free Survey</span>
                 <ArrowUpRightIcon className="w-3.5 h-3.5" />

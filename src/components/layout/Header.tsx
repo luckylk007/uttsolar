@@ -457,7 +457,7 @@ export function Header() {
             <button
               type="button"
               onClick={() => openQuoteModal({ title: 'Get Instant Solar Quotation' })}
-              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-sm hover:shadow-md transition whitespace-nowrap active:scale-[0.98]"
+              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-sm hover:shadow-md transition whitespace-nowrap active:scale-[0.98]"
             >
               <span>Get Free Quote</span>
               <span className="w-5 h-5 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -594,7 +594,7 @@ export function Header() {
                   setMobileMenuOpen(false);
                   openQuoteModal({ title: 'Get Instant Solar Quotation' });
                 }}
-                className="w-full text-center py-3.5 px-5 rounded-full font-bold text-sm text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-md transition"
+                className="w-full text-center py-3.5 px-5 rounded-full font-bold text-sm text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md transition"
               >
                 Get Free Quote ↗
               </button>

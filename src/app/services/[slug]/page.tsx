@@ -103,7 +103,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md transition"
             >
               Get Free Quote for {service.title}
             </Link>
@@ -165,7 +165,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20 flex flex-col justify-between"
             >
               <div>
-                <div className="w-8 h-8 rounded-full bg-[#46A304] text-white hover:bg-[#2F7D05] font-extrabold text-xs flex items-center justify-center mb-3 shadow-xs">
+                <div className="w-8 h-8 rounded-full bg-[#46A304] text-white font-extrabold text-xs flex items-center justify-center mb-3 shadow-xs">
                   {step.step}
                 </div>
                 <h3 className="text-sm sm:text-base font-bold text-white mb-1.5">{step.title}</h3>
