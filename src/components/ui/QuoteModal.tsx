@@ -112,24 +112,24 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 overflow-y-auto animate-fadeIn">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-[#122417]/70 backdrop-blur-sm transition-opacity"
+        className="fixed inset-0 bg-[#17220F]/70 backdrop-blur-sm transition-opacity"
         onClick={handleReset}
         aria-hidden="true"
       />
 
       {/* Modal Container */}
-      <div className="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-[#E1E8DE] overflow-hidden z-10 my-auto transform transition-all">
+      <div className="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-[#E2E7DE] overflow-hidden z-10 my-auto transform transition-all">
         {/* Header Ribbon */}
-        <div className="bg-[#122417] text-white px-5 py-4 sm:px-6 sm:py-5 relative flex items-center justify-between border-b border-[#2F8E04]/20">
+        <div className="bg-[#17220F] text-white px-5 py-4 sm:px-6 sm:py-5 relative flex items-center justify-between border-b border-[#46A304]/20">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-full bg-[#2F8E04] flex items-center justify-center text-white">
+            <div className="w-8 h-8 rounded-full bg-[#46A304] flex items-center justify-center text-white">
               <LeafIcon className="w-4 h-4 text-white" />
             </div>
             <div>
               <h3 className="text-base sm:text-lg font-bold text-white leading-tight">
                 {options.title || 'Get Instant Solar Quote'}
               </h3>
-              <p className="text-[11px] sm:text-xs text-[#71B402]">
+              <p className="text-[11px] sm:text-xs text-[#70C92F]">
                 PM Surya Ghar Subsidy (Up to ₹85,800) • {districtName}
               </p>
             </div>
@@ -149,12 +149,12 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
           {isSuccess ? (
             /* Success State */
             <div className="text-center py-4 space-y-4">
-              <div className="w-14 h-14 bg-[#EAF4E4] text-[#2F8E04] rounded-full flex items-center justify-center mx-auto shadow-xs">
+              <div className="w-14 h-14 bg-[#EBF5E1] text-[#46A304] rounded-full flex items-center justify-center mx-auto shadow-xs">
                 <CheckCircleIcon className="w-8 h-8" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#122417]">Quote Request Received!</h4>
-                <p className="text-xs sm:text-sm text-[#687B6C] mt-1.5 max-w-sm mx-auto leading-relaxed">
+                <h4 className="text-xl font-bold text-[#17220F]">Quote Request Received!</h4>
+                <p className="text-xs sm:text-sm text-[#66705F] mt-1.5 max-w-sm mx-auto leading-relaxed">
                   Thank you, <strong>{name}</strong>. Our certified solar engineer for <strong>{districtName}</strong> will reach out shortly with system capacity, subsidy estimate &amp; rooftop layout.
                 </p>
               </div>
@@ -171,16 +171,16 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
                 </a>
                 <a
                   href={`tel:${siteConfig.phone}`}
-                  className="px-5 py-3 rounded-full text-xs font-semibold text-[#122417] bg-[#F4F7F2] hover:bg-[#EAF4E4] border border-[#E1E8DE] transition flex items-center justify-center gap-2"
+                  className="px-5 py-3 rounded-full text-xs font-semibold text-[#17220F] bg-[#F7F9F5] hover:bg-[#EBF5E1] border border-[#E2E7DE] transition flex items-center justify-center gap-2"
                 >
-                  <PhoneIcon className="w-4 h-4 text-[#2F8E04]" />
+                  <PhoneIcon className="w-4 h-4 text-[#46A304]" />
                   <span>Call {siteConfig.phoneDisplay}</span>
                 </a>
               </div>
 
               <button
                 onClick={handleReset}
-                className="text-xs text-[#687B6C] hover:text-[#122417] underline pt-2 block mx-auto"
+                className="text-xs text-[#66705F] hover:text-[#17220F] underline pt-2 block mx-auto"
               >
                 Close this window
               </button>
@@ -201,7 +201,7 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
 
               {/* 1. Property Type Selector */}
               <div>
-                <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+                <label className="block text-[11px] font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
                   1. Property Type
                 </label>
                 <div className="grid grid-cols-3 gap-2">
@@ -216,8 +216,8 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
                       onClick={() => setPropertyType(t.id)}
                       className={`py-2 px-2 text-xs font-semibold rounded-xl border transition text-center ${
                         propertyType === t.id
-                          ? 'bg-[#122417] text-white border-[#122417] shadow-xs'
-                          : 'bg-[#F4F7F2] text-[#172B1D] border-[#E1E8DE] hover:bg-white'
+                          ? 'bg-[#17220F] text-white border-[#17220F] shadow-xs'
+                          : 'bg-[#F7F9F5] text-[#17220F] border-[#E2E7DE] hover:bg-white'
                       }`}
                     >
                       {t.label}
@@ -230,13 +230,13 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {/* District */}
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
                     2. District <span className="text-red-500">*</span>
                   </label>
                   <select
                     value={district}
                     onChange={(e) => setDistrict(e.target.value)}
-                    className="w-full px-3.5 py-2.5 text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+                    className="w-full px-3.5 py-2.5 text-xs font-semibold bg-[#F7F9F5] border border-[#E2E7DE] rounded-xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
                   >
                     {districts.map((d) => (
                       <option key={d.slug} value={d.slug}>
@@ -248,13 +248,13 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
 
                 {/* Bill Range */}
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
                     3. Monthly Electricity Bill
                   </label>
                   <select
                     value={billRange}
                     onChange={(e) => setBillRange(e.target.value)}
-                    className="w-full px-3.5 py-2.5 text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+                    className="w-full px-3.5 py-2.5 text-xs font-semibold bg-[#F7F9F5] border border-[#E2E7DE] rounded-xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
                   >
                     <option value="under-3k">Below ₹3,000 / mo</option>
                     <option value="3k-8k">₹3,000 – ₹8,000 / mo</option>
@@ -267,7 +267,7 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {/* Full Name */}
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
                     Your Name <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -276,17 +276,17 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
                     placeholder="Enter your name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full px-3.5 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+                    className="w-full px-3.5 py-2.5 text-xs bg-[#F7F9F5] border border-[#E2E7DE] rounded-xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
                   />
                 </div>
 
                 {/* Mobile Number with +91 indicator */}
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+                  <label className="block text-[11px] font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
                     Mobile Number <span className="text-red-500">*</span>
                   </label>
                   <div className="relative flex items-center">
-                    <span className="absolute left-3 text-xs font-bold text-[#687B6C] pointer-events-none">
+                    <span className="absolute left-3 text-xs font-bold text-[#66705F] pointer-events-none">
                       +91
                     </span>
                     <input
@@ -297,7 +297,7 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
                       placeholder="10-digit number"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value.replace(/\D/g, ''))}
-                      className="w-full pl-11 pr-3.5 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition font-medium tracking-wide"
+                      className="w-full pl-11 pr-3.5 py-2.5 text-xs bg-[#F7F9F5] border border-[#E2E7DE] rounded-xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition font-medium tracking-wide"
                     />
                   </div>
                 </div>
@@ -313,15 +313,15 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#2F8E04] hover:bg-[#012258] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 mt-1 active:scale-[0.99]"
+                className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#2F7D05] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 mt-1 active:scale-[0.99]"
               >
-                <ZapIcon className="w-4 h-4 text-amber-300" />
+                <ZapIcon className="w-4 h-4 text-[#FFB000]" />
                 <span>{isSubmitting ? 'Calculating Quote...' : 'Get Instant Solar Quotation ↗'}</span>
               </button>
 
               {/* Trust Badge Footer */}
-              <div className="flex items-center justify-center gap-2 text-[11px] text-[#687B6C] pt-1">
-                <ShieldCheckIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
+              <div className="flex items-center justify-center gap-2 text-[11px] text-[#66705F] pt-1">
+                <ShieldCheckIcon className="w-3.5 h-3.5 text-[#46A304]" />
                 <span>Zero Spam • 100% Free Site Survey in Uttarakhand</span>
               </div>
             </form>

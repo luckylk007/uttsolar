@@ -25,13 +25,13 @@ export default function ProjectsPage() {
       <Breadcrumbs items={[{ name: 'Showcase Projects', url: '/projects/' }]} />
 
       {/* Hero Header - Solor Style */}
-      <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
+      <section className="bg-[#17220F] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1F2E14] border border-[#46A304]/40 text-xs font-bold text-[#70C92F] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#46A304]" />
           <span>Verified Project Portfolio</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          Featured Solar Installations Across <span className="text-[#2F8E04]">Uttarakhand</span>
+          Featured Solar Installations Across <span className="text-[#46A304]">Uttarakhand</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           Explore actual project case studies from residential villas in Dehradun and resort hybrid systems in Corbett to industrial plants in SIDCUL Rudrapur.
@@ -43,54 +43,54 @@ export default function ProjectsPage() {
         {projects.map((project) => (
           <div
             key={project.slug}
-            className="bg-white rounded-3xl border border-[#E1E8DE] shadow-xs hover:shadow-xl transition flex flex-col justify-between overflow-hidden group hover:border-[#2F8E04]"
+            className="bg-white rounded-3xl border border-[#E2E7DE] shadow-xs hover:shadow-xl transition flex flex-col justify-between overflow-hidden group hover:border-[#46A304]"
           >
             <div className="p-6 sm:p-8">
               {/* Category & Location Badges */}
               <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-bold text-[#467725] bg-[#E5F4D3] px-3 py-1 rounded-full">
+                <span className="text-xs font-bold text-[#467725] bg-[#EBF5E1] px-3 py-1 rounded-full">
                   {project.category} Solar
                 </span>
-                <span className="text-xs text-[#687B6C] font-semibold flex items-center gap-1">
-                  <MapPinIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
+                <span className="text-xs text-[#66705F] font-semibold flex items-center gap-1">
+                  <MapPinIcon className="w-3.5 h-3.5 text-[#46A304]" />
                   <span>{project.location}</span>
                 </span>
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-heading font-bold text-[#122417] mb-2 leading-snug group-hover:text-[#2F8E04] transition">
+              <h3 className="text-xl font-heading font-bold text-[#17220F] mb-2 leading-snug group-hover:text-[#46A304] transition">
                 {project.title}
               </h3>
 
               {/* Description */}
-              <p className="text-xs text-[#687B6C] leading-relaxed mb-6">
+              <p className="text-xs text-[#66705F] leading-relaxed mb-6">
                 {project.description}
               </p>
 
               {/* Tech Specs Box */}
-              <div className="bg-[#F4F7F2] p-4 rounded-2xl border border-[#E1E8DE] space-y-2 mb-6">
+              <div className="bg-[#F7F9F5] p-4 rounded-2xl border border-[#E2E7DE] space-y-2 mb-6">
                 <div className="flex items-center justify-between text-xs">
-                  <span className="text-[#687B6C]">Installed Capacity:</span>
-                  <span className="font-bold text-[#122417]">{project.capacityKw} kW</span>
+                  <span className="text-[#66705F]">Installed Capacity:</span>
+                  <span className="font-bold text-[#17220F]">{project.capacityKw} kW</span>
                 </div>
                 <div className="flex items-center justify-between text-xs">
-                  <span className="text-[#687B6C]">Annual Savings:</span>
-                  <span className="font-bold text-[#2F8E04]">{project.annualSavings}</span>
+                  <span className="text-[#66705F]">Annual Savings:</span>
+                  <span className="font-bold text-[#46A304]">{project.annualSavings}</span>
                 </div>
                 <div className="flex items-center justify-between text-xs">
-                  <span className="text-[#687B6C]">System Type:</span>
-                  <span className="font-semibold text-[#122417] capitalize">{project.systemType}</span>
+                  <span className="text-[#66705F]">System Type:</span>
+                  <span className="font-semibold text-[#17220F] capitalize">{project.systemType}</span>
                 </div>
               </div>
 
               {/* Highlights */}
               <div className="space-y-1.5">
-                <span className="text-[10px] uppercase font-bold text-[#687B6C] block mb-1">
+                <span className="text-[10px] uppercase font-bold text-[#66705F] block mb-1">
                   Key Deliverables
                 </span>
                 {project.highlights.map((h, idx) => (
-                  <div key={idx} className="flex items-center gap-2 text-xs text-[#172B1D]">
-                    <CheckIcon className="w-3.5 h-3.5 text-[#2F8E04] flex-shrink-0" />
+                  <div key={idx} className="flex items-center gap-2 text-xs text-[#17220F]">
+                    <CheckIcon className="w-3.5 h-3.5 text-[#46A304] flex-shrink-0" />
                     <span>{h}</span>
                   </div>
                 ))}
@@ -101,12 +101,12 @@ export default function ProjectsPage() {
       </section>
 
       {/* Free Survey Form */}
-      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E1E8DE] shadow-xs">
+      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E2E7DE] shadow-xs">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-2xl font-heading font-bold text-[#122417] text-center mb-2">
+          <h2 className="text-2xl font-heading font-bold text-[#17220F] text-center mb-2">
             Build Your Own Solar Success Story
           </h2>
-          <p className="text-xs text-[#687B6C] text-center mb-8">
+          <p className="text-xs text-[#66705F] text-center mb-8">
             Book a free site survey to start saving up to 90% on your electricity bills.
           </p>
           <ContactForm defaultDistrict="dehradun" />

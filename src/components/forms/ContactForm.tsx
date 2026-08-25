@@ -84,22 +84,22 @@ export function ContactForm({
     const districtDisplay = selectedDistrictObj ? selectedDistrictObj.name : district;
 
     return (
-      <div className={`p-6 sm:p-8 bg-[#F4F9EC] border border-[#2F8E04]/30 rounded-3xl text-center space-y-4 shadow-sm ${className}`}>
-        <div className="w-14 h-14 bg-[#2F8E04] text-white rounded-full flex items-center justify-center mx-auto shadow-xs">
+      <div className={`p-6 sm:p-8 bg-[#F7F9F5] border border-[#46A304]/30 rounded-3xl text-center space-y-4 shadow-sm ${className}`}>
+        <div className="w-14 h-14 bg-[#46A304] text-white rounded-full flex items-center justify-center mx-auto shadow-xs">
           <CheckCircleIcon className="w-8 h-8" />
         </div>
         <div>
-          <h3 className="text-xl font-bold text-[#122417]">Thank You, {name}!</h3>
-          <p className="text-xs sm:text-sm text-[#687B6C] max-w-md mx-auto mt-1 leading-relaxed">
+          <h3 className="text-xl font-bold text-[#17220F]">Thank You, {name}!</h3>
+          <p className="text-xs sm:text-sm text-[#66705F] max-w-md mx-auto mt-1 leading-relaxed">
             Your solar enquiry for <strong>{districtDisplay}</strong> district has been received. Our certified solar engineer will contact you shortly with system pricing and subsidy details.
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-3 pt-2">
           <a
             href={`tel:${siteConfig.phone}`}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-[#122417] bg-white border border-[#E1E8DE] shadow-xs hover:bg-[#F4F7F2] transition"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-[#17220F] bg-white border border-[#E2E7DE] shadow-xs hover:bg-[#F7F9F5] transition"
           >
-            <PhoneIcon className="w-4 h-4 text-[#2F8E04]" />
+            <PhoneIcon className="w-4 h-4 text-[#46A304]" />
             <span>Call {siteConfig.phoneDisplay}</span>
           </a>
           <a
@@ -122,19 +122,19 @@ export function ContactForm({
       className={
         compact
           ? `space-y-3.5 ${className}`
-          : `bg-white p-6 sm:p-8 rounded-3xl border border-[#E1E8DE] shadow-sm space-y-4 ${className}`
+          : `bg-white p-6 sm:p-8 rounded-3xl border border-[#E2E7DE] shadow-sm space-y-4 ${className}`
       }
     >
       {!compact && (
-        <div className="border-b border-[#E1E8DE] pb-4 mb-2">
-          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#EAF4E4] text-[11px] font-bold text-[#2D5A27] uppercase tracking-wider mb-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#2F8E04]" />
+        <div className="border-b border-[#E2E7DE] pb-4 mb-2">
+          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#EBF5E1] text-[11px] font-bold text-[#2D5A27] uppercase tracking-wider mb-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#46A304]" />
             <span>PM Surya Ghar Partner</span>
           </div>
-          <h3 className="text-xl sm:text-2xl font-bold text-[#122417]">
+          <h3 className="text-xl sm:text-2xl font-bold text-[#17220F]">
             {intent === 'quote' ? 'Request Free Solar Quotation' : 'Book Free Solar Site Survey'}
           </h3>
-          <p className="text-xs sm:text-sm text-[#687B6C] mt-1 leading-relaxed">
+          <p className="text-xs sm:text-sm text-[#66705F] mt-1 leading-relaxed">
             Zero-obligation site visit, roof shade analysis, and PM Surya Ghar subsidy claim support across Uttarakhand.
           </p>
         </div>
@@ -154,7 +154,7 @@ export function ContactForm({
       {/* 1. Name & Mobile Number */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
             Full Name <span className="text-red-500">*</span>
           </label>
           <input
@@ -164,16 +164,16 @@ export function ContactForm({
             placeholder="Enter your name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+            className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F7F9F5] border border-[#E2E7DE] rounded-2xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
           />
         </div>
 
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
             Mobile Number <span className="text-red-500">*</span>
           </label>
           <div className="relative flex items-center">
-            <span className="absolute left-3.5 text-xs font-bold text-[#687B6C] pointer-events-none">
+            <span className="absolute left-3.5 text-xs font-bold text-[#66705F] pointer-events-none">
               +91
             </span>
             <input
@@ -185,7 +185,7 @@ export function ContactForm({
               placeholder="10-digit mobile"
               value={phone}
               onChange={(e) => setPhone(e.target.value.replace(/\D/g, ''))}
-              className="w-full pl-12 pr-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
+              className="w-full pl-12 pr-4 py-3 text-sm sm:text-xs bg-[#F7F9F5] border border-[#E2E7DE] rounded-2xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] font-medium tracking-wide transition"
             />
           </div>
         </div>
@@ -194,13 +194,13 @@ export function ContactForm({
       {/* 2. District & Service Type */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
             District <span className="text-red-500">*</span>
           </label>
           <select
             value={district}
             onChange={(e) => setDistrict(e.target.value)}
-            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F7F9F5] border border-[#E2E7DE] rounded-2xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
           >
             {districts.map((d) => (
               <option key={d.slug} value={d.slug}>
@@ -211,13 +211,13 @@ export function ContactForm({
         </div>
 
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+          <label className="block text-xs font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
             Property / System Type
           </label>
           <select
             value={service}
             onChange={(e) => setService(e.target.value)}
-            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F7F9F5] border border-[#E2E7DE] rounded-2xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
           >
             {services.map((s) => (
               <option key={s.slug} value={s.slug}>
@@ -232,7 +232,7 @@ export function ContactForm({
       {!compact && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+            <label className="block text-xs font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
               Monthly Electricity Bill (₹)
             </label>
             <input
@@ -241,12 +241,12 @@ export function ContactForm({
               placeholder="e.g. 3500"
               value={monthlyBill}
               onChange={(e) => setMonthlyBill(e.target.value)}
-              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F7F9F5] border border-[#E2E7DE] rounded-2xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
             />
           </div>
 
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-[#687B6C] mb-1.5">
+            <label className="block text-xs font-bold uppercase tracking-wider text-[#66705F] mb-1.5">
               Town / Location Notes
             </label>
             <input
@@ -254,7 +254,7 @@ export function ContactForm({
               placeholder="e.g. Haldwani, RCC roof"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
+              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F7F9F5] border border-[#E2E7DE] rounded-2xl focus:outline-none focus:border-[#46A304] focus:bg-white text-[#17220F] transition"
             />
           </div>
         </div>
@@ -270,7 +270,7 @@ export function ContactForm({
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#2F8E04] hover:bg-[#012258] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 active:scale-[0.99]"
+        className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#2F7D05] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 active:scale-[0.99]"
       >
         <span>
           {isSubmitting
@@ -282,8 +282,8 @@ export function ContactForm({
       </button>
 
       {/* Trust & Guarantee Indicator */}
-      <div className="flex items-center justify-center gap-2 text-[12px] text-[#687B6C] pt-1">
-        <ShieldCheckIcon className="w-4 h-4 text-[#2F8E04]" />
+      <div className="flex items-center justify-center gap-2 text-[12px] text-[#66705F] pt-1">
+        <ShieldCheckIcon className="w-4 h-4 text-[#46A304]" />
         <span>100% Free Site Inspection • UPCL Net Metering Support</span>
       </div>
     </form>

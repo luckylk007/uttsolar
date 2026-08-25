@@ -11,23 +11,23 @@ export function TopBar() {
   const { openWhatsAppModal } = useWhatsAppModal();
 
   return (
-    <div className="bg-[#122417] text-slate-300 text-xs sm:text-[13px] border-b border-white/10 py-2.5 transition-all">
+    <div className="bg-[#17220F] text-slate-300 text-xs sm:text-[13px] border-b border-white/10 py-2.5 transition-all">
       <div className="w-full px-4 sm:px-6 lg:px-[30px] flex items-center justify-between gap-3">
         {/* Left: Scheme Banner Announcement */}
         <div className="flex items-center gap-2.5 font-medium truncate">
-          <span className="inline-flex items-center gap-1.5 bg-[#71B402] text-[#122417] px-2.5 py-0.5 rounded-full text-[11px] font-extrabold">
-            <ZapIcon className="w-3 h-3 text-[#122417]" />
+          <span className="inline-flex items-center gap-1.5 bg-[#FFF4CC] text-[#17220F] border border-[#FFB000]/40 px-2.5 py-0.5 rounded-full text-[11px] font-extrabold">
+            <ZapIcon className="w-3 h-3 text-[#FFB000]" />
             PM Surya Ghar
           </span>
           <Link
             href="/pm-surya-ghar/"
-            className="hover:text-[#2F8E04] transition truncate hidden sm:inline text-xs"
+            className="hover:text-[#46A304] transition truncate hidden sm:inline text-xs"
           >
             Special Category CFA: Claim up to ₹85,800 Subsidy for Uttarakhand Homes →
           </Link>
           <Link
             href="/pm-surya-ghar/"
-            className="hover:text-[#2F8E04] transition sm:hidden truncate text-xs"
+            className="hover:text-[#46A304] transition sm:hidden truncate text-xs"
           >
             Subsidy up to ₹85,800 →
           </Link>
@@ -36,12 +36,12 @@ export function TopBar() {
         {/* Right: Location, Phone, WhatsApp, Language Switcher */}
         <div className="flex items-center gap-3 sm:gap-5 font-semibold text-xs sm:text-[13px] flex-shrink-0">
           <div className="hidden xl:flex items-center gap-1.5 text-slate-400 font-normal">
-            <MapPinIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
+            <MapPinIcon className="w-3.5 h-3.5 text-[#46A304]" />
             <span>Dehradun • Haldwani • Haridwar</span>
           </div>
 
           <div className="inline-flex items-center gap-1.5 text-xs">
-            <PhoneIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
+            <PhoneIcon className="w-3.5 h-3.5 text-[#46A304]" />
             <a
               href={`tel:${siteConfig.phone}`}
               className="hover:text-white transition"

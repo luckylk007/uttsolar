@@ -55,13 +55,13 @@ export default function NetMeteringPage() {
       <Breadcrumbs items={[{ name: 'Net Metering', url: '/net-metering/' }]} />
 
       {/* Hero Header - Solor Style */}
-      <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
+      <section className="bg-[#17220F] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1F2E14] border border-[#46A304]/40 text-xs font-bold text-[#70C92F] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#46A304]" />
           <span>UPCL Grid Synchronization</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          UPCL Net Metering Assistance in <span className="text-[#2F8E04]">Uttarakhand</span>
+          UPCL Net Metering Assistance in <span className="text-[#46A304]">Uttarakhand</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           Net metering is the key to zero electricity bills. We manage the entire application and inspection workflow with Uttarakhand Power Corporation Limited (UPCL).
@@ -69,29 +69,29 @@ export default function NetMeteringPage() {
       </section>
 
       {/* How It Works Diagram */}
-      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E1E8DE] shadow-xs space-y-8">
-        <h2 className="text-2xl font-heading font-extrabold text-[#122417]">
+      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E2E7DE] shadow-xs space-y-8">
+        <h2 className="text-2xl font-heading font-extrabold text-[#17220F]">
           How UPCL Bidirectional Net Metering Works
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs">
-          <div className="p-6 rounded-2xl bg-[#F4F9EC] border border-[#C7E8A0] space-y-2">
+          <div className="p-6 rounded-2xl bg-[#F7F9F5] border border-[#D2ECC0] space-y-2">
             <span className="text-xs font-heading font-black uppercase text-[#467725] block">Daytime Solar Export</span>
-            <p className="text-[#172B1D] leading-relaxed">
+            <p className="text-[#17220F] leading-relaxed">
               When your solar panels generate more power than your home is using during sunny hours, the surplus electricity flows backward into the UPCL grid, spinning your net meter in reverse.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#F4F7F2] border border-[#E1E8DE] space-y-2">
-            <span className="text-xs font-heading font-black uppercase text-[#122417] block">Nighttime Grid Import</span>
-            <p className="text-[#172B1D] leading-relaxed">
+          <div className="p-6 rounded-2xl bg-[#F7F9F5] border border-[#E2E7DE] space-y-2">
+            <span className="text-xs font-heading font-black uppercase text-[#17220F] block">Nighttime Grid Import</span>
+            <p className="text-[#17220F] leading-relaxed">
               At night or on dark rainy days, you draw power from UPCL seamlessly. The net meter tracks your imported units automatically.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#F4F9EC] border border-[#C7E8A0] space-y-2">
+          <div className="p-6 rounded-2xl bg-[#F7F9F5] border border-[#D2ECC0] space-y-2">
             <span className="text-xs font-heading font-black uppercase text-[#467725] block">Net Monthly Settlement</span>
-            <p className="text-[#172B1D] leading-relaxed">
+            <p className="text-[#17220F] leading-relaxed">
               At the end of the month, your bill is computed strictly on the net difference (Import minus Export). Surplus units are banked and carried over to subsequent months!
             </p>
           </div>
@@ -100,19 +100,19 @@ export default function NetMeteringPage() {
 
       {/* Sizing Calculator */}
       <section className="space-y-6">
-        <h2 className="text-2xl font-heading font-extrabold text-[#122417] text-center">
+        <h2 className="text-2xl font-heading font-extrabold text-[#17220F] text-center">
           Estimate Your Net Metering Return
         </h2>
         <SolarCalculator initialDistrict="dehradun" />
       </section>
 
       {/* Free Survey Form */}
-      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E1E8DE] shadow-xs">
+      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E2E7DE] shadow-xs">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-2xl font-heading font-bold text-[#122417] text-center mb-2">
+          <h2 className="text-2xl font-heading font-bold text-[#17220F] text-center mb-2">
             Book UPCL Net Metering Consultation
           </h2>
-          <p className="text-xs text-[#687B6C] text-center mb-8">
+          <p className="text-xs text-[#66705F] text-center mb-8">
             Our local engineer will check your sanctioned load and process the net meter paperwork.
           </p>
           <ContactForm defaultDistrict="dehradun" />

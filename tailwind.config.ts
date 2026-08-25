@@ -9,74 +9,70 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Updated Brand Palette
-        'solor-lime': {
-          DEFAULT: '#2F8E04', // Main Green
-          hover: '#012258',   // Blue Hover
-          light: '#71B402',   // Light Green
-          50: '#F4F9EC',
-          100: '#E5F4D3',
-          200: '#C7E8A0',
-          300: '#A8DC6D',
-          400: '#89CF3A',
-          500: '#71B402', // Light Green
-          600: '#2F8E04', // Main Green
-          700: '#257203',
-          800: '#1B5402',
-          900: '#123801',
+        // User Requested Palette
+        'solar-yellow': {
+          DEFAULT: '#FFB000', // Primary Yellow
+          dark: '#F59E0B',    // Golden Yellow
+          light: '#FFF4CC',   // Soft Yellow
         },
-        'solor-blue': {
-          DEFAULT: '#012258', // Blue Hover Color
-          hover: '#011A43',
-          light: '#E6ECF5',
-          50: '#F0F4FA',
-          100: '#DCE5F3',
-          800: '#012258',
-          900: '#00163A',
+        'solar-green': {
+          DEFAULT: '#46A304', // Solar Green (Primary)
+          hover: '#2F7D05',   // Deep Green (Dark)
+          light: '#70C92F',   // Eco Green (Light)
+          50: '#F7F9F5',
+          100: '#EBF5E1',
+          200: '#D2ECC0',
+          300: '#B2E097',
+          400: '#8ED367',
+          500: '#70C92F',
+          600: '#46A304',
+          700: '#2F7D05',
+          800: '#1F5603',
+          900: '#17220F',
+        },
+        'solor-lime': {
+          DEFAULT: '#46A304',
+          hover: '#2F7D05',
+          light: '#70C92F',
+          50: '#F7F9F5',
+          100: '#EBF5E1',
+          200: '#D2ECC0',
+          300: '#B2E097',
+          400: '#8ED367',
+          500: '#70C92F',
+          600: '#46A304',
+          700: '#2F7D05',
+          800: '#1F5603',
+          900: '#17220F',
         },
         'solor-dark': {
-          DEFAULT: '#122417',
-          hover: '#0E1D13',
-          darker: '#09150D',
-          card: '#1A3321',
-          light: '#24452E',
+          DEFAULT: '#17220F',
+          hover: '#111A0B',
+          darker: '#0C1307',
+          card: '#1F2E14',
+          light: '#2B3F1D',
         },
-        'solor-bg': '#F4F7F2',
-        'solor-border': '#E1E8DE',
-        'solor-text': '#172B1D',
-        'solor-muted': '#687B6C',
+        'solor-bg': '#F7F9F5',
+        'solor-border': '#E2E7DE',
+        'solor-text': '#17220F',
+        'solor-muted': '#66705F',
 
-        // Legacy & semantic tokens
-        'solar-green': {
-          DEFAULT: '#2F8E04', // Main Green
-          hover: '#012258',   // Blue Hover
-          light: '#71B402',   // Light Green
-          50: '#F4F9EC',
-          100: '#E5F4D3',
-          200: '#C7E8A0',
-          300: '#A8DC6D',
-          400: '#89CF3A',
-          500: '#71B402',
-          600: '#2F8E04',
-          700: '#257203',
-          800: '#1B5402',
-          900: '#123801',
-        },
+        // Semantic tokens
         'deep-navy': {
-          DEFAULT: '#122417',
-          hover: '#012258',
-          dark: '#09150D',
-          light: '#1A3321',
-          50: '#F4F7F2',
-          100: '#E1E8DE',
-          200: '#BCCCDC',
-          800: '#122417',
-          900: '#09150D',
+          DEFAULT: '#17220F',
+          hover: '#2F7D05',
+          dark: '#0C1307',
+          light: '#1F2E14',
+          50: '#F7F9F5',
+          100: '#E2E7DE',
+          200: '#C7D1C2',
+          800: '#17220F',
+          900: '#0C1307',
         },
         'solar-amber': {
-          DEFAULT: '#F4B740',
-          hover: '#D99B26',
-          light: '#FEF3C7',
+          DEFAULT: '#FFB000',
+          hover: '#F59E0B',
+          light: '#FFF4CC',
         },
         'solar-sky': {
           DEFAULT: '#34BAF6',
@@ -84,11 +80,12 @@ const config: Config = {
           light: '#EAF7FD',
           dark: '#0E80B5',
         },
-        'warm-white': '#F4F7F2',
-        'light-green': '#F4F9EC',
-        'primary-text': '#172B1D',
-        'secondary-text': '#687B6C',
-        'border-ui': '#E1E8DE',
+        'section-bg': '#F7F9F5',
+        'warm-white': '#F7F9F5',
+        'light-green': '#F7F9F5',
+        'primary-text': '#17220F',
+        'secondary-text': '#66705F',
+        'border-ui': '#E2E7DE',
       },
       fontFamily: {
         sans: ['var(--font-sans)', 'var(--font-noto-devanagari)', 'sans-serif'],

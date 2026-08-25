@@ -56,14 +56,14 @@ export default function PmSuryaGharPage() {
       <Breadcrumbs items={[{ name: 'PM Surya Ghar Yojana', url: '/pm-surya-ghar/' }]} />
 
       {/* Hero Header - Solor Style */}
-      <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden">
+      <section className="bg-[#17220F] text-white rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden">
         <div className="max-w-3xl space-y-4 relative z-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
-            <ZapIcon className="w-4 h-4 text-[#2F8E04]" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1F2E14] border border-[#46A304]/40 text-xs font-bold text-[#70C92F] uppercase tracking-wider">
+            <ZapIcon className="w-4 h-4 text-[#46A304]" />
             <span>Central Government Scheme</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-            PM Surya Ghar: <span className="text-[#2F8E04]">Muft Bijli Yojana</span> in Uttarakhand
+            PM Surya Ghar: <span className="text-[#46A304]">Muft Bijli Yojana</span> in Uttarakhand
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
             Get up to <strong>₹85,800 in Central Financial Assistance (CFA)</strong> for installing a 3 kW rooftop solar system on your home in Uttarakhand. UTTsolar provides end-to-end assistance from national portal registration to UPCL net meter commissioning.
@@ -72,7 +72,7 @@ export default function PmSuryaGharPage() {
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#2F8E04] hover:bg-[#012258] shadow-md transition"
+              className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#2F7D05] shadow-md transition"
             >
               <span>Claim PM Surya Ghar Subsidy Now</span>
               <ArrowUpRightIcon className="w-3.5 h-3.5" />
@@ -88,48 +88,48 @@ export default function PmSuryaGharPage() {
           </div>
         </div>
 
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#2F8E04]/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#46A304]/15 rounded-full blur-3xl pointer-events-none" />
       </section>
 
       {/* Subsidy Slabs */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
-            <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EBF5E1] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+            <span className="w-2 h-2 rounded-full bg-[#46A304]" />
             <span>Verified MNRE Rates</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#122417] mt-1">
+          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#17220F] mt-1">
             Uttarakhand Special Category Subsidy Slabs
           </h2>
-          <p className="text-xs sm:text-sm text-[#687B6C] mt-1">
+          <p className="text-xs sm:text-sm text-[#66705F] mt-1">
             Because Uttarakhand is classified as a Special Category Hilly State, homeowners receive higher subsidies than standard non-hilly states.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-3xl border border-[#E1E8DE] shadow-xs text-center space-y-3">
-            <div className="text-xs font-bold uppercase text-[#687B6C]">1 kW System</div>
-            <div className="text-3xl font-heading font-extrabold text-[#2F8E04]">₹33,000</div>
-            <p className="text-xs text-[#687B6C]">
+          <div className="bg-white p-6 rounded-3xl border border-[#E2E7DE] shadow-xs text-center space-y-3">
+            <div className="text-xs font-bold uppercase text-[#66705F]">1 kW System</div>
+            <div className="text-3xl font-heading font-extrabold text-[#46A304]">₹33,000</div>
+            <p className="text-xs text-[#66705F]">
               Generates ~120 units/month. Perfect for small homes with basic lighting and refrigerator loads.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-3xl border-2 border-[#2F8E04] shadow-md text-center space-y-3 relative">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#2F8E04] text-white hover:bg-[#012258] text-[10px] uppercase font-black px-3 py-0.5 rounded-full">
+          <div className="bg-white p-6 rounded-3xl border-2 border-[#46A304] shadow-md text-center space-y-3 relative">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#46A304] text-white hover:bg-[#2F7D05] text-[10px] uppercase font-black px-3 py-0.5 rounded-full">
               Most Popular
             </div>
-            <div className="text-xs font-bold uppercase text-[#687B6C]">2 kW System</div>
-            <div className="text-3xl font-heading font-extrabold text-[#2F8E04]">₹66,000</div>
-            <p className="text-xs text-[#687B6C]">
+            <div className="text-xs font-bold uppercase text-[#66705F]">2 kW System</div>
+            <div className="text-3xl font-heading font-extrabold text-[#46A304]">₹66,000</div>
+            <p className="text-xs text-[#66705F]">
               Generates ~240 units/month. Covers refrigerator, TV, lights, fans and water geysers.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-3xl border border-[#E1E8DE] shadow-xs text-center space-y-3">
-            <div className="text-xs font-bold uppercase text-[#687B6C]">3 kW to 10 kW System</div>
-            <div className="text-3xl font-heading font-extrabold text-[#2F8E04]">₹85,800</div>
-            <p className="text-xs text-[#687B6C]">
+          <div className="bg-white p-6 rounded-3xl border border-[#E2E7DE] shadow-xs text-center space-y-3">
+            <div className="text-xs font-bold uppercase text-[#66705F]">3 kW to 10 kW System</div>
+            <div className="text-3xl font-heading font-extrabold text-[#46A304]">₹85,800</div>
+            <p className="text-xs text-[#66705F]">
               Maximum subsidy cap for residential connections. Supports multiple air conditioners and heavy domestic loads.
             </p>
           </div>
@@ -137,54 +137,54 @@ export default function PmSuryaGharPage() {
       </section>
 
       {/* Step-by-Step Process */}
-      <section className="bg-[#F4F7F2] p-8 sm:p-12 rounded-3xl border border-[#E1E8DE] space-y-6">
+      <section className="bg-[#F7F9F5] p-8 sm:p-12 rounded-3xl border border-[#E2E7DE] space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
-            <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EBF5E1] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+            <span className="w-2 h-2 rounded-full bg-[#46A304]" />
             <span>Process Flow</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#122417] mt-1">
+          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#17220F] mt-1">
             How to Claim Your Subsidy in 4 Steps
           </h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
-          <div className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs">
-            <div className="w-8 h-8 rounded-full bg-[#2F8E04] text-white flex items-center justify-center font-bold text-xs mb-3">
+          <div className="bg-white p-5 rounded-2xl border border-[#E2E7DE] shadow-xs">
+            <div className="w-8 h-8 rounded-full bg-[#46A304] text-white flex items-center justify-center font-bold text-xs mb-3">
               01
             </div>
-            <h3 className="text-xs font-bold text-[#122417]">Registration</h3>
-            <p className="text-[11px] text-[#687B6C] mt-1">
+            <h3 className="text-xs font-bold text-[#17220F]">Registration</h3>
+            <p className="text-[11px] text-[#66705F] mt-1">
               Apply on the national portal with your UPCL consumer number and mobile.
             </p>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs">
-            <div className="w-8 h-8 rounded-full bg-[#122417] text-[#2F8E04] flex items-center justify-center font-bold text-xs mb-3 border border-[#2F8E04]">
+          <div className="bg-white p-5 rounded-2xl border border-[#E2E7DE] shadow-xs">
+            <div className="w-8 h-8 rounded-full bg-[#17220F] text-[#46A304] flex items-center justify-center font-bold text-xs mb-3 border border-[#46A304]">
               02
             </div>
-            <h3 className="text-xs font-bold text-[#122417]">Feasibility Approval</h3>
-            <p className="text-[11px] text-[#687B6C] mt-1">
+            <h3 className="text-xs font-bold text-[#17220F]">Feasibility Approval</h3>
+            <p className="text-[11px] text-[#66705F] mt-1">
               UPCL approves technical feasibility for net metering connectivity.
             </p>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs">
-            <div className="w-8 h-8 rounded-full bg-[#2F8E04] text-white flex items-center justify-center font-bold text-xs mb-3">
+          <div className="bg-white p-5 rounded-2xl border border-[#E2E7DE] shadow-xs">
+            <div className="w-8 h-8 rounded-full bg-[#46A304] text-white flex items-center justify-center font-bold text-xs mb-3">
               03
             </div>
-            <h3 className="text-xs font-bold text-[#122417]">Installation</h3>
-            <p className="text-[11px] text-[#687B6C] mt-1">
+            <h3 className="text-xs font-bold text-[#17220F]">Installation</h3>
+            <p className="text-[11px] text-[#66705F] mt-1">
               UTTsolar installs Tier-1 DCR solar panels and BIS-certified inverters.
             </p>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs">
-            <div className="w-8 h-8 rounded-full bg-[#122417] text-[#2F8E04] flex items-center justify-center font-bold text-xs mb-3 border border-[#2F8E04]">
+          <div className="bg-white p-5 rounded-2xl border border-[#E2E7DE] shadow-xs">
+            <div className="w-8 h-8 rounded-full bg-[#17220F] text-[#46A304] flex items-center justify-center font-bold text-xs mb-3 border border-[#46A304]">
               04
             </div>
-            <h3 className="text-xs font-bold text-[#122417]">Direct Bank Credit</h3>
-            <p className="text-[11px] text-[#687B6C] mt-1">
+            <h3 className="text-xs font-bold text-[#17220F]">Direct Bank Credit</h3>
+            <p className="text-[11px] text-[#66705F] mt-1">
               Subsidy is directly transferred to your bank account within 30 days of inspection.
             </p>
           </div>
@@ -194,7 +194,7 @@ export default function PmSuryaGharPage() {
       {/* Interactive Calculator Section */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#122417]">
+          <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#17220F]">
             Calculate Your Exact Subsidy &amp; ROI
           </h2>
         </div>
@@ -202,12 +202,12 @@ export default function PmSuryaGharPage() {
       </section>
 
       {/* Free Survey Form */}
-      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E1E8DE] shadow-xs">
+      <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E2E7DE] shadow-xs">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-2xl font-heading font-bold text-[#122417] text-center mb-2">
+          <h2 className="text-2xl font-heading font-bold text-[#17220F] text-center mb-2">
             Get Assistance with PM Surya Ghar Application
           </h2>
-          <p className="text-xs text-[#687B6C] text-center mb-8">
+          <p className="text-xs text-[#66705F] text-center mb-8">
             Leave your details below and our subsidy desk will handle your registration.
           </p>
           <ContactForm defaultDistrict="dehradun" />

@@ -34,13 +34,13 @@ export default function LocationsHubPage() {
       <Breadcrumbs items={[{ name: 'Service Locations', url: '/locations/' }]} />
 
       {/* Hero Header - Solor Style */}
-      <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
+      <section className="bg-[#17220F] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1F2E14] border border-[#46A304]/40 text-xs font-bold text-[#70C92F] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#46A304]" />
           <span>Statewide Uttarakhand Network</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          Solar Services in All <span className="text-[#2F8E04]">13 Uttarakhand Districts</span>
+          Solar Services in All <span className="text-[#46A304]">13 Uttarakhand Districts</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           Explore local solar guidelines, UPCL division information, PM Surya Ghar special category subsidy rates (up to ₹85,800), and dedicated installation teams in your area.
@@ -48,13 +48,13 @@ export default function LocationsHubPage() {
       </section>
 
       {/* Popular Major Cities Quick Jump */}
-      <section className="bg-white p-6 sm:p-8 rounded-3xl border border-[#E1E8DE] shadow-xs space-y-4">
+      <section className="bg-white p-6 sm:p-8 rounded-3xl border border-[#E2E7DE] shadow-xs space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-base font-heading font-bold text-[#122417] flex items-center gap-2">
-            <MapPinIcon className="w-5 h-5 text-[#2F8E04]" />
+          <h2 className="text-base font-heading font-bold text-[#17220F] flex items-center gap-2">
+            <MapPinIcon className="w-5 h-5 text-[#46A304]" />
             <span>Popular Solar Service Hubs</span>
           </h2>
-          <span className="text-xs text-[#687B6C]">Fast on-site surveys</span>
+          <span className="text-xs text-[#66705F]">Fast on-site surveys</span>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
@@ -69,12 +69,12 @@ export default function LocationsHubPage() {
             <Link
               key={item.href}
               href={item.href}
-              className="p-3.5 rounded-2xl bg-[#F4F7F2] hover:bg-[#F4F9EC] border border-[#E1E8DE] hover:border-[#2F8E04] transition text-center group"
+              className="p-3.5 rounded-2xl bg-[#F7F9F5] hover:bg-[#F7F9F5] border border-[#E2E7DE] hover:border-[#46A304] transition text-center group"
             >
-              <div className="text-xs font-bold text-[#122417] group-hover:text-[#2F8E04] transition truncate">
+              <div className="text-xs font-bold text-[#17220F] group-hover:text-[#46A304] transition truncate">
                 {item.name}
               </div>
-              <div className="text-[10px] text-[#687B6C] mt-0.5 truncate">
+              <div className="text-[10px] text-[#66705F] mt-0.5 truncate">
                 {item.district}
               </div>
             </Link>
@@ -85,10 +85,10 @@ export default function LocationsHubPage() {
       {/* 13 Districts Directory */}
       <section className="space-y-6">
         <div>
-          <h2 className="text-2xl font-heading font-extrabold text-[#122417]">
+          <h2 className="text-2xl font-heading font-extrabold text-[#17220F]">
             All 13 Districts Directory
           </h2>
-          <p className="text-xs text-[#687B6C] mt-1">
+          <p className="text-xs text-[#66705F] mt-1">
             Select your district to view localized solar feasibility, subsidy information, and active projects.
           </p>
         </div>
@@ -97,29 +97,29 @@ export default function LocationsHubPage() {
           {districts.map((d) => (
             <div
               key={d.slug}
-              className="bg-white p-6 rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between space-y-4 group hover:border-[#2F8E04] transition"
+              className="bg-white p-6 rounded-3xl border border-[#E2E7DE] shadow-xs flex flex-col justify-between space-y-4 group hover:border-[#46A304] transition"
             >
               <div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-[#2F8E04] uppercase tracking-wider">
+                  <span className="text-xs font-bold text-[#46A304] uppercase tracking-wider">
                     Uttarakhand
                   </span>
-                  <MapPinIcon className="w-4 h-4 text-[#2F8E04]" />
+                  <MapPinIcon className="w-4 h-4 text-[#46A304]" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-[#122417] mt-1 group-hover:text-[#2F8E04] transition">
+                <h3 className="text-xl font-heading font-bold text-[#17220F] mt-1 group-hover:text-[#46A304] transition">
                   <Link href={`/locations/${d.slug}/`}>
                     {d.name} District
                   </Link>
                 </h3>
-                <p className="text-xs text-[#687B6C] leading-relaxed mt-2 line-clamp-2">
+                <p className="text-xs text-[#66705F] leading-relaxed mt-2 line-clamp-2">
                   {d.intro}
                 </p>
 
-                <div className="mt-3 pt-3 border-t border-[#E1E8DE]">
-                  <span className="text-[11px] font-bold text-[#122417] block mb-1">
+                <div className="mt-3 pt-3 border-t border-[#E2E7DE]">
+                  <span className="text-[11px] font-bold text-[#17220F] block mb-1">
                     Major Service Areas:
                   </span>
-                  <p className="text-xs text-[#687B6C]">
+                  <p className="text-xs text-[#66705F]">
                     {d.majorServiceAreas.slice(0, 4).join(', ')}
                   </p>
                 </div>
@@ -128,7 +128,7 @@ export default function LocationsHubPage() {
               <div className="pt-2">
                 <Link
                   href={`/locations/${d.slug}/`}
-                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#2F8E04] group-hover:text-white transition"
+                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#17220F] bg-[#F7F9F5] group-hover:bg-[#46A304] group-hover:text-white transition"
                 >
                   <span>Explore Solar in {d.name}</span>
                   <ArrowUpRightIcon className="w-3.5 h-3.5" />
