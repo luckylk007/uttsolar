@@ -216,6 +216,20 @@ input[type='range']::-moz-range-thumb {
   paint-order: stroke fill;
 }
 
+/* Header Logo Sizing */
+.header-logo {
+  height: 2.75rem;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .header-logo {
+    height: 5rem;
+    margin: -10px 0px;
+  }
+}
+
 
 
 

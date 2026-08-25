@@ -81,7 +81,7 @@ export function Header() {
             <img
               src="/images/logo-horizontal.png"
               alt="UTTsolar - Uttarakhand Solar Solutions"
-              className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
+              className="header-logo h-10 sm:h-[5rem] sm:-my-[10px] w-auto object-contain transition-transform group-hover:scale-[1.02]"
             />
           </Link>
 
