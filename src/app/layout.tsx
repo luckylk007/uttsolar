@@ -101,7 +101,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/images/logo-square.png', sizes: 'any', type: 'image/png' },
+      { url: '/favicon.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [{ url: '/images/logo-square.png', sizes: '180x180', type: 'image/png' }],
+    shortcut: '/images/logo-square.png',
   },
 };
 

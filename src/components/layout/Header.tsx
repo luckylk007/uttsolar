@@ -76,19 +76,13 @@ export function Header() {
         }`}
       >
         <div className="flex items-center justify-between gap-4">
-          {/* Brand Logo - Solor Style */}
-          <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0 whitespace-nowrap">
-            <div className="w-10 h-10 rounded-full bg-[#46A304] flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition">
-              <LeafIcon className="w-5 h-5 text-white" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-heading font-extrabold tracking-tight text-[#17220F] leading-none">
-                UTT<span className="text-[#46A304]">solar</span>
-              </span>
-              <span className="text-[10px] uppercase tracking-wider font-semibold text-[#66705F] mt-0.5">
-                Uttarakhand Solar Partner
-              </span>
-            </div>
+          {/* Brand Logo - Horizontal Logo */}
+          <Link href="/" className="flex items-center group flex-shrink-0">
+            <img
+              src="/images/logo-horizontal.png"
+              alt="UTTsolar - Uttarakhand Solar Solutions"
+              className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
+            />
           </Link>
 
           {/* Desktop Navigation Links - Compact Collapsed 6-Item Hierarchy */}

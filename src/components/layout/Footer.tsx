@@ -4,7 +4,6 @@ import { siteConfig } from '@/config/site';
 import { districts } from '@/data/locations/districts';
 import { getAllServices } from '@/data/services';
 import {
-  LeafIcon,
   PhoneIcon,
   WhatsAppIcon,
   MapPinIcon,
@@ -161,13 +160,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 py-10">
           {/* Column 1: Brand & Bio (2 Cols) */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-full bg-[#46A304] flex items-center justify-center text-white shadow-sm">
-                <LeafIcon className="w-5 h-5 text-white" />
+            <Link href="/" className="inline-block group">
+              <div className="bg-white px-3.5 py-2 rounded-2xl inline-block shadow-md group-hover:scale-105 transition-transform">
+                <img
+                  src="/images/logo-horizontal.png"
+                  alt="UTTsolar - Uttarakhand Solar Energy Solutions"
+                  className="h-9 sm:h-11 w-auto object-contain"
+                />
               </div>
-              <span className="text-2xl font-bold tracking-tight text-white">
-                UTT<span className="text-[#46A304]">solar</span>
-              </span>
             </Link>
 
             <p className="text-[14px] text-slate-300 leading-[1.6] max-w-sm">
