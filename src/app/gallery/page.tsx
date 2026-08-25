@@ -24,9 +24,9 @@ export default function GalleryPage() {
       <Breadcrumbs items={[{ name: 'Installation Gallery', url: '/gallery/' }]} />
 
       {/* Hero Header */}
-      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#70BA3F]/20">
-        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
-          <SunIcon className="w-4 h-4 text-[#70BA3F]" />
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#2F8E04]/20">
+        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2F8E04]/15 text-xs font-semibold text-[#71B402] border border-[#2F8E04]/30">
+          <SunIcon className="w-4 h-4 text-[#2F8E04]" />
           Engineering Portfolio
         </span>
         <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -42,11 +42,11 @@ export default function GalleryPage() {
         {galleryItems.map((item) => (
           <div
             key={item.id}
-            className="bg-white rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs p-6 flex flex-col justify-between hover:border-[#70BA3F] transition"
+            className="bg-white rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs p-6 flex flex-col justify-between hover:border-[#2F8E04] transition"
           >
             <div>
               <div className="flex items-center justify-between mb-3">
-                <span className="text-[10px] font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-2.5 py-1 rounded-full border border-[#70BA3F]/30">
+                <span className="text-[10px] font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-2.5 py-1 rounded-full border border-[#2F8E04]/30">
                   {item.category}
                 </span>
                 <span className="text-xs font-bold text-[#122417]">{item.capacity}</span>
@@ -56,7 +56,7 @@ export default function GalleryPage() {
             </div>
             <div className="pt-3 border-t border-[#E1E8DE] flex items-center justify-between text-[11px] text-[#687B6C] font-medium">
               <span className="flex items-center gap-1">
-                <MapPinIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+                <MapPinIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
                 <span>{item.location}</span>
               </span>
               <span>{item.district}</span>
@@ -69,7 +69,7 @@ export default function GalleryPage() {
       <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
               Custom Racking Design
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">

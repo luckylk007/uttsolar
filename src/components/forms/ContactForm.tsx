@@ -84,8 +84,8 @@ export function ContactForm({
     const districtDisplay = selectedDistrictObj ? selectedDistrictObj.name : district;
 
     return (
-      <div className={`p-6 sm:p-8 bg-[#F0F8EC] border border-[#70BA3F]/30 rounded-3xl text-center space-y-4 shadow-sm ${className}`}>
-        <div className="w-14 h-14 bg-[#70BA3F] text-white rounded-full flex items-center justify-center mx-auto shadow-xs">
+      <div className={`p-6 sm:p-8 bg-[#F4F9EC] border border-[#2F8E04]/30 rounded-3xl text-center space-y-4 shadow-sm ${className}`}>
+        <div className="w-14 h-14 bg-[#2F8E04] text-white rounded-full flex items-center justify-center mx-auto shadow-xs">
           <CheckCircleIcon className="w-8 h-8" />
         </div>
         <div>
@@ -99,7 +99,7 @@ export function ContactForm({
             href={`tel:${siteConfig.phone}`}
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-[#122417] bg-white border border-[#E1E8DE] shadow-xs hover:bg-[#F4F7F2] transition"
           >
-            <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
+            <PhoneIcon className="w-4 h-4 text-[#2F8E04]" />
             <span>Call {siteConfig.phoneDisplay}</span>
           </a>
           <a
@@ -128,7 +128,7 @@ export function ContactForm({
       {!compact && (
         <div className="border-b border-[#E1E8DE] pb-4 mb-2">
           <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#EAF4E4] text-[11px] font-bold text-[#2D5A27] uppercase tracking-wider mb-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#70BA3F]" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#2F8E04]" />
             <span>PM Surya Ghar Partner</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-bold text-[#122417]">
@@ -164,7 +164,7 @@ export function ContactForm({
             placeholder="Enter your name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+            className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
           />
         </div>
 
@@ -185,7 +185,7 @@ export function ContactForm({
               placeholder="10-digit mobile"
               value={phone}
               onChange={(e) => setPhone(e.target.value.replace(/\D/g, ''))}
-              className="w-full pl-12 pr-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
+              className="w-full pl-12 pr-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
             />
           </div>
         </div>
@@ -200,7 +200,7 @@ export function ContactForm({
           <select
             value={district}
             onChange={(e) => setDistrict(e.target.value)}
-            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
           >
             {districts.map((d) => (
               <option key={d.slug} value={d.slug}>
@@ -217,7 +217,7 @@ export function ContactForm({
           <select
             value={service}
             onChange={(e) => setService(e.target.value)}
-            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+            className="w-full px-4 py-3 text-sm sm:text-xs font-semibold bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
           >
             {services.map((s) => (
               <option key={s.slug} value={s.slug}>
@@ -241,7 +241,7 @@ export function ContactForm({
               placeholder="e.g. 3500"
               value={monthlyBill}
               onChange={(e) => setMonthlyBill(e.target.value)}
-              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
             />
           </div>
 
@@ -254,7 +254,7 @@ export function ContactForm({
               placeholder="e.g. Haldwani, RCC roof"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+              className="w-full px-4 py-3 text-sm sm:text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-2xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
             />
           </div>
         </div>
@@ -270,7 +270,7 @@ export function ContactForm({
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 active:scale-[0.99]"
+        className="w-full py-3.5 px-6 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#2F8E04] hover:bg-[#012258] transition shadow-md hover:shadow-lg disabled:opacity-50 flex items-center justify-center gap-2 active:scale-[0.99]"
       >
         <span>
           {isSubmitting
@@ -283,7 +283,7 @@ export function ContactForm({
 
       {/* Trust & Guarantee Indicator */}
       <div className="flex items-center justify-center gap-2 text-[12px] text-[#687B6C] pt-1">
-        <ShieldCheckIcon className="w-4 h-4 text-[#70BA3F]" />
+        <ShieldCheckIcon className="w-4 h-4 text-[#2F8E04]" />
         <span>100% Free Site Inspection • UPCL Net Metering Support</span>
       </div>
     </form>

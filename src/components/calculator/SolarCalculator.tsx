@@ -359,10 +359,10 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
 
             {/* 25-Year Long-Term Estimated Savings */}
             <div className="bg-[#122417] text-white p-4 rounded-2xl border border-white/10 text-center mb-5 shadow-md">
-              <span className="text-[11px] uppercase tracking-wider font-bold text-[#AEDB96] block">
+              <span className="text-[11px] uppercase tracking-wider font-bold text-[#71B402] block">
                 25-Year Estimated Net Savings
               </span>
-              <span className="text-2xl sm:text-3xl font-heading font-black text-[#70BA3F] block mt-0.5">
+              <span className="text-2xl sm:text-3xl font-heading font-black text-[#2F8E04] block mt-0.5">
                 {formatCurrency(result.savings25Year)}
               </span>
               <span className="text-[10px] text-slate-300 mt-1 block">
@@ -379,8 +379,8 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
           {/* Quotation Enquiry Form */}
           <div className="border-t border-[#E1E8DE] pt-4">
             {submitSuccess ? (
-              <div className="bg-[#F0F8EC] border border-[#70BA3F]/30 p-4 rounded-2xl text-center">
-                <CheckCircleIcon className="w-6 h-6 text-[#70BA3F] mx-auto mb-1" />
+              <div className="bg-[#F4F9EC] border border-[#2F8E04]/30 p-4 rounded-2xl text-center">
+                <CheckCircleIcon className="w-6 h-6 text-[#2F8E04] mx-auto mb-1" />
                 <h4 className="text-xs font-bold text-[#122417]">Enquiry Received!</h4>
                 <p className="text-[11px] text-[#687B6C] mt-0.5">
                   Our solar engineer for {selectedDistrict} will share an itemized quote and site layout.
@@ -390,7 +390,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
               <form onSubmit={handleLeadSubmit} className="space-y-2.5">
                 <div className="text-xs font-bold text-[#122417] flex items-center justify-between">
                   <span>Get Official Quotation ({result.recommendedKw} kW)</span>
-                  <span className="text-[10px] font-bold text-[#70BA3F]">Free Site Survey</span>
+                  <span className="text-[10px] font-bold text-[#2F8E04]">Free Site Survey</span>
                 </div>
 
                 <input
@@ -411,7 +411,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                     placeholder="Your Name"
                     value={leadName}
                     onChange={(e) => setLeadName(e.target.value)}
-                    className="w-full px-3.5 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] transition"
+                    className="w-full px-3.5 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] transition"
                   />
                   <div className="relative flex items-center">
                     <span className="absolute left-3 text-xs font-bold text-[#687B6C] pointer-events-none">
@@ -426,7 +426,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                       placeholder="10-digit Mobile"
                       value={leadMobile}
                       onChange={(e) => setLeadMobile(e.target.value.replace(/\D/g, ''))}
-                      className="w-full pl-11 pr-3 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#70BA3F] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
+                      className="w-full pl-11 pr-3 py-2.5 text-xs bg-[#F4F7F2] border border-[#E1E8DE] rounded-xl focus:outline-none focus:border-[#2F8E04] focus:bg-white text-[#172B1D] font-medium tracking-wide transition"
                     />
                   </div>
                 </div>
@@ -445,7 +445,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                         value="phone"
                         checked={preferredContact === 'phone'}
                         onChange={() => setPreferredContact('phone')}
-                        className="accent-[#70BA3F]"
+                        className="accent-[#2F8E04]"
                       />
                       <span>Phone Call</span>
                     </label>
@@ -456,7 +456,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                         value="whatsapp"
                         checked={preferredContact === 'whatsapp'}
                         onChange={() => setPreferredContact('whatsapp')}
-                        className="accent-[#70BA3F]"
+                        className="accent-[#2F8E04]"
                       />
                       <span>WhatsApp</span>
                     </label>
@@ -466,7 +466,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3 px-5 rounded-full text-xs font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md flex items-center justify-center gap-1.5 disabled:opacity-50 active:scale-[0.99]"
+                  className="w-full py-3 px-5 rounded-full text-xs font-semibold text-white bg-[#2F8E04] hover:bg-[#012258] transition shadow-md flex items-center justify-center gap-1.5 disabled:opacity-50 active:scale-[0.99]"
                 >
                   <CalculatorIcon className="w-3.5 h-3.5" />
                   <span>{isSubmitting ? 'Submitting...' : `Get Free Survey & Quote for ${result.recommendedKw} kW ↗`}</span>

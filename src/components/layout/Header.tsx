@@ -78,12 +78,12 @@ export function Header() {
         <div className="flex items-center justify-between gap-4">
           {/* Brand Logo - Solor Style */}
           <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0 whitespace-nowrap">
-            <div className="w-10 h-10 rounded-full bg-[#70BA3F] flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition">
+            <div className="w-10 h-10 rounded-full bg-[#2F8E04] flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition">
               <LeafIcon className="w-5 h-5 text-white" />
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-heading font-extrabold tracking-tight text-[#122417] leading-none">
-                UTT<span className="text-[#70BA3F]">solar</span>
+                UTT<span className="text-[#2F8E04]">solar</span>
               </span>
               <span className="text-[10px] uppercase tracking-wider font-semibold text-[#687B6C] mt-0.5">
                 Uttarakhand Solar Partner
@@ -98,8 +98,8 @@ export function Header() {
               href="/"
               className={`px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                 pathname === '/'
-                  ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
-                  : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
+                  ? 'text-[#122417] font-semibold bg-[#F4F9EC]'
+                  : 'text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2]'
               }`}
             >
               Home
@@ -117,8 +117,8 @@ export function Header() {
               <button
                 className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/services') || pathname.startsWith('/solar-solutions')
-                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
-                    : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
+                    ? 'text-[#122417] font-semibold bg-[#F4F9EC]'
+                    : 'text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2]'
                 }`}
               >
                 <span>Services &amp; Solutions</span>
@@ -130,13 +130,13 @@ export function Header() {
                   <div className="grid grid-cols-1 gap-1">
                     <Link
                       href="/services/residential-solar/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <HomeIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#2F8E04]">
                           Residential Solar
                         </div>
                         <div className="text-[11px] text-[#687B6C]">1 kW to 10 kW with PM Surya Ghar subsidy</div>
@@ -145,13 +145,13 @@ export function Header() {
 
                     <Link
                       href="/services/commercial-solar/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <BuildingIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#2F8E04]">
                           Commercial Solar
                         </div>
                         <div className="text-[11px] text-[#687B6C]">Hotels, schools, resorts &amp; hospitals</div>
@@ -160,13 +160,13 @@ export function Header() {
 
                     <Link
                       href="/services/industrial-solar/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <FactoryIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#2F8E04]">
                           Industrial Solar Plants
                         </div>
                         <div className="text-[11px] text-[#687B6C]">SIDCUL Haridwar, Rudrapur &amp; Kashipur</div>
@@ -175,13 +175,13 @@ export function Header() {
 
                     <Link
                       href="/services/on-grid-solar-system/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <ZapIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#2F8E04]">
                           On-Grid Net Metering
                         </div>
                         <div className="text-[11px] text-[#687B6C]">UPCL grid-synchronized solar</div>
@@ -190,13 +190,13 @@ export function Header() {
 
                     <Link
                       href="/services/hybrid-solar-system/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <ShieldCheckIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-xs font-bold text-[#122417] group-hover:text-[#2F8E04]">
                           Hybrid &amp; Off-Grid Systems
                         </div>
                         <div className="text-[11px] text-[#687B6C]">Battery storage for hill areas</div>
@@ -204,7 +204,7 @@ export function Header() {
                     </Link>
 
                     <div className="pt-2 border-t border-[#E1E8DE] px-2 flex justify-between items-center text-xs">
-                      <Link href="/services/" className="font-bold text-[#70BA3F] hover:underline">
+                      <Link href="/services/" className="font-bold text-[#2F8E04] hover:underline">
                         View All 17 Services →
                       </Link>
                       <Link href="/solar-solutions/" className="text-[#687B6C] hover:text-[#122417]">
@@ -226,8 +226,8 @@ export function Header() {
               <button
                 className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/calculator') || pathname.startsWith('/pm-surya-ghar') || pathname.startsWith('/solar-subsidy') || pathname.startsWith('/net-metering')
-                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
-                    : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
+                    ? 'text-[#122417] font-semibold bg-[#F4F9EC]'
+                    : 'text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2]'
                 }`}
               >
                 <span>Subsidy &amp; Calculator</span>
@@ -239,13 +239,13 @@ export function Header() {
                   <div className="grid grid-cols-1 gap-1">
                     <Link
                       href="/calculator/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <CalculatorIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           Solar Savings Calculator
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Instant system size &amp; ROI estimator</div>
@@ -254,13 +254,13 @@ export function Header() {
 
                     <Link
                       href="/pm-surya-ghar/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <ZapIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           PM Surya Ghar Yojana
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Up to ₹85,800 Central Subsidy (CFA)</div>
@@ -269,13 +269,13 @@ export function Header() {
 
                     <Link
                       href="/solar-subsidy/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <ShieldCheckIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           Uttarakhand Subsidy Rates
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Special Category Himalayan allocation</div>
@@ -284,13 +284,13 @@ export function Header() {
 
                     <Link
                       href="/net-metering/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-3 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-3 group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <ArrowUpRightIcon className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           UPCL Net Metering Guide
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Bidirectional billing &amp; DISCOM rules</div>
@@ -313,8 +313,8 @@ export function Header() {
               <button
                 className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/locations')
-                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
-                    : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
+                    ? 'text-[#122417] font-semibold bg-[#F4F9EC]'
+                    : 'text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2]'
                 }`}
               >
                 <span>13 Districts</span>
@@ -328,14 +328,14 @@ export function Header() {
                       <Link
                         key={d.slug}
                         href={`/locations/${d.slug}/`}
-                        className="px-3 py-2 text-[14px] font-medium text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F0F8EC] rounded-xl transition flex items-center justify-between"
+                        className="px-3 py-2 text-[14px] font-medium text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F9EC] rounded-xl transition flex items-center justify-between"
                       >
                         <span>Solar in {d.name}</span>
-                        <MapPinIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+                        <MapPinIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
                       </Link>
                     ))}
                     <div className="pt-2 border-t border-[#E1E8DE] px-3 mt-1">
-                      <Link href="/locations/" className="text-[14px] font-semibold text-[#70BA3F] hover:underline block">
+                      <Link href="/locations/" className="text-[14px] font-semibold text-[#2F8E04] hover:underline block">
                         All Uttarakhand Locations →
                       </Link>
                     </div>
@@ -356,8 +356,8 @@ export function Header() {
               <button
                 className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                   pathname.startsWith('/about') || pathname.startsWith('/projects') || pathname.startsWith('/blog') || pathname.startsWith('/faq')
-                    ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
-                    : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
+                    ? 'text-[#122417] font-semibold bg-[#F4F9EC]'
+                    : 'text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2]'
                 }`}
               >
                 <span>Company</span>
@@ -369,13 +369,13 @@ export function Header() {
                   <div className="grid grid-cols-1 gap-1">
                     <Link
                       href="/about/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-2.5 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-2.5 group"
                     >
-                      <div className="w-7 h-7 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-7 h-7 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <UsersIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           About UTTsolar
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Our EPC engineering team</div>
@@ -384,13 +384,13 @@ export function Header() {
 
                     <Link
                       href="/projects/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-2.5 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-2.5 group"
                     >
-                      <div className="w-7 h-7 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-7 h-7 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <BuildingIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           Completed Projects
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Case studies &amp; portfolio</div>
@@ -399,13 +399,13 @@ export function Header() {
 
                     <Link
                       href="/blog/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-2.5 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-2.5 group"
                     >
-                      <div className="w-7 h-7 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-7 h-7 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <LeafIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           Solar Blog &amp; Insights
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Latest rooftop guides</div>
@@ -414,13 +414,13 @@ export function Header() {
 
                     <Link
                       href="/faq/"
-                      className="p-2.5 rounded-xl hover:bg-[#F0F8EC] transition flex items-start gap-2.5 group"
+                      className="p-2.5 rounded-xl hover:bg-[#F4F9EC] transition flex items-start gap-2.5 group"
                     >
-                      <div className="w-7 h-7 rounded-lg bg-[#E6F4DE] text-[#70BA3F] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-7 h-7 rounded-lg bg-[#E5F4D3] text-[#2F8E04] flex items-center justify-center flex-shrink-0 mt-0.5">
                         <ZapIcon className="w-3.5 h-3.5" />
                       </div>
                       <div>
-                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#70BA3F]">
+                        <div className="text-[14px] font-semibold text-[#122417] group-hover:text-[#2F8E04]">
                           Solar FAQs
                         </div>
                         <div className="text-[13px] text-[#687B6C] leading-normal">Frequently asked questions</div>
@@ -436,8 +436,8 @@ export function Header() {
               href="/contact/"
               className={`px-3.5 py-2 rounded-full text-[15px] font-medium leading-[1.2] whitespace-nowrap transition ${
                 pathname.startsWith('/contact')
-                  ? 'text-[#122417] font-semibold bg-[#F0F8EC]'
-                  : 'text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2]'
+                  ? 'text-[#122417] font-semibold bg-[#F4F9EC]'
+                  : 'text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2]'
               }`}
             >
               Contact
@@ -448,16 +448,16 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-2.5 flex-shrink-0 flex-nowrap">
             <a
               href={`tel:${siteConfig.phone}`}
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#F4F7F2] hover:bg-[#E6F4DE] border border-[#E1E8DE] transition whitespace-nowrap"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#F4F7F2] hover:bg-[#E5F4D3] border border-[#E1E8DE] transition whitespace-nowrap"
             >
-              <PhoneIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+              <PhoneIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
               <span>{siteConfig.phoneDisplay}</span>
             </a>
 
             <button
               type="button"
               onClick={() => openQuoteModal({ title: 'Get Instant Solar Quotation' })}
-              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-sm hover:shadow-md transition whitespace-nowrap active:scale-[0.98]"
+              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#2F8E04] hover:bg-[#012258] shadow-sm hover:shadow-md transition whitespace-nowrap active:scale-[0.98]"
             >
               <span>Get Free Quote</span>
               <span className="w-5 h-5 rounded-full bg-[#122417] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -470,7 +470,7 @@ export function Header() {
           <div className="flex items-center gap-2 lg:hidden">
             <a
               href={`tel:${siteConfig.phone}`}
-              className="p-2.5 rounded-full bg-[#F0F8EC] text-[#70BA3F] border border-[#CDE9BE]"
+              className="p-2.5 rounded-full bg-[#F4F9EC] text-[#2F8E04] border border-[#C7E8A0]"
               aria-label="Call UTTsolar"
             >
               <PhoneIcon className="w-5 h-5" />
@@ -497,7 +497,7 @@ export function Header() {
           <div className="flex flex-col gap-2">
             <Link
               href="/"
-              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F0F8EC] hover:text-[#70BA3F]"
+              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F4F9EC] hover:text-[#2F8E04]"
             >
               Home
             </Link>
@@ -508,22 +508,22 @@ export function Header() {
                 Services &amp; Solutions
               </span>
               <div className="grid grid-cols-1 gap-1 mt-2 pl-2">
-                <Link href="/services/residential-solar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/services/residential-solar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   Residential Solar (1 kW – 10 kW)
                 </Link>
-                <Link href="/services/commercial-solar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/services/commercial-solar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   Commercial Solar (Hotels &amp; Schools)
                 </Link>
-                <Link href="/services/industrial-solar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/services/industrial-solar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   Industrial Solar Plants (SIDCUL)
                 </Link>
-                <Link href="/services/on-grid-solar-system/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/services/on-grid-solar-system/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   On-Grid Net Metering Systems
                 </Link>
-                <Link href="/services/hybrid-solar-system/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/services/hybrid-solar-system/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   Hybrid Battery Systems
                 </Link>
-                <Link href="/services/" className="px-3 py-1.5 text-xs font-bold text-[#70BA3F]">
+                <Link href="/services/" className="px-3 py-1.5 text-xs font-bold text-[#2F8E04]">
                   View All 17 Services →
                 </Link>
               </div>
@@ -535,16 +535,16 @@ export function Header() {
                 Subsidy &amp; Calculator
               </span>
               <div className="grid grid-cols-1 gap-1 mt-2 pl-2">
-                <Link href="/calculator/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F] font-bold text-[#70BA3F]">
+                <Link href="/calculator/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04] font-bold text-[#2F8E04]">
                   ⚡ Solar Savings Calculator
                 </Link>
-                <Link href="/pm-surya-ghar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/pm-surya-ghar/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   PM Surya Ghar Scheme (Up to ₹85,800)
                 </Link>
-                <Link href="/solar-subsidy/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/solar-subsidy/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   Uttarakhand Subsidy Rates
                 </Link>
-                <Link href="/net-metering/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#70BA3F]">
+                <Link href="/net-metering/" className="px-3 py-1.5 text-xs text-[#172B1D] hover:text-[#2F8E04]">
                   UPCL Net Metering Process
                 </Link>
               </div>
@@ -553,7 +553,7 @@ export function Header() {
             {/* Mobile Districts */}
             <Link
               href="/locations/"
-              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F0F8EC] hover:text-[#70BA3F]"
+              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F4F9EC] hover:text-[#2F8E04]"
             >
               13 Districts Coverage
             </Link>
@@ -561,28 +561,28 @@ export function Header() {
             {/* Mobile Company */}
             <Link
               href="/about/"
-              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F0F8EC] hover:text-[#70BA3F]"
+              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F4F9EC] hover:text-[#2F8E04]"
             >
               About UTTsolar
             </Link>
 
             <Link
               href="/projects/"
-              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F0F8EC] hover:text-[#70BA3F]"
+              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F4F9EC] hover:text-[#2F8E04]"
             >
               Completed Projects
             </Link>
 
             <Link
               href="/blog/"
-              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F0F8EC] hover:text-[#70BA3F]"
+              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F4F9EC] hover:text-[#2F8E04]"
             >
               Solar Knowledge Hub
             </Link>
 
             <Link
               href="/contact/"
-              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F0F8EC] hover:text-[#70BA3F]"
+              className="px-3.5 py-2.5 rounded-xl font-medium text-sm text-[#172B1D] hover:bg-[#F4F9EC] hover:text-[#2F8E04]"
             >
               Contact Us
             </Link>
@@ -594,7 +594,7 @@ export function Header() {
                   setMobileMenuOpen(false);
                   openQuoteModal({ title: 'Get Instant Solar Quotation' });
                 }}
-                className="w-full text-center py-3.5 px-5 rounded-full font-bold text-sm text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-md transition"
+                className="w-full text-center py-3.5 px-5 rounded-full font-bold text-sm text-white bg-[#2F8E04] hover:bg-[#012258] shadow-md transition"
               >
                 Get Free Quote ↗
               </button>

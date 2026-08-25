@@ -28,9 +28,9 @@ export default function SolarSolutionsPage() {
       <Breadcrumbs items={[{ name: 'Solar Solutions', url: '/solar-solutions/' }]} />
 
       {/* Hero Header */}
-      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#70BA3F]/20">
-        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
-          <SunIcon className="w-4 h-4 text-[#70BA3F]" />
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#2F8E04]/20">
+        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2F8E04]/15 text-xs font-semibold text-[#71B402] border border-[#2F8E04]/30">
+          <SunIcon className="w-4 h-4 text-[#2F8E04]" />
           Engineered System Architectures
         </span>
         <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -44,13 +44,13 @@ export default function SolarSolutionsPage() {
       {/* 4 Main Solutions Grid */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* On-Grid */}
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between hover:border-[#70BA3F] transition">
+        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between hover:border-[#2F8E04] transition">
           <div>
             <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-semibold text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+              <span className="text-xs font-semibold text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
                 Most Popular &amp; Cost-Effective
               </span>
-              <ZapIcon className="w-6 h-6 text-[#70BA3F]" />
+              <ZapIcon className="w-6 h-6 text-[#2F8E04]" />
             </div>
             <h2 className="text-2xl font-bold text-[#122417] mb-2">On-Grid Solar Systems</h2>
             <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed mb-4">
@@ -58,15 +58,15 @@ export default function SolarSolutionsPage() {
             </p>
             <ul className="space-y-2.5 text-xs text-[#172B1D] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Best for Dehradun, Haldwani, Haridwar, Roorkee &amp; Rudrapur</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Fast payback in 2.8 to 3.5 years</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Surplus units banked in your UPCL electricity account</span>
               </li>
             </ul>
@@ -118,7 +118,7 @@ export default function SolarSolutionsPage() {
         </div>
 
         {/* Off-Grid */}
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between hover:border-[#70BA3F] transition">
+        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between hover:border-[#2F8E04] transition">
           <div>
             <div className="flex items-center justify-between mb-4">
               <span className="text-xs font-semibold text-[#122417] bg-[#F4F7F2] px-3 py-1 rounded-full border border-[#E1E8DE]">
@@ -132,15 +132,15 @@ export default function SolarSolutionsPage() {
             </p>
             <ul className="space-y-2.5 text-xs text-[#172B1D] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Zero dependence on external electricity lines</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Replaces noisy and costly diesel generators</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Sized for 1 to 2 days of continuous backup</span>
               </li>
             </ul>
@@ -155,13 +155,13 @@ export default function SolarSolutionsPage() {
         </div>
 
         {/* Rooftop Solar */}
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between hover:border-[#70BA3F] transition">
+        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs flex flex-col justify-between hover:border-[#2F8E04] transition">
           <div>
             <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-semibold text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+              <span className="text-xs font-semibold text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
                 Turn Idle Roofs into Assets
               </span>
-              <SunIcon className="w-6 h-6 text-[#70BA3F]" />
+              <SunIcon className="w-6 h-6 text-[#2F8E04]" />
             </div>
             <h2 className="text-2xl font-bold text-[#122417] mb-2">Rooftop Solar Structures</h2>
             <p className="text-xs sm:text-sm text-[#687B6C] leading-relaxed mb-4">
@@ -169,15 +169,15 @@ export default function SolarSolutionsPage() {
             </p>
             <ul className="space-y-2.5 text-xs text-[#172B1D] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Elevated structures preserve 100% terrace recreational space</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Leak-proof EPDM sealed fasteners on metal sheds</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Hot-dip galvanized structural steel (80-micron zinc coating)</span>
               </li>
             </ul>
@@ -195,7 +195,7 @@ export default function SolarSolutionsPage() {
       {/* Solar Calculator */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
             Find Your Capacity
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
@@ -209,7 +209,7 @@ export default function SolarSolutionsPage() {
       <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
               Expert Advice
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">

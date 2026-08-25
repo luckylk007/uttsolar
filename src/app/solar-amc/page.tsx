@@ -24,9 +24,9 @@ export default function SolarAmcPage() {
       <Breadcrumbs items={[{ name: 'Solar AMC', url: '/solar-amc/' }]} />
 
       {/* Hero Header */}
-      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#70BA3F]/20">
-        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
-          <ShieldCheckIcon className="w-4 h-4 text-[#70BA3F]" />
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#2F8E04]/20">
+        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2F8E04]/15 text-xs font-semibold text-[#71B402] border border-[#2F8E04]/30">
+          <ShieldCheckIcon className="w-4 h-4 text-[#2F8E04]" />
           Hassle-Free Peace of Mind
         </span>
         <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -48,15 +48,15 @@ export default function SolarAmcPage() {
             </p>
             <ul className="space-y-2.5 text-xs text-[#172B1D] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>4 Scheduled deep cleaning visits</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Semi-annual inverter &amp; earthing audit</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Priority 24-hr breakdown support</span>
               </li>
             </ul>
@@ -69,34 +69,34 @@ export default function SolarAmcPage() {
           </Link>
         </div>
 
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border-2 border-[#70BA3F] shadow-sm flex flex-col justify-between relative overflow-hidden">
-          <div className="bg-[#70BA3F] text-[#122417] text-[10px] font-bold py-1 uppercase tracking-wider text-center -mx-8 -mt-8 mb-4 shadow-xs">
+        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border-2 border-[#2F8E04] shadow-sm flex flex-col justify-between relative overflow-hidden">
+          <div className="bg-[#2F8E04] text-white hover:bg-[#012258] text-[10px] font-bold py-1 uppercase tracking-wider text-center -mx-8 -mt-8 mb-4 shadow-xs">
             Most Popular
           </div>
           <div>
-            <span className="text-xs font-bold text-[#70BA3F] uppercase">Commercial Tier</span>
+            <span className="text-xs font-bold text-[#2F8E04] uppercase">Commercial Tier</span>
             <h2 className="text-xl font-bold text-[#122417] mt-1 mb-3">Commercial Pro</h2>
             <p className="text-xs text-[#687B6C] leading-relaxed mb-4">
               For hotels, hospitals, schools, and business complexes (10 kW to 50 kW).
             </p>
             <ul className="space-y-2.5 text-xs text-[#172B1D] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Bi-monthly pressurized soft water wash</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Quarterly infrared thermography audits</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Same-day priority breakdown response</span>
               </li>
             </ul>
           </div>
           <Link
             href="/contact/?intent=amc"
-            className="w-full py-3 rounded-full text-xs font-semibold text-center text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-sm transition"
+            className="w-full py-3 rounded-full text-xs font-semibold text-center text-white bg-[#2F8E04] hover:bg-[#012258] shadow-sm transition"
           >
             Inquire for Commercial AMC
           </Link>
@@ -111,15 +111,15 @@ export default function SolarAmcPage() {
             </p>
             <ul className="space-y-2.5 text-xs text-[#172B1D] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Monthly automated &amp; manual cleaning</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Full HT/LT electrical substation care</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#70BA3F]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#2F8E04]" />
                 <span>Real-time SCADA generation monitoring</span>
               </li>
             </ul>
@@ -137,7 +137,7 @@ export default function SolarAmcPage() {
       <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
               Get an AMC Quote
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">

@@ -33,12 +33,12 @@ export default function FaqPage() {
 
       {/* Hero Header - Solor Style */}
       <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#70BA3F]" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
           <span>Got Questions? We Have Answers.</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          Frequently Asked Questions About <span className="text-[#70BA3F]">Solar in Uttarakhand</span>
+          Frequently Asked Questions About <span className="text-[#2F8E04]">Solar in Uttarakhand</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           Everything you need to know about PM Surya Ghar subsidies, UPCL net metering, system costs, hill weather performance, and technical warranties.
@@ -50,7 +50,7 @@ export default function FaqPage() {
         {faqsData.map((group, groupIdx) => (
           <div key={groupIdx} className="space-y-4">
             <h2 className="text-xl font-heading font-bold text-[#122417] border-b border-[#E1E8DE] pb-2 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
+              <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
               <span>{group.category}</span>
             </h2>
 
@@ -58,9 +58,9 @@ export default function FaqPage() {
               {group.items.map((faq, idx) => (
                 <details
                   key={idx}
-                  className="bg-white p-5 rounded-2xl border border-[#E1E8DE] group [&_summary::-webkit-details-marker]:hidden shadow-xs hover:border-[#70BA3F] transition"
+                  className="bg-white p-5 rounded-2xl border border-[#E1E8DE] group [&_summary::-webkit-details-marker]:hidden shadow-xs hover:border-[#2F8E04] transition"
                 >
-                  <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-[#122417] group-open:text-[#70BA3F] transition">
+                  <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-[#122417] group-open:text-[#2F8E04] transition">
                     <span>{faq.question}</span>
                     <span className="w-6 h-6 rounded-full bg-[#F4F7F2] border border-[#E1E8DE] flex items-center justify-center text-xs font-bold text-[#687B6C] group-open:rotate-180 transition flex-shrink-0 ml-2">
                       ▼
@@ -87,7 +87,7 @@ export default function FaqPage() {
         <div className="flex justify-center gap-3 pt-2">
           <Link
             href="/contact/?intent=quote"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-extrabold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-md"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-extrabold text-white bg-[#2F8E04] hover:bg-[#012258] transition shadow-md"
           >
             <span>Ask an Engineer ↗</span>
           </Link>

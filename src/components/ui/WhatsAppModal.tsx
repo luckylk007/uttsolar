@@ -46,7 +46,7 @@ export function WhatsAppModal({ isOpen, onClose, customMessage }: WhatsAppModalP
       subtitle: 'System sizing, subsidy calculation & quotation',
       number: siteConfig.phoneDisplay, // +91 78300 60725
       badge: 'Primary Desk',
-      badgeColor: 'bg-[#EAF4E4] text-[#2D5A27] border-[#70BA3F]/30',
+      badgeColor: 'bg-[#EAF4E4] text-[#2D5A27] border-[#2F8E04]/30',
       whatsappUrl: `https://wa.me/${siteConfig.whatsapp}?text=${encodedText}`,
       telUrl: `tel:${siteConfig.phone}`,
     },
@@ -103,7 +103,7 @@ export function WhatsAppModal({ isOpen, onClose, customMessage }: WhatsAppModalP
           {contactOptions.map((opt) => (
             <div
               key={opt.id}
-              className="p-4 rounded-2xl bg-[#F8FAF6] border border-[#E1E8DE] hover:border-[#25D366] hover:bg-[#F0F8EC] transition group flex flex-col justify-between space-y-3"
+              className="p-4 rounded-2xl bg-[#F8FAF6] border border-[#E1E8DE] hover:border-[#25D366] hover:bg-[#F4F9EC] transition group flex flex-col justify-between space-y-3"
             >
               <div className="flex items-start justify-between gap-2">
                 <div>
@@ -139,10 +139,10 @@ export function WhatsAppModal({ isOpen, onClose, customMessage }: WhatsAppModalP
                 <a
                   href={opt.telUrl}
                   onClick={onClose}
-                  className="p-2.5 rounded-full bg-white text-[#122417] hover:bg-[#EAF4E4] hover:text-[#70BA3F] border border-[#E1E8DE] transition flex items-center justify-center"
+                  className="p-2.5 rounded-full bg-white text-[#122417] hover:bg-[#EAF4E4] hover:text-[#2F8E04] border border-[#E1E8DE] transition flex items-center justify-center"
                   title="Direct Phone Call"
                 >
-                  <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
+                  <PhoneIcon className="w-4 h-4 text-[#2F8E04]" />
                 </a>
               </div>
             </div>
@@ -150,7 +150,7 @@ export function WhatsAppModal({ isOpen, onClose, customMessage }: WhatsAppModalP
 
           {/* Footer note */}
           <div className="flex items-center justify-center gap-1.5 text-[11px] text-[#687B6C] pt-2">
-            <ShieldCheckIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+            <ShieldCheckIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
             <span>Fast reply within 10–15 mins • Mon–Sat 9am–7pm</span>
           </div>
         </div>

@@ -29,12 +29,12 @@ export default function ServicesPage() {
 
       {/* Hero Header - Solor Style */}
       <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#70BA3F]" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
           <span>Turnkey Solar Engineering</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          Comprehensive Solar Services Across <span className="text-[#70BA3F]">Uttarakhand</span>
+          Comprehensive Solar Services Across <span className="text-[#2F8E04]">Uttarakhand</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           From residential rooftop systems with PM Surya Ghar subsidies to multi-megawatt industrial solar plants and lifetime AMC support across all 13 districts.
@@ -47,11 +47,11 @@ export default function ServicesPage() {
           {services.map((service) => (
             <div
               key={service.slug}
-              className="bg-white p-6 rounded-3xl border border-[#E1E8DE] shadow-xs hover:shadow-xl transition flex flex-col justify-between group hover:border-[#70BA3F]"
+              className="bg-white p-6 rounded-3xl border border-[#E1E8DE] shadow-xs hover:shadow-xl transition flex flex-col justify-between group hover:border-[#2F8E04]"
             >
               <div>
                 <div className="flex items-center justify-between mb-3">
-                  <div className="w-10 h-10 rounded-full bg-[#F0F8EC] text-[#70BA3F] flex items-center justify-center font-bold group-hover:scale-105 transition">
+                  <div className="w-10 h-10 rounded-full bg-[#F4F9EC] text-[#2F8E04] flex items-center justify-center font-bold group-hover:scale-105 transition">
                     <ZapIcon className="w-5 h-5" />
                   </div>
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#687B6C]">
@@ -59,7 +59,7 @@ export default function ServicesPage() {
                   </span>
                 </div>
 
-                <h3 className="text-lg font-heading font-bold text-[#122417] mb-2 group-hover:text-[#70BA3F] transition">
+                <h3 className="text-lg font-heading font-bold text-[#122417] mb-2 group-hover:text-[#2F8E04] transition">
                   <Link href={`/services/${service.slug}/`}>
                     {service.title}
                   </Link>
@@ -73,7 +73,7 @@ export default function ServicesPage() {
               <div className="pt-2">
                 <Link
                   href={`/services/${service.slug}/`}
-                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#70BA3F] group-hover:text-white transition"
+                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#2F8E04] group-hover:text-white transition"
                 >
                   <span>Explore Service Details</span>
                   <ArrowUpRightIcon className="w-3.5 h-3.5" />

@@ -17,10 +17,10 @@ export function MobileStickyBar() {
         {/* 1. Call Button */}
         <a
           href={`tel:${siteConfig.phone}`}
-          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2] transition"
+          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2] transition"
           title="Call Solar Expert"
         >
-          <PhoneIcon className="w-5 h-5 text-[#70BA3F] mb-0.5" />
+          <PhoneIcon className="w-5 h-5 text-[#2F8E04] mb-0.5" />
           <span className="text-[11px] font-semibold">Call</span>
         </a>
 
@@ -28,7 +28,7 @@ export function MobileStickyBar() {
         <button
           type="button"
           onClick={() => openWhatsAppModal()}
-          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-[#172B1D] hover:text-[#25D366] hover:bg-[#F0F8EC] transition"
+          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-[#172B1D] hover:text-[#25D366] hover:bg-[#F4F9EC] transition"
           title="Chat on WhatsApp"
         >
           <WhatsAppIcon className="w-5 h-5 text-[#25D366] mb-0.5" />
@@ -38,9 +38,9 @@ export function MobileStickyBar() {
         {/* 3. Calculator */}
         <Link
           href="/calculator/"
-          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-[#172B1D] hover:text-[#70BA3F] hover:bg-[#F4F7F2] transition"
+          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl text-[#172B1D] hover:text-[#2F8E04] hover:bg-[#F4F7F2] transition"
         >
-          <CalculatorIcon className="w-5 h-5 text-[#70BA3F] mb-0.5" />
+          <CalculatorIcon className="w-5 h-5 text-[#2F8E04] mb-0.5" />
           <span className="text-[11px] font-semibold">Calculator</span>
         </Link>
 
@@ -48,10 +48,10 @@ export function MobileStickyBar() {
         <button
           type="button"
           onClick={() => openQuoteModal({ title: 'Get Instant Solar Quote' })}
-          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl bg-[#70BA3F] hover:bg-[#61A334] text-[#122417] font-bold shadow-sm active:scale-95 transition"
+          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl bg-[#2F8E04] hover:bg-[#012258] text-white font-bold shadow-sm active:scale-95 transition"
         >
-          <ZapIcon className="w-5 h-5 text-[#122417] mb-0.5" />
-          <span className="text-[11px] font-extrabold">Get Quote</span>
+          <ZapIcon className="w-5 h-5 text-amber-300 mb-0.5" />
+          <span className="text-[11px] font-extrabold text-white">Get Quote</span>
         </button>
       </div>
     </aside>

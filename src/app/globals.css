@@ -101,12 +101,12 @@
   }
 
   :focus-visible {
-    outline: 2px solid #70BA3F;
+    outline: 2px solid #2F8E04;
     outline-offset: 2px;
   }
 }
 
-/* Solar Calculator Custom Range Slider - Solor Lime Theme */
+/* Solar Calculator Custom Range Slider - Brand Green Theme */
 input[type='range'] {
   -webkit-appearance: none;
   appearance: none;
@@ -124,7 +124,7 @@ input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   margin-top: -6px;
-  background-color: #70BA3F;
+  background-color: #2F8E04;
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -135,7 +135,7 @@ input[type='range']::-webkit-slider-thumb {
 
 input[type='range']::-webkit-slider-thumb:hover {
   transform: scale(1.15);
-  background-color: #61A334;
+  background-color: #012258;
 }
 
 input[type='range']::-moz-range-track {
@@ -145,7 +145,7 @@ input[type='range']::-moz-range-track {
 }
 
 input[type='range']::-moz-range-thumb {
-  background-color: #70BA3F;
+  background-color: #2F8E04;
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -162,11 +162,11 @@ input[type='range']::-moz-range-thumb {
   background: #F4F7F2;
 }
 ::-webkit-scrollbar-thumb {
-  background: #CDE9BE;
+  background: #C7E8A0;
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #70BA3F;
+  background: #2F8E04;
 }
 
 /* Safe Area Inset for Modern Mobile Browsers */
@@ -204,7 +204,7 @@ input[type='range']::-moz-range-thumb {
   font-family: var(--font-bebas), Impact, 'Arial Black', sans-serif;
   letter-spacing: 0.05em;
   color: #122417; /* Matches footer background */
-  -webkit-text-stroke: 2px #70BA3F;
+  -webkit-text-stroke: 2px #71B402;
   paint-order: stroke fill;
 }
 

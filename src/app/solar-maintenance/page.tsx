@@ -25,9 +25,9 @@ export default function SolarMaintenancePage() {
       <Breadcrumbs items={[{ name: 'Solar Maintenance', url: '/solar-maintenance/' }]} />
 
       {/* Hero Header */}
-      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#70BA3F]/20">
-        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
-          <ToolIcon className="w-4 h-4 text-[#70BA3F]" />
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 border border-[#2F8E04]/20">
+        <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2F8E04]/15 text-xs font-semibold text-[#71B402] border border-[#2F8E04]/30">
+          <ToolIcon className="w-4 h-4 text-[#2F8E04]" />
           Preventive Care &amp; Performance Restoration
         </span>
         <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -41,7 +41,7 @@ export default function SolarMaintenancePage() {
       {/* Maintenance Services Grid */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-[#EAF4E4] text-[#70BA3F] flex items-center justify-center font-bold">
+          <div className="w-10 h-10 rounded-xl bg-[#EAF4E4] text-[#2F8E04] flex items-center justify-center font-bold">
             <SunIcon className="w-5 h-5" />
           </div>
           <h2 className="text-lg font-bold text-[#122417]">Demineralized Water Cleaning</h2>
@@ -61,7 +61,7 @@ export default function SolarMaintenancePage() {
         </div>
 
         <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E1E8DE] shadow-xs space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-[#EAF4E4] text-[#70BA3F] flex items-center justify-center font-bold">
+          <div className="w-10 h-10 rounded-xl bg-[#EAF4E4] text-[#2F8E04] flex items-center justify-center font-bold">
             <ShieldCheckIcon className="w-5 h-5" />
           </div>
           <h2 className="text-lg font-bold text-[#122417]">Electrical &amp; Earthing Audit</h2>
@@ -75,7 +75,7 @@ export default function SolarMaintenancePage() {
       <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
               Book Maintenance Visit
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">

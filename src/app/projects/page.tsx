@@ -26,12 +26,12 @@ export default function ProjectsPage() {
 
       {/* Hero Header - Solor Style */}
       <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#70BA3F]" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
           <span>Verified Project Portfolio</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          Featured Solar Installations Across <span className="text-[#70BA3F]">Uttarakhand</span>
+          Featured Solar Installations Across <span className="text-[#2F8E04]">Uttarakhand</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           Explore actual project case studies from residential villas in Dehradun and resort hybrid systems in Corbett to industrial plants in SIDCUL Rudrapur.
@@ -43,22 +43,22 @@ export default function ProjectsPage() {
         {projects.map((project) => (
           <div
             key={project.slug}
-            className="bg-white rounded-3xl border border-[#E1E8DE] shadow-xs hover:shadow-xl transition flex flex-col justify-between overflow-hidden group hover:border-[#70BA3F]"
+            className="bg-white rounded-3xl border border-[#E1E8DE] shadow-xs hover:shadow-xl transition flex flex-col justify-between overflow-hidden group hover:border-[#2F8E04]"
           >
             <div className="p-6 sm:p-8">
               {/* Category & Location Badges */}
               <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-bold text-[#467725] bg-[#E6F4DE] px-3 py-1 rounded-full">
+                <span className="text-xs font-bold text-[#467725] bg-[#E5F4D3] px-3 py-1 rounded-full">
                   {project.category} Solar
                 </span>
                 <span className="text-xs text-[#687B6C] font-semibold flex items-center gap-1">
-                  <MapPinIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+                  <MapPinIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
                   <span>{project.location}</span>
                 </span>
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-heading font-bold text-[#122417] mb-2 leading-snug group-hover:text-[#70BA3F] transition">
+              <h3 className="text-xl font-heading font-bold text-[#122417] mb-2 leading-snug group-hover:text-[#2F8E04] transition">
                 {project.title}
               </h3>
 
@@ -75,7 +75,7 @@ export default function ProjectsPage() {
                 </div>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-[#687B6C]">Annual Savings:</span>
-                  <span className="font-bold text-[#70BA3F]">{project.annualSavings}</span>
+                  <span className="font-bold text-[#2F8E04]">{project.annualSavings}</span>
                 </div>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-[#687B6C]">System Type:</span>
@@ -90,7 +90,7 @@ export default function ProjectsPage() {
                 </span>
                 {project.highlights.map((h, idx) => (
                   <div key={idx} className="flex items-center gap-2 text-xs text-[#172B1D]">
-                    <CheckIcon className="w-3.5 h-3.5 text-[#70BA3F] flex-shrink-0" />
+                    <CheckIcon className="w-3.5 h-3.5 text-[#2F8E04] flex-shrink-0" />
                     <span>{h}</span>
                   </div>
                 ))}

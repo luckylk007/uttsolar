@@ -9,21 +9,30 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Solor Theme Palette
+        // Updated Brand Palette
         'solor-lime': {
-          DEFAULT: '#70BA3F',
-          hover: '#61A334',
-          light: '#F0F8EC',
-          50: '#F5FAF2',
-          100: '#E6F4DE',
-          200: '#CDE9BE',
-          300: '#AEDB96',
-          400: '#8ECD6B',
-          500: '#70BA3F',
-          600: '#5A9930',
-          700: '#467725',
-          800: '#34581C',
-          900: '#233C13',
+          DEFAULT: '#2F8E04', // Main Green
+          hover: '#012258',   // Blue Hover
+          light: '#71B402',   // Light Green
+          50: '#F4F9EC',
+          100: '#E5F4D3',
+          200: '#C7E8A0',
+          300: '#A8DC6D',
+          400: '#89CF3A',
+          500: '#71B402', // Light Green
+          600: '#2F8E04', // Main Green
+          700: '#257203',
+          800: '#1B5402',
+          900: '#123801',
+        },
+        'solor-blue': {
+          DEFAULT: '#012258', // Blue Hover Color
+          hover: '#011A43',
+          light: '#E6ECF5',
+          50: '#F0F4FA',
+          100: '#DCE5F3',
+          800: '#012258',
+          900: '#00163A',
         },
         'solor-dark': {
           DEFAULT: '#122417',
@@ -37,25 +46,25 @@ const config: Config = {
         'solor-text': '#172B1D',
         'solor-muted': '#687B6C',
 
-        // Legacy compatibility tokens
+        // Legacy & semantic tokens
         'solar-green': {
-          DEFAULT: '#70BA3F',
-          hover: '#61A334',
-          light: '#F0F8EC',
-          50: '#F5FAF2',
-          100: '#E6F4DE',
-          200: '#CDE9BE',
-          300: '#AEDB96',
-          400: '#8ECD6B',
-          500: '#70BA3F',
-          600: '#5A9930',
-          700: '#467725',
-          800: '#34581C',
-          900: '#233C13',
+          DEFAULT: '#2F8E04', // Main Green
+          hover: '#012258',   // Blue Hover
+          light: '#71B402',   // Light Green
+          50: '#F4F9EC',
+          100: '#E5F4D3',
+          200: '#C7E8A0',
+          300: '#A8DC6D',
+          400: '#89CF3A',
+          500: '#71B402',
+          600: '#2F8E04',
+          700: '#257203',
+          800: '#1B5402',
+          900: '#123801',
         },
         'deep-navy': {
           DEFAULT: '#122417',
-          hover: '#0E1D13',
+          hover: '#012258',
           dark: '#09150D',
           light: '#1A3321',
           50: '#F4F7F2',
@@ -76,7 +85,7 @@ const config: Config = {
           dark: '#0E80B5',
         },
         'warm-white': '#F4F7F2',
-        'light-green': '#F0F8EC',
+        'light-green': '#F4F9EC',
         'primary-text': '#172B1D',
         'secondary-text': '#687B6C',
         'border-ui': '#E1E8DE',

@@ -56,12 +56,12 @@ export default function NetMeteringPage() {
 
       {/* Hero Header - Solor Style */}
       <section className="bg-[#122417] text-white rounded-3xl p-8 sm:p-14 shadow-xl text-center max-w-4xl mx-auto space-y-4 relative overflow-hidden">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
-          <LeafIcon className="w-4 h-4 text-[#70BA3F]" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
+          <LeafIcon className="w-4 h-4 text-[#2F8E04]" />
           <span>UPCL Grid Synchronization</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-          UPCL Net Metering Assistance in <span className="text-[#70BA3F]">Uttarakhand</span>
+          UPCL Net Metering Assistance in <span className="text-[#2F8E04]">Uttarakhand</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
           Net metering is the key to zero electricity bills. We manage the entire application and inspection workflow with Uttarakhand Power Corporation Limited (UPCL).
@@ -75,7 +75,7 @@ export default function NetMeteringPage() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs">
-          <div className="p-6 rounded-2xl bg-[#F0F8EC] border border-[#CDE9BE] space-y-2">
+          <div className="p-6 rounded-2xl bg-[#F4F9EC] border border-[#C7E8A0] space-y-2">
             <span className="text-xs font-heading font-black uppercase text-[#467725] block">Daytime Solar Export</span>
             <p className="text-[#172B1D] leading-relaxed">
               When your solar panels generate more power than your home is using during sunny hours, the surplus electricity flows backward into the UPCL grid, spinning your net meter in reverse.
@@ -89,7 +89,7 @@ export default function NetMeteringPage() {
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#F0F8EC] border border-[#CDE9BE] space-y-2">
+          <div className="p-6 rounded-2xl bg-[#F4F9EC] border border-[#C7E8A0] space-y-2">
             <span className="text-xs font-heading font-black uppercase text-[#467725] block">Net Monthly Settlement</span>
             <p className="text-[#172B1D] leading-relaxed">
               At the end of the month, your bill is computed strictly on the net difference (Import minus Export). Surplus units are banked and carried over to subsequent months!

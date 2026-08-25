@@ -28,7 +28,7 @@ export function LanguageSwitcher() {
         aria-expanded={isOpen}
         aria-label="Select Language"
       >
-        <span className="text-[#70BA3F]">🌐</span>
+        <span className="text-[#2F8E04]">🌐</span>
         <span>{isHindi ? 'हिन्दी' : 'English'}</span>
         <svg className="w-3 h-3 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -41,21 +41,21 @@ export function LanguageSwitcher() {
             type="button"
             onClick={() => toggleLanguage('en')}
             className={`w-full text-left px-3.5 py-2 text-xs font-medium transition flex items-center justify-between ${
-              !isHindi ? 'text-[#70BA3F] bg-[#1A3321] font-bold' : 'text-slate-200 hover:bg-[#1A3321]'
+              !isHindi ? 'text-[#2F8E04] bg-[#1A3321] font-bold' : 'text-slate-200 hover:bg-[#1A3321]'
             }`}
           >
             <span>English</span>
-            {!isHindi && <span className="text-[#70BA3F]">✓</span>}
+            {!isHindi && <span className="text-[#2F8E04]">✓</span>}
           </button>
           <button
             type="button"
             onClick={() => toggleLanguage('hi')}
             className={`w-full text-left px-3.5 py-2 text-xs font-medium transition flex items-center justify-between ${
-              isHindi ? 'text-[#70BA3F] bg-[#1A3321] font-bold' : 'text-slate-200 hover:bg-[#1A3321]'
+              isHindi ? 'text-[#2F8E04] bg-[#1A3321] font-bold' : 'text-slate-200 hover:bg-[#1A3321]'
             }`}
           >
             <span>हिन्दी</span>
-            {isHindi && <span className="text-[#70BA3F]">✓</span>}
+            {isHindi && <span className="text-[#2F8E04]">✓</span>}
           </button>
         </div>
       )}

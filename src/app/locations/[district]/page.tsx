@@ -91,10 +91,10 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       <Breadcrumbs items={breadcrumbs} />
 
       {/* Hero Header */}
-      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden border border-[#70BA3F]/20">
+      <section className="bg-[#122417] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden border border-[#2F8E04]/20">
         <div className="max-w-3xl space-y-4">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#70BA3F]/15 text-xs font-semibold text-[#AEDB96] border border-[#70BA3F]/30">
-            <MapPinIcon className="w-4 h-4 text-[#70BA3F]" />
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2F8E04]/15 text-xs font-semibold text-[#71B402] border border-[#2F8E04]/30">
+            <MapPinIcon className="w-4 h-4 text-[#2F8E04]" />
             {district.name} District Solar Engineering Center
           </span>
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -107,7 +107,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#2F8E04] hover:bg-[#012258] shadow-md transition"
             >
               Book Free Site Survey in {district.name}
             </Link>
@@ -115,7 +115,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
               href={`tel:${siteConfig.phone}`}
               className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/15 border border-white/20 transition flex items-center gap-1.5"
             >
-              <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
+              <PhoneIcon className="w-4 h-4 text-[#2F8E04]" />
               <span>Call District Helpline</span>
             </a>
           </div>
@@ -126,7 +126,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       <section className="space-y-6">
         <div className="flex items-center justify-between">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
               Coverage
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-1">
@@ -141,7 +141,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
             {districtLocations.map((loc) => (
               <div
                 key={loc.slug}
-                className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs hover:border-[#70BA3F] transition flex flex-col justify-between"
+                className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs hover:border-[#2F8E04] transition flex flex-col justify-between"
               >
                 <div>
                   <h3 className="text-base font-bold text-[#122417] mb-1">
@@ -151,7 +151,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
                 </div>
                 <Link
                   href={`/locations/${district.slug}/${loc.slug}/`}
-                  className="text-xs font-semibold text-[#70BA3F] hover:text-[#5A9930] flex items-center justify-between border-t border-[#E1E8DE] pt-2"
+                  className="text-xs font-semibold text-[#2F8E04] hover:text-[#5A9930] flex items-center justify-between border-t border-[#E1E8DE] pt-2"
                 >
                   <span>View {loc.name} details</span>
                   <span>→</span>
@@ -187,7 +187,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {district.servicesAvailable.map((srv, idx) => (
             <div key={idx} className="flex items-center gap-3 p-3.5 bg-[#F4F7F2] rounded-xl border border-[#E1E8DE]">
-              <CheckCircleIcon className="w-5 h-5 text-[#70BA3F] flex-shrink-0" />
+              <CheckCircleIcon className="w-5 h-5 text-[#2F8E04] flex-shrink-0" />
               <span className="text-xs sm:text-sm font-semibold text-[#122417]">{srv}</span>
             </div>
           ))}
@@ -197,7 +197,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       {/* District Solar Calculator */}
       <section className="space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
             {district.name} Estimator
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
@@ -210,7 +210,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       {/* District Specific FAQs */}
       <section className="max-w-4xl mx-auto space-y-6">
         <div className="text-center">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
             Local Questions
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-[#122417] mt-2">
@@ -224,7 +224,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
               key={idx}
               className="bg-white p-5 rounded-2xl border border-[#E1E8DE] shadow-xs group [&_summary::-webkit-details-marker]:hidden"
             >
-              <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-[#122417] group-open:text-[#70BA3F] transition">
+              <summary className="flex items-center justify-between cursor-pointer text-sm font-bold text-[#122417] group-open:text-[#2F8E04] transition">
                 <span>{faq.question}</span>
                 <span className="w-6 h-6 rounded-full bg-[#F4F7F2] flex items-center justify-center text-xs font-bold text-[#687B6C] group-open:rotate-180 transition">
                   ▼
@@ -248,17 +248,17 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
             <Link
               key={b.slug}
               href={`/blog/${b.slug}/`}
-              className="p-5 rounded-2xl bg-white border border-[#E1E8DE] hover:border-[#70BA3F] hover:shadow-xs transition group flex flex-col justify-between"
+              className="p-5 rounded-2xl bg-white border border-[#E1E8DE] hover:border-[#2F8E04] hover:shadow-xs transition group flex flex-col justify-between"
             >
               <div>
-                <span className="text-[10px] font-semibold text-[#70BA3F] uppercase tracking-wider block mb-1">
+                <span className="text-[10px] font-semibold text-[#2F8E04] uppercase tracking-wider block mb-1">
                   {b.category}
                 </span>
-                <h4 className="text-xs sm:text-sm font-bold text-[#122417] group-hover:text-[#70BA3F] transition line-clamp-2">
+                <h4 className="text-xs sm:text-sm font-bold text-[#122417] group-hover:text-[#2F8E04] transition line-clamp-2">
                   {b.title}
                 </h4>
               </div>
-              <span className="text-[11px] font-semibold text-[#70BA3F] mt-3 block">
+              <span className="text-[11px] font-semibold text-[#2F8E04] mt-3 block">
                 Read guide →
               </span>
             </Link>
@@ -270,7 +270,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
       <section className="bg-[#F4F7F2] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E1E8DE]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#70BA3F]/30">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EAF4E4] px-3 py-1 rounded-full border border-[#2F8E04]/30">
               Free Site Survey
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#122417]">

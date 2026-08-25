@@ -63,22 +63,22 @@ export default function HindiHomePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#122417] via-transparent to-[#122417]/50 pointer-events-none" />
 
         {/* Ambient Glows */}
-        <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#70BA3F]/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#2F8E04]/15 rounded-full blur-3xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16 pb-20 sm:pt-20 sm:pb-28 lg:pt-24 lg:pb-32">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             {/* Left Column: Heading & CTAs (7 Cols) */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               {/* Hindi Small Pill Subtitle */}
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
-                <span className="w-2 h-2 rounded-full bg-[#70BA3F] animate-pulse" />
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
+                <span className="w-2 h-2 rounded-full bg-[#2F8E04] animate-pulse" />
                 <span>उत्तराखंड का विश्वसनीय सोलर पार्टनर</span>
               </div>
 
               {/* Main Headline */}
               <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-heading font-extrabold tracking-tight text-white leading-[1.18]">
                 स्वच्छ सोलर ऊर्जा से <br className="hidden sm:inline" />
-                <span className="text-[#70BA3F]">बिजली बिल शून्य करें।</span>
+                <span className="text-[#2F8E04]">बिजली बिल शून्य करें।</span>
               </h1>
 
               {/* Subtitle */}
@@ -94,8 +94,8 @@ export default function HindiHomePage() {
                     <span className="text-base sm:text-lg font-heading font-bold text-white">₹3,000</span>
                   </div>
                   <div className="px-2">
-                    <span className="text-[11px] font-bold text-[#70BA3F] block">सुझाया गया प्लांट</span>
-                    <span className="text-base sm:text-lg font-heading font-bold text-[#70BA3F]">3 kW सिस्टम</span>
+                    <span className="text-[11px] font-bold text-[#2F8E04] block">सुझाया गया प्लांट</span>
+                    <span className="text-base sm:text-lg font-heading font-bold text-[#2F8E04]">3 kW सिस्टम</span>
                   </div>
                   <div className="px-2">
                     <span className="text-[11px] font-bold text-green-300 block">मासिक बचत</span>
@@ -108,7 +108,7 @@ export default function HindiHomePage() {
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
                 <Link
                   href="/contact/?intent=quote"
-                  className="group inline-flex items-center gap-3 px-6 py-3.5 rounded-full text-sm font-extrabold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-md hover:shadow-xl transition"
+                  className="group inline-flex items-center gap-3 px-6 py-3.5 rounded-full text-sm font-extrabold text-white bg-[#2F8E04] hover:bg-[#012258] shadow-md hover:shadow-xl transition"
                 >
                   <span>मुफ्त कोटेशन प्राप्त करें</span>
                   <span className="w-6 h-6 rounded-full bg-[#122417] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -120,7 +120,7 @@ export default function HindiHomePage() {
                   href="#calculator"
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full text-sm font-bold text-white bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-sm transition"
                 >
-                  <CalculatorIcon className="w-4 h-4 text-[#70BA3F]" />
+                  <CalculatorIcon className="w-4 h-4 text-[#2F8E04]" />
                   <span>बचत की गणना करें</span>
                 </Link>
               </div>
@@ -130,7 +130,7 @@ export default function HindiHomePage() {
             <div className="lg:col-span-5">
               <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl border border-[#E1E8DE] text-[#172B1D]">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-[#70BA3F] bg-[#F0F8EC]">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-[#2F8E04] bg-[#F4F9EC]">
                     <LeafIcon className="w-3.5 h-3.5" />
                     30 सेकंड में बुकिंग
                   </span>
@@ -163,27 +163,27 @@ export default function HindiHomePage() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 pt-4">
             <div className="text-center p-3">
               <div className="text-3xl sm:text-4xl font-heading font-extrabold text-[#122417]">10K+</div>
-              <div className="text-xs font-bold text-[#70BA3F] uppercase tracking-wider mt-1">kW क्षमता</div>
+              <div className="text-xs font-bold text-[#2F8E04] uppercase tracking-wider mt-1">kW क्षमता</div>
               <div className="text-[11px] text-[#687B6C]">स्थापित व चालू</div>
             </div>
             <div className="text-center p-3">
               <div className="text-3xl sm:text-4xl font-heading font-extrabold text-[#122417]">15K+</div>
-              <div className="text-xs font-bold text-[#70BA3F] uppercase tracking-wider mt-1">संतुष्ट परिवार</div>
+              <div className="text-xs font-bold text-[#2F8E04] uppercase tracking-wider mt-1">संतुष्ट परिवार</div>
               <div className="text-[11px] text-[#687B6C]">शून्य मासिक बिजली बिल</div>
             </div>
             <div className="text-center p-3">
               <div className="text-3xl sm:text-4xl font-heading font-extrabold text-[#122417]">340+</div>
-              <div className="text-xs font-bold text-[#70BA3F] uppercase tracking-wider mt-1">व्यावसायिक प्रोजेक्ट</div>
+              <div className="text-xs font-bold text-[#2F8E04] uppercase tracking-wider mt-1">व्यावसायिक प्रोजेक्ट</div>
               <div className="text-[11px] text-[#687B6C]">होटल, स्कूल व फैक्ट्रीज</div>
             </div>
             <div className="text-center p-3">
               <div className="text-3xl sm:text-4xl font-heading font-extrabold text-[#122417]">100%</div>
-              <div className="text-xs font-bold text-[#70BA3F] uppercase tracking-wider mt-1">UPCL स्वीकृति</div>
+              <div className="text-xs font-bold text-[#2F8E04] uppercase tracking-wider mt-1">UPCL स्वीकृति</div>
               <div className="text-[11px] text-[#687B6C]">नेट मीटरिंग प्रक्रिया</div>
             </div>
             <div className="text-center p-3 col-span-2 md:col-span-1">
               <div className="text-3xl sm:text-4xl font-heading font-extrabold text-[#122417]">25+</div>
-              <div className="text-xs font-bold text-[#70BA3F] uppercase tracking-wider mt-1">वर्ष वारंटी</div>
+              <div className="text-xs font-bold text-[#2F8E04] uppercase tracking-wider mt-1">वर्ष वारंटी</div>
               <div className="text-[11px] text-[#687B6C]">Tier-1 ALMM पैनल्स</div>
             </div>
           </div>
@@ -206,7 +206,7 @@ export default function HindiHomePage() {
                 />
               </div>
 
-              <div className="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-6 w-48 sm:w-64 rounded-2xl overflow-hidden shadow-2xl border-4 border-[#70BA3F]">
+              <div className="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-6 w-48 sm:w-64 rounded-2xl overflow-hidden shadow-2xl border-4 border-[#2F8E04]">
                 <img
                   src="/images/solar-engineer-inspection.jpg"
                   alt="सोलर पैनल निरीक्षण करते इंजीनियर"
@@ -215,20 +215,20 @@ export default function HindiHomePage() {
               </div>
 
               <div className="absolute top-6 -left-4 bg-[#122417] text-white p-3.5 rounded-2xl shadow-xl border border-white/10 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#70BA3F] flex items-center justify-center text-[#122417]">
+                <div className="w-10 h-10 rounded-full bg-[#2F8E04] flex items-center justify-center text-[#122417]">
                   <ShieldCheckIcon className="w-6 h-6" />
                 </div>
                 <div>
                   <div className="text-lg font-heading font-extrabold text-white leading-none">25 वर्ष</div>
-                  <div className="text-[10px] text-[#AEDB96] uppercase font-bold mt-0.5">लीनियर परफॉर्मेंस वारंटी</div>
+                  <div className="text-[10px] text-[#71B402] uppercase font-bold mt-0.5">लीनियर परफॉर्मेंस वारंटी</div>
                 </div>
               </div>
             </div>
 
             {/* Right Column: Content */}
             <div className="lg:col-span-6 space-y-5 lg:pl-6">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-xs font-extrabold text-[#467725] uppercase tracking-wider">
-                <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider">
+                <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
                 <span>हमारे बारे में</span>
               </div>
 
@@ -243,25 +243,25 @@ export default function HindiHomePage() {
               {/* 4-Item Hindi Checklist */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                 <div className="flex items-center gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-[#70BA3F] text-white flex items-center justify-center flex-shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-[#2F8E04] text-white flex items-center justify-center flex-shrink-0">
                     <CheckIcon className="w-3.5 h-3.5" />
                   </span>
                   <span className="text-xs font-bold text-[#172B1D]">MNRE और UPCL स्वीकृत पैनल्स</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-[#70BA3F] text-white flex items-center justify-center flex-shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-[#2F8E04] text-white flex items-center justify-center flex-shrink-0">
                     <CheckIcon className="w-3.5 h-3.5" />
                   </span>
                   <span className="text-xs font-bold text-[#172B1D]">₹85,800 तक केंद्रीय सब्सिडी</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-[#70BA3F] text-white flex items-center justify-center flex-shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-[#2F8E04] text-white flex items-center justify-center flex-shrink-0">
                     <CheckIcon className="w-3.5 h-3.5" />
                   </span>
                   <span className="text-xs font-bold text-[#172B1D]">3 वर्ष में लागत वसूली (ROI)</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-[#70BA3F] text-white flex items-center justify-center flex-shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-[#2F8E04] text-white flex items-center justify-center flex-shrink-0">
                     <CheckIcon className="w-3.5 h-3.5" />
                   </span>
                   <span className="text-xs font-bold text-[#172B1D]">24/7 स्थानीय इंजीनियर सहायता</span>
@@ -271,7 +271,7 @@ export default function HindiHomePage() {
               <div className="pt-4">
                 <Link
                   href="/about/"
-                  className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] transition shadow-sm"
+                  className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#2F8E04] hover:bg-[#012258] transition shadow-sm"
                 >
                   <span>कंपनी के बारे में और जानें</span>
                   <span className="w-5 h-5 rounded-full bg-[#122417] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -290,8 +290,8 @@ export default function HindiHomePage() {
       <section className="bg-white py-16 sm:py-24 border-b border-[#E1E8DE]" id="services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
-              <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+              <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
               <span>हमारी सेवाएं</span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#122417]">
@@ -309,12 +309,12 @@ export default function HindiHomePage() {
                     alt="आवासीय सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#70BA3F] text-[#122417] flex items-center justify-center shadow-lg">
+                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#2F8E04] text-white hover:bg-[#012258] flex items-center justify-center shadow-lg">
                     <HomeIcon className="w-5 h-5 text-white" />
                   </div>
                 </div>
                 <div className="p-6">
-                  <span className="text-[11px] font-bold text-[#70BA3F] uppercase tracking-wider">1 kW से 10 kW</span>
+                  <span className="text-[11px] font-bold text-[#2F8E04] uppercase tracking-wider">1 kW से 10 kW</span>
                   <h3 className="text-xl font-heading font-bold text-[#122417] mt-1 mb-2">
                     आवासीय रूफटॉप सोलर
                   </h3>
@@ -326,7 +326,7 @@ export default function HindiHomePage() {
               <div className="px-6 pb-6 pt-2">
                 <Link
                   href="/services/residential-solar/"
-                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#70BA3F] group-hover:text-white transition"
+                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#2F8E04] group-hover:text-white transition"
                 >
                   <span>विस्तार से देखें</span>
                   <ArrowUpRightIcon className="w-3.5 h-3.5" />
@@ -343,12 +343,12 @@ export default function HindiHomePage() {
                     alt="व्यावसायिक सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#70BA3F] text-[#122417] flex items-center justify-center shadow-lg">
+                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#2F8E04] text-white hover:bg-[#012258] flex items-center justify-center shadow-lg">
                     <BuildingIcon className="w-5 h-5 text-white" />
                   </div>
                 </div>
                 <div className="p-6">
-                  <span className="text-[11px] font-bold text-[#70BA3F] uppercase tracking-wider">10 kW से 100 kW+</span>
+                  <span className="text-[11px] font-bold text-[#2F8E04] uppercase tracking-wider">10 kW से 100 kW+</span>
                   <h3 className="text-xl font-heading font-bold text-[#122417] mt-1 mb-2">
                     व्यावसायिक सोलर
                   </h3>
@@ -360,7 +360,7 @@ export default function HindiHomePage() {
               <div className="px-6 pb-6 pt-2">
                 <Link
                   href="/services/commercial-solar/"
-                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#70BA3F] group-hover:text-white transition"
+                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#2F8E04] group-hover:text-white transition"
                 >
                   <span>विस्तार से देखें</span>
                   <ArrowUpRightIcon className="w-3.5 h-3.5" />
@@ -377,12 +377,12 @@ export default function HindiHomePage() {
                     alt="औद्योगिक सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#70BA3F] text-[#122417] flex items-center justify-center shadow-lg">
+                  <div className="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#2F8E04] text-white hover:bg-[#012258] flex items-center justify-center shadow-lg">
                     <FactoryIcon className="w-5 h-5 text-white" />
                   </div>
                 </div>
                 <div className="p-6">
-                  <span className="text-[11px] font-bold text-[#70BA3F] uppercase tracking-wider">100 kW से मेगावाट</span>
+                  <span className="text-[11px] font-bold text-[#2F8E04] uppercase tracking-wider">100 kW से मेगावाट</span>
                   <h3 className="text-xl font-heading font-bold text-[#122417] mt-1 mb-2">
                     औद्योगिक सोलर प्लांट्स
                   </h3>
@@ -394,7 +394,7 @@ export default function HindiHomePage() {
               <div className="px-6 pb-6 pt-2">
                 <Link
                   href="/services/industrial-solar/"
-                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#70BA3F] group-hover:text-white transition"
+                  className="inline-flex items-center justify-between w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#122417] bg-[#F4F7F2] group-hover:bg-[#2F8E04] group-hover:text-white transition"
                 >
                   <span>विस्तार से देखें</span>
                   <ArrowUpRightIcon className="w-3.5 h-3.5" />
@@ -411,8 +411,8 @@ export default function HindiHomePage() {
       <section className="bg-[#F4F7F2] py-16 sm:py-24 border-b border-[#E1E8DE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
-              <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+              <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
               <span>प्रक्रिया</span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#122417]">
@@ -422,7 +422,7 @@ export default function HindiHomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-2xl border border-[#E1E8DE] shadow-xs text-center flex flex-col items-center">
-              <div className="w-16 h-16 rounded-full bg-[#70BA3F] text-white flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md">
+              <div className="w-16 h-16 rounded-full bg-[#2F8E04] text-white flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md">
                 01
               </div>
               <h3 className="text-base font-heading font-bold text-[#122417] mb-2">मुफ्त साइट सर्वे</h3>
@@ -432,7 +432,7 @@ export default function HindiHomePage() {
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E1E8DE] shadow-xs text-center flex flex-col items-center">
-              <div className="w-16 h-16 rounded-full bg-[#122417] text-[#70BA3F] flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md border-2 border-[#70BA3F]">
+              <div className="w-16 h-16 rounded-full bg-[#122417] text-[#2F8E04] flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md border-2 border-[#2F8E04]">
                 02
               </div>
               <h3 className="text-base font-heading font-bold text-[#122417] mb-2">सब्सिडी व पोर्टल आवेदन</h3>
@@ -442,7 +442,7 @@ export default function HindiHomePage() {
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E1E8DE] shadow-xs text-center flex flex-col items-center">
-              <div className="w-16 h-16 rounded-full bg-[#70BA3F] text-white flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md">
+              <div className="w-16 h-16 rounded-full bg-[#2F8E04] text-white flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md">
                 03
               </div>
               <h3 className="text-base font-heading font-bold text-[#122417] mb-2">1 दिन में इंस्टॉलेशन</h3>
@@ -452,7 +452,7 @@ export default function HindiHomePage() {
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E1E8DE] shadow-xs text-center flex flex-col items-center">
-              <div className="w-16 h-16 rounded-full bg-[#122417] text-[#70BA3F] flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md border-2 border-[#70BA3F]">
+              <div className="w-16 h-16 rounded-full bg-[#122417] text-[#2F8E04] flex items-center justify-center font-heading font-black text-xl mb-4 shadow-md border-2 border-[#2F8E04]">
                 04
               </div>
               <h3 className="text-base font-heading font-bold text-[#122417] mb-2">नेट मीटर व बैंक सब्सिडी</h3>
@@ -470,8 +470,8 @@ export default function HindiHomePage() {
       <section className="bg-white py-16 sm:py-24 border-b border-[#E1E8DE]" id="calculator">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
-              <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+              <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
               <span>सोलर कैलकुलेटर</span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#122417]">
@@ -489,8 +489,8 @@ export default function HindiHomePage() {
       <section className="bg-[#F4F7F2] py-16 sm:py-24 border-b border-[#E1E8DE]" id="locations">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F4DE] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
-              <span className="w-2 h-2 rounded-full bg-[#70BA3F]" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E5F4D3] text-xs font-extrabold text-[#467725] uppercase tracking-wider mb-2">
+              <span className="w-2 h-2 rounded-full bg-[#2F8E04]" />
               <span>सेवा क्षेत्र</span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#122417]">
@@ -503,20 +503,20 @@ export default function HindiHomePage() {
               <Link
                 key={d.slug}
                 href={`/locations/${d.slug}/`}
-                className="p-4 rounded-2xl bg-white hover:border-[#70BA3F] border border-[#E1E8DE] transition flex flex-col justify-between shadow-xs group"
+                className="p-4 rounded-2xl bg-white hover:border-[#2F8E04] border border-[#E1E8DE] transition flex flex-col justify-between shadow-xs group"
               >
                 <div>
                   <div className="flex items-center justify-between">
-                    <h3 className="font-heading font-bold text-sm text-[#122417] group-hover:text-[#70BA3F] transition">
+                    <h3 className="font-heading font-bold text-sm text-[#122417] group-hover:text-[#2F8E04] transition">
                       {d.name}
                     </h3>
-                    <MapPinIcon className="w-4 h-4 text-[#70BA3F]" />
+                    <MapPinIcon className="w-4 h-4 text-[#2F8E04]" />
                   </div>
                   <p className="text-[11px] text-[#687B6C] mt-1 line-clamp-1">
                     {d.area}
                   </p>
                 </div>
-                <span className="text-[11px] font-bold text-[#70BA3F] mt-3 flex items-center gap-1">
+                <span className="text-[11px] font-bold text-[#2F8E04] mt-3 flex items-center gap-1">
                   <span>जानकारी देखें</span>
                   <ArrowUpRightIcon className="w-3 h-3" />
                 </span>
@@ -531,8 +531,8 @@ export default function HindiHomePage() {
          ========================================================================= */}
       <section className="bg-[#122417] text-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1A3321] border border-[#70BA3F]/40 text-xs font-bold text-[#AEDB96] uppercase tracking-wider">
-            <ZapIcon className="w-3.5 h-3.5 text-[#70BA3F]" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1A3321] border border-[#2F8E04]/40 text-xs font-bold text-[#71B402] uppercase tracking-wider">
+            <ZapIcon className="w-3.5 h-3.5 text-[#2F8E04]" />
             <span>उत्तराखंड विशेष राज्य सब्सिडी चालू है</span>
           </div>
 
@@ -547,7 +547,7 @@ export default function HindiHomePage() {
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full text-sm font-extrabold text-[#122417] bg-[#70BA3F] hover:bg-[#61A334] shadow-xl transition"
+              className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full text-sm font-extrabold text-white bg-[#2F8E04] hover:bg-[#012258] shadow-xl transition"
             >
               <span>मुफ्त सर्वे बुक करें</span>
               <ArrowUpRightIcon className="w-3.5 h-3.5" />
@@ -557,7 +557,7 @@ export default function HindiHomePage() {
               href={`tel:${siteConfig.phone}`}
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full text-sm font-bold text-white bg-white/10 hover:bg-white/20 border border-white/20 transition"
             >
-              <PhoneIcon className="w-4 h-4 text-[#70BA3F]" />
+              <PhoneIcon className="w-4 h-4 text-[#2F8E04]" />
               <span>कॉल करें: {siteConfig.phoneDisplay}</span>
             </a>
 
