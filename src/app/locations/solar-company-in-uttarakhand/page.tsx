@@ -95,7 +95,7 @@ export default function SolarCompanyInUttarakhandPage() {
   ];
 
   return (
-    <div className="w-full space-y-12 sm:space-y-16">
+    <div className="w-full">
       {/* Schemas */}
       <script
         type="application/ld+json"
@@ -134,7 +134,7 @@ export default function SolarCompanyInUttarakhandPage() {
       />
 
       {/* Full-Width Flagship Hero Header with Uttarakhand Landscape Background */}
-      <section className="relative w-full overflow-hidden text-white min-h-[580px] lg:min-h-[640px] flex items-center border-b border-[#46A304]/30 shadow-2xl">
+      <section className="relative w-full overflow-hidden text-white min-h-[580px] lg:min-h-[640px] flex items-center border-b border-[#46A304]/30 shadow-2xl mt-0">
         {/* Background AI Image */}
         <div className="absolute inset-0 -z-20">
           <Image
@@ -224,7 +224,7 @@ export default function SolarCompanyInUttarakhandPage() {
       </section>
 
       {/* Main Content Area */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 pb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 py-10 sm:py-14">
         {/* Interactive Keyword & Navigation Pills */}
         <KeywordPillCycle
           currentSlug="solar-company-in-uttarakhand"
