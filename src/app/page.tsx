@@ -111,7 +111,7 @@ export default function HomePage() {
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
                   <Link
                     href="/contact/?intent=quote"
-                    className="group inline-flex items-center gap-3 px-6 py-3.5 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-md hover:shadow-xl transition"
+                    className="group inline-flex items-center gap-3 px-6 py-3.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-md hover:shadow-xl transition"
                   >
                     <span>Get Started Today</span>
                     <span className="w-6 h-6 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -277,7 +277,7 @@ export default function HomePage() {
                 <div className="pt-3">
                   <Link
                     href="/about/"
-                    className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] transition shadow-sm"
+                    className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-[15px] font-semibold leading-[1.2] text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white transition shadow-sm"
                   >
                     <span>Discover More About Us</span>
                     <span className="w-5 h-5 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -517,7 +517,7 @@ export default function HomePage() {
             <div className="mt-12 text-center flex flex-wrap items-center justify-center gap-4">
               <Link
                 href="/contact/?intent=quote"
-                className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-md transition"
+                className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-md transition"
               >
                 <span>Start Your Solar Journey</span>
                 <span className="w-5 h-5 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
@@ -848,7 +848,7 @@ export default function HomePage() {
             <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
               <Link
                 href="/contact/?intent=quote"
-                className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full text-[15px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-xl transition"
+                className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full text-[15px] font-semibold leading-[1.2] text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-xl transition"
               >
                 <span>Book Free Site Survey Now</span>
                 <span className="w-6 h-6 rounded-full bg-[#17220F] text-white flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">

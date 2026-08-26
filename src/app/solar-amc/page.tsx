@@ -96,7 +96,7 @@ export default function SolarAmcPage() {
           </div>
           <Link
             href="/contact/?intent=amc"
-            className="w-full py-3 rounded-full text-xs font-semibold text-center text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-sm transition"
+            className="w-full py-3 rounded-full text-xs font-semibold text-center text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-sm transition"
           >
             Inquire for Commercial AMC
           </Link>

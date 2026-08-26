@@ -48,10 +48,10 @@ export function MobileStickyBar() {
         <button
           type="button"
           onClick={() => openQuoteModal({ title: 'Get Instant Solar Quote' })}
-          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] text-white font-bold shadow-sm active:scale-95 transition"
+          className="flex flex-col items-center justify-center py-1.5 px-1 rounded-xl bg-[#FFDE21] hover:bg-[#46A304] text-[#17220F] hover:text-white font-bold shadow-sm active:scale-95 transition"
         >
-          <ZapIcon className="w-5 h-5 text-[#FFDE21] mb-0.5" />
-          <span className="text-[11px] font-extrabold text-white">Get Quote</span>
+          <ZapIcon className="w-5 h-5 mb-0.5" />
+          <span className="text-[11px] font-extrabold">Get Quote</span>
         </button>
       </div>
     </aside>

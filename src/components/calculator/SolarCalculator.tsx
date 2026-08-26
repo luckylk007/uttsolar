@@ -466,7 +466,7 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3 px-5 rounded-full text-xs font-semibold text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] transition shadow-md flex items-center justify-center gap-1.5 disabled:opacity-50 active:scale-[0.99]"
+                  className="w-full py-3 px-5 rounded-full text-xs font-semibold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white transition shadow-md flex items-center justify-center gap-1.5 disabled:opacity-50 active:scale-[0.99]"
                 >
                   <CalculatorIcon className="w-3.5 h-3.5" />
                   <span>{isSubmitting ? 'Submitting...' : `Get Free Survey & Quote for ${result.recommendedKw} kW ↗`}</span>
