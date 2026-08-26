@@ -15,8 +15,8 @@ export function TopBar() {
       <div className="w-full px-4 sm:px-6 lg:px-[30px] flex items-center justify-between gap-3">
         {/* Left: Scheme Banner Announcement */}
         <div className="flex items-center gap-2.5 font-medium truncate">
-          <span className="inline-flex items-center gap-1.5 bg-[#FFF4CC] text-[#17220F] border border-[#FFB000]/40 px-2.5 py-0.5 rounded-full text-[11px] font-extrabold">
-            <ZapIcon className="w-3 h-3 text-[#FFB000]" />
+          <span className="inline-flex items-center gap-1.5 bg-[#FFF4CC] text-[#17220F] border border-[#FFDE21]/40 px-2.5 py-0.5 rounded-full text-[11px] font-extrabold">
+            <ZapIcon className="w-3 h-3 text-[#FFDE21]" />
             PM Surya Ghar
           </span>
           <Link

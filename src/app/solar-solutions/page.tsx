@@ -81,13 +81,13 @@ export default function SolarSolutionsPage() {
         </div>
 
         {/* Hybrid */}
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs flex flex-col justify-between hover:border-[#FFB000] transition">
+        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs flex flex-col justify-between hover:border-[#FFDE21] transition">
           <div>
             <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-semibold text-[#92400E] bg-[#FFF4CC] px-3 py-1 rounded-full border border-[#FFB000]/40">
+              <span className="text-xs font-semibold text-[#92400E] bg-[#FFF4CC] px-3 py-1 rounded-full border border-[#FFDE21]/40">
                 Best for Outage-Prone &amp; Hill Areas
               </span>
-              <SunIcon className="w-6 h-6 text-[#FFB000]" />
+              <SunIcon className="w-6 h-6 text-[#FFDE21]" />
             </div>
             <h2 className="text-2xl font-bold text-[#17220F] mb-2">Hybrid Solar Systems</h2>
             <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed mb-4">
@@ -95,15 +95,15 @@ export default function SolarSolutionsPage() {
             </p>
             <ul className="space-y-2.5 text-xs text-[#17220F] mb-6">
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#FFB000]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#FFDE21]" />
                 <span>Ideal for Mussoorie, Ranikhet, Corbett buffer zones &amp; outer Doon</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#FFB000]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#FFDE21]" />
                 <span>Instant power switchover during grid power cuts</span>
               </li>
               <li className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-[#FFB000]" />
+                <CheckCircleIcon className="w-4 h-4 text-[#FFDE21]" />
                 <span>Compact wall-mounted lithium batteries with 10+ year lifespan</span>
               </li>
             </ul>

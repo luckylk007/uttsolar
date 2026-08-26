@@ -135,7 +135,7 @@ input[type='range']::-webkit-slider-thumb {
 
 input[type='range']::-webkit-slider-thumb:hover {
   transform: scale(1.15);
-  background-color: #FFB000;
+  background-color: #FFDE21;
 }
 
 input[type='range']::-moz-range-track {

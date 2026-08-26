@@ -179,7 +179,7 @@ export function Footer() {
             <div className="flex items-center gap-3 pt-2">
               <Link
                 href="/contact/?intent=quote"
-                className="group inline-flex items-center gap-2 px-4 py-2 rounded-full text-[14px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] transition shadow-sm"
+                className="group inline-flex items-center gap-2 px-4 py-2 rounded-full text-[14px] font-semibold leading-[1.2] text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] transition shadow-sm"
               >
                 <span>Book Free Survey</span>
                 <ArrowUpRightIcon className="w-3.5 h-3.5" />

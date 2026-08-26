@@ -51,7 +51,7 @@ export default function SolarMaintenancePage() {
         </div>
 
         <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-[#FFF4CC] text-[#FFB000] flex items-center justify-center font-bold">
+          <div className="w-10 h-10 rounded-xl bg-[#FFF4CC] text-[#FFDE21] flex items-center justify-center font-bold">
             <ZapIcon className="w-5 h-5" />
           </div>
           <h2 className="text-lg font-bold text-[#17220F]">Thermal Imaging &amp; Diagnostics</h2>

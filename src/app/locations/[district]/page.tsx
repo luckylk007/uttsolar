@@ -107,7 +107,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-md transition"
             >
               Book Free Site Survey in {district.name}
             </Link>

@@ -56,7 +56,7 @@ export function WhatsAppModal({ isOpen, onClose, customMessage }: WhatsAppModalP
       subtitle: 'Site inspection, UPCL net metering & AMC support',
       number: siteConfig.phoneSecondaryDisplay, // +91 84750 14008
       badge: 'Engineering Desk',
-      badgeColor: 'bg-[#FFF4CC] text-[#92400E] border-[#FFB000]/40',
+      badgeColor: 'bg-[#FFF4CC] text-[#92400E] border-[#FFDE21]/40',
       whatsappUrl: `https://wa.me/${siteConfig.whatsappSecondary}?text=${encodedText}`,
       telUrl: `tel:${siteConfig.phoneSecondary}`,
     },

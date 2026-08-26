@@ -11,13 +11,13 @@ const config: Config = {
       colors: {
         // User Requested Palette
         'solar-yellow': {
-          DEFAULT: '#FFB000', // Primary Yellow
+          DEFAULT: '#FFDE21', // Primary Yellow
           dark: '#F59E0B',    // Golden Yellow
           light: '#FFF4CC',   // Soft Yellow
         },
         'solar-green': {
           DEFAULT: '#46A304', // Solar Green (Primary)
-          hover: '#FFB000',   // Solar Yellow (Button Hover)
+          hover: '#FFDE21',   // Solar Yellow (Button Hover)
           light: '#70C92F',   // Eco Green (Light)
           50: '#F7F9F5',
           100: '#EBF5E1',
@@ -32,7 +32,7 @@ const config: Config = {
         },
         'solor-lime': {
           DEFAULT: '#46A304',
-          hover: '#FFB000',
+          hover: '#FFDE21',
           light: '#70C92F',
           50: '#F7F9F5',
           100: '#EBF5E1',
@@ -70,7 +70,7 @@ const config: Config = {
           900: '#0C1307',
         },
         'solar-amber': {
-          DEFAULT: '#FFB000',
+          DEFAULT: '#FFDE21',
           hover: '#F59E0B',
           light: '#FFF4CC',
         },

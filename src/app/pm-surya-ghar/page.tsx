@@ -72,7 +72,7 @@ export default function PmSuryaGharPage() {
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md transition"
+              className="group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full text-xs sm:text-sm font-extrabold text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-md transition"
             >
               <span>Claim PM Surya Ghar Subsidy Now</span>
               <ArrowUpRightIcon className="w-3.5 h-3.5" />
@@ -116,7 +116,7 @@ export default function PmSuryaGharPage() {
           </div>
 
           <div className="bg-white p-6 rounded-3xl border-2 border-[#46A304] shadow-md text-center space-y-3 relative">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#46A304] text-white hover:bg-[#FFB000] hover:text-[#17220F] text-[10px] uppercase font-black px-3 py-0.5 rounded-full">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#46A304] text-white hover:bg-[#FFDE21] hover:text-[#17220F] text-[10px] uppercase font-black px-3 py-0.5 rounded-full">
               Most Popular
             </div>
             <div className="text-xs font-bold uppercase text-[#66705F]">2 kW System</div>

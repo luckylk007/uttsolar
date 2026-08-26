@@ -117,7 +117,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] shadow-md transition"
             >
               Book Free Site Survey in {location.name}
             </Link>
@@ -156,7 +156,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
         </div>
 
         <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-[#FFF4CC] text-[#FFB000] flex items-center justify-center font-bold">
+          <div className="w-10 h-10 rounded-xl bg-[#FFF4CC] text-[#FFDE21] flex items-center justify-center font-bold">
             <ZapIcon className="w-5 h-5" />
           </div>
           <h2 className="text-xl font-bold text-[#17220F]">
@@ -233,7 +233,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           </div>
 
           <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20">
-            <BuildingIcon className="w-6 h-6 text-[#FFB000] mb-2" />
+            <BuildingIcon className="w-6 h-6 text-[#FFDE21] mb-2" />
             <h3 className="text-base font-bold text-white mb-2">Commercial &amp; Institutional</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
               Three-phase grid-connected plants for hotels, clinics, showrooms, and schools in {location.name}. High tax depreciation and immediate daytime tariff reduction.

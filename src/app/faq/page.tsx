@@ -87,7 +87,7 @@ export default function FaqPage() {
         <div className="flex justify-center gap-3 pt-2">
           <Link
             href="/contact/?intent=quote"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-extrabold text-white bg-[#46A304] hover:bg-[#FFB000] hover:text-[#17220F] transition shadow-md"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-extrabold text-white bg-[#46A304] hover:bg-[#FFDE21] hover:text-[#17220F] transition shadow-md"
           >
             <span>Ask an Engineer ↗</span>
           </Link>
