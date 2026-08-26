@@ -92,24 +92,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'How much roof space do I need for home solar in Uttarakhand?',
+          question: "How much PM Surya Ghar subsidy is available for homes in Uttarakhand?",
           answer:
-            'Roof requirement depends on system capacity and panel wattage. A typical 3 kW residential system needs roughly 250–300 sq ft of unshaded area. Our site survey confirms exact space based on your roof layout and local sun path.',
+            "As a special category hill state, Uttarakhand households receive maximum Central Financial Assistance (CFA) under PM Surya Ghar: Muft Bijli Yojana: ₹33,000 for 1 kW, ₹66,000 for 2 kW, and ₹85,800 for 3 kW or higher capacity systems. The subsidy is deposited directly into your bank account (DBT) following UPCL net meter commissioning.",
         },
         {
-          question: 'Can I get PM Surya Ghar subsidy for residential solar in Uttarakhand?',
+          question: "How much roof space do I need for a residential solar plant?",
           answer:
-            'Eligible residential consumers can apply on pmsuryaghar.gov.in for Central Financial Assistance. Uttarakhand qualifies as a special category state with higher CFA rates. Final eligibility and disbursement depend on DISCOM verification and approved vendor compliance.',
+            "A standard residential solar system requires approximately 80 to 100 sq. ft. of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW home system (generating 12–15 units daily), you need roughly 250 to 300 sq. ft. of flat concrete terrace, sloped tin roof, or elevated structure.",
         },
         {
-          question: 'Does residential solar work during monsoon and winter in the hills?',
+          question: "How long does it take to recover the installation cost (payback period)?",
           answer:
-            'Solar panels generate in diffuse light and on cloudy days, though output is lower during heavy monsoon weeks and shorter winter days. Proper system sizing accounts for seasonal variation in Uttarakhand.',
+            "With the PM Surya Ghar subsidy of up to ₹85,800 and dramatic reductions in monthly UPCL electricity bills, most residential systems achieve full payback within 3 to 4 years. Since Tier-1 solar panels come with a 25-year performance warranty, you enjoy 20+ years of virtually free electricity.",
         },
         {
-          question: 'Will my home lose power when the grid goes down with on-grid solar?',
+          question: "How does UPCL net metering work for residential consumers?",
           answer:
-            'Standard on-grid systems shut off during grid outages for safety unless you add battery backup through a hybrid configuration. We explain both options during consultation based on your outage experience.',
+            "During sunny daylight hours, your solar system powers your home and exports any surplus units to the UPCL grid. In the evening, you draw electricity from the grid. At the end of the billing cycle, UPCL bills you only for the net difference (imported units minus exported units).",
+        },
+        {
+          question: "What happens to my solar power during a grid power outage?",
+          answer:
+            "Standard on-grid systems automatically shut down during a power cut for line worker safety (anti-islanding protection). If you require continuous power during outages, UTTsolar can install a Hybrid Solar System equipped with lithium-ion battery storage.",
+        },
+        {
+          question: "Can solar panels be installed on sloping or tin roofs in hill towns?",
+          answer:
+            "Yes. UTTsolar provides customized mounting structures for flat RCC roofs, pitched tin sheds, and decorative hill-style sloping roofs across Dehradun, Mussoorie, Nainital, Almora, and all Garhwal/Kumaon districts using rust-proof anodized aluminium or hot-dip galvanized steel.",
+        },
+        {
+          question: "What documents are required to apply for PM Surya Ghar in Uttarakhand?",
+          answer:
+            "You only need your recent UPCL electricity bill, Aadhaar card, bank account passbook/cancelled cheque (linked with Aadhaar), and roof ownership proof. UTTsolar handles the entire portal registration and documentation on pmsuryaghar.gov.in.",
+        },
+        {
+          question: "What warranty and maintenance do residential solar systems come with?",
+          answer:
+            "Our solar modules come with a 10–12 year product warranty and a 25–30 year linear power performance warranty. Inverters carry 5 to 10 year manufacturer warranties. UTTsolar provides comprehensive post-installation support and annual maintenance across Uttarakhand.",
         },
       ],
     },
@@ -175,24 +195,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Is PM Surya Ghar subsidy available for commercial solar in Uttarakhand?',
+          question: "What is the ROI and payback period for commercial solar in Uttarakhand?",
           answer:
-            'PM Surya Ghar Central Financial Assistance applies to residential consumers and registered Group Housing Societies or RWAs under specific guidelines. Commercial entities typically invest without residential CFA but benefit from lower energy costs and applicable tax depreciation.',
+            "Commercial establishments face UPCL tariff slabs of ₹6.50 to ₹8.50+ per unit. Commercial solar installations typically pay for themselves within 2.5 to 3.5 years through operational bill savings and 40% accelerated depreciation tax benefits.",
         },
         {
-          question: 'What size commercial solar system do I need?',
+          question: "Are commercial solar systems eligible for accelerated depreciation (AD)?",
           answer:
-            'System size depends on available roof area, daytime load profile and sanctioned load. A site survey with recent bills is the correct starting point rather than a generic capacity recommendation.',
+            "Yes. Under Indian income tax laws, commercial and industrial entities investing in solar power plants can claim 40% accelerated depreciation in the first year, significantly reducing corporate tax liability.",
         },
         {
-          question: 'Can solar power run my three-phase machinery directly?',
+          question: "How does commercial net metering work with UPCL?",
           answer:
-            'Grid-tied solar supplements grid supply through the inverter. It does not directly replace three-phase grid power for heavy motor loads without proper engineering. We assess your load mix during design.',
+            "UPCL permits grid-connected commercial rooftop solar under LT and HT categories up to sanctioned load limits. Bi-directional meters record generation and consumption, allowing businesses, hotels, and schools to bank surplus daytime units against nighttime consumption.",
         },
         {
-          question: 'How long does commercial net metering take with UPCL?',
+          question: "Can hotels and resorts in hill tourist circuits install solar?",
           answer:
-            'Timelines vary by circle and application completeness. We prepare documentation early and track status with UPCL to reduce delays, though final approval rests with the DISCOM.',
+            "Yes. Hotels and resorts in Nainital, Mussoorie, Rishikesh, Corbett, and hill towns face heavy daytime laundry, cooking, water heating, and HVAC loads. Rooftop solar dramatically lowers daytime peak demand and generator operating costs.",
+        },
+        {
+          question: "Do commercial systems require structural stability audits?",
+          answer:
+            "Yes. For commercial buildings, shopping complexes, and institutional campuses, UTTsolar performs comprehensive structural load calculations and wind velocity simulations (up to 150 km/h) prior to installation.",
+        },
+        {
+          question: "What monitoring capabilities are provided for commercial solar plants?",
+          answer:
+            "All our commercial systems come with cloud-based IoT smart data loggers and mobile apps, enabling real-time remote tracking of string voltages, daily kilowatt-hour yields, performance ratios (PR), and automated fault alerts.",
+        },
+        {
+          question: "What is the difference between CAPEX and OPEX models for commercial solar?",
+          answer:
+            "Under CAPEX, the client owns the plant upfront, claims all tax benefits/subsidy, and maximizes long-term savings. Under OPEX/RESCO, a third party finances the installation and sells solar power to you at a discounted tariff per unit.",
+        },
+        {
+          question: "How do you handle zero export or diesel generator synchronization?",
+          answer:
+            "For businesses operating diesel generators or areas with grid export restrictions, we integrate smart DG-PV synchronization controllers and zero-export smart meters that dynamically modulate solar output to prevent reverse feeding into generators.",
         },
       ],
     },
@@ -258,24 +298,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Can industrial units in SIDCUL Rudrapur install rooftop solar?',
+          question: "What system capacities are typical for industrial solar in Uttarakhand?",
           answer:
-            'Yes, subject to building ownership or lease permissions, structural suitability and UPCL sanctioned load. SIDCUL and other industrial estates commonly have large shed roofs suitable for solar. We coordinate with your facility team on approvals.',
+            "Industrial systems in manufacturing corridors like SIDCUL Haridwar, Pantnagar, Roorkee, and Kashipur typically range from 50 kW to multiple megawatts (MW), installed on industrial metal sheds, warehouses, and ground mounts.",
         },
         {
-          question: 'Is ground-mount solar an option for industrial sites?',
+          question: "Can solar panels be installed on corrugated factory tin/metal sheet sheds?",
           answer:
-            'Where unused land is available within the premises and land use permits allow, ground-mount systems are viable. Rooftop remains preferred when structurally feasible to avoid land allocation.',
+            "Yes. We utilize specialized non-penetrative aluminium standing-seam clamps or EPDM-gasketed self-drilling fasteners that secure the solar array without compromising the shed's structural waterproofing or warranty.",
         },
         {
-          question: 'How does industrial net metering differ from residential?',
+          question: "How does industrial solar help with UPCL Maximum Demand (kVA) charges?",
           answer:
-            'Industrial applications involve higher capacity, three-phase metering, and separate UPCL procedures and inspection requirements. Documentation and timelines differ from domestic net metering.',
+            "By supplying peak power during daytime factory operations, solar directly offsets heavy machine loads, flattening peak load curves and reducing monthly recorded kVA demand charges on your UPCL high-tension (HT) bill.",
         },
         {
-          question: 'Do you provide O&M for industrial plants?',
+          question: "What approvals are required for high-tension (HT) industrial solar plants?",
           answer:
-            'Yes. We offer solar AMC packages covering cleaning, thermography checks, inverter servicing and performance reporting for industrial installations.',
+            "HT installations require CEIG (Chief Electrical Inspector to Government) safety clearance, UPCL USRP grid connectivity approval, protection relay testing, and bi-directional ABT/TOD meter installation. UTTsolar provides end-to-end statutory liaison.",
+        },
+        {
+          question: "How do ESG and sustainability goals benefit from industrial solar?",
+          answer:
+            "A 100 kW industrial solar plant offsets over 120 metric tonnes of CO2 emissions annually. This helps manufacturers meet corporate ESG mandates, Green Building (IGBC/LEED) certifications, and international supply chain compliance.",
+        },
+        {
+          question: "What is the expected lifespan and degradation rate of industrial solar panels?",
+          answer:
+            "Tier-1 Mono PERC and TOPCon modules have an operational lifespan of 25 to 30 years with an annual degradation rate of less than 0.55%, guaranteeing at least 84.8% power output at year 25.",
+        },
+        {
+          question: "What operations and maintenance (O&M) are necessary for industrial plants?",
+          answer:
+            "Regular automated or manual sprinkler panel washing, IV curve tracing, thermal drone imaging for hotspot detection, transformer health checks, and inverter firmware updates are covered under our Industrial O&M contracts.",
+        },
+        {
+          question: "How quickly can UTTsolar commission a 100 kW to 500 kW industrial project?",
+          answer:
+            "From initial site survey and engineering drawing approval to procurement, installation, CEIG inspection, and UPCL synchronization, a typical 100 kW–500 kW project is commissioned within 4 to 8 weeks.",
         },
       ],
     },
@@ -341,24 +401,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'What happens to excess solar power with on-grid solar?',
+          question: "What is an on-grid (grid-tied) solar system?",
           answer:
-            'Excess generation flows to the grid through the net meter. UPCL credits exported units against your consumption according to the applicable net metering settlement rules for your consumer category.',
+            "An on-grid solar system connects directly to your local UPCL electricity grid without requiring expensive battery storage. Solar electricity generated during the day powers your property first, while any surplus is fed into the grid for billing credits via net metering.",
         },
         {
-          question: 'Does on-grid solar work at night?',
+          question: "Why are on-grid solar systems the most economical option?",
           answer:
-            'At night you draw power from the grid as usual. Solar only generates during daylight hours. On-grid systems do not store energy without added batteries.',
+            "Because on-grid systems eliminate chemical batteries (which represent 30–40% of system cost and require replacement every 5–8 years), they deliver the lowest cost per unit of power, fastest financial payback (3–4 years), and maximum efficiency (>97%).",
         },
         {
-          question: 'Who handles UPCL net metering paperwork?',
+          question: "Does an on-grid solar system qualify for PM Surya Ghar subsidy in Uttarakhand?",
           answer:
-            'UTTsolar assists with application preparation, technical documents and follow-up with UPCL. Final approval and meter installation are completed by the DISCOM.',
+            "Yes! Central Financial Assistance under the PM Surya Ghar scheme is specifically designed for grid-connected residential rooftop solar systems, offering subsidies up to ₹85,800 for systems up to 3 kW and above.",
         },
         {
-          question: 'Can I upgrade on-grid to hybrid later?',
+          question: "Why does an on-grid solar system stop working during a power cut?",
           answer:
-            'In many cases yes, by adding compatible batteries and a hybrid inverter or AC-coupled storage. We assess your existing system during a upgrade consultation.',
+            "On-grid inverters feature mandatory anti-islanding protection per CEA/UPCL safety regulations. If grid power fails, the inverter disconnects in milliseconds to prevent dangerous live voltage backfeeding into power lines where technicians may be working.",
+        },
+        {
+          question: "How is excess solar electricity accounted for in winter or monsoons?",
+          answer:
+            "UPCL net metering banks your exported units across the entire financial year. Units generated on bright sunny days offset cloudy days, and any net surplus at the end of the settlement period is credited per UPCL tariff policies.",
+        },
+        {
+          question: "Can I expand my on-grid solar capacity in the future?",
+          answer:
+            "Yes. You can add more solar panels or upgrade to a higher-capacity inverter later, provided your roof space permits and your sanctioned load with UPCL is adjusted accordingly.",
+        },
+        {
+          question: "What maintenance is required for an on-grid solar plant?",
+          answer:
+            "On-grid systems have zero moving parts and require minimal maintenance. Simply washing the glass surface of the solar panels with clean water once every 10–15 days to remove dust ensures peak generation performance.",
+        },
+        {
+          question: "What inverter technologies are used in on-grid systems?",
+          answer:
+            "UTTsolar deploys high-efficiency string inverters and microinverters featuring dual MPPT trackers, wide MPPT voltage windows, integrated DC isolators, Type-II SPDs, and built-in Wi-Fi monitoring.",
         },
       ],
     },
@@ -424,24 +504,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Is off-grid solar eligible for PM Surya Ghar subsidy?',
+          question: "What is an off-grid solar power system?",
           answer:
-            'PM Surya Ghar Central Financial Assistance applies to grid-connected rooftop systems under current MNRE guidelines. Off-grid standalone systems typically do not qualify for residential CFA. We clarify eligibility during consultation.',
+            "An off-grid solar system operates completely independently of the UPCL electricity grid. It pairs solar panels with a high-capacity battery bank (Lithium or Tubular) and a solar charge controller/inverter to generate, store, and provide 24/7 power.",
         },
         {
-          question: 'How many days of backup do I need in the hills?',
+          question: "Where are off-grid solar systems most recommended in Uttarakhand?",
           answer:
-            'We typically design for one to two days of autonomy based on your critical loads and local weather patterns. Larger battery banks increase cost — we balance backup needs with budget during design.',
+            "Off-grid solar is ideal for remote hill hamlets, eco-resorts, trekking base camps, agricultural farmhouses, border outposts, and forest lodges in Chamoli, Pithoragarh, Uttarkashi, and Rudraprayag where grid power is unreliable or unavailable.",
         },
         {
-          question: 'Can off-grid solar run air conditioning?',
+          question: "How many days of autonomy (cloudy day backup) can an off-grid system provide?",
           answer:
-            'Running AC off-grid requires substantial panel and battery capacity. It is feasible but significantly increases system cost. We provide honest sizing recommendations based on your priorities.',
+            "We typically size off-grid battery banks to provide 1.5 to 3 days of autonomy, ensuring uninterrupted power for lighting, refrigeration, communication, and heating during prolonged mountain rain or snow.",
         },
         {
-          question: 'What battery type do you recommend for Uttarakhand?',
+          question: "What type of battery is best for off-grid solar in hill climates?",
           answer:
-            'We specify batteries suited to your load profile and ambient temperature range. Options include tubular lead-acid and lithium systems depending on budget, maintenance preference and expected cycle life.',
+            "Lithium Iron Phosphate (LiFePO4) batteries are best for hill installations due to their wide operating temperature range (-10°C to 55°C), 90% depth of discharge (DOD), 4,000+ cycle lifespan (10–12 years), and maintenance-free operation.",
+        },
+        {
+          question: "Can an off-grid solar system run heavy appliances like water pumps and geysers?",
+          answer:
+            "Yes, provided the solar array, inverter kVA rating, and battery bank are sized correctly. We engineer heavy-duty off-grid systems from 3 kW to 50 kW capable of starting inductive motor loads effortlessly.",
+        },
+        {
+          question: "Can an off-grid system be integrated with a backup diesel generator?",
+          answer:
+            "Yes. Our smart off-grid inverters include automated generator start (AGS) dry contacts that can trigger your existing DG set automatically only when batteries drop below a preset threshold during deep winter storms.",
+        },
+        {
+          question: "Does an off-grid solar system require UPCL net metering permissions?",
+          answer:
+            "No. Because off-grid systems are physically isolated from the electricity grid and never export power to external lines, they do not require UPCL grid connectivity approvals or net meter installations.",
+        },
+        {
+          question: "What is the warranty on off-grid solar components?",
+          answer:
+            "Solar panels carry a 25-year performance warranty, lithium batteries carry 5 to 10 year warranties, and off-grid solar inverters come with 2 to 5 year manufacturer warranties.",
         },
       ],
     },
@@ -507,24 +607,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Is hybrid solar more expensive than on-grid?',
+          question: "What is a hybrid solar system and how does it work?",
           answer:
-            'Yes, because batteries and hybrid inverters add cost. The premium is justified when backup power during outages has real value for your household or business.',
+            "A hybrid solar system combines the best of on-grid and off-grid technologies. It connects to the UPCL grid for net metering billing credits while also maintaining a battery storage bank for instant, seamless power backup during grid blackouts.",
         },
         {
-          question: 'Can hybrid systems get PM Surya Ghar subsidy?',
+          question: "How fast is the power changeover during a power cut in a hybrid system?",
           answer:
-            'Grid-connected rooftop systems including hybrid configurations may qualify for residential CFA when meeting MNRE and DISCOM requirements. Battery components may have separate eligibility rules — we guide you through current guidelines.',
+            "Our smart hybrid inverters switch from grid mode to battery backup mode in less than 10 to 20 milliseconds (UPS grade), preventing computers, Wi-Fi routers, medical devices, and TVs from restarting or turning off.",
         },
         {
-          question: 'How long will batteries power my home during an outage?',
+          question: "Can a hybrid solar system qualify for PM Surya Ghar subsidy?",
           answer:
-            'Backup duration depends on battery capacity and which loads you run. A properly sized system can cover essential loads for several hours to overnight. We calculate this during design based on your priorities.',
+            "Yes. Grid-connected hybrid solar systems with approved bidirectional grid tie capabilities qualify for the PM Surya Ghar subsidy up to ₹85,800 on the grid solar component for eligible residential consumers in Uttarakhand.",
         },
         {
-          question: 'Does UPCL allow hybrid export to the grid?',
+          question: "Can I program my hybrid system to use battery power during peak tariff hours?",
           answer:
-            'Export rules apply as with on-grid systems. Hybrid inverters must be configured within sanctioned load and current UPCL net metering guidelines. We ensure compliance during installation.',
+            "Yes. Our intelligent hybrid inverters feature programmable Time-of-Use (TOU) energy management, allowing you to prioritize self-consumption during expensive peak tariff hours and recharge batteries during off-peak solar hours.",
+        },
+        {
+          question: "What battery technologies are compatible with hybrid solar inverters?",
+          answer:
+            "UTTsolar hybrid systems support high-voltage and low-voltage Lithium Iron Phosphate (LiFePO4) battery modules with smart CAN/RS485 BMS communication, as well as heavy-duty solar tubular gel batteries.",
+        },
+        {
+          question: "Why is hybrid solar increasingly popular for luxury residences and hotels in Uttarakhand?",
+          answer:
+            "Hybrid solar delivers zero-bill electricity benefits through net metering while eliminating the noise, diesel fumes, high fuel costs, and frequent maintenance associated with traditional diesel generators.",
+        },
+        {
+          question: "Can I add batteries to my existing on-grid solar system to make it hybrid?",
+          answer:
+            "Yes! We can retrofit existing on-grid plants using AC-coupled battery storage systems or by replacing your standard string inverter with a multi-mode hybrid inverter.",
+        },
+        {
+          question: "What remote management features are available for hybrid solar plants?",
+          answer:
+            "You get full smartphone app monitoring showing real-time solar generation, battery state of charge (SOC percentage), home consumption load, grid import/export power, and customizable battery reserve settings.",
         },
       ],
     },
@@ -590,24 +710,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Can solar be installed on sloped hill roofs?',
+          question: "What types of rooftops are suitable for solar installation in Uttarakhand?",
           answer:
-            'Yes, with appropriate mounting rails and structural anchors. Sloped roofs in Mussoorie, Nainital and Almora require careful load assessment and corrosion-resistant hardware due to higher rainfall.',
+            "Solar panels can be installed on flat concrete (RCC) terraces, pitched tin/GI sheet roofs, metal industrial sheds, clay tile roofs, and elevated rooftop structures across all urban and hill terrains in Uttarakhand.",
         },
         {
-          question: 'Will rooftop solar damage my waterproofing?',
+          question: "Will installing rooftop solar damage my roof or cause water leakage?",
           answer:
-            'Proper installation with sealed penetrations and experienced mounting protects your roof. We assess existing waterproofing condition during survey and recommend remedial work if needed before mounting.',
+            "No. On flat RCC terraces, we utilize non-penetrative precast concrete ballast blocks or anchor fasteners treated with industrial UV-resistant chemical waterproofing sealants to ensure 100% leak-proof integrity.",
         },
         {
-          question: 'Is my roof strong enough for solar panels?',
+          question: "Can I still use my rooftop for walking, gardening, or recreation after solar installation?",
           answer:
-            'A structural assessment confirms load capacity. Most RCC roofs handle standard arrays. Older or lightweight metal sheds may need reinforcement — we identify this during inspection.',
+            "Yes! UTTsolar specializes in elevated pergola mounting structures (raised 7 to 9 feet above roof level), transforming your rooftop into a shaded, usable terrace canopy while generating maximum clean electricity.",
         },
         {
-          question: 'How often should rooftop panels be cleaned in Uttarakhand?',
+          question: "How do you engineer rooftop solar structures for hill wind and snow loads?",
           answer:
-            'Dust after dry seasons and pollen in spring can reduce output. Periodic cleaning — especially before peak summer — helps maintain generation. We offer cleaning as part of AMC packages.',
+            "Our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or anodized aluminium (6063-T6), structurally calculated to withstand wind gusts up to 150 km/h and regional hill snow loads.",
+        },
+        {
+          question: "What is the optimal tilt angle and orientation for solar panels in Uttarakhand?",
+          answer:
+            "In Uttarakhand (latitude ~29°N to 31°N), solar panels are oriented true south at a tilt angle of 28° to 30° to maximize year-round solar energy capture across summer and winter seasons.",
+        },
+        {
+          question: "How do you prevent shading from water tanks, parapet walls, or nearby trees?",
+          answer:
+            "During our free on-site survey, our solar engineers conduct 3D shadow trajectory mapping using sun-path analysis tools to position strings away from shadows and maximize daily kilowatt-hour yield.",
+        },
+        {
+          question: "What is the load-bearing capacity required for rooftop solar panels?",
+          answer:
+            "Modern solar panel arrays exert a minimal distributed load of only 12 to 15 kg per square meter, which is easily supported by standard RCC residential and commercial building roof slabs.",
+        },
+        {
+          question: "How long does a rooftop solar installation take to complete?",
+          answer:
+            "Physical rooftop mounting and electrical wiring for a typical residential system (3 kW–10 kW) are completed in just 1 to 2 days with zero disruption to your household routine.",
         },
       ],
     },
@@ -673,24 +813,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Do you install customer-supplied solar panels?',
+          question: "What is included in UTTsolar's turnkey solar panel installation service?",
           answer:
-            'Yes, we offer installation-only services when your equipment meets quality and compatibility standards. We verify specifications before accepting installation-only projects.',
+            "Our turnkey service includes free roof shading assessment, engineering design, Tier-1 solar panels, high-efficiency inverter, mounting hardware, DC/AC distribution boxes, earthing electrodes, lightning arrestors, net meter paperwork, and commissioning.",
         },
         {
-          question: 'Which direction should panels face in Uttarakhand?',
+          question: "What safety and electrical protection standards are followed during installation?",
           answer:
-            'South-facing orientation generally maximises generation in the Northern Hemisphere. East-west splits are possible for morning/evening load matching. Site survey determines the best layout for your roof.',
+            "We strictly adhere to IS/IEC standards including dual dedicated chemical earthing for AC/DC circuits, Class-I/II Surge Protection Devices (SPDs), copper lightning arrestors, and UV-resistant double-insulated DC solar cables.",
         },
         {
-          question: 'How long does installation take?',
+          question: "What solar panel technology does UTTsolar install (Mono PERC vs TOPCon)?",
           answer:
-            'A typical residential 3–5 kW installation takes one to three days depending on roof complexity and weather. Larger commercial projects are scheduled in phases.',
+            "We install the latest N-Type TOPCon and Mono PERC bifacial solar panels from leading Tier-1 manufacturers, offering ultra-high cell efficiencies (>22%), superior low-light performance, and lower temperature coefficients.",
         },
         {
-          question: 'What warranty comes with installed panels?',
+          question: "How do bifacial solar panels provide extra generation on terraces?",
           answer:
-            'Module manufacturers typically provide 25-year performance warranty and 10–12 year product warranty. We facilitate warranty registration and document handover.',
+            "Bifacial solar panels feature dual-sided glass that absorbs direct sunlight from the front and reflected ambient light (albedo) from the roof surface on the back, boosting overall energy generation by 10% to 25%.",
+        },
+        {
+          question: "How long does the entire process take from booking to net meter commissioning?",
+          answer:
+            "The complete process typically takes 3 to 4 weeks: site survey (Day 1–2), subsidy portal filing (Day 3–5), physical installation (Day 7–10), and UPCL division inspection & net meter installation (Week 3–4).",
+        },
+        {
+          question: "Do your installers have certified electrical expertise in hill terrain?",
+          answer:
+            "Yes. Our installation teams consist of certified solar engineers and licensed electricians trained in mountain safety, high-wind structural anchoring, and DISCOM grid synchronization protocols.",
+        },
+        {
+          question: "What post-installation testing is conducted before handing over the system?",
+          answer:
+            "We perform open-circuit voltage (Voc) testing, short-circuit current (Isc) checks, insulation resistance megger testing, earth fault loop impedance measurement, and thermal scanning before handing over the plant.",
+        },
+        {
+          question: "How do I book an installation or request a site visit?",
+          answer:
+            "You can book a free site survey by submitting our online form, calling +91 78300 60725, or connecting with our engineering team via WhatsApp.",
         },
       ],
     },
@@ -756,24 +916,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'How do I know if my solar inverter is faulty?',
+          question: "What types of solar inverters does UTTsolar supply and install?",
           answer:
-            'Warning lights, error codes on the display, zero generation despite sunny weather, or frequent tripping indicate possible inverter issues. Contact us for diagnostic service before assuming panel failure.',
+            "We install on-grid string inverters, microinverters, smart hybrid inverters, and off-grid bidirectional inverters from top global and Indian Tier-1 manufacturers with peak conversion efficiencies exceeding 98.5%.",
         },
         {
-          question: 'String inverter vs microinverter — which is better for Uttarakhand?',
+          question: "What is the role of MPPT (Maximum Power Point Tracking) in a solar inverter?",
           answer:
-            'String inverters suit unshaded uniform roofs and are cost-effective. Microinverters help when partial shading from trees or structures affects individual panels — common on hill properties. We recommend based on your roof conditions.',
+            "MPPT is an advanced electronic algorithm that continuously tracks and adjusts electrical operating points to extract the maximum possible wattage from your solar panels under varying sunlight and temperature conditions.",
         },
         {
-          question: 'What inverter size do I need?',
+          question: "What is the difference between a string inverter and microinverters?",
           answer:
-            'Inverter capacity is typically matched to panel array size — often slightly lower than total panel DC rating. Oversizing or undersizing affects efficiency and warranty. We calculate this during system design.',
+            "A string inverter manages an entire series string of solar panels together, making it highly cost-effective. Microinverters attach to individual panels, offering panel-level MPPT optimization and independent performance in partially shaded roofs.",
         },
         {
-          question: 'Do you repair inverters from other installers?',
+          question: "Are your solar inverters weatherproof for outdoor installation in Uttarakhand?",
           answer:
-            'Yes, we service and repair inverters on existing systems regardless of original installer, subject to parts availability and brand support.',
+            "Yes. All our solar inverters come with IP65 or IP66 weatherproof aluminium die-cast enclosures with natural convection cooling, fully rated to withstand heavy mountain rainfall, dust, and humidity.",
+        },
+        {
+          question: "How does real-time Wi-Fi/GPRS inverter monitoring work?",
+          answer:
+            "Each inverter is equipped with a wireless data logger that transmits generation data to a secure cloud platform, allowing you to view live wattage, daily units, lifetime savings, and receive automated diagnostic alerts on your phone.",
+        },
+        {
+          question: "What is the standard warranty on solar inverters?",
+          answer:
+            "On-grid and hybrid inverters come with a standard 5 to 10-year manufacturer replacement warranty, with options to extend warranty coverage up to 15 or 20 years.",
+        },
+        {
+          question: "What built-in electrical safety protections are included in modern inverters?",
+          answer:
+            "Our inverters include DC reverse polarity protection, AC short-circuit protection, anti-islanding detection, ground fault monitoring, insulation resistance detection, and integrated Type-II DC & AC surge arrestors.",
+        },
+        {
+          question: "Can I upgrade my solar inverter capacity in the future?",
+          answer:
+            "Yes. If you anticipate adding more panels later, we can install a dual-MPPT higher-capacity inverter upfront that can accommodate additional solar strings as your energy demands grow.",
         },
       ],
     },
@@ -839,24 +1019,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Lithium vs tubular battery for solar in Uttarakhand?',
+          question: "What types of solar batteries are available for storage systems?",
           answer:
-            'Tubular batteries cost less upfront but need maintenance and have shorter cycle life. Lithium costs more but offers longer life, deeper discharge and lower maintenance. We recommend based on your usage pattern and budget.',
+            "We supply modern Lithium Iron Phosphate (LiFePO4) battery packs, modular rack-mounted high-voltage lithium storage, and heavy-duty deep-cycle solar tubular gel batteries tailored to residential, commercial, and off-grid requirements.",
         },
         {
-          question: 'How long do solar batteries last?',
+          question: "Why are Lithium (LiFePO4) solar batteries superior to Lead-Acid/Tubular batteries?",
           answer:
-            'Lead-acid tubular batteries typically last 3–5 years with proper care. Lithium batteries may last 8–10 years or more depending on brand and usage cycles. Actual life depends on depth of discharge and maintenance.',
+            "Lithium batteries offer 3x longer lifespan (4,000+ cycles vs 1,200 cycles), 90% Depth of Discharge (DOD vs 50% for tubular), 95% round-trip efficiency, zero maintenance, compact wall-mountable design, and 3x faster charging.",
         },
         {
-          question: 'Can I add a battery to my existing on-grid solar?',
+          question: "How do I calculate the battery capacity required for my home or business?",
           answer:
-            'Often yes with a hybrid inverter retrofit or AC-coupled battery system. We inspect your current setup to confirm compatibility and cost-effectiveness of upgrading versus replacing the inverter.',
+            "Battery sizing depends on the total wattage of essential appliances you want to run and the required backup hours. A 5 kWh lithium battery can run lights, fans, Wi-Fi, TV, refrigerator, and a laptop for 6 to 10+ hours during an outage.",
         },
         {
-          question: 'Where should batteries be installed at home?',
+          question: "How do lithium solar batteries perform in cold mountain winter temperatures?",
           answer:
-            'Batteries need a ventilated, accessible location away from living areas — typically a utility room, garage or dedicated battery enclosure. We design placement meeting safety requirements.',
+            "Our premium LiFePO4 batteries feature intelligent Battery Management Systems (BMS) with built-in thermal protection, operating reliably in temperatures ranging from -10°C to 55°C across Uttarakhand hill stations.",
+        },
+        {
+          question: "What is the expected lifespan and warranty on solar batteries?",
+          answer:
+            "Lithium LiFePO4 batteries deliver an expected lifespan of 10 to 12+ years and come with a 5 to 10-year manufacturer warranty. Solar tubular batteries typically carry 3 to 5-year warranties.",
+        },
+        {
+          question: "Is battery storage mandatory for installing solar panels under PM Surya Ghar?",
+          answer:
+            "No. PM Surya Ghar is designed for on-grid systems without batteries to keep upfront costs low. However, you can opt for a hybrid setup with battery storage if your locality experiences frequent power blackouts.",
+        },
+        {
+          question: "What safety features are integrated into modern solar lithium battery banks?",
+          answer:
+            "Our lithium storage units feature multi-level BMS protection against over-voltage, under-voltage, over-current, short circuits, thermal runaway, cell balancing, and IP55 fire-retardant metal enclosures.",
+        },
+        {
+          question: "Can I expand my battery storage capacity in the future?",
+          answer:
+            "Yes. Our modular lithium battery systems allow plug-and-play parallel expansion, enabling you to add additional 2.5 kWh or 5 kWh battery modules as your power storage requirements increase.",
         },
       ],
     },
@@ -922,24 +1122,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'Does solar water heater work in Uttarakhand winters?',
+          question: "How does a solar water heater work in Uttarakhand hill climates?",
           answer:
-            'ETC collectors perform well in cold conditions with adequate sunlight. Performance drops during extended cloudy spells. A backup electric element in the tank provides hot water on those days.',
+            "Solar water heaters collect thermal energy from sunlight through high-efficiency vacuum glass tubes (ETC) or flat copper plates (FPC), transferring heat into an insulated storage tank that keeps water hot for up to 48 hours.",
         },
         {
-          question: 'How is solar water heater different from rooftop solar panels?',
+          question: "What is the difference between ETC (Evacuated Tube) and FPC (Flat Plate) collectors?",
           answer:
-            'Solar water heaters use thermal collectors to heat water directly. Photovoltaic panels generate electricity. They serve different purposes and can be installed together.',
+            "ETC systems use double-walled vacuum glass tubes that provide superior heat retention in cold hill regions and perform exceptionally well with hard water. FPC systems use metallic copper collectors ideal for high-pressure pressurised plumbing.",
         },
         {
-          question: 'What capacity do I need for a family of four?',
+          question: "Will a solar water heater deliver hot water during freezing winters and cloudy days?",
           answer:
-            'A 100–200 litre system typically serves a family of four for bathing needs. Larger households, guesthouses or institutions need proportionally larger systems based on usage survey.',
+            "Yes! Vacuum glass tubes absorb diffuse solar radiation even in sub-zero ambient temperatures. All our systems also include an auxiliary electrical backup heating element for prolonged monsoon or heavy snowfall periods.",
         },
         {
-          question: 'Is there a government subsidy for solar water heaters?',
+          question: "What system capacity is recommended for a residential family or hotel?",
           answer:
-            'MNRE has historically offered support for solar thermal through different schemes than PM Surya Ghar. Current availability varies — we advise on applicable programmes during consultation.',
+            "For a family of 3–4 members, a 100 to 150 LPD (litres per day) system is ideal. For 5–7 members, a 200–250 LPD system is recommended. For hotels and homestays, we design manifold commercial systems from 500 LPD to 5,000+ LPD.",
+        },
+        {
+          question: "How much electricity can a solar water heater save each month?",
+          answer:
+            "Replacing electric geysers (which consume 2,000–3,000W per hour) with a 100 LPD solar water heater saves approximately 1,200 to 1,500 units of electricity annually, paying for itself in under 2 years.",
+        },
+        {
+          question: "Can a solar water heater be connected to pressurised booster pump plumbing?",
+          answer:
+            "Yes. We supply pressurized solar water heating systems engineered with heavy-gauge inner tanks (SUS316L / Enamelled Steel) rated to handle water pressures up to 4–6 bar from overhead booster pumps.",
+        },
+        {
+          question: "What maintenance does a solar water heater require?",
+          answer:
+            "Solar water heaters require minimal maintenance: periodic cleaning of external glass tubes to remove dust, and sacrificial magnesium anode rod replacement every 2–3 years to prevent inner tank corrosion in hard water zones.",
+        },
+        {
+          question: "What is the warranty and lifespan of UTTsolar water heating systems?",
+          answer:
+            "Our solar water heaters come with a 5-year warranty on storage tanks and collectors and deliver a reliable operational lifespan of 15 to 20+ years.",
         },
       ],
     },
@@ -1005,24 +1225,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'How many backup nights do solar street lights provide?',
+          question: "What is an all-in-one integrated solar street light?",
           answer:
-            'Quality units typically store enough for two to three rainy or cloudy nights depending on specification. We match battery capacity to your location\'s weather patterns and required reliability.',
+            "An All-in-One solar street light combines the solar panel, high-lumen LED luminaire, Lithium LiFePO4 battery, and smart MPPT motion sensor into a single compact, weather-sealed aluminium housing mounted on a pole.",
         },
         {
-          question: 'Can solar street lights work in hilly terrain?',
+          question: "How do solar street lights operate automatically from dusk to dawn?",
           answer:
-            'Yes, with proper pole foundation and panel orientation. Hill roads may need taller poles or adjusted spacing for uniform coverage on curved paths.',
+            "Solar street lights utilize the solar panel voltage as an optical daylight sensor. At sunset, the light switches on automatically at dusk, dims to power-saving mode when no motion is detected, brightens upon motion, and turns off at sunrise.",
         },
         {
-          question: 'What maintenance do solar street lights need?',
+          question: "Where are solar street lights most commonly installed in Uttarakhand?",
           answer:
-            'Periodic panel cleaning, battery health checks and LED inspection. We offer maintenance contracts for institutional deployments with multiple units.',
+            "They are widely deployed across residential colonies, gated societies, hotel resorts, village panchayat pathways, commercial parking lots, temple complexes, school campuses, and rural state highway corridors.",
         },
         {
-          question: 'Are solar street lights suitable for municipal projects?',
+          question: "How many days of backup do solar street lights provide during rainy seasons?",
           answer:
-            'Yes. We supply specifications and documentation suitable for Panchayat, municipal and institutional procurement processes in Uttarakhand.',
+            "Our solar street lights are engineered with smart dimming algorithms and high-capacity LiFePO4 batteries that deliver 2 to 4 consecutive rainy/overcast nights of continuous illumination without grid power.",
+        },
+        {
+          question: "What wattages and lumen outputs are available for outdoor lighting?",
+          answer:
+            "We supply high-efficiency LED luminaires ranging from 15W, 20W, 30W, 40W to 60W and 90W with luminous efficacies exceeding 160 to 180 lumens per watt using premium Bridgelux/Philips LED chips.",
+        },
+        {
+          question: "What pole height and spacing are recommended for street lighting?",
+          answer:
+            "For 15W–25W lights, a 4 to 5 meter pole with 10–12 meter spacing is recommended. For 30W–60W commercial street lights, a 6 to 8 meter hot-dip galvanized octagonal pole with 15–20 meter spacing is optimal.",
+        },
+        {
+          question: "Are solar street lights resistant to mountain storms, lightning, and water ingress?",
+          answer:
+            "Yes. All our luminaires feature IP65/IP66 waterproof enclosures, IK08 impact ratings, 4kV/10kV surge protection, and rust-proof die-cast aluminium construction suited for high-altitude hill weather.",
+        },
+        {
+          question: "What warranty is provided on solar street lights?",
+          answer:
+            "UTTsolar provides a comprehensive 3 to 5-year replacement warranty covering LED chips, solar panel, battery, and controller components.",
         },
       ],
     },
@@ -1088,24 +1328,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'How often should I clean solar panels in Uttarakhand?',
+          question: "How often should solar panels be cleaned in Uttarakhand?",
           answer:
-            'Once or twice a year is typical for most locations. Areas near construction sites, main roads or with heavy bird activity may need more frequent cleaning.',
+            "In urban and plains areas like Haldwani, Haridwar, and Rudrapur, solar panels should be washed every 10 to 15 days. In hill areas with cleaner air, cleaning once every 3 to 4 weeks is sufficient to maintain optimal generation.",
         },
         {
-          question: 'Can I clean solar panels myself?',
+          question: "How much energy generation is lost due to dirty or dusty solar panels?",
           answer:
-            'Gentle water rinsing from ground level is fine for accessible panels. Roof work carries fall risk — we recommend professional cleaning for rooftop installations, especially on sloped hill roofs.',
+            "Dust, bird droppings, pollen, and environmental soot (soiling) can reduce your solar system's energy yield by 10% to 25%. Regular cleaning immediately restores peak power generation.",
         },
         {
-          question: 'My generation dropped — is maintenance enough?',
+          question: "What is included in a professional solar maintenance visit by UTTsolar?",
           answer:
-            'Reduced output may be due to dirt, shading changes, inverter faults or panel degradation. Maintenance visit diagnoses the cause. Some issues need repair rather than cleaning alone.',
+            "A comprehensive maintenance visit includes panel glass cleaning, string Voc/Isc electrical testing, inverter diagnostic log extraction, DC/AC terminal torque tightening, earthing resistance testing, and thermal hotspot scanning.",
         },
         {
-          question: 'Do you maintain commercial and industrial plants?',
+          question: "Why should panels not be washed with harsh detergents or during hot sunny afternoons?",
           answer:
-            'Yes. We offer maintenance visits and AMC contracts scaled to plant size, including multi-site industrial clients in Udham Singh Nagar and Haridwar.',
+            "Cold water on hot glass can cause thermal shock and micro-cracking, while abrasive detergents can degrade anti-reflective coatings. Panels should always be washed in early mornings or evenings with clean soft water.",
+        },
+        {
+          question: "What is thermal imaging (thermography) and why is it important for solar plants?",
+          answer:
+            "Thermal imaging uses infrared cameras to detect localized hotspots, defective bypass diodes, cracked cells, or loose connections that are invisible to the naked eye before they cause irreversible panel damage or fire hazards.",
+        },
+        {
+          question: "Can UTTsolar maintain solar systems installed by other vendors?",
+          answer:
+            "Yes! We provide third-party solar audit, performance testing, repair, and annual maintenance contracts (AMC) for any residential, commercial, or institutional solar installation across Uttarakhand.",
+        },
+        {
+          question: "How do you test and maintain the electrical earthing and lightning protection?",
+          answer:
+            "We test earth pit resistance using digital earth clamp meters (ensuring resistance remains below 5 Ohms), replenish chemical earthing compounds if needed, and verify lightning arrestor continuity.",
+        },
+        {
+          question: "How do I schedule a solar maintenance service with UTTsolar?",
+          answer:
+            "You can book a maintenance inspection through our website or by contacting our customer helpline at +91 78300 60725 for fast on-site service across any Uttarakhand district.",
         },
       ],
     },
@@ -1171,24 +1431,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'My inverter shows an error code — what should I do?',
+          question: "What are the most common solar system problems that require repair?",
           answer:
-            'Note the error code and contact us. Do not attempt to open the inverter yourself. Many errors are diagnosable remotely or with a quick site visit.',
+            "Common issues include inverter error fault codes, tripped AC/DC circuit breakers, degraded MC4 cable connectors, PID solar module degradation, blown surge protectors (SPDs), or high earthing resistance faults.",
         },
         {
-          question: 'Can cracked solar panels be repaired?',
+          question: "How quickly can UTTsolar dispatch a repair technician across Uttarakhand?",
           answer:
-            'Cracked panels cannot be reliably repaired and should be replaced to maintain system safety and performance. We assess whether individual panel or full string replacement is needed.',
+            "We offer priority breakdown response within 24 to 48 hours across major hubs (Dehradun, Haridwar, Haldwani, Rudrapur) and fast scheduled repair visits to all Garhwal and Kumaon hill districts.",
         },
         {
-          question: 'Do you repair systems not installed by UTTsolar?',
+          question: "What should I do if my solar inverter is displaying a red error light or fault code?",
           answer:
-            'Yes. We regularly service and repair installations from other vendors across Uttarakhand when owners need reliable local support.',
+            "Note down the error code displayed on the screen, check if the AC/DC isolator switches are in the ON position, and call our technical support team. Do not attempt to open high-voltage DC combiner boxes yourself.",
         },
         {
-          question: 'How quickly can you respond to repair calls?',
+          question: "Can damaged, shattered, or hail-impacted solar panels be repaired or replaced?",
           answer:
-            'Response time depends on your location and current service schedule. We prioritise complete system failures and aim for earliest possible visit across our service areas.',
+            "Physically shattered glass panels cannot be repaired and must be replaced to prevent electrical short-circuits. We source exact-matching electrical wattage modules and handle manufacturer warranty claims.",
+        },
+        {
+          question: "How do you troubleshoot low solar energy generation issues?",
+          answer:
+            "Our technicians utilize specialized DC clamp meters, IV curve tracers, and solar irradiance meters to isolate underperforming strings, identify shading losses, or detect faulty inverter MPPT tracking channels.",
+        },
+        {
+          question: "Do you provide replacement parts for out-of-warranty solar systems?",
+          answer:
+            "Yes. We stock genuine replacement DC cables, MC4 connectors, string fuses, AC/DC isolator switches, Type-II SPDs, solar inverters, and lithium battery management controllers.",
+        },
+        {
+          question: "How do you fix UPCL net metering communication and generation recording errors?",
+          answer:
+            "We verify bi-directional meter wiring, check CT/PT polarity, test export-import registers, and liaise directly with your local UPCL distribution sub-division office to resolve billing discrepancies.",
+        },
+        {
+          question: "What warranty is provided on solar repair services and replacement components?",
+          answer:
+            "All replacement parts carry standard manufacturer warranties (typically 1 to 5 years), and our repair workmanship is backed by a 90-day service guarantee.",
         },
       ],
     },
@@ -1254,24 +1534,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'What is included in a solar AMC?',
+          question: "What is a Solar Annual Maintenance Contract (AMC)?",
           answer:
-            'Standard AMC includes scheduled panel cleaning, visual inspection, inverter status check and generation review. Parts replacement and major repairs may be covered or offered at preferential rates depending on plan tier.',
+            "A Solar AMC is a comprehensive service agreement where UTTsolar takes complete responsibility for the ongoing health, scheduled cleaning, preventative maintenance, safety testing, and maximum power generation of your solar plant.",
         },
         {
-          question: 'Is AMC worth it for a small home system?',
+          question: "What tiers of Solar AMC packages does UTTsolar offer?",
           answer:
-            'For systems where roof access is difficult or you prefer professional care, AMC provides peace of mind. We offer residential plans scaled to smaller installations.',
+            "We offer Basic AMC (quarterly preventative visits + breakdown support), Comprehensive AMC (bi-monthly cleaning + full electrical audits + parts coverage), and Commercial/Industrial O&M with guaranteed generation SLAs.",
         },
         {
-          question: 'Can I get AMC on a system installed by another company?',
+          question: "How many preventative maintenance and cleaning visits are included in an AMC?",
           answer:
-            'Yes, after an initial assessment confirms the system is in serviceable condition and meets basic safety standards.',
+            "Standard residential AMC packages include 2 to 4 comprehensive preventative electrical audits and optional monthly panel washing visits depending on your chosen plan tier.",
         },
         {
-          question: 'How many visits per year are included?',
+          question: "Does a Solar AMC guarantee higher energy generation and financial savings?",
           answer:
-            'Typically two visits annually for residential systems and more frequent schedules for commercial and industrial plants. Exact frequency is defined in your contract.',
+            "Yes! Regular maintenance, professional cleaning, and rapid fault rectification typically boost annual solar energy output by 15% to 25%, easily delivering savings that outweigh the modest annual contract cost.",
+        },
+        {
+          question: "Are emergency breakdown callouts covered under the AMC contract?",
+          answer:
+            "Yes. AMC customers receive priority breakdown response within 24 to 48 hours with zero technician inspection fees and discounted rates on any out-of-warranty replacement hardware.",
+        },
+        {
+          question: "What documentation and reports are provided during AMC inspections?",
+          answer:
+            "After each service visit, you receive a detailed Health & Performance Report documenting DC string voltages, insulation resistance, earth pit Ohms, inverter operational efficiency, and thermal scan findings.",
+        },
+        {
+          question: "Can I enroll a solar plant installed by another company into a UTTsolar AMC?",
+          answer:
+            "Yes. We conduct a preliminary Solar Plant Health Audit to verify system safety and component integrity, after which your plant can be seamlessly onboarded into our AMC program.",
+        },
+        {
+          question: "How much does a Solar AMC cost in Uttarakhand?",
+          answer:
+            "AMC pricing starts at nominal annual rates for 1 kW–5 kW residential systems and is customized based on capacity, roof height, and cleaning frequency for large commercial and industrial plants.",
         },
       ],
     },
@@ -1337,24 +1637,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'How does net metering work with UPCL in Uttarakhand?',
+          question: "What is UPCL net metering and how does it work in Uttarakhand?",
           answer:
-            'Your solar system exports surplus power to the grid through a bidirectional net meter. UPCL adjusts exported units against your consumption per applicable billing settlement rules for your consumer category.',
+            "UPCL Net Metering is a state-approved billing mechanism that connects your rooftop solar plant to the Uttarakhand Power Corporation Limited grid using a bi-directional energy meter that records both electricity imported and exported.",
         },
         {
-          question: 'How long does UPCL net metering approval take?',
+          question: "How does energy banking and billing credit work under UPCL net metering?",
           answer:
-            'Timelines vary by circle and application completeness. Well-prepared applications typically process faster. We track status and follow up, though final timelines depend on UPCL.',
+            "Surplus units exported during the day are banked in your account. Your monthly electricity bill reflects Net Units = (Imported Units – Exported Units). Excess exported units roll forward across the financial year settlement cycle.",
         },
         {
-          question: 'Can I apply for net metering myself?',
+          question: "What is the step-by-step process for getting a UPCL net meter in Uttarakhand?",
           answer:
-            'Yes, consumers can apply directly on the UPCL portal. Many customers prefer UTTsolar to handle documentation and follow-up because technical requirements and process steps can be complex.',
+            "The process involves: 1) Online application on UPCL USRP Portal, 2) Technical feasibility clearance by UPCL junior engineer, 3) Physical solar plant installation, 4) Work completion report submission, 5) Division testing & bidirectional meter installation.",
         },
         {
-          question: 'Is net metering available for commercial consumers?',
+          question: "What is the maximum solar capacity I can install under UPCL net metering?",
           answer:
-            'Yes, UPCL offers net metering for eligible commercial and industrial consumers subject to capacity limits and separate application procedures from residential.',
+            "Under current Uttarakhand Electricity Regulatory Commission (UERC) regulations, residential consumers can install solar capacity up to 100% of their sanctioned electricity load (subject to local distribution transformer capacity).",
+        },
+        {
+          question: "How long does the UPCL net metering approval process take?",
+          answer:
+            "From online USRP application submission to physical net meter installation, the typical timeframe is 2 to 4 weeks. UTTsolar handles the entire paperwork and department coordination to eliminate delays.",
+        },
+        {
+          question: "What documents are required for UPCL net meter application?",
+          answer:
+            "You need your latest UPCL electricity bill (with Service Connection / Account ID), Aadhaar Card, property ownership document, solar single line diagram (SLD), and solar module/inverter test certificates (provided by UTTsolar).",
+        },
+        {
+          question: "Is net metering available for commercial and industrial connections in Uttarakhand?",
+          answer:
+            "Yes. UPCL provides net metering connectivity for commercial (non-domestic) and industrial HT/LT consumer categories within prescribed voltage and sanctioned load regulations.",
+        },
+        {
+          question: "Does UTTsolar charge extra for handling UPCL net metering approvals?",
+          answer:
+            "No. Complete UPCL net metering documentation, portal filing, single-line diagram preparation, and division coordination are fully included in our turnkey installation packages.",
         },
       ],
     },
@@ -1420,24 +1740,44 @@ const services: Service[] = [
       ],
       faqs: [
         {
-          question: 'How much PM Surya Ghar subsidy can I get in Uttarakhand?',
+          question: "What is the PM Surya Ghar: Muft Bijli Yojana subsidy amount in Uttarakhand?",
           answer:
-            'For eligible residential systems, Uttarakhand receives higher CFA as a special category state — up to ₹33,000 per kW for the first 2 kW and ₹19,800 per kW for the third kW, with a maximum of ₹85,800 for systems up to 3 kW. Verify current rates on mnre.gov.in as guidelines may be updated.',
+            "Under the central PM Surya Ghar scheme, Uttarakhand qualifies as a Special Category State with enhanced Central Financial Assistance: ₹33,000 for 1 kW, ₹66,000 for 2 kW, and ₹85,800 for 3 kW or larger residential systems.",
         },
         {
-          question: 'Who is eligible for PM Surya Ghar subsidy?',
+          question: "How is the solar subsidy disbursed to the homeowner?",
           answer:
-            'Residential consumers including individual homeowners are eligible under current guidelines. Commercial entities and existing subsidy beneficiaries may have restrictions. We assess your specific eligibility during consultation.',
+            "The subsidy is credited directly to the beneficiary's Aadhaar-linked bank account through Direct Benefit Transfer (DBT) within 30 to 45 days after UPCL net meter installation and inspection report verification on the National Portal.",
         },
         {
-          question: 'Do I pay full price and receive subsidy later?',
+          question: "Who is eligible to claim the PM Surya Ghar solar subsidy in Uttarakhand?",
           answer:
-            'Under the current process, consumers typically pay the installation cost and receive Central Financial Assistance credited to their bank account after successful installation, inspection and application approval.',
+            "Any Indian citizen residing in Uttarakhand with an active domestic/residential UPCL electricity connection, roof ownership or roof rights, and an Aadhaar-linked bank account is 100% eligible.",
         },
         {
-          question: 'What if my subsidy application is rejected?',
+          question: "Are commercial, industrial, or institutional properties eligible for PM Surya Ghar subsidy?",
           answer:
-            'Rejections usually result from incomplete documentation, non-compliant equipment or DISCOM approval issues. We help identify and resolve the cause. Prevention through correct process from the start is the best approach.',
+            "No. PM Surya Ghar Central Financial Assistance applies exclusively to individual residential households and Group Housing Societies / RWAs (for common lighting up to 500 kW). Commercial entities benefit from 40% accelerated depreciation instead.",
+        },
+        {
+          question: "What is the official government portal for the PM Surya Ghar scheme?",
+          answer:
+            "The official portal is pmsuryaghar.gov.in (National Portal for Rooftop Solar). UTTsolar registers your application directly on this portal under the approved vendor directory.",
+        },
+        {
+          question: "What documents do I need to provide UTTsolar to claim the subsidy?",
+          answer:
+            "Only 3 simple documents: 1) Recent UPCL electricity bill, 2) Aadhaar card copy, and 3) Bank account passbook or cancelled cheque with your name clearly printed.",
+        },
+        {
+          question: "Do I have to pay the full price upfront or just the subsidized amount?",
+          answer:
+            "Per MNRE guidelines, the consumer pays the project cost to the registered vendor, and the central government deposits the full subsidy amount (up to ₹85,800) directly into your bank account via DBT.",
+        },
+        {
+          question: "Does UTTsolar guarantee subsidy approval assistance across all 13 Uttarakhand districts?",
+          answer:
+            "Yes! UTTsolar provides 100% end-to-end subsidy filing, division liaison, technical compliance verification, and tracking until the DBT funds are credited to your bank account.",
         },
       ],
     },

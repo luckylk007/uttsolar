@@ -39,15 +39,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Haldwani?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Haldwani."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Haldwani receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Haldwani?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Haldwani, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Haldwani?",
+            "answer": "After our certified team installs your solar system in Haldwani, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Haldwani?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Haldwani?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Haldwani, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Haldwani?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Haldwani?",
+            "answer": "Homeowners and business owners in Haldwani typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Haldwani?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Haldwani and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Haldwani?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Haldwani?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Haldwani."
       }
 ],
   },
@@ -89,15 +109,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Nainital?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Nainital."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Nainital receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Nainital?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Nainital, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Nainital?",
+            "answer": "After our certified team installs your solar system in Nainital, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Nainital?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Nainital?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Nainital, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Nainital?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Nainital?",
+            "answer": "Homeowners and business owners in Nainital typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Nainital?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Nainital and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Nainital?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Nainital?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Nainital."
       }
 ],
   },
@@ -136,15 +176,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Ramnagar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Ramnagar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Ramnagar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Ramnagar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Ramnagar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Ramnagar?",
+            "answer": "After our certified team installs your solar system in Ramnagar, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Ramnagar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Ramnagar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Ramnagar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Ramnagar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Ramnagar?",
+            "answer": "Homeowners and business owners in Ramnagar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Ramnagar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Ramnagar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Ramnagar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Ramnagar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Ramnagar."
       }
 ],
   },
@@ -183,15 +243,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kathgodam?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kathgodam."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kathgodam receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kathgodam?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kathgodam, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kathgodam?",
+            "answer": "After our certified team installs your solar system in Kathgodam, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kathgodam?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Kathgodam?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kathgodam, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kathgodam?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kathgodam?",
+            "answer": "Homeowners and business owners in Kathgodam typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kathgodam?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kathgodam and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kathgodam?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kathgodam?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kathgodam."
       }
 ],
   },
@@ -230,15 +310,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bhimtal?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bhimtal."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bhimtal receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bhimtal?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bhimtal, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bhimtal?",
+            "answer": "After our certified team installs your solar system in Bhimtal, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bhimtal?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Bhimtal?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bhimtal, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bhimtal?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bhimtal?",
+            "answer": "Homeowners and business owners in Bhimtal typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bhimtal?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bhimtal and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bhimtal?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bhimtal?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bhimtal."
       }
 ],
   },
@@ -277,15 +377,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Lalkuan?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Lalkuan."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Lalkuan receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Lalkuan?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Lalkuan, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Lalkuan?",
+            "answer": "After our certified team installs your solar system in Lalkuan, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Lalkuan?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Lalkuan?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Lalkuan, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Lalkuan?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Lalkuan?",
+            "answer": "Homeowners and business owners in Lalkuan typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Lalkuan?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Lalkuan and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Lalkuan?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Lalkuan?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Lalkuan."
       }
 ],
   },
@@ -324,15 +444,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kaladhungi?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kaladhungi."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kaladhungi receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kaladhungi?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kaladhungi, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kaladhungi?",
+            "answer": "After our certified team installs your solar system in Kaladhungi, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kaladhungi?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Kaladhungi?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kaladhungi, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kaladhungi?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kaladhungi?",
+            "answer": "Homeowners and business owners in Kaladhungi typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kaladhungi?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kaladhungi and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kaladhungi?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kaladhungi?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kaladhungi."
       }
 ],
   },
@@ -371,15 +511,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bhowali?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bhowali."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bhowali receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bhowali?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bhowali, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bhowali?",
+            "answer": "After our certified team installs your solar system in Bhowali, we submit the work completion report to the local UPCL Kumaon Circle office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bhowali?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Nainital district."
+            "question": "What rooftop space is required for a solar plant in Bhowali?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bhowali, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bhowali?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Nainital enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bhowali?",
+            "answer": "Homeowners and business owners in Bhowali typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bhowali?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bhowali and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bhowali?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Nainital district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bhowali?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Nainital technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bhowali."
       }
 ],
   },
@@ -421,15 +581,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Dehradun?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Dehradun."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Dehradun receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Dehradun?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Dehradun, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Dehradun?",
+            "answer": "After our certified team installs your solar system in Dehradun, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Dehradun?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Dehradun?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Dehradun, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Dehradun?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Dehradun?",
+            "answer": "Homeowners and business owners in Dehradun typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Dehradun?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Dehradun and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Dehradun?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Dehradun?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Dehradun."
       }
 ],
   },
@@ -471,15 +651,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Rishikesh?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Rishikesh."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Rishikesh receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Rishikesh?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Rishikesh, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Rishikesh?",
+            "answer": "After our certified team installs your solar system in Rishikesh, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Rishikesh?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Rishikesh?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Rishikesh, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Rishikesh?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Rishikesh?",
+            "answer": "Homeowners and business owners in Rishikesh typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Rishikesh?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Rishikesh and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Rishikesh?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Rishikesh?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Rishikesh."
       }
 ],
   },
@@ -518,15 +718,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Vikasnagar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Vikasnagar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Vikasnagar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Vikasnagar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Vikasnagar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Vikasnagar?",
+            "answer": "After our certified team installs your solar system in Vikasnagar, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Vikasnagar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Vikasnagar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Vikasnagar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Vikasnagar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Vikasnagar?",
+            "answer": "Homeowners and business owners in Vikasnagar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Vikasnagar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Vikasnagar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Vikasnagar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Vikasnagar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Vikasnagar."
       }
 ],
   },
@@ -565,15 +785,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Doiwala?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Doiwala."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Doiwala receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Doiwala?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Doiwala, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Doiwala?",
+            "answer": "After our certified team installs your solar system in Doiwala, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Doiwala?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Doiwala?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Doiwala, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Doiwala?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Doiwala?",
+            "answer": "Homeowners and business owners in Doiwala typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Doiwala?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Doiwala and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Doiwala?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Doiwala?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Doiwala."
       }
 ],
   },
@@ -614,15 +854,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Mussoorie?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Mussoorie."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Mussoorie receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Mussoorie?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Mussoorie, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Mussoorie?",
+            "answer": "After our certified team installs your solar system in Mussoorie, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Mussoorie?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Mussoorie?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Mussoorie, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Mussoorie?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Mussoorie?",
+            "answer": "Homeowners and business owners in Mussoorie typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Mussoorie?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Mussoorie and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Mussoorie?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Mussoorie?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Mussoorie."
       }
 ],
   },
@@ -661,15 +921,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Selakui?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Selakui."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Selakui receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Selakui?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Selakui, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Selakui?",
+            "answer": "After our certified team installs your solar system in Selakui, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Selakui?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Selakui?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Selakui, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Selakui?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Selakui?",
+            "answer": "Homeowners and business owners in Selakui typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Selakui?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Selakui and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Selakui?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Selakui?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Selakui."
       }
 ],
   },
@@ -708,15 +988,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Sahaspur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Sahaspur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Sahaspur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Sahaspur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Sahaspur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Sahaspur?",
+            "answer": "After our certified team installs your solar system in Sahaspur, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Sahaspur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Sahaspur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Sahaspur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Sahaspur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Sahaspur?",
+            "answer": "Homeowners and business owners in Sahaspur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Sahaspur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Sahaspur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Sahaspur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Sahaspur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Sahaspur."
       }
 ],
   },
@@ -755,15 +1055,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Herbertpur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Herbertpur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Herbertpur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Herbertpur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Herbertpur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Herbertpur?",
+            "answer": "After our certified team installs your solar system in Herbertpur, we submit the work completion report to the local UPCL Dehradun Urban & Rural Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Herbertpur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Dehradun district."
+            "question": "What rooftop space is required for a solar plant in Herbertpur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Herbertpur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Herbertpur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Dehradun enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Herbertpur?",
+            "answer": "Homeowners and business owners in Herbertpur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Herbertpur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Herbertpur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Herbertpur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Dehradun district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Herbertpur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Dehradun technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Herbertpur."
       }
 ],
   },
@@ -804,15 +1124,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Haridwar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Haridwar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Haridwar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Haridwar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Haridwar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Haridwar?",
+            "answer": "After our certified team installs your solar system in Haridwar, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Haridwar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Haridwar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Haridwar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Haridwar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Haridwar?",
+            "answer": "Homeowners and business owners in Haridwar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Haridwar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Haridwar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Haridwar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Haridwar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Haridwar."
       }
 ],
   },
@@ -853,15 +1193,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Roorkee?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Roorkee."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Roorkee receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Roorkee?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Roorkee, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Roorkee?",
+            "answer": "After our certified team installs your solar system in Roorkee, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Roorkee?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Roorkee?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Roorkee, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Roorkee?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Roorkee?",
+            "answer": "Homeowners and business owners in Roorkee typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Roorkee?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Roorkee and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Roorkee?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Roorkee?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Roorkee."
       }
 ],
   },
@@ -900,15 +1260,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Laksar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Laksar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Laksar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Laksar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Laksar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Laksar?",
+            "answer": "After our certified team installs your solar system in Laksar, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Laksar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Laksar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Laksar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Laksar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Laksar?",
+            "answer": "Homeowners and business owners in Laksar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Laksar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Laksar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Laksar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Laksar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Laksar."
       }
 ],
   },
@@ -947,15 +1327,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Manglaur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Manglaur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Manglaur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Manglaur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Manglaur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Manglaur?",
+            "answer": "After our certified team installs your solar system in Manglaur, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Manglaur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Manglaur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Manglaur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Manglaur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Manglaur?",
+            "answer": "Homeowners and business owners in Manglaur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Manglaur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Manglaur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Manglaur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Manglaur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Manglaur."
       }
 ],
   },
@@ -994,15 +1394,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bhagwanpur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bhagwanpur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bhagwanpur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bhagwanpur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bhagwanpur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bhagwanpur?",
+            "answer": "After our certified team installs your solar system in Bhagwanpur, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bhagwanpur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Bhagwanpur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bhagwanpur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bhagwanpur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bhagwanpur?",
+            "answer": "Homeowners and business owners in Bhagwanpur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bhagwanpur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bhagwanpur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bhagwanpur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bhagwanpur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bhagwanpur."
       }
 ],
   },
@@ -1041,15 +1461,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Jhabrera?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Jhabrera."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Jhabrera receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Jhabrera?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Jhabrera, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Jhabrera?",
+            "answer": "After our certified team installs your solar system in Jhabrera, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Jhabrera?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Jhabrera?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Jhabrera, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Jhabrera?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Jhabrera?",
+            "answer": "Homeowners and business owners in Jhabrera typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Jhabrera?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Jhabrera and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Jhabrera?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Jhabrera?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Jhabrera."
       }
 ],
   },
@@ -1088,15 +1528,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bahadrabad?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bahadrabad."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bahadrabad receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bahadrabad?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bahadrabad, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bahadrabad?",
+            "answer": "After our certified team installs your solar system in Bahadrabad, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bahadrabad?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Bahadrabad?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bahadrabad, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bahadrabad?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bahadrabad?",
+            "answer": "Homeowners and business owners in Bahadrabad typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bahadrabad?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bahadrabad and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bahadrabad?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bahadrabad?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bahadrabad."
       }
 ],
   },
@@ -1135,15 +1595,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Piran Kaliyar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Piran Kaliyar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Piran Kaliyar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Piran Kaliyar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Piran Kaliyar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Piran Kaliyar?",
+            "answer": "After our certified team installs your solar system in Piran Kaliyar, we submit the work completion report to the local UPCL Haridwar & Roorkee Distribution Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Piran Kaliyar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Haridwar district."
+            "question": "What rooftop space is required for a solar plant in Piran Kaliyar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Piran Kaliyar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Piran Kaliyar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Haridwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Piran Kaliyar?",
+            "answer": "Homeowners and business owners in Piran Kaliyar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Piran Kaliyar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Piran Kaliyar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Piran Kaliyar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Haridwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Piran Kaliyar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Haridwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Piran Kaliyar."
       }
 ],
   },
@@ -1184,15 +1664,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Rudrapur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Rudrapur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Rudrapur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Rudrapur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Rudrapur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Rudrapur?",
+            "answer": "After our certified team installs your solar system in Rudrapur, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Rudrapur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Rudrapur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Rudrapur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Rudrapur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Rudrapur?",
+            "answer": "Homeowners and business owners in Rudrapur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Rudrapur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Rudrapur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Rudrapur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Rudrapur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Rudrapur."
       }
 ],
   },
@@ -1232,15 +1732,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kashipur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kashipur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kashipur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kashipur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kashipur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kashipur?",
+            "answer": "After our certified team installs your solar system in Kashipur, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kashipur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Kashipur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kashipur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kashipur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kashipur?",
+            "answer": "Homeowners and business owners in Kashipur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kashipur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kashipur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kashipur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kashipur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kashipur."
       }
 ],
   },
@@ -1279,15 +1799,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Khatima?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Khatima."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Khatima receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Khatima?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Khatima, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Khatima?",
+            "answer": "After our certified team installs your solar system in Khatima, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Khatima?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Khatima?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Khatima, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Khatima?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Khatima?",
+            "answer": "Homeowners and business owners in Khatima typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Khatima?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Khatima and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Khatima?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Khatima?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Khatima."
       }
 ],
   },
@@ -1326,15 +1866,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Sitarganj?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Sitarganj."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Sitarganj receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Sitarganj?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Sitarganj, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Sitarganj?",
+            "answer": "After our certified team installs your solar system in Sitarganj, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Sitarganj?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Sitarganj?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Sitarganj, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Sitarganj?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Sitarganj?",
+            "answer": "Homeowners and business owners in Sitarganj typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Sitarganj?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Sitarganj and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Sitarganj?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Sitarganj?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Sitarganj."
       }
 ],
   },
@@ -1373,15 +1933,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kichha?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kichha."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kichha receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kichha?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kichha, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kichha?",
+            "answer": "After our certified team installs your solar system in Kichha, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kichha?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Kichha?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kichha, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kichha?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kichha?",
+            "answer": "Homeowners and business owners in Kichha typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kichha?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kichha and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kichha?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kichha?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kichha."
       }
 ],
   },
@@ -1420,15 +2000,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bazpur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bazpur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bazpur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bazpur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bazpur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bazpur?",
+            "answer": "After our certified team installs your solar system in Bazpur, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bazpur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Bazpur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bazpur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bazpur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bazpur?",
+            "answer": "Homeowners and business owners in Bazpur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bazpur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bazpur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bazpur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bazpur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bazpur."
       }
 ],
   },
@@ -1467,15 +2067,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Gadarpur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Gadarpur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Gadarpur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Gadarpur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Gadarpur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Gadarpur?",
+            "answer": "After our certified team installs your solar system in Gadarpur, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Gadarpur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Gadarpur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Gadarpur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Gadarpur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Gadarpur?",
+            "answer": "Homeowners and business owners in Gadarpur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Gadarpur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Gadarpur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Gadarpur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Gadarpur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Gadarpur."
       }
 ],
   },
@@ -1514,15 +2134,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Jaspur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Jaspur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Jaspur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Jaspur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Jaspur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Jaspur?",
+            "answer": "After our certified team installs your solar system in Jaspur, we submit the work completion report to the local UPCL Rudrapur & Kashipur Divisions office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Jaspur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Udham Singh Nagar district."
+            "question": "What rooftop space is required for a solar plant in Jaspur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Jaspur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Jaspur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Udham Singh Nagar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Jaspur?",
+            "answer": "Homeowners and business owners in Jaspur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Jaspur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Jaspur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Jaspur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Udham Singh Nagar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Jaspur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Udham Singh Nagar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Jaspur."
       }
 ],
   },
@@ -1561,15 +2201,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Almora?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Almora."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Almora receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Almora?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Almora, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Almora?",
+            "answer": "After our certified team installs your solar system in Almora, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Almora?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Almora?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Almora, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Almora?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Almora?",
+            "answer": "Homeowners and business owners in Almora typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Almora?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Almora and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Almora?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Almora?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Almora."
       }
 ],
   },
@@ -1608,15 +2268,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Ranikhet?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Ranikhet."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Ranikhet receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Ranikhet?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Ranikhet, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Ranikhet?",
+            "answer": "After our certified team installs your solar system in Ranikhet, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Ranikhet?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Ranikhet?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Ranikhet, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Ranikhet?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Ranikhet?",
+            "answer": "Homeowners and business owners in Ranikhet typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Ranikhet?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Ranikhet and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Ranikhet?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Ranikhet?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Ranikhet."
       }
 ],
   },
@@ -1655,15 +2335,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Dwarahat?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Dwarahat."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Dwarahat receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Dwarahat?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Dwarahat, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Dwarahat?",
+            "answer": "After our certified team installs your solar system in Dwarahat, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Dwarahat?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Dwarahat?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Dwarahat, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Dwarahat?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Dwarahat?",
+            "answer": "Homeowners and business owners in Dwarahat typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Dwarahat?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Dwarahat and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Dwarahat?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Dwarahat?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Dwarahat."
       }
 ],
   },
@@ -1702,15 +2402,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Someshwar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Someshwar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Someshwar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Someshwar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Someshwar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Someshwar?",
+            "answer": "After our certified team installs your solar system in Someshwar, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Someshwar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Someshwar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Someshwar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Someshwar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Someshwar?",
+            "answer": "Homeowners and business owners in Someshwar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Someshwar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Someshwar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Someshwar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Someshwar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Someshwar."
       }
 ],
   },
@@ -1749,15 +2469,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Chaukhutia?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Chaukhutia."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Chaukhutia receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Chaukhutia?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Chaukhutia, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Chaukhutia?",
+            "answer": "After our certified team installs your solar system in Chaukhutia, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Chaukhutia?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Chaukhutia?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Chaukhutia, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Chaukhutia?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Chaukhutia?",
+            "answer": "Homeowners and business owners in Chaukhutia typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Chaukhutia?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Chaukhutia and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Chaukhutia?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Chaukhutia?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Chaukhutia."
       }
 ],
   },
@@ -1796,15 +2536,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bhikiyasain?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bhikiyasain."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bhikiyasain receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bhikiyasain?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bhikiyasain, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bhikiyasain?",
+            "answer": "After our certified team installs your solar system in Bhikiyasain, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bhikiyasain?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Bhikiyasain?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bhikiyasain, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bhikiyasain?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bhikiyasain?",
+            "answer": "Homeowners and business owners in Bhikiyasain typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bhikiyasain?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bhikiyasain and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bhikiyasain?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bhikiyasain?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bhikiyasain."
       }
 ],
   },
@@ -1843,15 +2603,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Jainti?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Jainti."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Jainti receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Jainti?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Jainti, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Jainti?",
+            "answer": "After our certified team installs your solar system in Jainti, we submit the work completion report to the local UPCL Almora Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Jainti?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Almora district."
+            "question": "What rooftop space is required for a solar plant in Jainti?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Jainti, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Jainti?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Almora enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Jainti?",
+            "answer": "Homeowners and business owners in Jainti typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Jainti?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Jainti and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Jainti?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Almora district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Jainti?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Almora technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Jainti."
       }
 ],
   },
@@ -1890,15 +2670,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bageshwar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bageshwar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bageshwar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bageshwar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bageshwar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bageshwar?",
+            "answer": "After our certified team installs your solar system in Bageshwar, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bageshwar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Bageshwar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bageshwar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bageshwar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bageshwar?",
+            "answer": "Homeowners and business owners in Bageshwar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bageshwar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bageshwar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bageshwar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bageshwar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bageshwar."
       }
 ],
   },
@@ -1937,15 +2737,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kausani?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kausani."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kausani receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kausani?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kausani, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kausani?",
+            "answer": "After our certified team installs your solar system in Kausani, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kausani?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Kausani?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kausani, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kausani?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kausani?",
+            "answer": "Homeowners and business owners in Kausani typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kausani?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kausani and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kausani?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kausani?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kausani."
       }
 ],
   },
@@ -1984,15 +2804,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Garur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Garur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Garur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Garur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Garur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Garur?",
+            "answer": "After our certified team installs your solar system in Garur, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Garur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Garur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Garur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Garur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Garur?",
+            "answer": "Homeowners and business owners in Garur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Garur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Garur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Garur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Garur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Garur."
       }
 ],
   },
@@ -2031,15 +2871,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kapkot?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kapkot."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kapkot receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kapkot?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kapkot, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kapkot?",
+            "answer": "After our certified team installs your solar system in Kapkot, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kapkot?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Kapkot?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kapkot, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kapkot?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kapkot?",
+            "answer": "Homeowners and business owners in Kapkot typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kapkot?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kapkot and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kapkot?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kapkot?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kapkot."
       }
 ],
   },
@@ -2078,15 +2938,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kanda?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kanda."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kanda receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kanda?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kanda, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kanda?",
+            "answer": "After our certified team installs your solar system in Kanda, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kanda?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Kanda?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kanda, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kanda?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kanda?",
+            "answer": "Homeowners and business owners in Kanda typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kanda?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kanda and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kanda?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kanda?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kanda."
       }
 ],
   },
@@ -2125,15 +3005,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Baijnath?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Baijnath."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Baijnath receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Baijnath?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Baijnath, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Baijnath?",
+            "answer": "After our certified team installs your solar system in Baijnath, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Baijnath?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Baijnath?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Baijnath, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Baijnath?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Baijnath?",
+            "answer": "Homeowners and business owners in Baijnath typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Baijnath?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Baijnath and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Baijnath?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Baijnath?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Baijnath."
       }
 ],
   },
@@ -2172,15 +3072,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kafligair?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kafligair."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kafligair receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kafligair?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kafligair, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kafligair?",
+            "answer": "After our certified team installs your solar system in Kafligair, we submit the work completion report to the local UPCL Bageshwar Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kafligair?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Bageshwar district."
+            "question": "What rooftop space is required for a solar plant in Kafligair?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kafligair, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kafligair?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Bageshwar enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kafligair?",
+            "answer": "Homeowners and business owners in Kafligair typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kafligair?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kafligair and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kafligair?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Bageshwar district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kafligair?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Bageshwar technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kafligair."
       }
 ],
   },
@@ -2219,15 +3139,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Gopeshwar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Gopeshwar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Gopeshwar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Gopeshwar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Gopeshwar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Gopeshwar?",
+            "answer": "After our certified team installs your solar system in Gopeshwar, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Gopeshwar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Gopeshwar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Gopeshwar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Gopeshwar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Gopeshwar?",
+            "answer": "Homeowners and business owners in Gopeshwar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Gopeshwar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Gopeshwar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Gopeshwar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Gopeshwar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Gopeshwar."
       }
 ],
   },
@@ -2266,15 +3206,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Joshimath (Jyotirmath)?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Joshimath (Jyotirmath)."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Joshimath (Jyotirmath) receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Joshimath (Jyotirmath)?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Joshimath (Jyotirmath), we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Joshimath (Jyotirmath)?",
+            "answer": "After our certified team installs your solar system in Joshimath (Jyotirmath), we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Joshimath (Jyotirmath)?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Joshimath (Jyotirmath)?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Joshimath (Jyotirmath), you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Joshimath (Jyotirmath)?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Joshimath (Jyotirmath)?",
+            "answer": "Homeowners and business owners in Joshimath (Jyotirmath) typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Joshimath (Jyotirmath)?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Joshimath (Jyotirmath) and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Joshimath (Jyotirmath)?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Joshimath (Jyotirmath)?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Joshimath (Jyotirmath)."
       }
 ],
   },
@@ -2313,15 +3273,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Karnaprayag?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Karnaprayag."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Karnaprayag receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Karnaprayag?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Karnaprayag, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Karnaprayag?",
+            "answer": "After our certified team installs your solar system in Karnaprayag, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Karnaprayag?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Karnaprayag?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Karnaprayag, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Karnaprayag?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Karnaprayag?",
+            "answer": "Homeowners and business owners in Karnaprayag typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Karnaprayag?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Karnaprayag and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Karnaprayag?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Karnaprayag?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Karnaprayag."
       }
 ],
   },
@@ -2360,15 +3340,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Gauchar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Gauchar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Gauchar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Gauchar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Gauchar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Gauchar?",
+            "answer": "After our certified team installs your solar system in Gauchar, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Gauchar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Gauchar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Gauchar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Gauchar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Gauchar?",
+            "answer": "Homeowners and business owners in Gauchar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Gauchar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Gauchar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Gauchar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Gauchar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Gauchar."
       }
 ],
   },
@@ -2407,15 +3407,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Gairsain?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Gairsain."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Gairsain receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Gairsain?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Gairsain, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Gairsain?",
+            "answer": "After our certified team installs your solar system in Gairsain, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Gairsain?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Gairsain?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Gairsain, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Gairsain?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Gairsain?",
+            "answer": "Homeowners and business owners in Gairsain typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Gairsain?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Gairsain and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Gairsain?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Gairsain?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Gairsain."
       }
 ],
   },
@@ -2454,15 +3474,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Pipalkoti?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Pipalkoti."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Pipalkoti receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Pipalkoti?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Pipalkoti, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Pipalkoti?",
+            "answer": "After our certified team installs your solar system in Pipalkoti, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Pipalkoti?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Pipalkoti?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Pipalkoti, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Pipalkoti?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Pipalkoti?",
+            "answer": "Homeowners and business owners in Pipalkoti typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Pipalkoti?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Pipalkoti and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Pipalkoti?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Pipalkoti?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Pipalkoti."
       }
 ],
   },
@@ -2501,15 +3541,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Nandprayag?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Nandprayag."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Nandprayag receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Nandprayag?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Nandprayag, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Nandprayag?",
+            "answer": "After our certified team installs your solar system in Nandprayag, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Nandprayag?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Nandprayag?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Nandprayag, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Nandprayag?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Nandprayag?",
+            "answer": "Homeowners and business owners in Nandprayag typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Nandprayag?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Nandprayag and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Nandprayag?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Nandprayag?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Nandprayag."
       }
 ],
   },
@@ -2548,15 +3608,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Tharali?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Tharali."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Tharali receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Tharali?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Tharali, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Tharali?",
+            "answer": "After our certified team installs your solar system in Tharali, we submit the work completion report to the local UPCL Chamoli Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Tharali?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Chamoli district."
+            "question": "What rooftop space is required for a solar plant in Tharali?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Tharali, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Tharali?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Chamoli enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Tharali?",
+            "answer": "Homeowners and business owners in Tharali typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Tharali?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Tharali and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Tharali?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Chamoli district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Tharali?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Chamoli technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Tharali."
       }
 ],
   },
@@ -2595,15 +3675,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Tanakpur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Tanakpur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Tanakpur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Tanakpur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Tanakpur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Tanakpur?",
+            "answer": "After our certified team installs your solar system in Tanakpur, we submit the work completion report to the local UPCL Champawat Division & Tanakpur Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Tanakpur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Champawat district."
+            "question": "What rooftop space is required for a solar plant in Tanakpur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Tanakpur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Tanakpur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Champawat enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Tanakpur?",
+            "answer": "Homeowners and business owners in Tanakpur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Tanakpur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Tanakpur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Tanakpur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Champawat district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Tanakpur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Champawat technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Tanakpur."
       }
 ],
   },
@@ -2642,15 +3742,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Champawat?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Champawat."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Champawat receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Champawat?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Champawat, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Champawat?",
+            "answer": "After our certified team installs your solar system in Champawat, we submit the work completion report to the local UPCL Champawat Division & Tanakpur Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Champawat?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Champawat district."
+            "question": "What rooftop space is required for a solar plant in Champawat?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Champawat, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Champawat?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Champawat enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Champawat?",
+            "answer": "Homeowners and business owners in Champawat typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Champawat?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Champawat and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Champawat?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Champawat district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Champawat?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Champawat technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Champawat."
       }
 ],
   },
@@ -2689,15 +3809,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Lohaghat?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Lohaghat."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Lohaghat receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Lohaghat?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Lohaghat, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Lohaghat?",
+            "answer": "After our certified team installs your solar system in Lohaghat, we submit the work completion report to the local UPCL Champawat Division & Tanakpur Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Lohaghat?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Champawat district."
+            "question": "What rooftop space is required for a solar plant in Lohaghat?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Lohaghat, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Lohaghat?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Champawat enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Lohaghat?",
+            "answer": "Homeowners and business owners in Lohaghat typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Lohaghat?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Lohaghat and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Lohaghat?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Champawat district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Lohaghat?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Champawat technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Lohaghat."
       }
 ],
   },
@@ -2736,15 +3876,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Banbasa?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Banbasa."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Banbasa receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Banbasa?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Banbasa, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Banbasa?",
+            "answer": "After our certified team installs your solar system in Banbasa, we submit the work completion report to the local UPCL Champawat Division & Tanakpur Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Banbasa?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Champawat district."
+            "question": "What rooftop space is required for a solar plant in Banbasa?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Banbasa, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Banbasa?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Champawat enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Banbasa?",
+            "answer": "Homeowners and business owners in Banbasa typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Banbasa?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Banbasa and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Banbasa?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Champawat district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Banbasa?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Champawat technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Banbasa."
       }
 ],
   },
@@ -2783,15 +3943,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Pati?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Pati."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Pati receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Pati?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Pati, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Pati?",
+            "answer": "After our certified team installs your solar system in Pati, we submit the work completion report to the local UPCL Champawat Division & Tanakpur Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Pati?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Champawat district."
+            "question": "What rooftop space is required for a solar plant in Pati?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Pati, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Pati?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Champawat enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Pati?",
+            "answer": "Homeowners and business owners in Pati typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Pati?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Pati and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Pati?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Champawat district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Pati?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Champawat technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Pati."
       }
 ],
   },
@@ -2830,15 +4010,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Barakot?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Barakot."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Barakot receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Barakot?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Barakot, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Barakot?",
+            "answer": "After our certified team installs your solar system in Barakot, we submit the work completion report to the local UPCL Champawat Division & Tanakpur Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Barakot?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Champawat district."
+            "question": "What rooftop space is required for a solar plant in Barakot?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Barakot, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Barakot?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Champawat enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Barakot?",
+            "answer": "Homeowners and business owners in Barakot typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Barakot?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Barakot and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Barakot?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Champawat district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Barakot?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Champawat technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Barakot."
       }
 ],
   },
@@ -2879,15 +4079,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kotdwar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kotdwar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kotdwar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kotdwar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kotdwar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kotdwar?",
+            "answer": "After our certified team installs your solar system in Kotdwar, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kotdwar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Kotdwar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kotdwar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kotdwar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kotdwar?",
+            "answer": "Homeowners and business owners in Kotdwar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kotdwar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kotdwar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kotdwar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kotdwar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kotdwar."
       }
 ],
   },
@@ -2926,15 +4146,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Srinagar Garhwal?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Srinagar Garhwal."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Srinagar Garhwal receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Srinagar Garhwal?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Srinagar Garhwal, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Srinagar Garhwal?",
+            "answer": "After our certified team installs your solar system in Srinagar Garhwal, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Srinagar Garhwal?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Srinagar Garhwal?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Srinagar Garhwal, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Srinagar Garhwal?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Srinagar Garhwal?",
+            "answer": "Homeowners and business owners in Srinagar Garhwal typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Srinagar Garhwal?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Srinagar Garhwal and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Srinagar Garhwal?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Srinagar Garhwal?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Srinagar Garhwal."
       }
 ],
   },
@@ -2973,15 +4213,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Pauri?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Pauri."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Pauri receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Pauri?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Pauri, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Pauri?",
+            "answer": "After our certified team installs your solar system in Pauri, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Pauri?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Pauri?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Pauri, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Pauri?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Pauri?",
+            "answer": "Homeowners and business owners in Pauri typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Pauri?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Pauri and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Pauri?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Pauri?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Pauri."
       }
 ],
   },
@@ -3020,15 +4280,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Lansdowne?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Lansdowne."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Lansdowne receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Lansdowne?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Lansdowne, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Lansdowne?",
+            "answer": "After our certified team installs your solar system in Lansdowne, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Lansdowne?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Lansdowne?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Lansdowne, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Lansdowne?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Lansdowne?",
+            "answer": "Homeowners and business owners in Lansdowne typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Lansdowne?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Lansdowne and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Lansdowne?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Lansdowne?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Lansdowne."
       }
 ],
   },
@@ -3067,15 +4347,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Satpuli?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Satpuli."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Satpuli receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Satpuli?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Satpuli, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Satpuli?",
+            "answer": "After our certified team installs your solar system in Satpuli, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Satpuli?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Satpuli?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Satpuli, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Satpuli?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Satpuli?",
+            "answer": "Homeowners and business owners in Satpuli typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Satpuli?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Satpuli and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Satpuli?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Satpuli?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Satpuli."
       }
 ],
   },
@@ -3114,15 +4414,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Dugadda?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Dugadda."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Dugadda receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Dugadda?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Dugadda, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Dugadda?",
+            "answer": "After our certified team installs your solar system in Dugadda, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Dugadda?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Dugadda?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Dugadda, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Dugadda?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Dugadda?",
+            "answer": "Homeowners and business owners in Dugadda typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Dugadda?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Dugadda and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Dugadda?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Dugadda?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Dugadda."
       }
 ],
   },
@@ -3161,15 +4481,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Yamkeshwar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Yamkeshwar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Yamkeshwar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Yamkeshwar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Yamkeshwar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Yamkeshwar?",
+            "answer": "After our certified team installs your solar system in Yamkeshwar, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Yamkeshwar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Yamkeshwar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Yamkeshwar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Yamkeshwar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Yamkeshwar?",
+            "answer": "Homeowners and business owners in Yamkeshwar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Yamkeshwar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Yamkeshwar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Yamkeshwar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Yamkeshwar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Yamkeshwar."
       }
 ],
   },
@@ -3208,15 +4548,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Thalisain?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Thalisain."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Thalisain receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Thalisain?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Thalisain, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Thalisain?",
+            "answer": "After our certified team installs your solar system in Thalisain, we submit the work completion report to the local UPCL Kotdwar & Pauri Circles office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Thalisain?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pauri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Thalisain?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Thalisain, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Thalisain?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pauri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Thalisain?",
+            "answer": "Homeowners and business owners in Thalisain typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Thalisain?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Thalisain and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Thalisain?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pauri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Thalisain?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pauri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Thalisain."
       }
 ],
   },
@@ -3255,15 +4615,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Pithoragarh?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Pithoragarh."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Pithoragarh receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Pithoragarh?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Pithoragarh, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Pithoragarh?",
+            "answer": "After our certified team installs your solar system in Pithoragarh, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Pithoragarh?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Pithoragarh?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Pithoragarh, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Pithoragarh?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Pithoragarh?",
+            "answer": "Homeowners and business owners in Pithoragarh typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Pithoragarh?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Pithoragarh and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Pithoragarh?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Pithoragarh?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Pithoragarh."
       }
 ],
   },
@@ -3302,15 +4682,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Dharchula?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Dharchula."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Dharchula receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Dharchula?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Dharchula, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Dharchula?",
+            "answer": "After our certified team installs your solar system in Dharchula, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Dharchula?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Dharchula?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Dharchula, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Dharchula?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Dharchula?",
+            "answer": "Homeowners and business owners in Dharchula typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Dharchula?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Dharchula and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Dharchula?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Dharchula?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Dharchula."
       }
 ],
   },
@@ -3349,15 +4749,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Didihat?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Didihat."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Didihat receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Didihat?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Didihat, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Didihat?",
+            "answer": "After our certified team installs your solar system in Didihat, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Didihat?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Didihat?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Didihat, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Didihat?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Didihat?",
+            "answer": "Homeowners and business owners in Didihat typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Didihat?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Didihat and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Didihat?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Didihat?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Didihat."
       }
 ],
   },
@@ -3396,15 +4816,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Munsiyari?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Munsiyari."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Munsiyari receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Munsiyari?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Munsiyari, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Munsiyari?",
+            "answer": "After our certified team installs your solar system in Munsiyari, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Munsiyari?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Munsiyari?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Munsiyari, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Munsiyari?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Munsiyari?",
+            "answer": "Homeowners and business owners in Munsiyari typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Munsiyari?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Munsiyari and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Munsiyari?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Munsiyari?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Munsiyari."
       }
 ],
   },
@@ -3443,15 +4883,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Berinag?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Berinag."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Berinag receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Berinag?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Berinag, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Berinag?",
+            "answer": "After our certified team installs your solar system in Berinag, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Berinag?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Berinag?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Berinag, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Berinag?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Berinag?",
+            "answer": "Homeowners and business owners in Berinag typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Berinag?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Berinag and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Berinag?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Berinag?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Berinag."
       }
 ],
   },
@@ -3490,15 +4950,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Gangolihat?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Gangolihat."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Gangolihat receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Gangolihat?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Gangolihat, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Gangolihat?",
+            "answer": "After our certified team installs your solar system in Gangolihat, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Gangolihat?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Gangolihat?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Gangolihat, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Gangolihat?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Gangolihat?",
+            "answer": "Homeowners and business owners in Gangolihat typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Gangolihat?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Gangolihat and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Gangolihat?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Gangolihat?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Gangolihat."
       }
 ],
   },
@@ -3537,15 +5017,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Thal?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Thal."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Thal receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Thal?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Thal, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Thal?",
+            "answer": "After our certified team installs your solar system in Thal, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Thal?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Thal?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Thal, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Thal?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Thal?",
+            "answer": "Homeowners and business owners in Thal typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Thal?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Thal and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Thal?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Thal?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Thal."
       }
 ],
   },
@@ -3584,15 +5084,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Askot?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Askot."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Askot receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Askot?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Askot, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Askot?",
+            "answer": "After our certified team installs your solar system in Askot, we submit the work completion report to the local UPCL Pithoragarh Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Askot?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Pithoragarh district."
+            "question": "What rooftop space is required for a solar plant in Askot?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Askot, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Askot?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Pithoragarh enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Askot?",
+            "answer": "Homeowners and business owners in Askot typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Askot?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Askot and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Askot?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Pithoragarh district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Askot?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Pithoragarh technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Askot."
       }
 ],
   },
@@ -3631,15 +5151,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Rudraprayag?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Rudraprayag."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Rudraprayag receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Rudraprayag?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Rudraprayag, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Rudraprayag?",
+            "answer": "After our certified team installs your solar system in Rudraprayag, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Rudraprayag?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Rudraprayag?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Rudraprayag, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Rudraprayag?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Rudraprayag?",
+            "answer": "Homeowners and business owners in Rudraprayag typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Rudraprayag?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Rudraprayag and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Rudraprayag?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Rudraprayag?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Rudraprayag."
       }
 ],
   },
@@ -3678,15 +5218,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Agastyamuni?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Agastyamuni."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Agastyamuni receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Agastyamuni?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Agastyamuni, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Agastyamuni?",
+            "answer": "After our certified team installs your solar system in Agastyamuni, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Agastyamuni?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Agastyamuni?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Agastyamuni, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Agastyamuni?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Agastyamuni?",
+            "answer": "Homeowners and business owners in Agastyamuni typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Agastyamuni?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Agastyamuni and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Agastyamuni?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Agastyamuni?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Agastyamuni."
       }
 ],
   },
@@ -3725,15 +5285,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Guptkashi?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Guptkashi."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Guptkashi receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Guptkashi?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Guptkashi, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Guptkashi?",
+            "answer": "After our certified team installs your solar system in Guptkashi, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Guptkashi?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Guptkashi?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Guptkashi, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Guptkashi?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Guptkashi?",
+            "answer": "Homeowners and business owners in Guptkashi typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Guptkashi?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Guptkashi and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Guptkashi?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Guptkashi?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Guptkashi."
       }
 ],
   },
@@ -3772,15 +5352,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Ukhimath?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Ukhimath."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Ukhimath receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Ukhimath?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Ukhimath, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Ukhimath?",
+            "answer": "After our certified team installs your solar system in Ukhimath, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Ukhimath?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Ukhimath?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Ukhimath, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Ukhimath?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Ukhimath?",
+            "answer": "Homeowners and business owners in Ukhimath typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Ukhimath?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Ukhimath and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Ukhimath?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Ukhimath?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Ukhimath."
       }
 ],
   },
@@ -3819,15 +5419,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Tilwara?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Tilwara."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Tilwara receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Tilwara?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Tilwara, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Tilwara?",
+            "answer": "After our certified team installs your solar system in Tilwara, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Tilwara?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Tilwara?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Tilwara, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Tilwara?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Tilwara?",
+            "answer": "Homeowners and business owners in Tilwara typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Tilwara?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Tilwara and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Tilwara?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Tilwara?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Tilwara."
       }
 ],
   },
@@ -3866,15 +5486,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Sonprayag?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Sonprayag."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Sonprayag receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Sonprayag?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Sonprayag, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Sonprayag?",
+            "answer": "After our certified team installs your solar system in Sonprayag, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Sonprayag?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Sonprayag?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Sonprayag, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Sonprayag?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Sonprayag?",
+            "answer": "Homeowners and business owners in Sonprayag typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Sonprayag?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Sonprayag and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Sonprayag?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Sonprayag?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Sonprayag."
       }
 ],
   },
@@ -3913,15 +5553,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Phata?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Phata."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Phata receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Phata?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Phata, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Phata?",
+            "answer": "After our certified team installs your solar system in Phata, we submit the work completion report to the local UPCL Rudraprayag Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Phata?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Rudraprayag district."
+            "question": "What rooftop space is required for a solar plant in Phata?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Phata, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Phata?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Rudraprayag enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Phata?",
+            "answer": "Homeowners and business owners in Phata typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Phata?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Phata and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Phata?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Rudraprayag district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Phata?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Rudraprayag technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Phata."
       }
 ],
   },
@@ -3960,15 +5620,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in New Tehri?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in New Tehri."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in New Tehri receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in New Tehri?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in New Tehri, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in New Tehri?",
+            "answer": "After our certified team installs your solar system in New Tehri, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in New Tehri?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in New Tehri?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in New Tehri, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in New Tehri?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in New Tehri?",
+            "answer": "Homeowners and business owners in New Tehri typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in New Tehri?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in New Tehri and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in New Tehri?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in New Tehri?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in New Tehri."
       }
 ],
   },
@@ -4007,15 +5687,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Chamba?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Chamba."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Chamba receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Chamba?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Chamba, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Chamba?",
+            "answer": "After our certified team installs your solar system in Chamba, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Chamba?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Chamba?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Chamba, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Chamba?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Chamba?",
+            "answer": "Homeowners and business owners in Chamba typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Chamba?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Chamba and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Chamba?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Chamba?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Chamba."
       }
 ],
   },
@@ -4054,15 +5754,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Muni Ki Reti?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Muni Ki Reti."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Muni Ki Reti receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Muni Ki Reti?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Muni Ki Reti, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Muni Ki Reti?",
+            "answer": "After our certified team installs your solar system in Muni Ki Reti, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Muni Ki Reti?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Muni Ki Reti?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Muni Ki Reti, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Muni Ki Reti?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Muni Ki Reti?",
+            "answer": "Homeowners and business owners in Muni Ki Reti typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Muni Ki Reti?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Muni Ki Reti and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Muni Ki Reti?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Muni Ki Reti?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Muni Ki Reti."
       }
 ],
   },
@@ -4101,15 +5821,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Narendranagar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Narendranagar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Narendranagar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Narendranagar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Narendranagar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Narendranagar?",
+            "answer": "After our certified team installs your solar system in Narendranagar, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Narendranagar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Narendranagar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Narendranagar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Narendranagar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Narendranagar?",
+            "answer": "Homeowners and business owners in Narendranagar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Narendranagar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Narendranagar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Narendranagar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Narendranagar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Narendranagar."
       }
 ],
   },
@@ -4148,15 +5888,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Devprayag?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Devprayag."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Devprayag receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Devprayag?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Devprayag, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Devprayag?",
+            "answer": "After our certified team installs your solar system in Devprayag, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Devprayag?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Devprayag?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Devprayag, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Devprayag?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Devprayag?",
+            "answer": "Homeowners and business owners in Devprayag typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Devprayag?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Devprayag and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Devprayag?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Devprayag?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Devprayag."
       }
 ],
   },
@@ -4195,15 +5955,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Ghansali?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Ghansali."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Ghansali receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Ghansali?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Ghansali, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Ghansali?",
+            "answer": "After our certified team installs your solar system in Ghansali, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Ghansali?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Ghansali?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Ghansali, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Ghansali?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Ghansali?",
+            "answer": "Homeowners and business owners in Ghansali typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Ghansali?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Ghansali and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Ghansali?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Ghansali?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Ghansali."
       }
 ],
   },
@@ -4242,15 +6022,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Tapovan?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Tapovan."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Tapovan receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Tapovan?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Tapovan, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Tapovan?",
+            "answer": "After our certified team installs your solar system in Tapovan, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Tapovan?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Tapovan?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Tapovan, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Tapovan?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Tapovan?",
+            "answer": "Homeowners and business owners in Tapovan typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Tapovan?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Tapovan and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Tapovan?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Tapovan?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Tapovan."
       }
 ],
   },
@@ -4289,15 +6089,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Kirtinagar?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Kirtinagar."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Kirtinagar receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Kirtinagar?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Kirtinagar, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Kirtinagar?",
+            "answer": "After our certified team installs your solar system in Kirtinagar, we submit the work completion report to the local UPCL Tehri Division & Muni Ki Reti Sub-division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Kirtinagar?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Tehri Garhwal district."
+            "question": "What rooftop space is required for a solar plant in Kirtinagar?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Kirtinagar, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Kirtinagar?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Tehri Garhwal enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Kirtinagar?",
+            "answer": "Homeowners and business owners in Kirtinagar typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Kirtinagar?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Kirtinagar and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Kirtinagar?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Tehri Garhwal district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Kirtinagar?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Tehri Garhwal technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Kirtinagar."
       }
 ],
   },
@@ -4336,15 +6156,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Uttarkashi?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Uttarkashi."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Uttarkashi receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Uttarkashi?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Uttarkashi, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Uttarkashi?",
+            "answer": "After our certified team installs your solar system in Uttarkashi, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Uttarkashi?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Uttarkashi?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Uttarkashi, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Uttarkashi?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Uttarkashi?",
+            "answer": "Homeowners and business owners in Uttarkashi typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Uttarkashi?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Uttarkashi and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Uttarkashi?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Uttarkashi?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Uttarkashi."
       }
 ],
   },
@@ -4383,15 +6223,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Barkot?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Barkot."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Barkot receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Barkot?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Barkot, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Barkot?",
+            "answer": "After our certified team installs your solar system in Barkot, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Barkot?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Barkot?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Barkot, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Barkot?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Barkot?",
+            "answer": "Homeowners and business owners in Barkot typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Barkot?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Barkot and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Barkot?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Barkot?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Barkot."
       }
 ],
   },
@@ -4430,15 +6290,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Chinyalisaur?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Chinyalisaur."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Chinyalisaur receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Chinyalisaur?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Chinyalisaur, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Chinyalisaur?",
+            "answer": "After our certified team installs your solar system in Chinyalisaur, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Chinyalisaur?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Chinyalisaur?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Chinyalisaur, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Chinyalisaur?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Chinyalisaur?",
+            "answer": "Homeowners and business owners in Chinyalisaur typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Chinyalisaur?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Chinyalisaur and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Chinyalisaur?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Chinyalisaur?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Chinyalisaur."
       }
 ],
   },
@@ -4477,15 +6357,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Purola?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Purola."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Purola receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Purola?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Purola, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Purola?",
+            "answer": "After our certified team installs your solar system in Purola, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Purola?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Purola?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Purola, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Purola?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Purola?",
+            "answer": "Homeowners and business owners in Purola typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Purola?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Purola and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Purola?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Purola?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Purola."
       }
 ],
   },
@@ -4524,15 +6424,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Naugaon?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Naugaon."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Naugaon receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Naugaon?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Naugaon, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Naugaon?",
+            "answer": "After our certified team installs your solar system in Naugaon, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Naugaon?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Naugaon?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Naugaon, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Naugaon?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Naugaon?",
+            "answer": "Homeowners and business owners in Naugaon typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Naugaon?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Naugaon and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Naugaon?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Naugaon?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Naugaon."
       }
 ],
   },
@@ -4571,15 +6491,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Dunda?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Dunda."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Dunda receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Dunda?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Dunda, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Dunda?",
+            "answer": "After our certified team installs your solar system in Dunda, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Dunda?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Dunda?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Dunda, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Dunda?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Dunda?",
+            "answer": "Homeowners and business owners in Dunda typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Dunda?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Dunda and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Dunda?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Dunda?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Dunda."
       }
 ],
   },
@@ -4618,15 +6558,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Bhatwari?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Bhatwari."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Bhatwari receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Bhatwari?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Bhatwari, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Bhatwari?",
+            "answer": "After our certified team installs your solar system in Bhatwari, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Bhatwari?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Bhatwari?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Bhatwari, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Bhatwari?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Bhatwari?",
+            "answer": "Homeowners and business owners in Bhatwari typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Bhatwari?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Bhatwari and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Bhatwari?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Bhatwari?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Bhatwari."
       }
 ],
   },
@@ -4665,15 +6625,35 @@ export const locations: Location[] = [
     faqs: [
       {
             "question": "How much PM Surya Ghar subsidy can I receive in Mori?",
-            "answer": "Under the PM Surya Ghar: Muft Bijli Yojana, residential solar consumers in Uttarakhand receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval for you in Mori."
+            "answer": "Under the central PM Surya Ghar: Muft Bijli Yojana, Uttarakhand residential consumers in Mori receive ₹33,000 for a 1 kW system, ₹66,000 for a 2 kW system, and a maximum central subsidy of ₹85,800 for 3 kW or larger capacity systems. UTTsolar manages the end-to-end subsidy documentation and direct benefit transfer (DBT) approval directly to your bank account."
       },
       {
-            "question": "How does UPCL net meter installation work in Mori?",
-            "answer": "Once our authorized solar engineering team completes the physical solar installation at your property in Mori, we submit the work completion report to the local UPCL division. UPCL conducts a site inspection and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill."
+            "question": "How does UPCL net metering work for rooftop solar in Mori?",
+            "answer": "After our certified team installs your solar system in Mori, we submit the work completion report to the local UPCL Uttarkashi Division office. UPCL inspects the installation and installs a bidirectional net meter that credits the solar units you export to the grid against your power bill, allowing you to bank surplus daytime units."
       },
       {
-            "question": "What makes UTTsolar the top solar company in Mori?",
-            "answer": "UTTsolar is a trusted regional solar EPC partner in Uttarakhand offering Tier-1 high-efficiency solar panels with 25–30 year performance warranties, smart grid-tied inverters, rust-proof mounting structures, complete subsidy paperwork, and dedicated local maintenance support across Uttarkashi district."
+            "question": "What rooftop space is required for a solar plant in Mori?",
+            "answer": "A standard solar plant requires approximately 80 to 100 square feet of shadow-free rooftop space per kilowatt (kW). For a typical 3 kW residential setup (generating 12–15 units per day) in Mori, you need roughly 250 to 300 sq. ft. of flat concrete terrace, pitched tin roof, or elevated structure."
+      },
+      {
+            "question": "Will solar panels perform effectively during winters and cloudy days in Mori?",
+            "answer": "Yes! Solar photovoltaic panels generate electricity from light irradiance rather than temperature. In fact, cold clear winter days in Uttarkashi enhance solar cell efficiency. During overcast monsoon days, advanced Mono PERC and TOPCon modules capture diffuse light, generating 30% to 50% of standard output."
+      },
+      {
+            "question": "How much can I save on monthly UPCL electricity bills in Mori?",
+            "answer": "Homeowners and business owners in Mori typically reduce their electricity bills by 80% to 100%. With the PM Surya Ghar subsidy of up to ₹85,800, most residential installations achieve full financial payback within 3 to 4 years, delivering free electricity for the remainder of the panels' 25+ year lifespan."
+      },
+      {
+            "question": "Will my solar system work during power cuts in Mori?",
+            "answer": "Standard on-grid systems shut down automatically during grid blackouts for line safety (anti-islanding). If you experience power outages in Mori and require uninterrupted power, UTTsolar can install a smart Hybrid Solar System with lithium battery storage for instant, automated power backup."
+      },
+      {
+            "question": "Are solar mounting structures safe against mountain winds and storms in Mori?",
+            "answer": "Yes. All our mounting structures are fabricated from high-tensile hot-dip galvanized steel (80+ micron zinc coating) or heavy-duty anodized aluminium (6063-T6) with stainless steel SS304 fasteners, structurally calculated to resist mountain wind gusts up to 150 km/h and seasonal storms across Uttarkashi district."
+      },
+      {
+            "question": "How can I book a free solar site survey with UTTsolar in Mori?",
+            "answer": "You can book a 100% free, zero-obligation site survey by submitting our online consultation form, calling our engineering helpline at +91 78300 60725, or connecting with us via WhatsApp. Our local Uttarkashi technical team will inspect your roof, evaluate shading, and provide an itemized subsidy quotation for your property in Mori."
       }
 ],
   },
