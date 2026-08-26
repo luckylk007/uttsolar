@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { siteConfig } from '@/config/site';
 import { getAllServices } from '@/data/services';
 import { districts } from '@/data/locations/districts';
@@ -135,67 +136,85 @@ export default function SolarCompanyInUttarakhandPage() {
 
       <Breadcrumbs items={breadcrumbs} />
 
-      {/* Flagship Hero Header */}
-      <section className="bg-[#17220F] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden border border-[#46A304]/20">
-        <div className="max-w-3xl space-y-5">
+      {/* Flagship Hero Header with Uttarakhand Landscape Background */}
+      <section className="text-white rounded-3xl p-8 sm:p-14 lg:p-16 shadow-2xl relative overflow-hidden border border-[#46A304]/30 min-h-[540px] flex items-center">
+        {/* Background AI Image */}
+        <div className="absolute inset-0 -z-20">
+          <Image
+            src="/images/uttarakhand-solar-hero.jpg"
+            alt="Solar Rooftops and Himalayan Landscape in Uttarakhand"
+            fill
+            priority
+            className="object-cover object-center transform scale-105 transition duration-1000"
+            sizes="(max-width: 1280px) 100vw, 1280px"
+          />
+        </div>
+
+        {/* Multi-Layer Cinematic Gradients & Subtle Overlay */}
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#17220F]/95 via-[#17220F]/80 to-[#17220F]/45 sm:to-transparent" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#17220F] via-transparent to-[#17220F]/40" />
+
+        <div className="max-w-3xl space-y-6 relative z-10">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#46A304]/20 text-xs font-bold text-[#70C92F] border border-[#46A304]/30">
-              <AwardIcon className="w-4 h-4 text-[#46A304]" />
+            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#46A304]/30 backdrop-blur-md text-xs font-bold text-[#70C92F] border border-[#46A304]/50 shadow-xs">
+              <AwardIcon className="w-4 h-4 text-[#FFDE21]" />
               #1 Solar EPC &amp; PM Surya Ghar Partner
             </span>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFDE21]/15 text-[#FFDE21] text-xs font-bold border border-[#FFDE21]/30">
+            <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#17220F]/60 backdrop-blur-md text-[#FFDE21] text-xs font-bold border border-[#FFDE21]/40 shadow-xs">
               <MapPinIcon className="w-3.5 h-3.5" />
               All 13 Uttarakhand Districts Covered
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight text-white leading-tight">
-            Solar Company in Uttarakhand
-          </h1>
+          <div className="space-y-3">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight text-white leading-[1.1] drop-shadow-md">
+              Solar Company in <span className="text-[#FFDE21]">Uttarakhand</span>
+            </h1>
+            <p className="text-sm sm:text-base text-slate-200 leading-relaxed max-w-2xl drop-shadow-xs">
+              Empowering homes, businesses, and hill resorts across the Himalayas with high-yield rooftop solar power. Avail direct Central Financial Assistance up to <strong className="text-[#FFDE21]">₹85,800</strong> under PM Surya Ghar, seamless UPCL net metering, and Tier-1 solar systems engineered for mountain terrain.
+            </p>
+          </div>
 
-          <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-            UTTsolar is Uttarakhand&apos;s leading turnkey solar engineering company. We deliver high-efficiency rooftop solar installations, direct Central Financial Assistance up to <strong>₹85,800</strong> under PM Surya Ghar, seamless UPCL bidirectional net metering, and Tier-1 solar systems engineered specifically for mountain and plains climates.
-          </p>
-
-          {/* Quick Metrics Bar */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-[#46A304]/30 text-center">
-              <div className="text-xl font-bold text-[#FFDE21]">₹85,800</div>
-              <div className="text-[11px] text-slate-300">Max Central Subsidy</div>
+          {/* Quick Metrics Bar (Glassmorphic) */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+              <div className="text-xl sm:text-2xl font-bold text-[#FFDE21]">₹85,800</div>
+              <div className="text-[11px] font-medium text-slate-300">Max Central Subsidy</div>
             </div>
-            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-[#46A304]/30 text-center">
-              <div className="text-xl font-bold text-[#46A304]">80–95%</div>
-              <div className="text-[11px] text-slate-300">UPCL Bill Reduction</div>
+            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+              <div className="text-xl sm:text-2xl font-bold text-[#70C92F]">80–95%</div>
+              <div className="text-[11px] font-medium text-slate-300">UPCL Bill Reduction</div>
             </div>
-            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-[#46A304]/30 text-center">
-              <div className="text-xl font-bold text-white">25–30 Yrs</div>
-              <div className="text-[11px] text-slate-300">Panel Warranty</div>
+            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+              <div className="text-xl sm:text-2xl font-bold text-white">25–30 Yrs</div>
+              <div className="text-[11px] font-medium text-slate-300">Panel Warranty</div>
             </div>
-            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-[#46A304]/30 text-center">
-              <div className="text-xl font-bold text-[#70C92F]">99 Towns</div>
-              <div className="text-[11px] text-slate-300">Active Service Hubs</div>
+            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+              <div className="text-xl sm:text-2xl font-bold text-[#FFDE21]">99 Towns</div>
+              <div className="text-[11px] font-medium text-slate-300">Active Service Hubs</div>
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3 pt-3">
+          {/* Action CTAs */}
+          <div className="flex flex-wrap gap-3 pt-2">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-md transition"
+              className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-bold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
             >
-              Book Free Site Survey in Uttarakhand
+              Book Free Site Survey in Uttarakhand ↗
             </Link>
             <a
               href={`tel:${siteConfig.phone}`}
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/15 border border-white/20 transition flex items-center gap-1.5"
+              className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#17220F]/70 hover:bg-[#17220F]/90 backdrop-blur-md border border-white/25 transition flex items-center gap-1.5 shadow-md"
             >
-              <PhoneIcon className="w-4 h-4 text-[#46A304]" />
+              <PhoneIcon className="w-4 h-4 text-[#70C92F]" />
               <span>Call Solar Expert</span>
             </a>
             <a
               href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20need%20solar%20installation%20in%20Uttarakhand`}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition flex items-center gap-1.5 shadow-md"
+              className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition flex items-center gap-1.5 shadow-md"
             >
               <WhatsAppIcon className="w-4 h-4 text-white" />
               <span>WhatsApp</span>
