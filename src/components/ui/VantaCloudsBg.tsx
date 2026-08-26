@@ -14,7 +14,6 @@ interface VantaCloudsBgProps {
 export function VantaCloudsBg({
   children,
   className = '',
-  variant = 'green',
 }: VantaCloudsBgProps) {
   const vantaRef = useRef<HTMLDivElement>(null);
 
@@ -23,7 +22,6 @@ export function VantaCloudsBg({
 
     if (vantaRef.current) {
       try {
-        const isGreen = variant === 'green';
         effect = CLOUDS({
           el: vantaRef.current,
           THREE: THREE,
@@ -32,13 +30,13 @@ export function VantaCloudsBg({
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          skyColor: isGreen ? 0x17220f : 0x34baf6,
-          cloudColor: isGreen ? 0x46a304 : 0xd6ecfa,
-          cloudShadowColor: isGreen ? 0x0f180a : 0x165b80,
-          sunColor: isGreen ? 0xffde21 : 0xffaa22,
-          sunGlareColor: isGreen ? 0xf59e0b : 0xff7700,
-          sunlightColor: isGreen ? 0xffde21 : 0xffcc44,
-          speed: 0.75,
+          skyColor: 0x226b9c,         // Natural Sky Blue
+          cloudColor: 0xe8f4fc,       // Natural White / Light Clouds
+          cloudShadowColor: 0x144160, // Natural Cloud Depth Shadow
+          sunColor: 0xffaa22,         // Radiant Golden Solar Sun
+          sunGlareColor: 0xff7700,    // Warm Solar Flare
+          sunlightColor: 0xffde21,    // Bright Solar Yellow Light
+          speed: 0.7,
         });
       } catch (e) {
         console.error('Vanta init error:', e);
@@ -54,16 +52,21 @@ export function VantaCloudsBg({
         }
       }
     };
-  }, [variant]);
+  }, []);
 
   return (
     <div
       ref={vantaRef}
-      className={`relative overflow-hidden ${className}`}
+      className={`relative overflow-hidden bg-[#17220F] ${className}`}
     >
-      {/* 15% Transparency Theme Green Overlay & Subtle Gradients */}
+      {/* Theme Green Contrast Overlays for Perfect Text Visibility */}
+      {/* 1. Theme Deep Green Gradient from Left (Heading side) to Right */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/95 via-[#17220F]/85 to-[#17220F]/60 pointer-events-none z-0" />
+      
+      {/* 2. 15% Theme Solar Green (#46A304) Tint Layer */}
       <div className="absolute inset-0 bg-[#46A304]/15 pointer-events-none z-0" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/90 via-[#17220F]/75 to-[#17220F]/45 pointer-events-none z-0" />
+      
+      {/* 3. Subtle Vertical Vignette to Blend Seamlessly */}
       <div className="absolute inset-0 bg-gradient-to-t from-[#17220F] via-transparent to-[#17220F]/40 pointer-events-none z-0" />
 
       {/* Content */}

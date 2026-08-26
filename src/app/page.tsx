@@ -53,7 +53,7 @@ export default function HomePage() {
         {/* =========================================================================
             SECTION 1: HERO SECTION (SOLOR THEME STYLE WITH VANTA JS CLOUD ANIMATION)
            ========================================================================= */}
-        <VantaCloudsBg variant="green" className="bg-[#17220F] text-white">
+        <VantaCloudsBg className="bg-[#17220F] text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16 pb-20 sm:pt-20 sm:pb-28 lg:pt-24 lg:pb-32">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
               {/* Left Column: Heading & CTAs (7 Cols) */}
