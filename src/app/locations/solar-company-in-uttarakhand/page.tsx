@@ -7,7 +7,6 @@ import { getAllServices } from '@/data/services';
 import { districts } from '@/data/locations/districts';
 import { getAllLocations } from '@/data/locations/locations';
 import { getAllBlogs } from '@/data/blogs';
-import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { KeywordPillCycle } from '@/components/ui/KeywordPillCycle';
@@ -96,7 +95,7 @@ export default function SolarCompanyInUttarakhandPage() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
+    <div className="w-full space-y-12 sm:space-y-16">
       {/* Schemas */}
       <script
         type="application/ld+json"
@@ -134,10 +133,8 @@ export default function SolarCompanyInUttarakhandPage() {
         }}
       />
 
-      <Breadcrumbs items={breadcrumbs} />
-
-      {/* Flagship Hero Header with Uttarakhand Landscape Background */}
-      <section className="text-white rounded-3xl p-8 sm:p-14 lg:p-16 shadow-2xl relative overflow-hidden border border-[#46A304]/30 min-h-[540px] flex items-center">
+      {/* Full-Width Flagship Hero Header with Uttarakhand Landscape Background */}
+      <section className="relative w-full overflow-hidden text-white min-h-[580px] lg:min-h-[640px] flex items-center border-b border-[#46A304]/30 shadow-2xl">
         {/* Background AI Image */}
         <div className="absolute inset-0 -z-20">
           <Image
@@ -146,7 +143,7 @@ export default function SolarCompanyInUttarakhandPage() {
             fill
             priority
             className="object-cover object-center transform scale-105 transition duration-1000"
-            sizes="(max-width: 1280px) 100vw, 1280px"
+            sizes="100vw"
           />
         </div>
 
@@ -154,81 +151,86 @@ export default function SolarCompanyInUttarakhandPage() {
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#17220F]/95 via-[#17220F]/80 to-[#17220F]/45 sm:to-transparent" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#17220F] via-transparent to-[#17220F]/40" />
 
-        <div className="max-w-3xl space-y-6 relative z-10">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#46A304]/30 backdrop-blur-md text-xs font-bold text-[#70C92F] border border-[#46A304]/50 shadow-xs">
-              <AwardIcon className="w-4 h-4 text-[#FFDE21]" />
-              #1 Solar EPC &amp; PM Surya Ghar Partner
-            </span>
-            <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#17220F]/60 backdrop-blur-md text-[#FFDE21] text-xs font-bold border border-[#FFDE21]/40 shadow-xs">
-              <MapPinIcon className="w-3.5 h-3.5" />
-              All 13 Uttarakhand Districts Covered
-            </span>
-          </div>
+        {/* Hero Content Container */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 w-full">
+          <div className="max-w-3xl space-y-6 relative z-10">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#46A304]/30 backdrop-blur-md text-xs font-bold text-[#70C92F] border border-[#46A304]/50 shadow-xs">
+                <AwardIcon className="w-4 h-4 text-[#FFDE21]" />
+                #1 Solar EPC &amp; PM Surya Ghar Partner
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#17220F]/60 backdrop-blur-md text-[#FFDE21] text-xs font-bold border border-[#FFDE21]/40 shadow-xs">
+                <MapPinIcon className="w-3.5 h-3.5" />
+                All 13 Uttarakhand Districts Covered
+              </span>
+            </div>
 
-          <div className="space-y-3">
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight text-white leading-[1.1] drop-shadow-md">
-              Solar Company in <span className="text-[#FFDE21]">Uttarakhand</span>
-            </h1>
-            <p className="text-sm sm:text-base text-slate-200 leading-relaxed max-w-2xl drop-shadow-xs">
-              Empowering homes, businesses, and hill resorts across the Himalayas with high-yield rooftop solar power. Avail direct Central Financial Assistance up to <strong className="text-[#FFDE21]">₹85,800</strong> under PM Surya Ghar, seamless UPCL net metering, and Tier-1 solar systems engineered for mountain terrain.
-            </p>
-          </div>
+            <div className="space-y-3">
+              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight text-white leading-[1.1] drop-shadow-md">
+                Solar Company in <span className="text-[#FFDE21]">Uttarakhand</span>
+              </h1>
+              <p className="text-sm sm:text-base text-slate-200 leading-relaxed max-w-2xl drop-shadow-xs">
+                Empowering homes, businesses, and hill resorts across the Himalayas with high-yield rooftop solar power. Avail direct Central Financial Assistance up to <strong className="text-[#FFDE21]">₹85,800</strong> under PM Surya Ghar, seamless UPCL net metering, and Tier-1 solar systems engineered for mountain terrain.
+              </p>
+            </div>
 
-          {/* Quick Metrics Bar (Glassmorphic) */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
-            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
-              <div className="text-xl sm:text-2xl font-bold text-[#FFDE21]">₹85,800</div>
-              <div className="text-[11px] font-medium text-slate-300">Max Central Subsidy</div>
+            {/* Quick Metrics Bar (Glassmorphic) */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+              <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+                <div className="text-xl sm:text-2xl font-bold text-[#FFDE21]">₹85,800</div>
+                <div className="text-[11px] font-medium text-slate-300">Max Central Subsidy</div>
+              </div>
+              <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+                <div className="text-xl sm:text-2xl font-bold text-[#70C92F]">80–95%</div>
+                <div className="text-[11px] font-medium text-slate-300">UPCL Bill Reduction</div>
+              </div>
+              <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+                <div className="text-xl sm:text-2xl font-bold text-white">25–30 Yrs</div>
+                <div className="text-[11px] font-medium text-slate-300">Panel Warranty</div>
+              </div>
+              <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
+                <div className="text-xl sm:text-2xl font-bold text-[#FFDE21]">99 Towns</div>
+                <div className="text-[11px] font-medium text-slate-300">Active Service Hubs</div>
+              </div>
             </div>
-            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
-              <div className="text-xl sm:text-2xl font-bold text-[#70C92F]">80–95%</div>
-              <div className="text-[11px] font-medium text-slate-300">UPCL Bill Reduction</div>
-            </div>
-            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
-              <div className="text-xl sm:text-2xl font-bold text-white">25–30 Yrs</div>
-              <div className="text-[11px] font-medium text-slate-300">Panel Warranty</div>
-            </div>
-            <div className="bg-[#17220F]/70 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 text-center shadow-md">
-              <div className="text-xl sm:text-2xl font-bold text-[#FFDE21]">99 Towns</div>
-              <div className="text-[11px] font-medium text-slate-300">Active Service Hubs</div>
-            </div>
-          </div>
 
-          {/* Action CTAs */}
-          <div className="flex flex-wrap gap-3 pt-2">
-            <Link
-              href="/contact/?intent=quote"
-              className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-bold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
-            >
-              Book Free Site Survey in Uttarakhand ↗
-            </Link>
-            <a
-              href={`tel:${siteConfig.phone}`}
-              className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#17220F]/70 hover:bg-[#17220F]/90 backdrop-blur-md border border-white/25 transition flex items-center gap-1.5 shadow-md"
-            >
-              <PhoneIcon className="w-4 h-4 text-[#70C92F]" />
-              <span>Call Solar Expert</span>
-            </a>
-            <a
-              href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20need%20solar%20installation%20in%20Uttarakhand`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition flex items-center gap-1.5 shadow-md"
-            >
-              <WhatsAppIcon className="w-4 h-4 text-white" />
-              <span>WhatsApp</span>
-            </a>
+            {/* Action CTAs */}
+            <div className="flex flex-wrap gap-3 pt-2">
+              <Link
+                href="/contact/?intent=quote"
+                className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-bold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
+              >
+                Book Free Site Survey in Uttarakhand ↗
+              </Link>
+              <a
+                href={`tel:${siteConfig.phone}`}
+                className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#17220F]/70 hover:bg-[#17220F]/90 backdrop-blur-md border border-white/25 transition flex items-center gap-1.5 shadow-md"
+              >
+                <PhoneIcon className="w-4 h-4 text-[#70C92F]" />
+                <span>Call Solar Expert</span>
+              </a>
+              <a
+                href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20need%20solar%20installation%20in%20Uttarakhand`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition flex items-center gap-1.5 shadow-md"
+              >
+                <WhatsAppIcon className="w-4 h-4 text-white" />
+                <span>WhatsApp</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Interactive Keyword & Navigation Pills */}
-      <KeywordPillCycle
-        currentSlug="solar-company-in-uttarakhand"
-        title="Uttarakhand Solar Directory &amp; Keyword Navigation"
-        description="Jump directly to localized solar company pages in your city, browse turnkey solutions, or explore district-level service portals."
-      />
+      {/* Main Content Area */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 pb-12">
+        {/* Interactive Keyword & Navigation Pills */}
+        <KeywordPillCycle
+          currentSlug="solar-company-in-uttarakhand"
+          title="Uttarakhand Solar Directory &amp; Keyword Navigation"
+          description="Jump directly to localized solar company pages in your city, browse turnkey solutions, or explore district-level service portals."
+        />
 
       {/* Complete Services & Solutions Directory (All 17 Services) */}
       <section className="space-y-8">
@@ -544,6 +546,7 @@ export default function SolarCompanyInUttarakhandPage() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }
