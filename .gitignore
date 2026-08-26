@@ -33,3 +33,13 @@ next-env.d.ts
 
 # data
 /data/leads.json
+
+# Additional secrets and credentials
+.env.production
+.env.staging
+.env.development
+*.key
+*.crt
+*.pfx
+credentials.json
+secrets.json
