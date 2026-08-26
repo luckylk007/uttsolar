@@ -8,9 +8,14 @@ import CLOUDS from 'vanta/dist/vanta.clouds.min';
 interface VantaCloudsBgProps {
   children?: React.ReactNode;
   className?: string;
+  variant?: 'green' | 'blue';
 }
 
-export function VantaCloudsBg({ children, className = '' }: VantaCloudsBgProps) {
+export function VantaCloudsBg({
+  children,
+  className = '',
+  variant = 'green',
+}: VantaCloudsBgProps) {
   const vantaRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -18,6 +23,7 @@ export function VantaCloudsBg({ children, className = '' }: VantaCloudsBgProps) 
 
     if (vantaRef.current) {
       try {
+        const isGreen = variant === 'green';
         effect = CLOUDS({
           el: vantaRef.current,
           THREE: THREE,
@@ -26,13 +32,13 @@ export function VantaCloudsBg({ children, className = '' }: VantaCloudsBgProps) 
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          skyColor: 0x34baf6,       // Bright Solar Sky Blue (#34BAF6)
-          cloudColor: 0xd6ecfa,     // Crisp Light Clouds
-          cloudShadowColor: 0x165b80, // Cloud Ridge Shadow
-          sunColor: 0xffaa22,       // Warm Radiant Solar Sun
-          sunGlareColor: 0xff7700,  // Sun Flare
-          sunlightColor: 0xffcc44,  // Sunlight
-          speed: 0.8,
+          skyColor: isGreen ? 0x17220f : 0x34baf6,
+          cloudColor: isGreen ? 0x46a304 : 0xd6ecfa,
+          cloudShadowColor: isGreen ? 0x0f180a : 0x165b80,
+          sunColor: isGreen ? 0xffde21 : 0xffaa22,
+          sunGlareColor: isGreen ? 0xf59e0b : 0xff7700,
+          sunlightColor: isGreen ? 0xffde21 : 0xffcc44,
+          speed: 0.75,
         });
       } catch (e) {
         console.error('Vanta init error:', e);
@@ -48,15 +54,17 @@ export function VantaCloudsBg({ children, className = '' }: VantaCloudsBgProps) 
         }
       }
     };
-  }, []);
+  }, [variant]);
 
   return (
     <div
       ref={vantaRef}
       className={`relative overflow-hidden ${className}`}
     >
-      {/* Exact 35% Opacity Overlay */}
-      <div className="absolute inset-0 bg-[#102A43]/35 pointer-events-none z-0" />
+      {/* 15% Transparency Theme Green Overlay & Subtle Gradients */}
+      <div className="absolute inset-0 bg-[#46A304]/15 pointer-events-none z-0" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/90 via-[#17220F]/75 to-[#17220F]/45 pointer-events-none z-0" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#17220F] via-transparent to-[#17220F]/40 pointer-events-none z-0" />
 
       {/* Content */}
       <div className="relative z-10">
@@ -65,3 +73,4 @@ export function VantaCloudsBg({ children, className = '' }: VantaCloudsBgProps) 
     </div>
   );
 }
+

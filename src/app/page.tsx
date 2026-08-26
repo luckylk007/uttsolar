@@ -8,6 +8,7 @@ import { projects } from '@/data/projects';
 import { faqsData } from '@/data/faqs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
+import { VantaCloudsBg } from '@/components/ui/VantaCloudsBg';
 import {
   ZapIcon,
   ShieldCheckIcon,
@@ -50,24 +51,9 @@ export default function HomePage() {
 
       <div className="flex flex-col bg-white text-[#17220F]">
         {/* =========================================================================
-            SECTION 1: HERO SECTION (SOLOR THEME STYLE)
+            SECTION 1: HERO SECTION (SOLOR THEME STYLE WITH VANTA JS CLOUD ANIMATION)
            ========================================================================= */}
-        <section className="relative overflow-hidden bg-[#17220F] text-white">
-          {/* Background Solar Engineering Photo with Deep Forest Gradient Overlay */}
-          <div
-            className="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity scale-105 transition-transform duration-1000"
-            style={{
-              backgroundImage:
-                'url("https://images.unsplash.com/photo-1508873696983-2df5293cb32f?auto=format&fit=crop&w=2000&q=80")',
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#17220F] via-[#17220F]/85 to-[#17220F]/40 pointer-events-none" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#17220F] via-transparent to-[#17220F]/50 pointer-events-none" />
-
-          {/* Ambient Glows */}
-          <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#46A304]/15 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-10 right-10 w-80 h-80 bg-[#34BAF6]/10 rounded-full blur-3xl pointer-events-none" />
-
+        <VantaCloudsBg variant="green" className="bg-[#17220F] text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16 pb-20 sm:pt-20 sm:pb-28 lg:pt-24 lg:pb-32">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
               {/* Left Column: Heading & CTAs (7 Cols) */}
@@ -150,7 +136,7 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </section>
+        </VantaCloudsBg>
 
         {/* =========================================================================
             SECTION 2: IMPACT METRICS & COUNTER STRIP (SOLOR STYLE)
