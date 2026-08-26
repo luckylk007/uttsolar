@@ -5,12 +5,12 @@ const cspDirectives = [
   "default-src 'self'",
   // unsafe-eval only in dev (Next.js hot reload needs it); production strips it
   isDev
-    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'"
-    : "script-src 'self' 'unsafe-inline'",
+    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.clarity.ms https://scripts.clarity.ms"
+    : "script-src 'self' 'unsafe-inline' https://www.clarity.ms https://scripts.clarity.ms",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-  "img-src 'self' data: blob: https://maps.googleapis.com https://maps.gstatic.com https://lh3.googleusercontent.com",
+  "img-src 'self' data: blob: https://maps.googleapis.com https://maps.gstatic.com https://lh3.googleusercontent.com https://c.clarity.ms https://c.bing.com",
   "font-src 'self' data: https://fonts.gstatic.com",
-  "connect-src 'self' https://wa.me https://api.whatsapp.com https://vitals.vercel-insights.com https://vercel.live",
+  "connect-src 'self' https://wa.me https://api.whatsapp.com https://vitals.vercel-insights.com https://vercel.live https://*.clarity.ms https://c.clarity.ms https://v.clarity.ms https://s.clarity.ms",
   "media-src 'none'",
   "object-src 'none'",
   "frame-ancestors 'none'",
