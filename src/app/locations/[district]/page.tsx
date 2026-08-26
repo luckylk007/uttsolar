@@ -9,6 +9,7 @@ import { getAllBlogs } from '@/data/blogs';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
+import { KeywordPillCycle } from '@/components/ui/KeywordPillCycle';
 import {
   MapPinIcon,
   CheckCircleIcon,
@@ -271,6 +272,13 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
           ))}
         </div>
       </section>
+
+      {/* Interactive Keyword & Navigation Pills */}
+      <KeywordPillCycle
+        currentSlug={district.slug}
+        title={`Solar Services & Locations Across ${district.name} District`}
+        description={`Direct links to all major solar hubs in ${district.name}, specialized residential & commercial solutions, and PM Surya Ghar resources.`}
+      />
 
       {/* Contact Section */}
       <section className="bg-[#F7F9F5] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E2E7DE]">

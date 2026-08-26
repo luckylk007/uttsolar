@@ -7,6 +7,7 @@ import { getAllServices, getServiceBySlug } from '@/data/services';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
+import { KeywordPillCycle } from '@/components/ui/KeywordPillCycle';
 import {
   SunIcon,
   CheckCircleIcon,
@@ -243,6 +244,13 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           </div>
         </section>
       )}
+
+      {/* Interactive Keyword & Navigation Pills */}
+      <KeywordPillCycle
+        currentSlug={service.slug}
+        title={`Solar Service Hubs & Solutions Related to ${service.title}`}
+        description={`Quickly access city solar installation centers across Uttarakhand, explore complimentary solutions, and review subsidy policies.`}
+      />
 
       {/* Contact Form Section */}
       <section className="bg-[#F7F9F5] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E2E7DE]">

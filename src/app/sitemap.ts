@@ -26,13 +26,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/solar-amc',
     '/blog',
     '/locations',
+    '/locations/solar-company-in-uttarakhand',
     '/contact',
     '/faq',
   ].map((route) => ({
     url: `${baseUrl}${route}/`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : route === '/hi' ? 0.9 : 0.8,
+    priority:
+      route === ''
+        ? 1.0
+        : route === '/locations/solar-company-in-uttarakhand'
+        ? 0.95
+        : route === '/hi'
+        ? 0.9
+        : 0.8,
   }));
 
   // Service pages (17 services)

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { siteConfig } from '@/config/site';
 import { districts } from '@/data/locations/districts';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { KeywordPillCycle } from '@/components/ui/KeywordPillCycle';
 import {
   MapPinIcon,
   ArrowUpRightIcon,
@@ -138,6 +139,9 @@ export default function LocationsHubPage() {
           ))}
         </div>
       </section>
+
+      {/* Interactive Keyword & Navigation Pills */}
+      <KeywordPillCycle />
     </div>
   );
 }

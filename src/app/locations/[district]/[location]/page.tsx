@@ -9,6 +9,7 @@ import { getAllBlogs } from '@/data/blogs';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
+import { KeywordPillCycle } from '@/components/ui/KeywordPillCycle';
 import {
   SunIcon,
   MapPinIcon,
@@ -382,6 +383,13 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           ))}
         </div>
       </section>
+
+      {/* Interactive Keyword & Navigation Pills */}
+      <KeywordPillCycle
+        currentSlug={location.slug}
+        title={`Explore Solar Solutions & Centers Around ${location.name}`}
+        description={`Fast-track navigation to regional solar hubs in ${district.name} District, specialized turnkey solutions, and PM Surya Ghar subsidy resources.`}
+      />
 
       {/* Contact Form Section */}
       <section className="bg-[#F7F9F5] rounded-2xl sm:rounded-3xl p-6 sm:p-10 border border-[#E2E7DE]">

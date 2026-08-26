@@ -51,7 +51,22 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/location',
+        destination: '/locations/',
+        permanent: true,
+      },
+      {
+        source: '/location/:path*',
+        destination: '/locations/:path*/',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
+
 

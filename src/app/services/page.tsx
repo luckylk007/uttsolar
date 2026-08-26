@@ -5,6 +5,7 @@ import { siteConfig } from '@/config/site';
 import { getAllServices } from '@/data/services';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { ContactForm } from '@/components/forms/ContactForm';
+import { KeywordPillCycle } from '@/components/ui/KeywordPillCycle';
 import {
   ZapIcon,
   ArrowUpRightIcon,
@@ -83,6 +84,9 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
+
+      {/* Interactive Keyword & Navigation Pills */}
+      <KeywordPillCycle />
 
       {/* Contact CTA */}
       <section className="bg-white p-8 sm:p-12 rounded-3xl border border-[#E2E7DE] shadow-xs">
