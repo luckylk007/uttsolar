@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
-import { getAllLocations, getLocationBySlug } from '@/data/locations/locations';
+import { getAllLocations, getLocationBySlug, getLocationsByDistrict } from '@/data/locations/locations';
 import { districts } from '@/data/locations/districts';
 import { getAllBlogs } from '@/data/blogs';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -64,11 +64,14 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
   }
 
   const blogs = getAllBlogs().slice(0, 2);
+  const siblingLocations = getLocationsByDistrict(district.slug).filter(
+    (loc) => loc.slug !== location.slug
+  );
 
   const breadcrumbs = [
     { name: 'Locations', url: '/locations/' },
     { name: `${district.name}`, url: `/locations/${district.slug}/` },
-    { name: `${location.name} Solar Service`, url: `/locations/${district.slug}/${location.slug}/` },
+    { name: location.h1 || `Solar Company in ${location.name}`, url: `/locations/${district.slug}/${location.slug}/` },
   ];
 
   return (
@@ -79,7 +82,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             localBusinessSchema({
-              name: `UTTsolar - Solar Installation in ${location.name}`,
+              name: `UTTsolar - ${location.h1 || `Solar Installation in ${location.name}`}`,
               areaServed: `${location.name}, ${district.name} District, Uttarakhand`,
             })
           ),
@@ -103,12 +106,19 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
       {/* Hero Header */}
       <section className="bg-[#17220F] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 shadow-xl relative overflow-hidden border border-[#46A304]/20">
         <div className="max-w-3xl space-y-4">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#46A304]/15 text-xs font-semibold text-[#70C92F] border border-[#46A304]/30">
-            <MapPinIcon className="w-4 h-4 text-[#46A304]" />
-            {location.name}, {district.name} District
-          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#46A304]/15 text-xs font-semibold text-[#70C92F] border border-[#46A304]/30">
+              <MapPinIcon className="w-4 h-4 text-[#46A304]" />
+              {location.name}, {district.name} District
+            </span>
+            {location.priority && (
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-[#FFDE21]/20 text-[#FFDE21] border border-[#FFDE21]/30 text-[11px] font-bold uppercase tracking-wider">
+                {location.priority} Priority Service Hub
+              </span>
+            )}
+          </div>
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
-            Solar Panel Installation &amp; Subsidy in {location.name}
+            {location.h1 || `Solar Company in ${location.name}`}
           </h1>
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
             {location.intro}
@@ -140,6 +150,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           </div>
         </div>
       </section>
+
 
       {/* Local Geography & Electricity Context */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -310,6 +321,39 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           ))}
         </div>
       </section>
+
+      {/* Sibling Locations in District */}
+      {siblingLocations.length > 0 && (
+        <section className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-4">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="text-base font-bold text-[#17220F]">
+              Other Solar Service Hubs in {district.name} District
+            </h3>
+            <Link
+              href={`/locations/${district.slug}/`}
+              className="text-xs font-semibold text-[#46A304] hover:underline"
+            >
+              View all {district.name} locations →
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {siblingLocations.map((sib) => (
+              <Link
+                key={sib.slug}
+                href={`/locations/${district.slug}/${sib.slug}/`}
+                className="p-3 bg-[#F7F9F5] border border-[#E2E7DE] hover:border-[#46A304] rounded-xl text-center group transition"
+              >
+                <div className="text-xs font-bold text-[#17220F] group-hover:text-[#46A304] transition truncate">
+                  {sib.name}
+                </div>
+                <div className="text-[10px] text-[#66705F] mt-0.5">
+                  {sib.priority || 'Active'} Priority Hub
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Related Solar Guides */}
       <section className="space-y-4">

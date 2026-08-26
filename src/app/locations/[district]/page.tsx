@@ -144,8 +144,14 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
                 className="bg-white p-5 rounded-2xl border border-[#E2E7DE] shadow-xs hover:border-[#46A304] transition flex flex-col justify-between"
               >
                 <div>
-                  <h3 className="text-base font-bold text-[#17220F] mb-1">
-                    {loc.name} Solar Service
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="text-[10px] font-bold text-[#46A304] uppercase tracking-wider bg-[#EBF5E1] px-2 py-0.5 rounded-md">
+                      {loc.priority ? `${loc.priority} Priority` : 'Active'} Hub
+                    </span>
+                    <span className="text-[11px] font-medium text-[#66705F]">📍 {loc.name}</span>
+                  </div>
+                  <h3 className="text-base font-bold text-[#17220F] mb-1.5 line-clamp-1">
+                    {loc.h1 || `Solar Company in ${loc.name}`}
                   </h3>
                   <p className="text-xs text-[#66705F] line-clamp-2 mb-3">{loc.intro}</p>
                 </div>
@@ -153,7 +159,7 @@ export default async function DistrictDetailPage({ params }: DistrictPageProps) 
                   href={`/locations/${district.slug}/${loc.slug}/`}
                   className="text-xs font-semibold text-[#46A304] hover:text-[#5A9930] flex items-center justify-between border-t border-[#E2E7DE] pt-2"
                 >
-                  <span>View {loc.name} details</span>
+                  <span>View {loc.name} solar details</span>
                   <span>→</span>
                 </Link>
               </div>

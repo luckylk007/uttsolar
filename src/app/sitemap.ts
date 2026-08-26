@@ -51,12 +51,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Location pages
+  // Location pages (99 locations from SEO Plan)
   const locationPages = getAllLocations().map((location) => ({
     url: `${baseUrl}/locations/${location.districtSlug}/${location.slug}/`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
-    priority: 0.75,
+    priority: location.priority === 'High' ? 0.75 : 0.65,
   }));
 
   // Blog articles

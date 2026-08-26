@@ -17,6 +17,9 @@ export interface Location {
   name: string;
   districtSlug: string;
   districtName: string;
+  priority?: 'High' | 'Medium';
+  h1?: string;
+  primaryKeyword?: string;
   intro: string;
   geography: string;
   useCases: string[];
@@ -27,3 +30,4 @@ export interface Location {
   metaTitle: string;
   metaDescription: string;
 }
+

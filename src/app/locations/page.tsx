@@ -59,12 +59,12 @@ export default function LocationsHubPage() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           {[
-            { name: 'Haldwani', district: 'Nainital', href: '/locations/nainital/haldwani-solar-service/' },
-            { name: 'Dehradun City', district: 'Dehradun', href: '/locations/dehradun/dehradun-city-solar-service/' },
-            { name: 'Haridwar City', district: 'Haridwar', href: '/locations/haridwar/haridwar-city-solar-service/' },
-            { name: 'Rudrapur', district: 'Udham Singh Nagar', href: '/locations/udham-singh-nagar/rudrapur-solar-service/' },
-            { name: 'Roorkee', district: 'Haridwar', href: '/locations/haridwar/roorkee-solar-service/' },
-            { name: 'Rishikesh', district: 'Dehradun', href: '/locations/dehradun/rishikesh-solar-service/' },
+            { name: 'Haldwani', district: 'Nainital', href: '/locations/nainital/solar-company-in-haldwani/' },
+            { name: 'Dehradun', district: 'Dehradun', href: '/locations/dehradun/solar-company-in-dehradun/' },
+            { name: 'Haridwar', district: 'Haridwar', href: '/locations/haridwar/solar-company-in-haridwar/' },
+            { name: 'Rudrapur', district: 'Udham Singh Nagar', href: '/locations/udham-singh-nagar/solar-company-in-rudrapur/' },
+            { name: 'Roorkee', district: 'Haridwar', href: '/locations/haridwar/solar-company-in-roorkee/' },
+            { name: 'Rishikesh', district: 'Dehradun', href: '/locations/dehradun/solar-company-in-rishikesh/' },
           ].map((item) => (
             <Link
               key={item.href}
