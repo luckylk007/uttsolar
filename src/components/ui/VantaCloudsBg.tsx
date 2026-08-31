@@ -59,8 +59,11 @@ export function VantaCloudsBg({
       {/* 1. Vanta 3D Canvas Background Host */}
       <div ref={vantaRef} className="absolute inset-0 z-0 pointer-events-none" />
 
-      {/* 2. Theme Solar Green 60% Vibrant Tint Overlay (Boosted +30%) */}
-      <div className="absolute inset-0 bg-[#46A304]/60 pointer-events-none z-10" />
+      {/* 2. Hero Darkening Overlay (rgba(0, 0, 0, 0.54)) */}
+      <div
+        className="absolute inset-0 pointer-events-none z-10"
+        style={{ backgroundColor: 'rgba(0, 0, 0, 0.54)' }}
+      />
 
       {/* 3. Deep Green Directional Contrast Gradient for Sharp Text Visibility (Boosted +30%) */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/98 via-[#17220F]/92 to-[#17220F]/78 pointer-events-none z-10" />
