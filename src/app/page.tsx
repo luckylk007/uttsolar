@@ -65,13 +65,19 @@ export default function HomePage() {
                 </div>
 
                 {/* Main Headline */}
-                <h1 className="text-[36px] sm:text-[46px] lg:text-[56px] font-bold tracking-[-0.02em] text-white leading-[1.1] [text-shadow:_0_4px_16px_rgba(0,0,0,0.95),_0_2px_4px_rgba(0,0,0,0.8)]">
+                <h1
+                  className="text-[36px] sm:text-[46px] lg:text-[56px] font-bold tracking-[-0.02em] text-white leading-[1.1]"
+                  style={{ textShadow: '0 4px 8px rgba(0, 0, 0, 0.27), 0 2px 4px rgba(0, 0, 0, 0.3)' }}
+                >
                   Powering the Future <br className="hidden sm:inline" />
-                  With <span className="text-[#46A304] [text-shadow:_0_4px_16px_rgba(0,0,0,0.95),_0_0_20px_rgba(70,163,4,0.4)]">Renewable Energy.</span>
+                  With <span className="text-[#46A304]">Renewable Energy.</span>
                 </h1>
 
                 {/* Subtitle */}
-                <p className="text-[16px] sm:text-[17px] text-slate-100 max-w-[620px] mx-auto lg:mx-0 leading-[1.6] font-medium [text-shadow:_0_2px_8px_rgba(0,0,0,0.9),_0_1px_3px_rgba(0,0,0,0.8)]">
+                <p
+                  className="text-[16px] sm:text-[17px] text-slate-100 max-w-[620px] mx-auto lg:mx-0 leading-[1.6] font-medium"
+                  style={{ textShadow: '0 4px 8px rgba(0, 0, 0, 0.27), 0 2px 4px rgba(0, 0, 0, 0.3)' }}
+                >
                   Turnkey residential, commercial, and industrial rooftop solar installations across all 13 Uttarakhand districts. We handle 100% of your PM Surya Ghar central subsidy and UPCL net metering paperwork.
                 </p>
 
