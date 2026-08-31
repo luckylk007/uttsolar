@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
+import { sendCalculatorLeadEmail } from '@/lib/email';
 
 const calculatorLeadSchema = z.object({
   name: z.string().min(2).max(100).trim(),
@@ -92,6 +93,11 @@ export async function POST(request: Request) {
     }
 
     const lead = parsed.data;
+
+    // Send instant calculator enquiry lead notification to Gmail via Resend
+    await sendCalculatorLeadEmail(lead).catch((err) => {
+      console.error('[Calculator Lead API] Failed to dispatch Resend email:', err);
+    });
 
     // Safe log: no PII (name and mobile are NOT logged)
     console.log(

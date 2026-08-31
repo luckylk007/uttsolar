@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
+import { sendContactLeadEmail } from '@/lib/email';
 
 const contactSchema = z.object({
   name: z.string().min(2).max(100).trim(),
@@ -97,6 +98,11 @@ export async function POST(request: Request) {
     }
 
     const lead = parsed.data;
+
+    // Send instant lead notification email to Gmail via Resend
+    await sendContactLeadEmail(lead).catch((err) => {
+      console.error('[Contact API] Failed to dispatch Resend email:', err);
+    });
 
     // Safe log: no PII (name and phone are NOT logged)
     console.log(
