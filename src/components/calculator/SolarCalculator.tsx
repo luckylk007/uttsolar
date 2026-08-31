@@ -16,6 +16,7 @@ import {
   CheckCircleIcon,
   CalculatorIcon,
 } from '@/components/ui/Icons';
+import { dispatchDirectResendLead } from '@/lib/directLead';
 
 interface SolarCalculatorProps {
   initialDistrict?: string;
@@ -79,7 +80,8 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
     e.preventDefault();
     if (honeypot) return;
 
-    if (!leadName.trim() || !/^[6-9]\d{9}$/.test(leadMobile.replace(/\D/g, ''))) {
+    const cleanPhone = leadMobile.replace(/\D/g, '');
+    if (!leadName.trim() || !/^[6-9]\d{9}$/.test(cleanPhone)) {
       setSubmitError('Please enter a valid name and 10-digit mobile number.');
       return;
     }
@@ -87,13 +89,27 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
     setIsSubmitting(true);
     setSubmitError('');
 
+    const leadPayload = {
+      name: leadName.trim(),
+      phone: cleanPhone,
+      district: selectedDistrict,
+      service: `${systemType} solar system (${propertyType})`,
+      monthlyBill,
+      recommendedKw: result.recommendedKw,
+      propertyType,
+      preferredContact,
+      message: `Solar Calculator Enquiry: ${result.recommendedKw} kW recommended for bill ₹${monthlyBill}/mo (${propertyType})`,
+      intent: 'calculator-lead',
+    };
+
     try {
+      // 1. Try Next.js API route first
       const response = await fetch('/api/calculator-lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name: leadName.trim(),
-          mobile: leadMobile.trim(),
+          mobile: cleanPhone,
           district: selectedDistrict,
           monthlyBill,
           recommendedKw: result.recommendedKw,
@@ -103,16 +119,28 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
         }),
       });
 
-      const data = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        setSubmitError(data?.error || 'Failed to submit enquiry. Please try again.');
+      if (response.ok) {
+        setSubmitSuccess(true);
         return;
       }
 
-      setSubmitSuccess(true);
+      // 2. Direct fallback for Hostinger static hosting
+      const directSuccess = await dispatchDirectResendLead(leadPayload);
+      if (directSuccess) {
+        setSubmitSuccess(true);
+        return;
+      }
+
+      const data = await response.json().catch(() => ({}));
+      setSubmitError(data?.error || 'Failed to submit enquiry. Please try again.');
     } catch {
-      setSubmitError('Network connection error. Please try again.');
+      // 3. Network error fallback
+      const directSuccess = await dispatchDirectResendLead(leadPayload);
+      if (directSuccess) {
+        setSubmitSuccess(true);
+      } else {
+        setSubmitError('Network connection error. Please call us directly.');
+      }
     } finally {
       setIsSubmitting(false);
     }

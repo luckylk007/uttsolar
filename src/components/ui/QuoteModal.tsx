@@ -13,6 +13,7 @@ import {
   ZapIcon,
 } from '@/components/ui/Icons';
 import type { QuoteModalOptions } from '@/context/QuoteModalContext';
+import { dispatchDirectResendLead } from '@/lib/directLead';
 
 interface QuoteModalProps {
   isOpen: boolean;
@@ -71,34 +72,46 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
       return;
     }
 
-    setIsSubmitting(true);
-    setErrorMessage('');
+    const leadPayload = {
+      name: name.trim(),
+      phone: cleanPhone,
+      district,
+      service: `${propertyType}-solar`,
+      monthlyBill: billRange === 'under-3k' ? 2500 : billRange === '3k-8k' ? 5000 : 12000,
+      message: `Quote Popup Request: ${propertyType} solar in ${district} district (Bill: ${billRange})`,
+      intent: 'quote-popup',
+      propertyType,
+    };
 
     try {
+      // 1. Try Next.js API route first
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: name.trim(),
-          phone: cleanPhone,
-          district,
-          service: `${propertyType}-solar`,
-          monthlyBill: billRange === 'under-3k' ? 2500 : billRange === '3k-8k' ? 5000 : 12000,
-          message: `Quote Popup Request: ${propertyType} solar in ${district} district (Bill: ${billRange})`,
-          intent: 'quote-popup',
-        }),
+        body: JSON.stringify(leadPayload),
       });
 
-      const data = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        setErrorMessage(data?.error || 'Failed to submit quote request. Please try again.');
+      if (response.ok) {
+        setIsSuccess(true);
         return;
       }
 
-      setIsSuccess(true);
+      // 2. Direct fallback for Hostinger static hosting
+      const directSuccess = await dispatchDirectResendLead(leadPayload);
+      if (directSuccess) {
+        setIsSuccess(true);
+        return;
+      }
+
+      const data = await response.json().catch(() => ({}));
+      setErrorMessage(data?.error || 'Failed to submit quote request. Please try again.');
     } catch {
-      setErrorMessage('Network connection error. Please try again.');
+      const directSuccess = await dispatchDirectResendLead(leadPayload);
+      if (directSuccess) {
+        setIsSuccess(true);
+      } else {
+        setErrorMessage('Network connection error. Please call us directly.');
+      }
     } finally {
       setIsSubmitting(false);
     }

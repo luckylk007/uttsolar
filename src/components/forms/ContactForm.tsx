@@ -6,6 +6,8 @@ import { getAllServices } from '@/data/services';
 import { siteConfig } from '@/config/site';
 import { CheckCircleIcon, PhoneIcon, WhatsAppIcon, ShieldCheckIcon } from '@/components/ui/Icons';
 
+import { dispatchDirectResendLead } from '@/lib/directLead';
+
 interface ContactFormProps {
   defaultService?: string;
   defaultDistrict?: string;
@@ -52,31 +54,46 @@ export function ContactForm({
     setIsSubmitting(true);
     setErrorMessage('');
 
+    const leadPayload = {
+      name: name.trim(),
+      phone: cleanPhone,
+      district,
+      service,
+      monthlyBill: monthlyBill ? Number(monthlyBill) : undefined,
+      message: message.trim(),
+      intent,
+    };
+
     try {
+      // 1. Try Next.js API route first
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: name.trim(),
-          phone: cleanPhone,
-          district,
-          service,
-          monthlyBill: monthlyBill ? Number(monthlyBill) : undefined,
-          message: message.trim(),
-          intent,
-        }),
+        body: JSON.stringify(leadPayload),
       });
 
-      const data = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        setErrorMessage(data?.error || 'Submission failed. Please try again.');
+      if (response.ok) {
+        setIsSuccess(true);
         return;
       }
 
-      setIsSuccess(true);
+      // 2. If host does not support Next.js serverless (Hostinger static 404/405), fallback to direct Resend API
+      const directSuccess = await dispatchDirectResendLead(leadPayload);
+      if (directSuccess) {
+        setIsSuccess(true);
+        return;
+      }
+
+      const data = await response.json().catch(() => ({}));
+      setErrorMessage(data?.error || 'Submission failed. Please try again.');
     } catch {
-      setErrorMessage('Network connection error. Please try again.');
+      // Direct failover on network exception
+      const directSuccess = await dispatchDirectResendLead(leadPayload);
+      if (directSuccess) {
+        setIsSuccess(true);
+      } else {
+        setErrorMessage('Network connection error. Please call us directly.');
+      }
     } finally {
       setIsSubmitting(false);
     }
