@@ -103,13 +103,16 @@ export function SolarCalculator({ initialDistrict = 'dehradun', className = '' }
         }),
       });
 
+      const data = await response.json().catch(() => ({}));
+
       if (!response.ok) {
-        throw new Error('Failed to submit enquiry');
+        setSubmitError(data?.error || 'Failed to submit enquiry. Please try again.');
+        return;
       }
 
       setSubmitSuccess(true);
     } catch {
-      setSubmitSuccess(true);
+      setSubmitError('Network connection error. Please try again.');
     } finally {
       setIsSubmitting(false);
     }

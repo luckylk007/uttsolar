@@ -67,13 +67,16 @@ export function ContactForm({
         }),
       });
 
+      const data = await response.json().catch(() => ({}));
+
       if (!response.ok) {
-        throw new Error('Submission failed');
+        setErrorMessage(data?.error || 'Submission failed. Please try again.');
+        return;
       }
 
       setIsSuccess(true);
     } catch {
-      setIsSuccess(true);
+      setErrorMessage('Network connection error. Please try again.');
     } finally {
       setIsSubmitting(false);
     }

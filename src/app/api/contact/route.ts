@@ -24,7 +24,7 @@ const rateLimitMap = new Map<string, { count: number; expiresAt: number }>();
 function isRateLimited(ip: string): boolean {
   const now = Date.now();
   const windowMs = 60 * 1000;
-  const maxRequests = 3;
+  const maxRequests = 10;
 
   const record = rateLimitMap.get(ip);
   if (!record || record.expiresAt < now) {

@@ -75,7 +75,7 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
     setErrorMessage('');
 
     try {
-      await fetch('/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -89,9 +89,16 @@ export function QuoteModal({ isOpen, onClose, options }: QuoteModalProps) {
         }),
       });
 
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        setErrorMessage(data?.error || 'Failed to submit quote request. Please try again.');
+        return;
+      }
+
       setIsSuccess(true);
     } catch {
-      setIsSuccess(true);
+      setErrorMessage('Network connection error. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
