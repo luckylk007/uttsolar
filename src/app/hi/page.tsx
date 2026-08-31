@@ -305,7 +305,7 @@ export default function HindiHomePage() {
               <div>
                 <div className="relative h-56 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+                    src="/images/residential-solar.jpg"
                     alt="आवासीय सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -339,7 +339,7 @@ export default function HindiHomePage() {
               <div>
                 <div className="relative h-56 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=800&q=80"
+                    src="/images/commercial-solar.jpg"
                     alt="व्यावसायिक सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -373,7 +373,7 @@ export default function HindiHomePage() {
               <div>
                 <div className="relative h-56 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80"
+                    src="/images/industrial-solar.jpg"
                     alt="औद्योगिक सोलर"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
