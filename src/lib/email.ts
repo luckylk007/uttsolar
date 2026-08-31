@@ -1,13 +1,14 @@
 import { Resend } from 'resend';
 
-// Initialize Resend client if API key is provided
-const resendApiKey = process.env.RESEND_API_KEY;
-const resend = resendApiKey ? new Resend(resendApiKey) : null;
+// Resolve configuration dynamically per request
+export function getEmailConfig() {
+  const apiKey = process.env.RESEND_API_KEY;
+  const toEmail = process.env.LEAD_NOTIFICATION_EMAIL || 'luckykumar21099@gmail.com';
+  const fromEmail = process.env.LEAD_FROM_EMAIL || 'UTTsolar Leads <onboarding@resend.dev>';
+  const resendClient = apiKey ? new Resend(apiKey) : null;
 
-// Target recipient email (defaults to info@uttsolar.in or environment setting)
-const DEFAULT_TO_EMAIL = process.env.LEAD_NOTIFICATION_EMAIL || 'info@uttsolar.in';
-const DEFAULT_FROM_EMAIL =
-  process.env.LEAD_FROM_EMAIL || 'UTTsolar Leads <onboarding@resend.dev>';
+  return { apiKey, toEmail, fromEmail, resendClient };
+}
 
 export interface ContactLeadPayload {
   name: string;
@@ -35,8 +36,10 @@ export interface CalculatorLeadPayload {
  * Send Contact / Free Site Survey Lead to Gmail via Resend
  */
 export async function sendContactLeadEmail(lead: ContactLeadPayload) {
-  if (!resend) {
-    console.warn('[Resend] RESEND_API_KEY is not configured in environment variables. Email notification skipped.');
+  const { resendClient, toEmail, fromEmail } = getEmailConfig();
+
+  if (!resendClient) {
+    console.error('[Resend Error] RESEND_API_KEY is missing. Email notification cannot be sent.');
     return { success: false, reason: 'MISSING_API_KEY' };
   }
 
@@ -187,14 +190,20 @@ export async function sendContactLeadEmail(lead: ContactLeadPayload) {
   `;
 
   try {
-    const result = await resend.emails.send({
-      from: DEFAULT_FROM_EMAIL,
-      to: [DEFAULT_TO_EMAIL],
+    const result = await resendClient.emails.send({
+      from: fromEmail,
+      to: [toEmail],
       subject: `${subjectPrefix} ${lead.name} - ${lead.district} (${lead.service})`,
       html: htmlContent,
       replyTo: lead.email || undefined,
     });
 
+    if (result.error) {
+      console.error('[Resend Contact Error]:', JSON.stringify(result.error));
+      return { success: false, error: result.error };
+    }
+
+    console.log('[Resend Success] Contact lead email dispatched. ID:', result.data?.id, 'To:', toEmail);
     return { success: true, id: result.data?.id };
   } catch (error) {
     console.error('[Resend Error - Contact Lead]:', error);
@@ -206,8 +215,10 @@ export async function sendContactLeadEmail(lead: ContactLeadPayload) {
  * Send Calculator Enquiry Lead to Gmail via Resend
  */
 export async function sendCalculatorLeadEmail(lead: CalculatorLeadPayload) {
-  if (!resend) {
-    console.warn('[Resend] RESEND_API_KEY is not configured in environment variables. Email notification skipped.');
+  const { resendClient, toEmail, fromEmail } = getEmailConfig();
+
+  if (!resendClient) {
+    console.error('[Resend Error] RESEND_API_KEY is missing. Email notification cannot be sent.');
     return { success: false, reason: 'MISSING_API_KEY' };
   }
 
@@ -326,13 +337,19 @@ export async function sendCalculatorLeadEmail(lead: CalculatorLeadPayload) {
   `;
 
   try {
-    const result = await resend.emails.send({
-      from: DEFAULT_FROM_EMAIL,
-      to: [DEFAULT_TO_EMAIL],
+    const result = await resendClient.emails.send({
+      from: fromEmail,
+      to: [toEmail],
       subject: `⚡ New Calculator Lead: ${lead.name} - ${lead.recommendedKw} kW (${lead.district})`,
       html: htmlContent,
     });
 
+    if (result.error) {
+      console.error('[Resend Calculator Error]:', JSON.stringify(result.error));
+      return { success: false, error: result.error };
+    }
+
+    console.log('[Resend Success] Calculator lead email dispatched. ID:', result.data?.id, 'To:', toEmail);
     return { success: true, id: result.data?.id };
   } catch (error) {
     console.error('[Resend Error - Calculator Lead]:', error);
