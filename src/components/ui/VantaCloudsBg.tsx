@@ -59,14 +59,14 @@ export function VantaCloudsBg({
       {/* 1. Vanta 3D Canvas Background Host */}
       <div ref={vantaRef} className="absolute inset-0 z-0 pointer-events-none" />
 
-      {/* 2. Theme Solar Green 40% Rich Tint Overlay (+30% increase) */}
-      <div className="absolute inset-0 bg-[#46A304]/40 pointer-events-none z-10" />
+      {/* 2. Theme Solar Green 60% Vibrant Tint Overlay (Boosted +30%) */}
+      <div className="absolute inset-0 bg-[#46A304]/60 pointer-events-none z-10" />
 
-      {/* 3. Deep Green Directional Contrast Gradient for Sharp Text Visibility (+30% increase) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/96 via-[#17220F]/88 to-[#17220F]/65 pointer-events-none z-10" />
+      {/* 3. Deep Green Directional Contrast Gradient for Sharp Text Visibility (Boosted +30%) */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/98 via-[#17220F]/92 to-[#17220F]/78 pointer-events-none z-10" />
 
-      {/* 4. Top and Bottom Ambient Vignette */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#17220F]/70 via-transparent to-[#17220F] pointer-events-none z-10" />
+      {/* 4. Top and Bottom Ambient Vignette (Boosted +30%) */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#17220F]/85 via-transparent to-[#17220F] pointer-events-none z-10" />
 
       {/* 5. Foreground Content */}
       <div className="relative z-20">
