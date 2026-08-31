@@ -9,6 +9,7 @@ import { faqsData } from '@/data/faqs';
 import { SolarCalculator } from '@/components/calculator/SolarCalculator';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { VantaCloudsBg } from '@/components/ui/VantaCloudsBg';
+import { SolarVideoPlayer } from '@/components/ui/SolarVideoPlayer';
 import {
   ZapIcon,
   ShieldCheckIcon,
@@ -20,7 +21,6 @@ import {
   FactoryIcon,
   CalculatorIcon,
   ArrowUpRightIcon,
-  PlayIcon,
   CheckIcon,
   LeafIcon,
 } from '@/components/ui/Icons';
@@ -556,18 +556,13 @@ export default function HomePage() {
         <section className="bg-[#17220F] text-white py-16 sm:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-              {/* Left Column: Big Solar Banner with Play Button */}
-              <div className="lg:col-span-6 relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
-                <img
-                  src="/images/solar-engineer-inspection.jpg"
-                  alt="Certified Solar EPC Engineering"
-                  className="w-full h-80 sm:h-[420px] object-cover"
+              {/* Left Column: Interactive Solar Video Player */}
+              <div className="lg:col-span-6">
+                <SolarVideoPlayer
+                  videoId="1kUE0BZtTRc"
+                  thumbnailUrl="/images/solar-engineer-inspection.jpg"
+                  title="Renewable Solar Energy & Clean Power EPC"
                 />
-                <div className="absolute inset-0 bg-[#17220F]/40 flex items-center justify-center">
-                  <div className="w-16 h-16 rounded-full bg-[#46A304] text-white flex items-center justify-center shadow-2xl hover:scale-110 transition cursor-pointer">
-                    <PlayIcon className="w-6 h-6 ml-0.5" />
-                  </div>
-                </div>
               </div>
 
               {/* Right Column: Progress Meters & Trust Callout */}
