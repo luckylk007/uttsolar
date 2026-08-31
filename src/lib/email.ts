@@ -47,6 +47,18 @@ export async function sendContactLeadEmail(lead: ContactLeadPayload) {
   )}`;
   const telUrl = `tel:+91${cleanPhone.slice(-10)}`;
 
+  // Determine lead source badge & subject prefix
+  let sourceBadge = '⚡ Website Site Survey Lead';
+  let subjectPrefix = '☀️ [Site Survey Lead]';
+
+  if (lead.intent === 'quote-popup') {
+    sourceBadge = '🔔 Instant Quote Popup Lead';
+    subjectPrefix = '🔔 [Popup Quote Lead]';
+  } else if (lead.intent === 'quote') {
+    sourceBadge = '📋 Quotation Request Lead';
+    subjectPrefix = '📋 [Quotation Lead]';
+  }
+
   const htmlContent = `
 <!DOCTYPE html>
 <html>
@@ -65,7 +77,7 @@ export async function sendContactLeadEmail(lead: ContactLeadPayload) {
           <tr>
             <td style="background: linear-gradient(135deg, #17220F 0%, #1F2E14 100%); padding: 28px 24px; text-align: center; border-bottom: 4px solid #46A304;">
               <span style="display: inline-block; background-color: rgba(70, 163, 4, 0.25); color: #70C92F; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 4px 12px; border-radius: 20px; border: 1px solid rgba(70, 163, 4, 0.4); margin-bottom: 8px;">
-                ⚡ New Website Lead
+                ${sourceBadge}
               </span>
               <h1 style="margin: 0; color: #ffffff; font-size: 22px; font-weight: 800; letter-spacing: -0.5px;">
                 Solar Consultation Request
@@ -136,9 +148,17 @@ export async function sendContactLeadEmail(lead: ContactLeadPayload) {
                     : ''
                 }
                 ${
+                  lead.intent
+                    ? `<tr>
+                  <td style="padding: 12px 16px; font-size: 13px; font-weight: 600; color: #66705F; border-bottom: 1px solid #e2e7de;">🏷️ Lead Type</td>
+                  <td style="padding: 12px 16px; font-size: 13px; font-weight: 600; color: #17220F; border-bottom: 1px solid #e2e7de;">${lead.intent}</td>
+                </tr>`
+                    : ''
+                }
+                ${
                   lead.message
                     ? `<tr>
-                  <td style="padding: 12px 16px; font-size: 13px; font-weight: 600; color: #66705F; vertical-align: top;">💬 Message</td>
+                  <td style="padding: 12px 16px; font-size: 13px; font-weight: 600; color: #66705F; vertical-align: top;">💬 Message / Details</td>
                   <td style="padding: 12px 16px; font-size: 13px; color: #17220F; line-height: 1.5;">${lead.message}</td>
                 </tr>`
                     : ''
@@ -170,7 +190,7 @@ export async function sendContactLeadEmail(lead: ContactLeadPayload) {
     const result = await resend.emails.send({
       from: DEFAULT_FROM_EMAIL,
       to: [DEFAULT_TO_EMAIL],
-      subject: `☀️ New Solar Lead: ${lead.name} - ${lead.district} (${lead.service})`,
+      subject: `${subjectPrefix} ${lead.name} - ${lead.district} (${lead.service})`,
       html: htmlContent,
       replyTo: lead.email || undefined,
     });
