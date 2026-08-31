@@ -5,23 +5,45 @@ export const siteConfig = {
   description:
     'Residential, commercial and industrial solar installation across Uttarakhand. PM Surya Ghar subsidy assistance, net metering support and free site surveys.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://uttsolar.in',
-  phone: '+917830060725',
-  phoneDisplay: '+91 78300 60725',
-  phoneSecondary: '+918475014008',
-  phoneSecondaryDisplay: '+91 84750 14008',
-  whatsapp: '917830060725',
-  whatsappSecondary: '918475014008',
+  phone: '+918475014008',
+  phoneDisplay: '+91 84750 14008',
+  phoneSecondary: '+917830060725',
+  phoneSecondaryDisplay: '+91 78300 60725',
+  whatsapp: '918475014008',
+  whatsappDisplay: '+91 84750 14008',
+  whatsappSecondary: '917830060725',
+  whatsappSecondaryDisplay: '+91 78300 60725',
   email: 'info@uttsolar.in',
-  address: {
-    street: 'Solar Service Center',
-    city: 'Dehradun',
+  headOffice: {
+    title: 'Head Office',
+    street: 'Jawahar Jyoti, Damuadhunga',
+    city: 'Haldwani',
     state: 'Uttarakhand',
-    pincode: '248001',
+    pincode: '263139',
     country: 'IN',
+    fullAddress: 'Jawahar Jyoti, Damuadhunga, Haldwani, Uttarakhand (263139)',
+  },
+  corporateOffice: {
+    title: 'Corporate Office',
+    street: 'West rajeeva nagar, bindukhatta',
+    city: 'Lalkuwan',
+    state: 'Uttarakhand',
+    pincode: '263145',
+    country: 'IN',
+    fullAddress: 'West rajeeva nagar, bindukhatta, Lalkuwan, Uttarakhand',
+  },
+  address: {
+    street: 'Jawahar Jyoti, Damuadhunga',
+    city: 'Haldwani',
+    state: 'Uttarakhand',
+    pincode: '263139',
+    country: 'IN',
+    fullAddress: 'Jawahar Jyoti, Damuadhunga, Haldwani, Uttarakhand (263139)',
   },
   social: {
-    facebook: '',
-    instagram: '',
+    facebook: 'https://facebook.com/uttsolar',
+    instagram: 'https://instagram.com/uttsolar',
+    googleBusiness: 'https://maps.app.goo.gl/uYdkXurbkMtY64V2A',
     youtube: '',
   },
   businessHours: 'Mon–Sat: 9:00 AM – 7:00 PM',
@@ -33,3 +55,4 @@ export const siteConfig = {
 };
 
 export type Locale = (typeof siteConfig.locales)[number];
+

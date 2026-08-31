@@ -19,6 +19,11 @@ import {
   WhatsAppIcon,
   BuildingIcon,
   HomeIcon,
+  ShieldCheckIcon,
+  LeafIcon,
+  ArrowRightIcon,
+  ArrowUpRightIcon,
+  AwardIcon,
 } from '@/components/ui/Icons';
 import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/schema';
 
@@ -75,6 +80,106 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
     { name: location.h1 || `Solar Company in ${location.name}`, url: `/locations/${district.slug}/${location.slug}/` },
   ];
 
+  // Core 6 Solar Solution Services requested by format
+  const coreServices = [
+    {
+      title: 'Residential Solar',
+      slug: 'residential-solar',
+      icon: HomeIcon,
+      badge: 'PM Surya Ghar Subsidy',
+      badgeColor: 'bg-[#EBF5E1] text-[#2D5A27] border-[#46A304]/30',
+      description: `Turnkey 1 kW to 10 kW rooftop solar systems for homes in ${location.name}. Claim up to ₹85,800 direct central financial assistance (DBT) with seamless UPCL net metering.`,
+    },
+    {
+      title: 'Commercial Solar',
+      slug: 'commercial-solar',
+      icon: BuildingIcon,
+      badge: 'High ROI & Tax Depreciation',
+      badgeColor: 'bg-[#FFF4CC] text-[#92400E] border-[#FFDE21]/40',
+      description: `High-yield grid-interactive solar power plants for hotels, resorts, private schools, clinics, and commercial complexes across ${location.name}.`,
+    },
+    {
+      title: 'Rooftop Solar',
+      slug: 'rooftop-solar',
+      icon: SunIcon,
+      badge: '150 km/h Wind Rated',
+      badgeColor: 'bg-[#EBF5E1] text-[#2D5A27] border-[#46A304]/30',
+      description: `Custom engineering for flat RCC terraces, sloped tin sheds, and elevated rooftop structures engineered specifically for Uttarakhand's hill geography.`,
+    },
+    {
+      title: 'On-Grid Solar',
+      slug: 'on-grid-solar',
+      icon: ZapIcon,
+      badge: 'Bidirectional UPCL Billing',
+      badgeColor: 'bg-[#FFF4CC] text-[#92400E] border-[#FFDE21]/40',
+      description: `Synchronized grid-tied solar systems that export surplus units to UPCL, drastically lowering your bi-monthly electricity bills by up to 90%.`,
+    },
+    {
+      title: 'Off-Grid Solar',
+      slug: 'off-grid-solar',
+      icon: LeafIcon,
+      badge: '24x7 Power Autonomy',
+      badgeColor: 'bg-[#EBF5E1] text-[#2D5A27] border-[#46A304]/30',
+      description: `Battery-backed standalone solar installations ideal for hill cottages, remote locations, and areas experiencing frequent grid outages in ${district.name} district.`,
+    },
+    {
+      title: 'Hybrid Solar',
+      slug: 'hybrid-solar',
+      icon: ShieldCheckIcon,
+      badge: 'Smart Grid + Battery Storage',
+      badgeColor: 'bg-[#EBF5E1] text-[#2D5A27] border-[#46A304]/30',
+      description: `Intelligent solar systems offering the financial benefits of UPCL net metering combined with instant lithium battery backup during power cuts.`,
+    },
+  ];
+
+  // 4-Step Solution Process
+  const solutionProcessSteps = [
+    {
+      step: '01',
+      title: `Free Site Survey & Shadow Analysis in ${location.name}`,
+      description: `Our regional solar engineers visit your property in ${location.name} to inspect roof structural integrity, seasonal shadow profiles, and evaluate your UPCL sanctioned load.`,
+    },
+    {
+      step: '02',
+      title: 'Custom 3D System Design & Subsidy Approval',
+      description: `We design an optimal solar array using Tier-1 mono PERC/bifacial modules and process your PM Surya Ghar online registration & UPCL USRP portal feasibility approval.`,
+    },
+    {
+      step: '03',
+      title: 'Rapid Installation & UPCL Net Meter Inspection',
+      description: `Our certified technicians erect high-grade hot-dip galvanized mounting structures and coordinate official inspection with your local ${district.name} UPCL electricity division.`,
+    },
+    {
+      step: '04',
+      title: 'Commissioning, Warranty Handover & DBT Subsidy',
+      description: `Bidirectional net meter activation, setup of real-time mobile generation tracking, handover of 25-year warranties, and prompt disbursement of central subsidy into your bank account.`,
+    },
+  ];
+
+  // Why Choose UTT Solar Highlights
+  const whyChooseUttSolarPoints = [
+    {
+      title: 'Local Uttarakhand EPC Specialists',
+      description: `Dedicated field engineering teams across all 13 districts with local service centers in Haldwani, Lalkuwan, and Dehradun for prompt on-site assistance.`,
+      icon: MapPinIcon,
+    },
+    {
+      title: '100% Paperwork & Subsidy Guarantee',
+      description: `End-to-end management of PM Surya Ghar CFA applications, UPCL net metering documentation, single line diagrams (SLD), and DISCOM liaisons.`,
+      icon: AwardIcon,
+    },
+    {
+      title: 'Tier-1 Certified Components & 25-Year Warranty',
+      description: `DCR-compliant high-efficiency bifacial/mono PERC solar panels, European-standard string inverters, and hot-dip galvanized rust-proof structures.`,
+      icon: ShieldCheckIcon,
+    },
+    {
+      title: 'Himalayan Mountain-Ready Engineering',
+      description: `Structures engineered to withstand high wind velocities (up to 150 km/h), heavy monsoon precipitation, and seismic conditions typical of Uttarakhand.`,
+      icon: SunIcon,
+    },
+  ];
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-12 sm:space-y-16">
       {/* Structured Schemas */}
@@ -83,7 +188,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             localBusinessSchema({
-              name: `UTTsolar - ${location.h1 || `Solar Installation in ${location.name}`}`,
+              name: `UTTsolar - ${location.h1 || `Solar Company in ${location.name}`}`,
               areaServed: `${location.name}, ${district.name} District, Uttarakhand`,
             })
           ),
@@ -125,19 +230,38 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
             {location.intro}
           </p>
 
-          <div className="flex flex-wrap gap-3 pt-2">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-white/10 text-center">
+              <div className="text-lg sm:text-xl font-bold text-[#FFDE21]">₹85,800</div>
+              <div className="text-[11px] text-slate-300">Max Subsidy (CFA)</div>
+            </div>
+            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-white/10 text-center">
+              <div className="text-lg sm:text-xl font-bold text-[#70C92F]">80–95%</div>
+              <div className="text-[11px] text-slate-300">Bill Reduction</div>
+            </div>
+            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-white/10 text-center">
+              <div className="text-lg sm:text-xl font-bold text-white">25 Yrs</div>
+              <div className="text-[11px] text-slate-300">Panel Warranty</div>
+            </div>
+            <div className="bg-[#1F2E14] p-3 rounded-2xl border border-white/10 text-center">
+              <div className="text-lg sm:text-xl font-bold text-[#FFDE21]">Free</div>
+              <div className="text-[11px] text-slate-300">On-Site Survey</div>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-3 pt-3">
             <Link
               href="/contact/?intent=quote"
-              className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-md transition"
+              className="px-6 py-3 rounded-full text-xs sm:text-sm font-bold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white shadow-md transition transform hover:-translate-y-0.5"
             >
-              Book Free Site Survey in {location.name}
+              Book Free Site Survey in {location.name} ↗
             </Link>
             <a
               href={`tel:${siteConfig.phone}`}
               className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-white/10 hover:bg-white/15 border border-white/20 transition flex items-center gap-1.5"
             >
-              <PhoneIcon className="w-4 h-4 text-[#46A304]" />
-              <span>Call Solar Expert</span>
+              <PhoneIcon className="w-4 h-4 text-[#70C92F]" />
+              <span>Call Solar Expert: {siteConfig.phoneDisplay}</span>
             </a>
             <a
               href={`https://wa.me/${siteConfig.whatsapp}?text=Hi%2C%20I%20need%20solar%20installation%20in%20${location.name}`}
@@ -146,56 +270,60 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
               className="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold text-white bg-[#25D366] hover:bg-[#1EBE5D] transition flex items-center gap-1.5 shadow-md"
             >
               <WhatsAppIcon className="w-4 h-4 text-white" />
-              <span>WhatsApp</span>
+              <span>WhatsApp Us</span>
             </a>
           </div>
         </div>
       </section>
 
-
-      {/* Local Geography & Electricity Context */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-[#EBF5E1] text-[#46A304] flex items-center justify-center font-bold">
-            <SunIcon className="w-5 h-5" />
-          </div>
-          <h2 className="text-xl font-bold text-[#17220F]">
-            Solar Irradiance &amp; Geography in {location.name}
-          </h2>
-          <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed">
-            {location.geography}
-          </p>
-        </div>
-
-        <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-[#FFF4CC] text-[#FFDE21] flex items-center justify-center font-bold">
-            <ZapIcon className="w-5 h-5" />
-          </div>
-          <h2 className="text-xl font-bold text-[#17220F]">
-            UPCL Electricity Context in {location.name}
-          </h2>
-          <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed">
-            {location.electricityContext}
-          </p>
-        </div>
-      </section>
-
-      {/* Local Use Cases & Target Customers */}
+      {/* =========================================================================
+          SECTION 1: OVERVIEW
+         ========================================================================= */}
       <section className="space-y-6">
-        <div className="text-center max-w-2xl mx-auto">
+        <div className="text-center max-w-3xl mx-auto space-y-2">
           <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EBF5E1] px-3 py-1 rounded-full border border-[#46A304]/30">
-            Tailored Applications
+            Regional Analysis
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#17220F] mt-2">
-            Solar Demand &amp; Use Cases in {location.name}
+          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#17220F]">
+            Overview: Solar Power in {location.name}
           </h2>
+          <p className="text-xs sm:text-sm text-[#66705F]">
+            Geography, solar insolation metrics, and local power infrastructure in {location.name}, {district.name} District.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
+            <div className="w-10 h-10 rounded-xl bg-[#EBF5E1] text-[#46A304] flex items-center justify-center font-bold">
+              <SunIcon className="w-5 h-5" />
+            </div>
+            <h3 className="text-lg font-bold text-[#17220F]">
+              Solar Irradiance &amp; Geography in {location.name}
+            </h3>
+            <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed">
+              {location.geography}
+            </p>
+          </div>
+
+          <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
+            <div className="w-10 h-10 rounded-xl bg-[#FFF4CC] text-[#FFDE21] flex items-center justify-center font-bold">
+              <ZapIcon className="w-5 h-5 text-[#92400E]" />
+            </div>
+            <h3 className="text-lg font-bold text-[#17220F]">
+              UPCL Electricity Context in {location.name}
+            </h3>
+            <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed">
+              {location.electricityContext}
+            </p>
+          </div>
+        </div>
+
+        {/* Local Applications & Consumer Profiles */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
           <div className="bg-white p-6 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
             <h3 className="text-base font-bold text-[#17220F] flex items-center gap-2">
               <CheckCircleIcon className="w-5 h-5 text-[#46A304]" />
-              <span>Primary Solar Applications</span>
+              <span>Primary Solar Applications in {location.name}</span>
             </h3>
             <ul className="space-y-2 text-xs text-[#66705F]">
               {location.useCases.map((uc, idx) => (
@@ -224,41 +352,204 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
         </div>
       </section>
 
-      {/* Residential, Commercial & Net Metering Breakdown */}
+      {/* =========================================================================
+          SECTION 2: WHY CHOOSE SOLAR COMPANY IN (LOCATION)
+         ========================================================================= */}
       <section className="bg-[#17220F] text-white rounded-2xl sm:rounded-3xl p-8 sm:p-12 shadow-xl space-y-8 border border-[#46A304]/20">
-        <div className="text-center max-w-2xl mx-auto">
+        <div className="text-center max-w-3xl mx-auto space-y-2">
           <span className="text-xs font-semibold uppercase tracking-wider text-[#70C92F] bg-[#46A304]/20 px-3 py-1 rounded-full border border-[#46A304]/30">
-            Zero-Hassle Installation
+            Local Benefits
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mt-2">
-            Residential &amp; Commercial Solar in {location.name}
+          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-white">
+            Why Choose Solar Company in {location.name}?
           </h2>
+          <p className="text-xs sm:text-sm text-slate-300">
+            Harnessing solar power in {location.name} unlocks exceptional economic returns and long-term energy independence.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20">
-            <HomeIcon className="w-6 h-6 text-[#46A304] mb-2" />
-            <h3 className="text-base font-bold text-white mb-2">Residential PM Surya Ghar</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20 space-y-3">
+            <div className="w-10 h-10 rounded-xl bg-[#46A304]/20 text-[#70C92F] flex items-center justify-center font-bold">
+              <SunIcon className="w-5 h-5" />
+            </div>
+            <h3 className="text-base font-bold text-white">High Solar Insolation</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Uttarakhand special category subsidy of up to <strong>₹85,800</strong> on 3 kW systems for {location.name} homeowners. Direct bank transfer (DBT) upon UPCL meter installation.
+              {location.name} enjoys an average of 280–300 sunny days annually, generating approximately 4 to 4.5 units (kWh) per kW every day.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20">
-            <BuildingIcon className="w-6 h-6 text-[#FFDE21] mb-2" />
-            <h3 className="text-base font-bold text-white mb-2">Commercial &amp; Institutional</h3>
+          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20 space-y-3">
+            <div className="w-10 h-10 rounded-xl bg-[#FFDE21]/20 text-[#FFDE21] flex items-center justify-center font-bold">
+              <ZapIcon className="w-5 h-5" />
+            </div>
+            <h3 className="text-base font-bold text-white">Cut UPCL Bills by 90%</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Three-phase grid-connected plants for hotels, clinics, showrooms, and schools in {location.name}. High tax depreciation and immediate daytime tariff reduction.
+              Export excess daytime solar generation directly to the grid via bidirectional net metering to zero out domestic and commercial electricity bills.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20">
-            <ZapIcon className="w-6 h-6 text-[#46A304] mb-2" />
-            <h3 className="text-base font-bold text-white mb-2">UPCL Net Metering Support</h3>
+          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20 space-y-3">
+            <div className="w-10 h-10 rounded-xl bg-[#46A304]/20 text-[#70C92F] flex items-center justify-center font-bold">
+              <AwardIcon className="w-5 h-5" />
+            </div>
+            <h3 className="text-base font-bold text-white">₹85,800 DBT Subsidy</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Turnkey handling of online USRP registration, single line diagrams, division inspection, and bidirectional meter commissioning in {district.name} district.
+              Uttarakhand homeowners receive special Himalayan state subsidies up to ₹85,800 credited directly into their bank accounts under PM Surya Ghar.
             </p>
           </div>
+
+          <div className="p-6 rounded-2xl bg-[#1F2E14] border border-[#46A304]/20 space-y-3">
+            <div className="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center font-bold">
+              <ShieldCheckIcon className="w-5 h-5" />
+            </div>
+            <h3 className="text-base font-bold text-white">25-Year Reliability</h3>
+            <p className="text-xs text-slate-300 leading-relaxed">
+              With a rapid 3 to 4 year system payback period, your solar investment delivers more than two decades of virtually free electricity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* =========================================================================
+          SECTION 3: OUR SOLAR SOLUTION SERVICES (6 CORE SERVICES + VIEW ALL LINK)
+         ========================================================================= */}
+      <section className="space-y-8">
+        <div className="text-center max-w-3xl mx-auto space-y-2">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EBF5E1] px-3 py-1 rounded-full border border-[#46A304]/30">
+            End-to-End Offerings
+          </span>
+          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#17220F]">
+            Our Solar Solution Services in {location.name}
+          </h2>
+          <p className="text-xs sm:text-sm text-[#66705F]">
+            Comprehensive turnkey solar engineering, government subsidy processing, and bidirectional UPCL net metering solutions tailored for {location.name}.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {coreServices.map((srv) => {
+            const IconComp = srv.icon;
+            return (
+              <div
+                key={srv.slug}
+                className="bg-white p-6 sm:p-7 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs hover:shadow-md hover:border-[#46A304]/50 transition group flex flex-col justify-between space-y-4"
+              >
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <div className="w-11 h-11 rounded-2xl bg-[#F7F9F5] group-hover:bg-[#EBF5E1] text-[#46A304] flex items-center justify-center transition">
+                      <IconComp className="w-6 h-6" />
+                    </div>
+                    <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border ${srv.badgeColor}`}>
+                      {srv.badge}
+                    </span>
+                  </div>
+                  <h3 className="text-lg font-bold text-[#17220F] group-hover:text-[#46A304] transition">
+                    {srv.title} in {location.name}
+                  </h3>
+                  <p className="text-xs text-[#66705F] leading-relaxed">
+                    {srv.description}
+                  </p>
+                </div>
+
+                <Link
+                  href={`/services/${srv.slug}/`}
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-[#46A304] hover:text-[#257203] transition pt-2 border-t border-[#E2E7DE]/60"
+                >
+                  <span>Explore {srv.title} Details</span>
+                  <ArrowRightIcon className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* View All Services Link */}
+        <div className="text-center pt-2">
+          <Link
+            href="/services/"
+            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-xs sm:text-sm font-bold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white transition shadow-md"
+          >
+            <span>View All 17 Solar Services &amp; Custom Engineering Solutions</span>
+            <ArrowUpRightIcon className="w-4 h-4" />
+          </Link>
+        </div>
+      </section>
+
+      {/* =========================================================================
+          SECTION 4: UTT SOLAR SOLUTION PROCESS
+         ========================================================================= */}
+      <section className="bg-[#F7F9F5] p-8 sm:p-12 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] space-y-8">
+        <div className="text-center max-w-3xl mx-auto space-y-2">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EBF5E1] px-3 py-1 rounded-full border border-[#46A304]/30">
+            Step-by-Step Execution
+          </span>
+          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#17220F]">
+            UTT Solar Solution Process
+          </h2>
+          <p className="text-xs sm:text-sm text-[#66705F]">
+            Our seamless 4-stage turnkey workflow ensures rapid commissioning, verified subsidies, and zero bureaucratic hassle.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {solutionProcessSteps.map((step) => (
+            <div
+              key={step.step}
+              className="bg-white p-6 rounded-2xl border border-[#E2E7DE] shadow-xs space-y-3 relative group hover:border-[#46A304] transition"
+            >
+              <div className="w-10 h-10 rounded-xl bg-[#17220F] text-[#FFDE21] font-heading font-extrabold text-sm flex items-center justify-center">
+                {step.step}
+              </div>
+              <h3 className="text-base font-bold text-[#17220F] group-hover:text-[#46A304] transition">
+                {step.title}
+              </h3>
+              <p className="text-xs text-[#66705F] leading-relaxed">
+                {step.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* =========================================================================
+          SECTION 5: WHY CHOOSE UTT SOLAR
+         ========================================================================= */}
+      <section className="space-y-8">
+        <div className="text-center max-w-3xl mx-auto space-y-2">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#2D5A27] bg-[#EBF5E1] px-3 py-1 rounded-full border border-[#46A304]/30">
+            Your Trusted Solar Partner
+          </span>
+          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#17220F]">
+            Why Choose UTT Solar in {location.name}
+          </h2>
+          <p className="text-xs sm:text-sm text-[#66705F]">
+            Engineering excellence, guaranteed government subsidies, and dedicated local field support across {district.name} District.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {whyChooseUttSolarPoints.map((pt, idx) => {
+            const IconComp = pt.icon;
+            return (
+              <div
+                key={idx}
+                className="bg-white p-6 sm:p-7 rounded-2xl sm:rounded-3xl border border-[#E2E7DE] shadow-xs flex items-start gap-4 space-y-0"
+              >
+                <div className="w-12 h-12 rounded-2xl bg-[#EBF5E1] text-[#46A304] flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <IconComp className="w-6 h-6" />
+                </div>
+                <div className="space-y-1">
+                  <h3 className="text-base font-bold text-[#17220F]">
+                    {pt.title}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed">
+                    {pt.description}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -404,6 +695,20 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
             <p className="text-xs sm:text-sm text-[#66705F] leading-relaxed">
               Our {district.name} field engineering team will visit your property, assess your roof structure and shading, and prepare an itemized PM Surya Ghar subsidy quotation.
             </p>
+            <div className="space-y-2 pt-1 text-xs text-[#17220F]">
+              <div className="flex items-center gap-2">
+                <CheckCircleIcon className="w-4 h-4 text-[#46A304]" />
+                <span>100% Free On-Site Roof Assessment</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircleIcon className="w-4 h-4 text-[#46A304]" />
+                <span>Tier-1 Panels with 25-Year Performance Warranty</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircleIcon className="w-4 h-4 text-[#46A304]" />
+                <span>End-to-End UPCL Net Metering &amp; DBT Subsidy Support</span>
+              </div>
+            </div>
           </div>
           <div className="lg:col-span-6">
             <ContactForm defaultDistrict={district.slug} />

@@ -109,27 +109,53 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Regional Hubs Card */}
-          <div className="bg-white p-6 rounded-3xl border border-[#E2E7DE] shadow-xs space-y-3">
+          {/* Regional Hubs & Offices Card */}
+          <div className="bg-white p-6 rounded-3xl border border-[#E2E7DE] shadow-xs space-y-4">
             <div className="w-10 h-10 rounded-full bg-[#F7F9F5] text-[#46A304] flex items-center justify-center font-bold">
               <MapPinIcon className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base font-heading font-bold text-[#17220F]">District Service Hubs</h2>
+              <h2 className="text-base font-heading font-bold text-[#17220F]">Registered Offices &amp; Centers</h2>
               <p className="text-xs text-[#66705F] mt-0.5">
-                Permanent field engineering centers in Dehradun, Haldwani, Haridwar, Rudrapur &amp; Almora.
+                Visit our offices or request our engineering team to visit your site anywhere in Uttarakhand.
               </p>
             </div>
-            <div className="text-xs text-[#66705F] pt-1 leading-relaxed">
-              <strong>Head Office:</strong> {siteConfig.address.street}, {siteConfig.address.city},{' '}
-              {siteConfig.address.state} — {siteConfig.address.pincode}
+            <div className="space-y-3 pt-1 text-xs text-[#66705F] leading-relaxed">
+              <div className="p-3.5 rounded-2xl bg-[#F7F9F5] border border-[#E2E7DE]">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-[#46A304] block mb-0.5">
+                  🏢 Head Office (Haldwani)
+                </span>
+                <p className="text-xs text-[#17220F] font-semibold">
+                  {siteConfig.headOffice.fullAddress}
+                </p>
+              </div>
+
+              <div className="p-3.5 rounded-2xl bg-[#F7F9F5] border border-[#E2E7DE]">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-[#92400E] block mb-0.5">
+                  🏛️ Corporate Office (Lalkuwan)
+                </span>
+                <p className="text-xs text-[#17220F] font-semibold">
+                  {siteConfig.corporateOffice.fullAddress}
+                </p>
+              </div>
+            </div>
+
+            <div className="pt-2">
+              <a
+                href={siteConfig.social.googleBusiness}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-2.5 px-4 rounded-full text-xs font-bold text-[#17220F] bg-[#FFDE21] hover:bg-[#46A304] hover:text-white transition flex items-center justify-center gap-2 shadow-xs"
+              >
+                <span>📍 View on Google Maps / Business Profile ↗</span>
+              </a>
             </div>
           </div>
         </div>
 
         {/* Right Form (7 Cols) */}
         <div className="lg:col-span-7 bg-white p-6 sm:p-8 rounded-3xl border border-[#E2E7DE] shadow-xs">
-          <ContactForm defaultDistrict="dehradun" />
+          <ContactForm defaultDistrict="nainital" />
         </div>
       </section>
     </div>
