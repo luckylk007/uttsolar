@@ -71,7 +71,7 @@ export default function HomePage() {
                 </h1>
 
                 {/* Subtitle */}
-                <p className="text-[16px] sm:text-[17px] text-slate-300 max-w-[620px] mx-auto lg:mx-0 leading-[1.6] font-normal">
+                <p className="text-[16px] sm:text-[17px] text-slate-100 max-w-[620px] mx-auto lg:mx-0 leading-[1.6] font-medium drop-shadow-xs">
                   Turnkey residential, commercial, and industrial rooftop solar installations across all 13 Uttarakhand districts. We handle 100% of your PM Surya Ghar central subsidy and UPCL net metering paperwork.
                 </p>
 

@@ -55,22 +55,21 @@ export function VantaCloudsBg({
   }, []);
 
   return (
-    <div
-      ref={vantaRef}
-      className={`relative overflow-hidden bg-[#17220F] ${className}`}
-    >
-      {/* Theme Green Contrast Overlays for Perfect Text Visibility */}
-      {/* 1. Theme Deep Green Gradient from Left (Heading side) to Right */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/95 via-[#17220F]/85 to-[#17220F]/60 pointer-events-none z-0" />
-      
-      {/* 2. 15% Theme Solar Green (#46A304) Tint Layer */}
-      <div className="absolute inset-0 bg-[#46A304]/15 pointer-events-none z-0" />
-      
-      {/* 3. Subtle Vertical Vignette to Blend Seamlessly */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#17220F] via-transparent to-[#17220F]/40 pointer-events-none z-0" />
+    <div className={`relative overflow-hidden bg-[#17220F] ${className}`}>
+      {/* 1. Vanta 3D Canvas Background Host */}
+      <div ref={vantaRef} className="absolute inset-0 z-0 pointer-events-none" />
 
-      {/* Content */}
-      <div className="relative z-10">
+      {/* 2. Theme Solar Green Tint Overlay */}
+      <div className="absolute inset-0 bg-[#46A304]/25 pointer-events-none z-10" />
+
+      {/* 3. Deep Green Directional Contrast Gradient for Sharp Text Visibility */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#17220F]/92 via-[#17220F]/80 to-[#17220F]/45 pointer-events-none z-10" />
+
+      {/* 4. Top and Bottom Ambient Vignette */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#17220F]/50 via-transparent to-[#17220F] pointer-events-none z-10" />
+
+      {/* 5. Foreground Content */}
+      <div className="relative z-20">
         {children}
       </div>
     </div>
