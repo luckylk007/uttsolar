@@ -5,12 +5,13 @@ const cspDirectives = [
   "default-src 'self'",
   // unsafe-eval only in dev (Next.js hot reload needs it); production strips it
   isDev
-    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.clarity.ms https://scripts.clarity.ms"
-    : "script-src 'self' 'unsafe-inline' https://www.clarity.ms https://scripts.clarity.ms",
+    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.clarity.ms https://scripts.clarity.ms https://www.googletagmanager.com"
+    : "script-src 'self' 'unsafe-inline' https://www.clarity.ms https://scripts.clarity.ms https://www.googletagmanager.com",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-  "img-src 'self' data: blob: https://maps.googleapis.com https://maps.gstatic.com https://lh3.googleusercontent.com https://c.clarity.ms https://c.bing.com",
+  "img-src 'self' data: blob: https://maps.googleapis.com https://maps.gstatic.com https://lh3.googleusercontent.com https://c.clarity.ms https://c.bing.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com",
   "font-src 'self' data: https://fonts.gstatic.com",
-  "connect-src 'self' https://wa.me https://api.whatsapp.com https://vitals.vercel-insights.com https://vercel.live https://*.clarity.ms https://c.clarity.ms https://v.clarity.ms https://s.clarity.ms",
+  "connect-src 'self' https://wa.me https://api.whatsapp.com https://vitals.vercel-insights.com https://vercel.live https://*.clarity.ms https://c.clarity.ms https://v.clarity.ms https://s.clarity.ms https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
+  "frame-src 'self' https://www.googletagmanager.com https://www.youtube.com https://www.youtube-nocookie.com",
   "media-src 'none'",
   "object-src 'none'",
   "frame-ancestors 'none'",
